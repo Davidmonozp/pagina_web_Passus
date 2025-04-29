@@ -1,0 +1,1812 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+#00A54F VERDE
+#3695eb AZUL
+
+[Table of Contents]
+
+1. Fonts
+2. Body and some general stuff
+3. Header
+4. Menu
+5. Home
+6. Intro
+7. Why
+8. CTA
+9. Services
+10. Extra
+11. Newsletter
+12. Footer
+
+
+******************************/
+
+/***********
+1. Fonts
+***********/
+
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+
+
+
+/*********************************
+2. Body and some general stuff
+*********************************/
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	/*color:#000000;*/
+}
+
+body {
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Source Sans Pro', sans-serif;	
+	font-size: 14px;
+	font-weight: 400;
+	background: #FFFFFF;
+	color: #a5a5a5;
+}
+
+div {
+	display: block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.nav-item .nav-link {
+    font-weight: 600;  
+}
+
+ul {
+	list-style: none;
+	margin-bottom: 0px;
+}
+
+ol {
+	/* color: #000000; */
+	color: #363636;
+	font-weight: 450;
+}
+
+p {
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Source Sans Pro', sans-serif;	
+	font-size: 14px;
+	line-height: 2.14;
+	font-weight: 500;
+	color: #363636;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
+p a {
+	display: inline;
+	position: relative;
+	color: inherit;
+	border-bottom: solid 1px #ffa07f;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+
+p:last-of-type {
+	margin-bottom: 0;
+}
+
+a {
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+
+a,
+a:hover,
+a:visited,
+a:active,
+a:link {
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+}
+
+p a:active {
+	position: relative;
+	color: #FF6347;
+}
+
+p a:hover {
+	color: #FFFFFF;
+	background: #ffa07f;
+}
+
+p a:hover::after {
+	opacity: 0.2;
+}
+
+::selection {
+	background: rgba(87, 204, 195, 0.75);
+	color: #FFFFFF;
+}
+
+p::selection {}
+
+h1 {
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 36px;
+	color: #00249c;
+	/* color: #188c41; */
+}
+
+h3 {
+	font-size: 36px;
+	color: #00249c;
+	/* color: #188c41; */
+}
+
+h4 {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	/* font-family: 'Montserrat', sans-serif; */
+	font-family: 'Source Sans Pro', sans-serif;	
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	line-height: 1.2;
+	/* color: #404040; */
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection .h2 {
+	margin-top: 30px !important;
+	margin-left: 350px !important;
+}
+
+.form-control {
+	color: #db5246;
+}
+
+section {
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.clear {
+	clear: both;
+}
+
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.trans_200 {
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+
+.trans_300 {
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.trans_400 {
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	transition: all 400ms ease;
+}
+
+.trans_500 {
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+.fill_height {
+	height: 100%;
+}
+
+.super_container {
+	width: 100%;
+	overflow: hidden;
+}
+
+.prlx_parent {
+	overflow: hidden;
+}
+
+.prlx {
+	height: 130% !important;
+}
+
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
+
+.parallax_background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.background_image {
+	position: absolute;
+	top: 230px;
+	left: 0;
+	width: 100%;
+	height: 48%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-position: center center; */
+}
+
+/* .background_image {
+    position: absolute;
+    top: 153px;
+    left: 0;
+    width: 100%;
+    height: 65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.nopadding {
+	padding: 0px !important;
+}
+
+.button {
+	height: 46px;
+	border-radius: 20px;
+}
+
+.button a {
+	display: block;
+	padding-left: 40px;
+	padding-right: 36px;
+	line-height: 42px;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.button_1 {
+	background: #00A54F;
+	border: solid 2px transparent;
+}
+
+.button_1 a {
+	color: #FFFFFF;
+}
+
+.button_1:hover {
+	background: transparent;
+	border: solid 2px #00A54F;
+}
+
+.button_1:hover a {
+	color: #00A54F;
+}
+
+.button_2 {
+	background: transparent;
+	border: solid 2px #3695eb;
+}
+
+.button_2 a {
+	color: #3695eb;
+}
+
+.button_2:hover {
+	background: #3695eb;
+}
+
+.button_2:hover a {
+	color: #FFFFFF;
+}
+
+.section_subtitle {
+	font-size: 18px;
+	font-weight: 500;
+	color: #a6abb2;
+	line-height: 0.75;
+}
+
+.section_title {
+	margin-top: 9px;
+}
+
+.passus_servicios {
+	margin-bottom: -32px;
+}
+
+.intro_text {
+	margin-top: 32px;
+}
+
+.parrafo {
+	font-size: 18px;
+}
+
+.parrafo_ser {
+	font-size: 16px;
+}
+
+.titulo {
+	margin-top: 30px;
+	margin-left: 350px;
+}
+
+.hr {
+	/* border-top: 2px solid #0289cc; */
+	border-top: 2px solid #188c41;	
+	width: 35%;
+	margin: 0 auto;
+}
+/* .hr {
+	border-top: 2px solid #0289cc;
+	display: inline-block;
+	width: 100%;
+	max-width: 100%;
+	margin-top: 10px;
+  } */
+.hr_por_que {
+	border-top: 2px solid #188c41;
+	width: 20%;
+	margin: 0 auto;
+}
+
+.hr_subtitulo {
+	border-top: 2px solid #188c41;
+	width: 40%;
+	margin: 0;
+}
+.hr_aliados {
+	border-top: 2px solid #188c41;
+	width: 17%;
+	margin: 0 auto;
+}
+
+/* CARDS CONTACTANOS */
+
+.cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: center;
+	margin-top: 50px;
+	background-color: #f5f5f5;
+	padding: 45px;
+  }
+  .cards-container h4{
+	text-align: center;
+	font-weight: bold;
+  }
+  
+
+  
+  .card {
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+	padding: 10px; /* más compacto */
+	box-sizing: border-box;
+	width: calc(30% - 10px); /* más angosto: 3 por fila */
+	min-width: 140px;
+	height: 16vh; /* más bajo */
+	transition: transform 0.2s;
+  }
+  
+  .card:hover {
+	transform: scale(1.03);
+  }
+  
+  .card p {
+	text-align: center;
+	font-size: 13px; /* texto más pequeño */
+	margin: 5px 0 0;
+  }
+
+  
+  .card-img {
+	width: 40px; /* imagen más pequeña */
+	height: 40px;
+	object-fit: cover;
+	border-radius: 6px;
+	display: block;
+	margin: 0 auto 8px auto;
+  }
+  
+
+/*********************************
+6. Intro
+*********************************/
+
+.intro {
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 89px;
+	padding-bottom: 90px;
+}
+
+.intro_content {
+	padding-top: 30px;
+}
+
+.milestones {
+	margin-top: 85px;
+}
+
+.milestone_counter {
+	font-size: 36px;
+	font-weight: 700;
+	color: #3695eb;
+	line-height: 0.75;
+}
+
+.milestone_text {
+	font-size: 18px;
+	font-weight: 600;
+	color: #404040;
+	line-height: 1.5;
+	margin-top: 5px;
+}
+
+.intro_form_container {
+	width: 100%;
+	background: #FFFFFF;
+	padding-left: 33px;
+	padding-right: 34px;
+	padding-bottom: 63px;
+	padding-top: 136px;
+	box-shadow: 0px 25px 38px rgba(0, 0, 0, 0.2);
+}
+
+.intro_form_title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 336px;
+	height: 80px;
+	background: #3695eb;
+	line-height: 80px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+	color: #FFFFFF;
+}
+
+.intro_form {
+	width: 100%;
+}
+
+.intro_input {
+	width: calc((100% - 15px) / 2);
+	height: 62px;
+	background: transparent;
+	border: solid 2px #e6ebf1;
+	margin-bottom: 18px;
+	padding-left: 25px;
+	outline: none;
+	font-size: 15px;
+	color: #404040;
+	font-weight: 500;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+
+.intro_select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+	-webkit-user-select: none;
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #a09f9f !important;
+	cursor: pointer;
+}
+
+.intro_select.selected {
+	font-size: 15px !important;
+	color: #404040 !important;
+	font-weight: 500 !important;
+	font-style: normal !important;
+}
+
+.intro_select option {
+	color: #404040;
+}
+
+.intro_input:focus,
+.intro_input:hover {
+	border: solid 2px #3695eb;
+}
+
+.intro_input::-webkit-input-placeholder {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #a09f9f !important;
+}
+
+.intro_input:-moz-placeholder {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #a09f9f !important;
+}
+
+.intro_input::-moz-placeholder {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #a09f9f !important;
+}
+
+.intro_input:-ms-input-placeholder {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #a09f9f !important;
+}
+
+.intro_input::input-placeholder {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #a09f9f !important;
+}
+
+.intro_button {
+	width: 100%;
+	font-size: 14px;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	border: solid 2px transparent;
+	cursor: pointer;
+}
+
+.intro_button:hover {
+	background: transparent;
+	border: solid 2px #00A54F;
+	color: #00A54F;
+}
+
+/*********************************
+7. Why
+*********************************/
+.why {
+	width: 100%;
+	background: #eff3f7;
+	margin-top: 45px;
+}
+
+.why_content {
+	padding-top: 102px;
+	padding-bottom: 90px;
+}
+
+.why_text {
+	margin-top: 33px;
+	margin-bottom: -68px;
+}
+
+.why_list {
+	margin-top: 37px;
+}
+
+.why_list ul li:not(:last-of-type) {
+	margin-bottom: 31px;
+}
+
+.why-trabaja-nosotros {
+	width: 100%;
+	background: #eff3f7;
+	margin-top: 45px;
+}
+
+.icon_container {
+	width: 138px;
+	height: 138px;
+	border-radius: 50%;
+	background: #E2E1E4;
+}
+
+/* Estilos contenedor de iconos index debajo de "¿Porque elegirnos?"*/
+.icon_container_index {
+	width: 61px;
+	height: 61px;
+	border-radius: 50%;
+	background: #3695EB;
+}
+
+.icon {
+	width: 105px;
+	height: 107px;
+}
+
+/* Estilos iconos index debajo de "¿Porque elegirnos?"*/
+.icon_index {
+	width: 32px;
+	height: 32px;
+}
+
+.icon img {
+	max-width: 100%;
+}
+
+/* Estilos iconos img index debajo de "¿Porque elegirnos?"*/
+.icon_index img {
+	max-width: 100%;
+}
+
+.why_list_content {
+	padding-left: 37px;
+}
+
+.why_list_title {
+	font-size: 18px;
+	/* font-weight: 600; */
+	color: #404040;
+	line-height: 1.2;
+}
+
+.why_list_text {
+	font-size: 14px;
+	font-weight: 500;
+	color: #868686;
+}
+
+.why_image_container {
+	width: 100%;
+	height: 100%;
+}
+
+.why_image {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+/*********************************
+8. CTA
+*********************************/
+
+.cta {
+	width: 100%;
+	background: #009772;
+	/*background: #00A54F;*/
+	padding-top: 49px;
+	padding-bottom: 46px;
+}
+
+.cta_title {
+	font-size: 30px;
+	font-weight: 500;
+	color: #FFFFFF;
+	line-height: 1.2;
+}
+
+.cta_text {
+	font-size: 14px;
+	font-weight: 500;
+	color: #FFFFFF;
+	line-height: 2;
+	margin-top: -1px;
+}
+
+.cta_phone {
+	height: 59px;
+	padding-left: 24px;
+	padding-right: 25px;
+	line-height: 59px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+	color: #fff;
+	background: #3695eb;
+	border-radius: 19px;
+	white-space: nowrap;
+}
+
+/*********************************
+9. Services
+*********************************/
+.services {
+	background: #FFFFFF;
+	padding-top: 16px;
+	padding-bottom: 25px;
+}
+
+
+.services_row {
+	width: 100%;
+	margin-top: 68px;
+	padding-right: 88px;
+    padding-left: 88px;
+}
+
+.service_col {
+	margin-bottom: 55px;
+}
+
+.service_title {
+	font-size: 20px;
+	font-weight: 600;
+	color: #404040;
+	line-height: 1.2;
+	margin-top: 17px;
+}
+
+.service_text {
+	margin-top: 21px;
+}
+
+.divservicios {
+    position: relative;
+    display: inline-block;
+}
+
+.imgservicios {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+
+/* Estilo base del botón "Leer más..." */
+.leer-mas button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #007bff;  /* Azul sólido por defecto */
+    color: white;               /* Texto blanco */
+    border: none;
+    padding: 12px 0;
+    font-weight: 600;
+    border-radius: 0 0 20px 20px;
+    cursor: pointer;
+    overflow: hidden;  /* Para evitar que el contenido se salga del botón */
+    transition: box-shadow 2.5s ease, color 1.5s ease;
+}
+
+/* Hover: el color de fondo desaparece de izquierda a derecha */
+.leer-mas button:hover {
+    color: #ffffff;  
+    background: transparent; 
+    box-shadow: inset 1000px 0 0 0 #188c41, inset -1000px 0 0 0 #188c41; 
+}
+
+
+
+
+/* Trabaja con nosotros */
+
+
+.service_oferta {
+	padding-top: 91px;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+.services_oferta {
+	background: #f0f4f7;
+	padding-top: 91px;
+	padding: 15px;
+	border: 1px solid;
+	border-radius: 15px;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.services_row2 {
+	width: 100%;
+	margin-top: 0px;
+}
+
+
+.services_row_oferta {
+	margin-top: 68px;
+}
+
+.services_row img {
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+
+.services_col_oferta {
+	margin-bottom: 55px;
+}
+
+.services_title_oferta {
+	font-size: 20px;
+	font-weight: 600;
+	color: #404040;
+	line-height: 1.2;
+	margin-top: 17px;
+}
+
+.services_text_oferta {
+	margin-top: 21px;
+}
+
+.services_text_oferta p {
+	text-align: justify;
+	margin-bottom: 37px;
+}
+
+.services_text_oferta li {
+	color: rgb(98 97 97);
+	text-align: center;
+	font-weight: 500;
+	display: block;
+}
+
+.services_text_oferta a {
+	color: #2b7ac5;
+}
+
+.services_text_oferta a:hover {
+	color: #00a650;
+
+}
+
+.logo-oferta {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	max-width: 800px;
+    margin: 62px auto 82px auto;
+}
+
+.logo-oferta img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.logo-ajustado {
+	max-height: 60px;
+	object-fit: contain;
+	/* Asegura que la imagen no se deforme */
+}
+
+.passus-logo {
+	width: 198px;
+}
+
+.linkedin-logo {
+	width: 222px;
+}
+
+.indeed-logo {
+	width: 182px;
+}
+
+#btn-buscar:hover {
+	background-color: #008d3d;
+	/* Cambia el color del botón al pasar el ratón por encima */
+	border-color: #008d3d;
+}
+
+/* Estilo del alert */
+.alert-message {
+	display: none;
+	/* Inicialmente oculto */
+	position: fixed;
+	top: 120px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #f8d7da;
+	color: #721c24;
+	border: 1px solid #f5c6cb;
+	padding: 15px 25px;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	z-index: 1000;
+	font-size: 16px;
+	width: 300px;
+	text-align: center;
+}
+
+.close-alert {
+	background-color: #721c24;
+	color: white;
+	border: none;
+	padding: 8px 15px;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.close-alert:hover {
+	background-color: #c42636;
+}
+
+
+/*********************************
+10. Extra
+*********************************/
+
+.extra {
+	padding-top: 54px;
+	padding-bottom: 53px;
+}
+
+/* .extra_container {} */
+
+.extra_content {
+	background: #FFFFFF;
+	width: 393px;
+	padding-top: 74px;
+	padding-left: 46px;
+	padding-right: 30px;
+	padding-bottom: 63px;
+	box-shadow: 0px 25px 38px rgba(0, 0, 0, 0.2);
+}
+
+.extra_disc>div:first-child {
+	font-size: 60px;
+	font-weight: 700;
+	color: #3695eb;
+	line-height: 0.75;
+}
+
+.extra_disc>div:last-child {
+	font-size: 24px;
+	font-weight: 500;
+	color: #979797;
+	line-height: 0.75;
+}
+
+.extra_disc>div:first-child span {
+	display: inline-block;
+	font-size: 36px;
+	font-weight: 400;
+	vertical-align: super;
+}
+
+.extra_title {
+	font-size: 72px;
+	font-weight: 600;
+	color: #404040;
+	margin-top: 16px;
+	line-height: 1.11;
+}
+
+.extra_text {
+	margin-top: 20px;
+}
+
+.extra_link {
+	display: inline-block;
+	margin-top: 47px;
+}
+
+/* .fomag {
+	vertical-align: middle;
+    border-style: none;
+    width: 140px;
+    margin: auto;
+    height: 33px;
+} */
+
+.titulo-trabaja-nosotros {
+	font-size: 38px;
+}
+
+.titulo-como-aplicar {
+	font-size: 38px;
+}
+
+.vacantes {
+    margin-bottom: -79px;
+    margin-top: -2px;
+}
+
+/* Mapa de sedes google maps */
+#location {
+    text-align: center;
+    padding: 20px;
+    margin-top: 4vh;
+}
+
+#location h5 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.map-container {
+    max-width: 550px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 40%; /* más bajo que 56.25% */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.contact_info ul {
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+
+/* Fin mapa sedes google maps */
+
+
+/*********************************
+11. Newsletter
+*********************************/
+
+.newsletter {
+	padding-top: 56px;
+	padding-bottom: 82px;
+}
+
+.newsletter_title {
+	font-size: 30px;
+	font-weight: 500;
+	color: #fff;
+	line-height: 1.2;
+}
+
+.newsletter_row {
+	margin-top: 54px;
+}
+
+.newsletter_input {
+	width: calc(100% - 150px);
+	height: 46px;
+	background: transparent;
+	border: solid 2px #e6ebf1;
+	color: #FFFFFF;
+	padding-left: 34px;
+	outline: none;
+}
+
+.newsletter_input::-webkit-input-placeholder {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #FFFFFF !important;
+}
+
+.newsletter_input:-moz-placeholder {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #FFFFFF !important;
+}
+
+.newsletter_input::-moz-placeholder {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #FFFFFF !important;
+}
+
+.newsletter_input:-ms-input-placeholder {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #FFFFFF !important;
+}
+
+.newsletter_input::input-placeholder {
+	font-size: 14px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #FFFFFF !important;
+}
+
+.newsletter_button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 167px;
+	height: 46px;
+	border-radius: 19px;
+	background: #00A54F;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/* carrusel sede norte */
+.carousel-control-prev,
+.carousel-control-next {
+	background: none;
+	/* Elimina el fondo de la caja */
+	border: none;
+	/* Elimina el borde de la caja */
+	box-shadow: none;
+	/* Elimina cualquier sombra */
+	opacity: 0.5;
+	/* Asegura que las flechas sean visibles */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-size: 100% 100%;
+	/*Ajusta el tamaño del icono a su contenedor*/
+}
+
+.carousel-control-prev span.sr-only,
+.carousel-control-next span.sr-only {
+	display: none;
+	/* oculta el texto "anterior" y "siguiente" */
+}
+
+
+/* ACCESIBILIDAD */
+
+/* Fuente iconográfica */
+@font-face {
+	font-family: "govco-font";
+	src: url("../assets/icons/fonts/govco-font-icons.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* WorkSans-Medium */
+
+/* WorkSans-Regular */
+@font-face {
+	font-family: 'WorkSans-Regular';
+	src: url('../assets/fonts/Work_Sans/static/WorkSans-Regular.ttf');
+}
+
+/* WorkSans-SemiBold */
+@font-face {
+	font-family: 'WorkSans-SemiBold';
+	src: url('../assets/fonts/Work_Sans/static/WorkSans-SemiBold.ttf');
+}
+
+/* Montserrat-SemiBold */
+@font-face {
+	font-family: 'Montserrat-SemiBold';
+	src: url('../assets/fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+
+.content-example-barra {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.barra-accesibilidad-letra {
+	width: 100%;
+	align-items: center;
+	text-align: center;
+}
+
+.barra-accesibilidad-letra .titulo-barra-accesibilidad {
+	color: #000;
+	font-family: Montserrat-SemiBold;
+	font-size: 20px;
+	margin: 0px;
+}
+
+.barra-accesibilidad-letra .descripcion-barra-accesibilidad {
+	color: #4B4B4B;
+	font-family: WorkSans-Regular;
+	font-size: 16px;
+	margin: 0px;
+}
+
+.barra-accesibilidad-govco {
+	height: 146px;
+	width: 48px;
+	position: fixed;
+	right: 0;
+	top: 35%;
+	background-color: #004884 !important;
+	border-radius: 10px 0px 0px 10px;
+	opacity: 1;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 9px;
+	padding-bottom: 20px;
+	align-items: center;
+	z-index: 9999;
+}
+
+.barra-accesibilidad-govco button {
+	line-height: inherit;
+}
+
+/* --- Botón Contraste --- */
+.icon-contraste {
+	width: 30px;
+	height: 30px;
+	background-color: #3366cc;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	border-radius: 50%;
+	/* Hacerlo circular */
+	transition: background-color 0.3s ease;
+	margin-left: 9px;
+	margin-top: 10px;
+}
+
+.icon-contraste:hover {
+	background-color: #040f25;
+	/* Color al hacer hover */
+}
+
+/* Ícono visible siempre */
+.icon-contraste i {
+	color: #fff;
+	font-size: 18px;
+	pointer-events: none;
+}
+
+/* Tooltip oculto por defecto */
+.icon-contraste span {
+	position: absolute;
+	left: auto;
+	right: 48px;
+	top: 0;
+	background: #3366CC;
+	color: #fff;
+	font-family: WorkSans-Medium;
+	font-size: 14px;
+	line-height: normal;
+	padding: 10px;
+	border-radius: 10px 0 0 10px;
+	width: 172px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	white-space: nowrap;
+}
+
+/* Tooltip texto específico para contraste */
+.barra-accesibilidad-govco #titlecontraste {
+	text-align: left;
+	position: absolute;
+	background: #3366CC;
+	color: #fff;
+	font-family: WorkSans-Medium !important;
+	font-size: 13px;
+	margin-top: -4px;
+	opacity: 0;
+	width: 92px;
+	height: 40px;
+	border-radius: 10px 0 0 10px;
+	padding: 8px;
+}
+
+/* Mostrar tooltip y borde azul al hacer hover o focus */
+.barra-accesibilidad-govco button:hover #titlecontraste,
+.icon-contraste:focus #titlecontraste {
+	opacity: 1;
+	visibility: visible;
+	margin-left: -135px;
+	outline: 2px solid #004985;
+	outline-offset: 2px;
+}
+
+/* .barra-accesibilidad-govco .icon-contraste {
+	background: #004884;
+	width: 48px;
+	height: 40px;
+	border: none;
+	outline: none;
+	text-decoration: none;
+}
+
+.barra-accesibilidad-govco .icon-contraste::after {
+	background: #fff;
+	content: "\e803";
+	font-family: "govco-font";
+	height: 24px;
+	width: 24px;
+	color: #004884;
+	padding: 4px;
+	border-radius: 5px;
+	position: relative;
+}
+
+.barra-accesibilidad-govco #titlecontraste {
+	text-align: left;
+	position: absolute;
+	background: #3366CC;
+	color: #fff;
+	font-family: WorkSans-Medium !important;
+	font-size: 14px;
+	margin-top: -8px;
+	opacity: 0;
+	width: 172px;
+	height: 40px;
+	border-radius: 10px 0 0 10px;
+	padding: 10px;
+}
+
+.barra-accesibilidad-govco button:hover #titlecontraste,
+.icon-contraste:focus #titlecontraste {
+	opacity: 1;
+	visibility: visible;
+	margin-left: -135px;
+	outline: 2px solid #004985;
+	outline-offset: 2px;
+}
+
+.icon-contraste:hover::after,
+.icon-contraste:focus::after {
+	background: #fff;
+	content: "\e803";
+	font-family: "govco-font";
+	height: 24px;
+	width: 24px;
+	color: #3366CC;
+	padding: 4px;
+	border-radius: 5px;
+	position: relative;
+} */
+
+/* --- Botón Reducir --- */
+/* Estilos del botón disminuir */
+.icon-reducir {
+	width: 30px;
+	height: 30px;
+	background-color: #3366cc;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	border-radius: 50%;
+	/* Hacerlo circular */
+	transition: background-color 0.3s ease;
+	margin-left: 9px;
+	margin-top: 10px;
+}
+
+.icon-reducir:hover {
+	background-color: #040f25;
+	/* Color al hacer hover */
+}
+
+/* Ícono visible siempre */
+.icon-reducir i {
+	color: #fff;
+	font-size: 18px;
+	pointer-events: none;
+}
+
+/* Tooltip oculto por defecto */
+.icon-reducir span {
+	position: absolute;
+	left: auto;
+	right: 48px;
+	top: 0;
+	background: #3366CC;
+	color: #fff;
+	font-family: WorkSans-Medium;
+	font-size: 14px;
+	line-height: normal;
+	padding: 10px;
+	border-radius: 10px 0 0 10px;
+	width: 172px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	white-space: nowrap;
+}
+
+/* Quitar outline cuando el botón está en focus */
+/* .icon-reducir:focus {
+	outline: none;
+} */
+
+/* Tooltip texto específico */
+.barra-accesibilidad-govco #titledisminuir {
+	text-align: left;
+	position: absolute;
+	background: #3366CC;
+	color: #fff;
+	font-family: WorkSans-Medium !important;
+	font-size: 13px;
+	margin-top: -4px;
+	opacity: 0;
+	width: 92px;
+	height: 40px;
+	border-radius: 10px 0 0 10px;
+	padding: 8px;
+}
+
+.barra-accesibilidad-govco button:hover #titledisminuir,
+.icon-reducir:focus #titledisminuir {
+	opacity: 1;
+	visibility: visible;
+	margin-left: -135px;
+	outline: 2px solid #004985;
+	outline-offset: 2px;
+}
+
+
+/* --- Botón Aumentar --- */
+
+/* Estilos del botón */
+.icon-aumentar {
+	width: 30px;
+	height: 30px;
+	background-color: #3366cc;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	cursor: pointer;
+	outline: none;
+	border-radius: 50%;
+	/* Hacerlo circular */
+	transition: background-color 0.3s ease;
+	margin-left: 9px;
+	margin-top: 10px;
+}
+
+.icon-aumentar:hover {
+	background-color: #040f25;
+	/* Color al hacer hover */
+}
+
+/* Ícono visible siempre */
+.icon-aumentar i {
+	color: #fff;
+	font-size: 18px;
+	pointer-events: none;
+}
+
+/* Tooltip oculto por defecto */
+.icon-aumentar span {
+	position: absolute;
+	left: auto;
+	right: 48px;
+	top: 0;
+	background: #3366CC;
+	color: #fff;
+	font-family: WorkSans-Medium;
+	font-size: 14px;
+	line-height: normal;
+	padding: 10px;
+	border-radius: 10px 0 0 10px;
+	width: 172px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	white-space: nowrap;
+}
+
+/* Quitar outline cuando el botón está en focus */
+/* .icon-aumentar:focus {
+	outline: none;
+} */
+
+
+.barra-accesibilidad-govco #titleaumentar {
+	text-align: left;
+	position: absolute;
+	background: #3366CC;
+	color: #fff;
+	font-family: WorkSans-Medium !important;
+	font-size: 13px;
+	margin-top: -4px;
+	opacity: 0;
+	width: 92px;
+	height: 40px;
+	border-radius: 10px 0 0 10px;
+	padding: 8px;
+
+}
+
+.barra-accesibilidad-govco button:hover #titleaumentar,
+.icon-aumentar:focus #titleaumentar {
+	opacity: 1;
+	visibility: visible;
+	margin-left: -135px;
+	outline: 2px solid #004985;
+	outline-offset: 2px;
+}
+
+
+
+/* Estados activos */
+.active-barra-accesibilidad-govco {
+	background-color: #3366CC !important;
+}
+
+.active-barra-accesibilidad-govco.icon-contraste::after,
+.active-barra-accesibilidad-govco.icon-reducir::after,
+.active-barra-accesibilidad-govco.icon-aumentar::after {
+	background: #fff;
+	color: #3366CC;
+}
+
+/* Modo oscuro */
+.modo_oscuro-govco {
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+}
+
+.modo_oscuro-govco .titulo-barra-accesibilidad {
+	font-family: Montserrat-SemiBold;
+	font-size: 20px;
+	margin: 0px;
+}
+
+.modo_oscuro-govco .descripcion-barra-accesibilidad {
+	font-family: WorkSans-Regular;
+	font-size: 16px;
+	margin: 0px;
+}
+
+/* Modo claro */
+.modo_claro-govco {
+	width: 100%;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+}
+
+.modo_claro-govco .titulo-barra-accesibilidad {
+	color: #000;
+	font-family: Montserrat-SemiBold;
+	font-size: 20px;
+	margin: 0px;
+}
+
+.modo_claro-govco .descripcion-barra-accesibilidad {
+	color: #4B4B4B;
+	font-family: WorkSans-Regular;
+	font-size: 16px;
+	margin: 0px;
+}
+
+
+
+
+
+/* Modo oscuro */
+.modo_oscuro-govco {
+	background-color: #2c2c2c;
+	/* Fondo oscuro */
+	color: white;
+	/* Texto claro */
+}
+
+/* Estilo del contenedor con el contraste activado */
+.modo_oscuro-govco #para-mirar {
+	background-color: #2c2c2c;
+	/* Fondo oscuro para todo el contenedor */
+}
+
+.modo_oscuro-govco h2,
+.modo_oscuro-govco h3,
+.modo_oscuro-govco h4,
+.modo_oscuro-govco p,
+.modo_oscuro-govco li,
+.modo_oscuro-govco .why_list_title,
+.modo_oscuro-govco .price_title,
+.modo_oscuro-govco .contact_content_title {
+	color: white;
+	/* Cambiar el color del texto en modo oscuro */
+}
+
+/* Estilo de los botones en modo oscuro */
+.modo_oscuro-govco .icon-contraste,
+.modo_oscuro-govco .icon-reducir,
+.modo_oscuro-govco .icon-aumentar,
+.modo_oscuro-govco .form-check-input {
+	background-color: white;
+	color: #2c2c2c;
+}
+
+.modo_oscuro-govco .linea_tiempo {
+	background-color: #595c5c;
+}
+
+.modo_oscuro-govco .timeline ul li {
+	background: #2ff9cb;
+}
+
+.modo_oscuro-govco .prices {
+	background: #2c2c2c;
+}
+
+.modo_oscuro-govco .price,
+.modo_oscuro-govco .accordion {
+	background: #000000;
+}
+
+.modo_oscuro-govco .services_oferta {
+	background-color: #000;
+	border: 1px solid #444;
+}
+
+.modo_oscuro-govco #n {
+	background-color: #000;
+	border: 1px solid #444;
+}
+
+
+
+
+
+
+.modo_oscuro-govco input,
+.modo_oscuro-govco select,
+.modo_oscuro-govco textarea {
+	background-color: #1e1e1e;
+	color: #ffffff;
+	border: 1px solid #555;
+}
+
+.modo_oscuro-govco .contact_form_title,
+.modo_oscuro-govco .contact_button {
+	color: #ffffff;
+}
+
+.modo_oscuro-govco .contact_button {
+	background-color: #000000;
+	border-color: #007bff;
+}
+
+/* Estilos para el footer en modo oscuro */
+
+#footer.modo_oscuro-govco {
+	background-color: #1a1a1a;
+	color: #f1f1f1;
+}
+
+#footer.modo_oscuro-govco a {
+	color: #aad4ff;
+}
+
+#footer.modo_oscuro-govco i {
+	color: #aad4ff;
+}
+
+#footer.modo_oscuro-govco h4 {
+	color: #ffffff;
+}
+
+#copy.modo_oscuro-govco {
+	background-color: white;
+	color: #f1f1f1;
+}
+
+
+
+
+/* 
+#para-mirar.modo_oscuro-govco {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+#para-mirar.modo_oscuro-govco h1,
+#para-mirar.modo_oscuro-govco h2,
+#para-mirar.modo_oscuro-govco h3,
+#para-mirar.modo_oscuro-govco p,
+#para-mirar.modo_oscuro-govco li,
+#para-mirar.modo_oscuro-govco div {
+    color: #fff !important;
+}
+
+#para-mirar.modo_oscuro-govco a {
+    color: #0ff !important;
+} */
+
+
