@@ -112,12 +112,14 @@ COLOR VERDE PASSUS #00A54F -->
 					<div class="col text-center" style="margin-top: 45px ; ">
 						<div class="section_title_container">
 							<div class="section_title">
-								<h2 class="titulo-trabaja-nosotros">Trabaja con nosotros</h2>
+								<h2 class="passus_servicios">Trabaja con nosotros
+									<hr class="hr_politicas">
+								</h2>
 							</div>
 						</div>
 					</div>
 
-					<div class="why_text">
+					<div class="why_text_trabaja">
 						<p class="parrafo">En Passus, nuestra prioridad es brindar atención de calidad y humanizada. Por eso, buscamos personas comprometidas que quieran crecer con nosotros y aportar a un equipo dinámico e innovador.
 						</p>
 					</div>

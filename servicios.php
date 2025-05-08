@@ -42,19 +42,21 @@
 					<div class="col text-center">
 						<div class="section_title_container">
 							<div class="section_title">
-							<h2 class="passus_servicios">Nuestros servicios Passus IPS</h2>
+								<h2 class="passus_servicios">Nuestros servicios Passus IPS
+									<hr class="hr">
+								</h2>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="row services_row justify-content-center">
 
-					
+
 					<!-- Service -->
 					<div class="col-xl-4 col-md-6 service_col">
 						<div class="service text-center divtamano">
 							<div class="divservicios">
-								<img class="imgservicios" src="images/img-servicios/HDT-passus.png">
+								<img class="imgservicios" src="images/img-servicios/HDT_passus_index.jpg">
 							</div>
 						</div>
 					</div>
@@ -125,7 +127,9 @@
 							<div class="col">
 								<div class="section_title_container" id="servicios-ips">
 									<div class="section_title">
-									<h3 style="margin-bottom: -50px; font-size: 30px;">Nuestro programa de rehabilitación</h3>
+										<h3 style="margin-bottom: -50px; font-size: 30px;">Nuestro programa de rehabilitación
+											<hr class="hr_subtitulo">
+										</h3>
 									</div>
 								</div>
 							</div>
@@ -221,7 +225,9 @@
 							<div class="col text-center">
 								<div class="section_title_container">
 									<div class="section_title" id="passus-divertido">
-										<h2 class="passus_servicios">Nuestros servicios Passus Divertido</h2>
+										<h2 class="passus_servicios">Nuestros servicios Passus Divertido
+											<hr class="hr">
+										</h2>
 									</div>
 								</div>
 							</div>

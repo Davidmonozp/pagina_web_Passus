@@ -36,7 +36,7 @@
 
 		<!-- Logo -->
 		<div class="logo">
-			<a href="index">
+			<a href="hidroterapia">
 				<img src="images/logo.png" class="img-fluid">
 			</a>
 		</div>
@@ -60,8 +60,13 @@
 						<a class="dropdown-item" href="trabaja-nosotros">Trabaja con nosostros</a>
 					</div>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="servicios">Servicios</a>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+					<div class="dropdown-menu" aria-labelledby="dropdown01">
+						<a class="dropdown-item" href="servicios_passusIPS">Passus IPS</a>
+						<a class="dropdown-item" href="servicios_passus_divertido
+					">Passus divertido</a>
+					</div>
 				</li>
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sedes</a>

@@ -448,7 +448,7 @@
 
 .home_slider_container {
 	width: 100%;
-	height: 219%;
+	height: 233%;
 }
 
 .home_container {
@@ -567,6 +567,14 @@
 	text-align: center;
 
 }
+.contactanos-redes ul li {
+    transition: transform 0.3s ease;
+    display: inline-block; /* Para evitar saltos de línea no deseados */
+}
+
+.contactanos-redes ul li:hover {
+    transform: scale(1.2);
+}
 
 
 /* Estilos de los enlaces */
@@ -597,9 +605,8 @@
 
 /* SERVICIOS */
 .servicios p {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 13px;
-    font-weight: bold;
     color: #4e4e4e;
 }
 

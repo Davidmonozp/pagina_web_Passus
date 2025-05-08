@@ -39,8 +39,8 @@
 			<div class="container">
 				<div class="row py-3">
 					<!-- Titulo -->
-					<div class="contact_content_title">Nuestros servicios en Bogotá - Norte</div>
 					<div class="">
+					<h2 class="titulo_sedes">Nuestros servicios en Bogotá - Norte</h2>
 						<p class="parrafo_ser">Contamos con los más altos estándares de calidad y con un gran equipo de profesionales al servicio de nuestros clientes.</p>
 					</div>
 					<!-- Intro Image -->
@@ -162,21 +162,22 @@
 										</div>
 									</div>
 								</div>
+								<div id="location">
+								<h4>¿Dónde estamos?</h4>
+								<div class="map-container">
+									<iframe
+										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.2643811041094!2d-74.04797293224411!3d4.7240758309876005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8542e70a8993%3A0xacd10cd747531513!2sPassus%20IPS%20Norte%20-%20Hidroterapia!5e0!3m2!1ses!2sco!4v1745843731540!5m2!1ses!2sco"
+										allowfullscreen=""
+										loading="lazy"
+										referrerpolicy="no-referrer-when-downgrade"
+										title="Mapa de ubicación Passus IPS Norte - Hidroterapia">
+									</iframe>
+								</div>
 							</div>
+							</div>
+							
+						</div>
 
-						</div>
-						<div id="location">
-							<h4>¿Dónde estamos?</h4>
-							<div class="map-container">
-								<iframe
-									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.2643811041094!2d-74.04797293224411!3d4.7240758309876005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8542e70a8993%3A0xacd10cd747531513!2sPassus%20IPS%20Norte%20-%20Hidroterapia!5e0!3m2!1ses!2sco!4v1745843731540!5m2!1ses!2sco"
-									allowfullscreen=""
-									loading="lazy"
-									referrerpolicy="no-referrer-when-downgrade"
-									title="Mapa de ubicación Passus IPS Norte - Hidroterapia">
-								</iframe>								
-							</div>
-						</div>
 					</div>
 
 				</div>

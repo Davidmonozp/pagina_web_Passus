@@ -41,8 +41,8 @@
 			<div class="row py-3">
 
 				<!-- Titulo -->
-				<div class="contact_content_title">Nuestros servicios en Bogotá - Hidroterapia Sur Occidente</div>
 				<div class="">
+					<h2 class="titulo_sedes">Nuestros servicios en Bogotá - Hidroterapia Sur Occidente</h2>
 					<p class="parrafo_ser">Contamos con los más altos estándares de calidad y con un gran equipo de profesionales al servicio de nuestros clientes.</p>
 				</div>
 
@@ -107,6 +107,13 @@
 													<li>Terapia física (Fisioterapia).</li>
 													<li>Terapia en agua.</li>
 												</ol>
+
+											</div>
+										</div>
+										<div id="location">
+											<h4>¿Dónde estamos?</h4>
+											<div class="map-container">
+												<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31814.481012201355!2d-74.17092204093932!3d4.627939109362455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ea81e7ed821%3A0x6b8d965ceacd3695!2sPassus%20Divertido%20S.A.S%20Mandalay!5e0!3m2!1ses!2sco!4v1745931166871!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 											</div>
 										</div>
 									</div>
@@ -154,14 +161,11 @@
 											</div>
 										</div>
 									</div>-->
+
 								</div>
-								<div id="location">
-									<h4>¿Dónde estamos?</h4>
-									<div class="map-container">
-										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31814.481012201355!2d-74.17092204093932!3d4.627939109362455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ea81e7ed821%3A0x6b8d965ceacd3695!2sPassus%20Divertido%20S.A.S%20Mandalay!5e0!3m2!1ses!2sco!4v1745931166871!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-									</div>
-								</div>
+
 							</div>
+
 
 						</div>
 

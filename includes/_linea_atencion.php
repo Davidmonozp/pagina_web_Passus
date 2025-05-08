@@ -12,7 +12,7 @@
 						<div class="cta_title">¡Para asignación de citas contáctanos al siguiente número!</div>
 						<!-- <div class="cta_text"></div> -->
 					</div>
-					<div class="cta_phone">+57 (601) 316 16 99</div>
+					<div class="cta_phone">(601) 316 16 99</div>
 				</div>
 
 				<!-- Boton asigna tus citas -->

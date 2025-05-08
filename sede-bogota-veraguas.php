@@ -39,8 +39,8 @@
 			<div class="container">
 				<div class="row py-3">
 					<!-- Titulo -->
-					<div class="contact_content_title">Nuestros servicios en Bogotá - Centro</div>
 					<div class="">
+						<h2 class="titulo_sedes">Nuestros servicios en Bogotá - Centro</h2>
 						<p class="parrafo_ser">Contamos con los más altos estándares de calidad y con un gran equipo de profesionales al servicio de nuestros clientes.</p>
 					</div>
 					<!-- Intro Image -->
@@ -145,15 +145,17 @@
 									</div>
                             -->
 									</div>
+									<div id="location">
+										<h4>¿Dónde estamos?</h4>
+										<div class="map-container">
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31815.44309833679!2d-74.13986368916014!3d4.606485200000009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6a51b9ea4cd50393%3A0xb78dcf3dc95c25b7!2sPassus%20IPS%20Centro%20-%20Hidroterapia%20y%20Rehabilitaci%C3%B3n%20Integral!5e0!3m2!1ses!2sco!4v1745931335659!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+										</div>
+									</div>
 								</div>
 							</div>
+
 						</div>
-						<div id="location">
-							<h4>¿Dónde estamos?</h4>
-							<div class="map-container">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31815.44309833679!2d-74.13986368916014!3d4.606485200000009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6a51b9ea4cd50393%3A0xb78dcf3dc95c25b7!2sPassus%20IPS%20Centro%20-%20Hidroterapia%20y%20Rehabilitaci%C3%B3n%20Integral!5e0!3m2!1ses!2sco!4v1745931335659!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-							</div>
-						</div>
+
 					</div>
 
 				</div>

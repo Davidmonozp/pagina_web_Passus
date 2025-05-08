@@ -18,8 +18,9 @@
 		<?php include('includes/accesibilidad.php'); ?>
 
 		<!-- Home -->
-		<div class="home d-flex flex-column align-items-start justify-content-end" style="background-color: rgba(44, 62, 80, 0); ">
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/sedes/florencia-1.png" data-speed="0.8"></div>
+		<div class="home d-flex flex-column align-items-start justify-content-end">
+			<img class="img_sedes" src="images/sedes/florencia-1.png" alt="">
+			<!-- <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/sedes/florencia-1.png" data-speed="0.8"></div> -->
 			<div class="home_container">
 				<div class="container">
 					<div class="row">
@@ -39,8 +40,8 @@
 			<div class="container">
 				<div class="row py-3">
 					<!-- Titulo -->
-					<div class="contact_content_title">Nuestros servicios - Florencia</div>
 					<div class="">
+						<h2 class="titulo_sedes">Nuestros servicios - Florencia</h2>
 						<p class="parrafo_ser">Contamos con los más altos estándares de calidad y con un gran equipo de profesionales al servicio de nuestros clientes.</p>
 					</div>
 					<!-- Intro Image -->
@@ -133,6 +134,7 @@
 													</ol>
 												</div>
 											</div>
+
 										</div>
 										<!--		
 									<div class="accordion_container">
@@ -186,16 +188,17 @@
 												</div>
 											</div>
 										</div>
+										<div id="location">
+											<h4>¿Dónde estamos?</h4>
+											<div class="map-container">
+												<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.2483310611447!2d-75.6189582263643!3d1.6073988606966598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e244e0dc8f7e64f%3A0xf6cb14e315b55d1f!2sPassus%20IPS%20Taller%20Psicomotriz%20l%20RHB%20y%20HDT%20-%20Sede%20Florencia%20(Caquet%C3%A1)!5e0!3m2!1ses!2sco!4v1745932223928!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+											</div>
+										</div>
 
 									</div>
 								</div>
 							</div>
-							<div id="location">
-								<h4>¿Dónde estamos?</h4>
-								<div class="map-container">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.2483310611447!2d-75.6189582263643!3d1.6073988606966598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e244e0dc8f7e64f%3A0xf6cb14e315b55d1f!2sPassus%20IPS%20Taller%20Psicomotriz%20l%20RHB%20y%20HDT%20-%20Sede%20Florencia%20(Caquet%C3%A1)!5e0!3m2!1ses!2sco!4v1745932223928!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</div>
-							</div>
+
 						</div>
 					</div>
 

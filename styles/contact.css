@@ -668,11 +668,11 @@ section
 6. Contact
 *********************************/
 
-.contact
-{
-	background: #FFFFFF;
-	padding-top: 51px;
-	padding-bottom: 90px;
+.contact {
+    background: #FFFFFF;
+    padding-top: 87px;
+    padding-bottom: 90px;
+    margin-top: -153px;
 }
 .contact_form_container
 {
@@ -682,6 +682,7 @@ section
 	padding-right: 34px;
 	padding-bottom: 63px;
 	padding-top: 136px;
+	margin-bottom: 50px;
 	box-shadow: 0px 25px 38px rgba(0,0,0,0.2);
 }
 .contact_form_title
@@ -803,48 +804,69 @@ section
 	border: solid 2px #00A54F;
 	color: #00A54F;
 }
-.contact_content_title
-{
-	font-size: 30px;
-	font-weight: 600;
-	color: #404040;
-	line-height: 1.2;
-	margin-top: -40px;
-}
+
 .contact_content_text
 {
 	margin-top: 21px;
 }
-.direct_line
-{
-	width: 100%;
-	height: 48px;
-	border-radius: 24px;
-	overflow: hidden;
-	margin-top: 31px;
+/* BOTON CONTACTANOS */
+.contact_content {
+	background: #f0f8ff;
+	border-radius: 12px;
+	padding: 30px;
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	margin-top: 86px;
 }
-.direct_line_title
-{
-	width: 130px;
-	height: 100%;
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 48px;
-	color: #fff;
-	background-color: #00A54F;
-	white-space: nowrap;
+ 
+
+.contact_content_title h5 {
+	font-size: 22px;
+	color: #404040;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: center;
 }
-.direct_line_num
-{
-	width: calc(100% - 130px);
-	height: 100%;
-	font-size: 30px;
-	font-weight: 500;
-	line-height: 48px;
-	color: #fff;
-	background: #3695eb;
-	white-space: nowrap;
+
+
+.direct_line {
+    width: 68%;
+    background-color: #007bff;
+    /* border: 2px solid #054e9b; */
+    border-radius: 10px;
+    padding: 39px 12px 0px 39px;
+    margin: 5px auto;
+    /* width: fit-content; */
+    cursor: pointer;
+    transition: box-shadow 2.5s ease, color 1.5s ease;
+    height: 6vh;
 }
+
+.direct_line:hover {
+	color: #ffffff;
+	/* border: 2px solid #02754f; */
+	background: transparent;
+	box-shadow: inset 1000px 0 0 0 #49c073, inset -1000px 0 0 0 #46a366;
+}
+
+.direct_line:hover .direct_line_title,
+.direct_line:hover .direct_line_num {
+	color: #ffffff;
+}
+.direct_line_title {
+	font-size: 1.1rem;
+	color: #ffffff;
+	font-weight: 600;
+	margin-right: 15px;
+}
+
+
+.direct_line_num {
+	font-size: 1.2rem;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+
 .contact_info
 {
 	margin-top: 50px;

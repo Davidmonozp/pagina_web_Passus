@@ -37,10 +37,10 @@
 		<!-- Contact -->
 		<div class="intro" id="sede_chia">
 			<div class="container">
-				<div class="row py-3">
+				<div class="row py-1">
 					<!-- Titulo -->
-					<div class="contact_content_title">Nuestros servicios - Chía</div>
 					<div class="">
+						<h2 class="titulo_sedes">Nuestros servicios - Chía</h2>
 						<p class="parrafo_ser">Contamos con los más altos estándares de calidad y con un gran equipo de profesionales al servicio de nuestros clientes.</p>
 					</div>
 					<!-- Intro Image -->
@@ -120,7 +120,7 @@
 									-->
 										<!-- Rehabilitacion integral -->
 										<div class="accordion_container">
-											<div class="accordion d-flex flex-row align-items-center active">
+											<div class="accordion d-flex flex-row align-items-center">
 												<div>Programa de rehabilitación integral</div>
 											</div>
 											<div class="accordion_panel px-4 py-0">
@@ -171,14 +171,15 @@
 										</div>
 
 									</div>
+									<div id="location">
+										<h4>¿Dónde estamos?</h4>
+										<div class="map-container">
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.4774793277347!2d-74.0616720263596!3d4.859354140264567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8787d3d548dd%3A0xf5e150f38ed1aeb4!2sPassus%20IPS%20Chia%20-%20Rehabilitaci%C3%B3n%20Integral!5e0!3m2!1ses!2sco!4v1745932051116!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+										</div>
+									</div>
 								</div>
 							</div>
-							<div id="location">
-								<h4>¿Dónde estamos?</h4>
-								<div class="map-container">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.4774793277347!2d-74.0616720263596!3d4.859354140264567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f8787d3d548dd%3A0xf5e150f38ed1aeb4!2sPassus%20IPS%20Chia%20-%20Rehabilitaci%C3%B3n%20Integral!5e0!3m2!1ses!2sco!4v1745932051116!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-								</div>
-							</div>
+
 						</div>
 					</div>
 

@@ -42,7 +42,9 @@
 					<div class="col text-center">
 						<div class="section_title_container">
 							<div class="section_title">
-								<h2>Derechos y Deberes de los Pacientes</h2>
+								<h2>Derechos y Deberes de los Pacientes
+									<hr class="hr">
+								</h2>
 							</div>
 						</div>
 					</div>

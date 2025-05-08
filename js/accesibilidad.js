@@ -35,7 +35,7 @@ window.onload = function () {
         document.getElementById("preguntas_frecuentes"),
         document.getElementById("contactanos"),
         document.getElementById("contactForm"),
-
+        document.getElementById("cards-container"),
     ];
 
     // Seleccionamos todos los <p>, <h2>, y clases dentro de ambos contenedores
@@ -117,6 +117,7 @@ function cambiarContexto() {
         document.getElementById("preguntas_frecuentes"),
         document.getElementById("contactanos"),
         document.getElementById("contactForm"),
+        document.getElementById("cards-container"),
     ];
 
     contenedores.forEach(contenedor => {
@@ -124,79 +125,17 @@ function cambiarContexto() {
             contenedor.classList.toggle("modo_oscuro-govco");
         }
     });
+    document.querySelectorAll(".card.contact_content").forEach(card => {
+        card.classList.toggle("modo_oscuro-govco");
+    });
+    document.querySelectorAll(".contact_content").forEach(el => {
+        el.classList.toggle("modo_oscuro-govco");
+    });
+    document.querySelectorAll(".m").forEach(home => {
+        home.classList.toggle("modo_oscuro-govco");
+    });
 }
 
 
-// // accesibilidad
-// let fontSize = {}; 
-// let maxFontSize = {};
-// let originalFontSize = {}; 
 
-// // Obtenemos el tamaño de la fuente original de los elementos y calculamos el tamaño máximo
-// window.onload = function() {
-    
-//     const elementIds = [
-//         'por-que', 
-//         'parrafo-elegirnos', 
-// 		'why_list_title1', 
-// 		'why_list_title2',     
 
-//     ];
-
-//     // Recorremos los IDs para inicializar el tamaño de fuente y tamaño máximo para cada uno
-//     elementIds.forEach(id => {
-//         const element = document.getElementById(id);
-//         const originalFontSizeValue = parseInt(window.getComputedStyle(element).fontSize);
-//         originalFontSize[id] = originalFontSizeValue;  
-//         fontSize[id] = originalFontSizeValue;  
-//         maxFontSize[id] = originalFontSizeValue + 15; 
-//     });
-
-//     cambiarTamanio(); 
-// };
-
-// function disminuirTamanio(accion) {
-//     if (accion === 'disminuir') {
-//         Object.keys(fontSize).forEach(id => {
-//             // Reducir el tamaño solo si no es menor que el tamaño original - 3px
-//             if (fontSize[id] > originalFontSize[id] - 3) {
-//                 fontSize[id]--; // Reducir el tamaño de la fuente
-//             }
-//         });
-//     }
-//     cambiarTamanio();
-// }
-
-// function aumentarTamanio(accion) {
-//     if (accion === 'aumentar') {
-//         Object.keys(fontSize).forEach(id => {
-            
-//             if (fontSize[id] < maxFontSize[id]) {
-//                 fontSize[id]++;
-//             }
-//         });
-//     }
-//     cambiarTamanio();
-// }
-
-// function cambiarTamanio() {
-    
-//     const elementIds = [
-//         'por-que', 
-//         'parrafo-elegirnos', 
-// 		'why_list_title1',         
-// 		'why_list_title2',         
-		 
-//     ];
-
-//     elementIds.forEach(id => {
-//         const element = document.getElementById(id);
-//         if (element) {
-//             element.style.fontSize = fontSize[id] + 'px'; // Cambiar el tamaño de fuente de cada elemento
-//         }
-//     });
-// }
-
-// function cambiarContexto() {
-//     document.body.classList.toggle("modo_oscuro-govco");
-// }

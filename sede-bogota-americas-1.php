@@ -20,8 +20,9 @@
 
 		<!-- Home -->
 
-		<div class="home d-flex flex-column align-items-start justify-content-end" style="background-color: rgba(44, 62, 80, 0); ">
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/sedes/rhb-Suroccidente-2.png" data-speed="0.8"></div>
+		<div class="home d-flex flex-column align-items-start justify-content-end" >
+			<img class="img_sedes" src="images/sedes/rhb-Suroccidente-2.png" alt="">
+			<!-- <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/sedes/rhb-Suroccidente-2.png" data-speed="0.8"></div> -->
 			<div class="home_container">
 				<div class="container">
 					<div class="row">
@@ -41,8 +42,8 @@
 		<div class="container">
 			<div class="row py-3">
 				<!-- Titulo -->
-				<div class="contact_content_title">Nuestros servicios en Bogotá - Rehabilitación Sur Occidente</div>
 				<div class="">
+				<h2 class="titulo_sedes">Nuestros servicios en Bogotá - Rehabilitación Sur Occidente</h2>
 					<p class="parrafo_ser">Contamos con los más altos estándares de calidad y con un gran equipo de profesionales al servicio de nuestros clientes.</p>
 				</div> <br>
 
