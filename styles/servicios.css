@@ -18,6 +18,16 @@
     position: relative;
     width: 100%;
 }
+.hero-banner-divertido {
+    background-image: url(/pagina_passus/images/img-servicios/passus_divertido.png);
+    background-size: cover;
+    background-position: center 20%; /* Mueve la imagen hacia abajo */
+    background-repeat: no-repeat;
+    height: 96vh;
+    position: relative;
+    width: 100%;
+}
+
 
 .hero-overlay {
     position: relative; 
@@ -52,14 +62,14 @@
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     align-items: start;
-    padding: 60px;
+    padding: 15px;
     max-width: 1200px;
-    margin: 1vh auto;
+    margin: -2vh auto;
 }
 
 .faq-grid-text {
     width: 100%;
-    margin-top: 4vh;
+    margin-top: 10vh;
 }
 .faq-grid-image {
     margin-top: 12vh;
@@ -227,6 +237,9 @@
     background-color: #00a650;
     width: 100%;
     margin-top: 0px;
+}
+#pilates {
+    margin-bottom: 15px; 
 }
 
 /* BOTON */

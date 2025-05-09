@@ -30,7 +30,9 @@ COLOR VERDE PASSUS #00A54F -->
                 <h1>Servicios Passus IPS
                     <hr>
                 </h1>
-                <button class="reflected-button">Programa de Rehabilitacón</button>
+                <a href="servicios_passus_divertido.php">
+                    <button class="reflected-button">Servicios Passus Divertido</button>
+                </a>
                 <!-- <button class="reflected-button">Passus Divertido</button> -->
             </div>
         </section>
@@ -65,35 +67,23 @@ COLOR VERDE PASSUS #00A54F -->
                         </button>
                         <div class="faq-accordion-content">
                             <ul>
-                                <li>Calmante
-                                    <div class="faq-description">
-                                        Terapia sedativa para disminuir el dolor.
-                                    </div>
-                                </li>
-                                <li>Tonificación
-                                    <div class="faq-description">
-                                        Fortalecimiento y Resistencia Muscular.
-                                    </div>
-
-                                </li>
-                                <li>Flexibiliza
-                                    <div class="faq-description">
-                                        Mejora el rango de movimiento corporal
-                                    </div>
-                                </li>
-                                <li>Estimulación Cardiopulmonar
-                                    <div class="faq-description">
-                                        Activa la circulación sanguínea.
-                                    </div>
+                                <li>
+                                    Calmante: Terapia sedativa para disminuir el dolor.
                                 </li>
                                 <li>
-                                    Ánimo
-                                    <div class="faq-description">
-                                        Disminuye la ansiedad, depresión y otros trastornos del estado de ánimo.
-                                    </div>
+                                    Tonificación: Fortalecimiento y Resistencia Muscular.
                                 </li>
-                                <li>Socio-Emocional
-                                    <div class="faq-description">Autoestima, bienestar, conexión social y gestión emocional</div>
+                                <li>
+                                    Flexibiliza: Mejora el rango de movimiento corporal
+                                </li>
+                                <li>
+                                    Estimulación Cardiopulmonar: Activa la circulación sanguínea.
+                                </li>
+                                <li>
+                                    Ánimo: Disminuye la ansiedad, depresión y otros trastornos del estado de ánimo.
+                                </li>
+                                <li>
+                                    Socio-Emocional: Autoestima, bienestar, conexión social y gestión emocional
                                 </li>
                             </ul>
                         </div>
@@ -121,9 +111,9 @@ COLOR VERDE PASSUS #00A54F -->
         <!-- FIN HIDROTERAPIA -->
 
         <!-- REHABILITACION -->
-        <div class="faq-grid-container" id="hidroterapia">
+        <div class="faq-grid-container" id="rehabilitacion">
             <div class="faq-grid-image">
-                <img src="images/img-servicios/hidroterapia_PassusIPS.jpg" alt="Imagen de hidroterapia">
+                <img src="images/img-servicios/rehabilitacion_PassusIPS.png" alt="Imagen de rehabilitacion">
             </div>
             <div class="faq-grid-text">
                 <h2>Programa de rehabilitación
@@ -181,12 +171,90 @@ COLOR VERDE PASSUS #00A54F -->
                         </div>
                     </div>
                 </div>
+                <div class="faq-accordion">
+                    <div class="faq-accordion-item">
+                        <button id="faq-accordion-button-2" aria-expanded="false">
+                            <span class="faq-accordion-title">Fonoaudiología</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-accordion-content">
+                            <p>
+                                Enfocada en mejorar la comunicación, el lenguaje y las funciones orales esenciales para la alimentación y el habla. <br>
+
+                                A través de sesiones personalizadas, nuestros expertos ayudan a los pequeños a superar dificultades, recuperar habilidades y fortalecer su calidad de vida.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- FIN rEHABILITACION -->
+        <!-- FIN REHABILITACION -->
+
+        <!-- CONSULTA EXTERNA -->
+        <div class="faq-grid-container" id="consulta_externa">
+            <div class="faq-grid-text">
+                <h2>Consulta externa
+                    <hr>
+                </h2>
+                <p>
+                    En nuestra consulta externa de supraespecialidades, te ofrecemos atención médica avanzada con profesionales altamente capacitados en áreas específicas como neuropediatría, psiquiatría infantil y de adolescentes y fisiatría. Está dirigida a pacientes que requieren un enfoque clínico más profundo y personalizado.
+                </p>
+                <div class="faq-accordion">
+                    <div class="faq-accordion-item">
+                        <button id="faq-accordion-button-2" aria-expanded="false">
+                            <span class="faq-accordion-title">Neuropediatría</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-accordion-content">
+                            <p>
+                                La neuropediatría es la rama de la medicina que estudia y trata los problemas del sistema nervioso en niños y adolescentes. <br>Esto incluye trastornos del cerebro, la médula espinal, los nervios y los músculos. El objetivo principal es detectar y tratar condiciones neurológicas desde edades tempranas para favorecer un desarrollo adecuado.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-accordion">
+                    <div class="faq-accordion-item">
+                        <button id="faq-accordion-button-2" aria-expanded="false">
+                            <span class="faq-accordion-title">Psiquiatría infantil y adolescente</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-accordion-content">
+                            <p>
+                                Ofrecemos un servicio especializado en la evaluación, diagnóstico y tratamiento de trastornos mentales en niños y adolescentes. <br>
+
+                                Nuestros psiquiatras infantiles abordan problemas emocionales, conductuales y de desarrollo, brindando apoyo integral para ayudar a los jóvenes a alcanzar su máximo potencial y bienestar emocional. <br>
+
+                                En Passus, nos comprometemos a crear un entorno seguro y acogedor para que cada niño y adolescente reciba la atención que necesita.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-accordion">
+                    <div class="faq-accordion-item">
+                        <button id="faq-accordion-button-2" aria-expanded="false">
+                            <span class="faq-accordion-title">Fisiatría</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-accordion-content">
+                            <p>
+                                La fisiatría es una especialidad médica apasionante que se centra en la rehabilitación física de personas que han sufrido lesiones o enfermedades que afectan su movilidad y función. <br>
+
+                                En Passus, nuestros fisiatras utilizan una variedad de terapias para ayudar a los pacientes a recuperar su independencia y mejorar su calidad de vida. <br>
+
+                                Cada tratamiento está diseñado de manera personalizada, guiando a los pacientes en su camino hacia la recuperación y empoderándolos para que vuelvan a disfrutar de sus actividades diarias con confianza y vitalidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="faq-grid-image">
+                <img src="images/img-servicios/consulta_externa.png" alt="Imagen de consulta externa">
+            </div>
+        </div>
+        <!-- FIN CONSULTA EXTERNA -->
 
         <!-- FISIATRIA -->
-        <div class="faq-grid-container" id="fisiatria">
+        <!-- <div class="faq-grid-container" id="fisiatria">
             <div class="faq-grid-text">
                 <h2>Fisiatría
                     <hr>
@@ -214,7 +282,7 @@ COLOR VERDE PASSUS #00A54F -->
                             </p>
                         </div>
                     </div> -->
-                    <div class="faq-accordion-item">
+        <!-- <div class="faq-accordion-item">
                         <button id="faq-accordion-button-2" aria-expanded="false">
                             <span class="faq-accordion-title">¿Cuáles son sus beneficios?</span>
                             <span class="faq-icon" aria-hidden="true"></span>
@@ -249,11 +317,11 @@ COLOR VERDE PASSUS #00A54F -->
             <div class="faq-grid-image">
                 <img src="images/img-servicios/Fisiatría_PassusIPS.png" alt="Imagen de hidroterapia">
             </div>
-        </div>
+        </div>  -->
         <!-- FIN FISIATRIA -->
 
         <!-- NEUROPEDIATRIA -->
-        <div class="faq-grid-container" id="fisiatria">
+        <!-- <div class="faq-grid-container" id="neuropediatria">
             <div class="faq-grid-image">
                 <img src="images/img-servicios/Neuropediatra_PassusIPS.jpg" alt="Imagen de hidroterapia">
             </div>
@@ -265,7 +333,7 @@ COLOR VERDE PASSUS #00A54F -->
                     La neuropediatría es la rama de la medicina que estudia y trata los problemas del sistema nervioso en niños y adolescentes. <br>Esto incluye trastornos del cerebro, la médula espinal, los nervios y los músculos. El objetivo principal es detectar y tratar condiciones neurológicas desde edades tempranas para favorecer un desarrollo adecuado.
                 </p>
                 <div class="faq-accordion">
-                    <!-- <div class="faq-accordion-item">
+                     <div class="faq-accordion-item">
                         <button id="faq-accordion-button-1" aria-expanded="false">
                             <span class="faq-accordion-title">¿Qúe es?</span>
                             <span class="faq-icon" aria-hidden="true"></span>
@@ -276,6 +344,61 @@ COLOR VERDE PASSUS #00A54F -->
                             </p>
                         </div>
                     </div> -->
+        <!-- <div class="faq-accordion-item">
+                        <button id="faq-accordion-button-2" aria-expanded="false">
+                            <span class="faq-accordion-title">¿Qué ofrecemos?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-accordion-content">
+                            <ul>
+                                <li> Ofrecemos un servicio especializado en el diagnóstico y tratamiento de trastornos neurológicos en niños, desde recién nacidos hasta adolescentes.</li>
+                                <li> Nuestros neuropediatras están capacitados para manejar una amplia gama de condiciones, incluyendo trastornos del desarrollo, epilepsia, trastornos del aprendizaje y trastornos del movimiento.</li>
+                                <li>Enfoque específico en las necesidades neurológicas únicas de los niños, en Passus nos comprometemos a brindar atención integral y personalizada para promover su salud y bienestar.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="faq-accordion-item">
+                        <button id="faq-accordion-button-2" aria-expanded="false">
+                            <span class="faq-accordion-title">¿Por qué es importante?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-accordion-content">
+                            <p>Porque el sistema nervioso infantil está en constante desarrollo, y una intervención temprana puede mejorar significativamente la calidad de vida y el pronóstico del niño.</p>
+                        </div>
+                    </div>
+                    <div class="faq-accordion-item">
+                        <button id="faq-accordion-button-2" aria-expanded="false">
+                            <span class="faq-accordion-title">¿Por qué elegirnos?</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-accordion-content">
+                            <ul>
+                                <li>Por el acompañamiento médico especializado.</li>
+                                <li>Por la trayectoria que hemos construido en Colombia abordando integralmente las situaciones de Discapacidad Definitiva Cognitiva-Comportamental.
+                                </li>
+                                <li>Por nuestro enfoque basado en la excelencia y gestión del riesgo.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>  -->
+        <!-- FIN NEUROPEDIATRIA -->
+
+        <!-- NEUROPSICOLOGIA -->
+        <!-- <div class="faq-grid-container" id="neuropsicologia">
+            <div class="faq-grid-image">
+                <img src="images/img-servicios/Neuropediatra_PassusIPS.jpg" alt="Imagen de hidroterapia">
+            </div>
+            <div class="faq-grid-text">
+                <h2>Neuropsicología
+                    <hr>
+                </h2>
+                <p>
+                    La neuropediatría es la rama de la medicina que estudia y trata los problemas del sistema nervioso en niños y adolescentes. <br>Esto incluye trastornos del cerebro, la médula espinal, los nervios y los músculos. El objetivo principal es detectar y tratar condiciones neurológicas desde edades tempranas para favorecer un desarrollo adecuado.
+                </p>
+                <div class="faq-accordion">               
                     <div class="faq-accordion-item">
                         <button id="faq-accordion-button-2" aria-expanded="false">
                             <span class="faq-accordion-title">¿Qué ofrecemos?</span>
@@ -315,8 +438,10 @@ COLOR VERDE PASSUS #00A54F -->
 
                 </div>
             </div>
-        </div>
-        <!-- FIN NEUROPEDIATRIA -->
+        </div> -->
+        <!-- FIN NEUROPSICOLOGIA -->
+
+
 
         <!-- Footer -->
         <?php include('includes/_footer.php'); ?>

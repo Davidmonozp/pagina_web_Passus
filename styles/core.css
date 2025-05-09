@@ -554,8 +554,10 @@
 }
 
 .sedes {
+    width: 170px;
     grid-area: sedes;
-	text-align: start;
+    text-align: start;
+    margin-right: -4px;
 }
 /* .sedes ul{
 	margin-left: 70px;
@@ -581,6 +583,7 @@
 .footer a {
     color: #4e4e4e;
     /* font-weight: bold; */
+	font-size: 15px;
 }
 
 .footer a:hover {

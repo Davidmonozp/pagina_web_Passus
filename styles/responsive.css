@@ -106,7 +106,7 @@
 	.why_content {
 		margin-top: -34px;
 	}
-	
+
 
 	.icon_container_index {
 		width: 50px;
@@ -139,6 +139,7 @@
 	.titulo_sedes {
 		margin-top: 5vh;
 	}
+
 	.icon_index img {
 		max-width: 31px;
 		/* max-width: 30px; */
@@ -186,6 +187,7 @@
 		height: 32vh;
 		margin-top: 112px;
 	}
+
 	.icon_index img {
 		margin-left: 1px;
 		margin-top: 0px;
@@ -235,7 +237,7 @@
 		grid-template-areas: "mapa_sitio servicios sedes contactanos_redes";
 		gap: 104px;
 		background-color: #e8e8e8;
-		padding: 47px 269px 47px 269px;
+		padding: 47px 160px 47px 160px;
 	}
 }
 
@@ -247,6 +249,7 @@
 		min-width: 132px;
 		height: 12vh;
 	}
+
 	.why {
 		background: white;
 	}
@@ -334,6 +337,7 @@
 		width: 50px;
 		height: 50px;
 	}
+
 	.icon_index img {
 		max-width: 31px;
 		/* max-width: 30px; */
@@ -704,6 +708,20 @@
 	}
 }
 
+@media (min-width: 897px) and (max-width: 1070px) {
+	.contactanos-redes {
+		grid-area: contactanos_redes;
+		text-align: center;
+		margin-right: 33vh;
+	}
+
+	.footer {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas:
+			"mapa_sitio servicios"
+			"sedes contactanos_redes";
+	}
+}
 
 @media only screen and (max-width: 896px) {
 	.carousel-item img {
@@ -1476,6 +1494,7 @@
 		margin: 0 -27px;
 	}
 
+
 }
 
 /************
@@ -1530,7 +1549,38 @@
 	}
 }
 
-@media (min-width: 300px) and (max-width: 414px) {
+@media (min-width: 300px) and (max-width: 575px) {
+	.servicios {
+		grid-area: servicios;
+		text-align: start;
+		justify-items: center;
+	}
+
+	.sedes {
+		grid-area: sedes;
+		text-align: center;
+		margin-left: 107px;
+	}
+}
+
+@media (min-width: 500px) and (max-width: 575px) {
+
+	.sedes {
+		grid-area: sedes;
+		text-align: center;
+		margin-left: 69px;
+	}
+}
+
+@media (min-width: 375px) and (max-width: 428px) {
+	.sedes {
+		grid-area: sedes;
+		text-align: center;
+		margin-left: 22px;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 360px) {
 
 	.card {
 		min-width: 107px;
@@ -1541,4 +1591,11 @@
 		width: calc(50% - 10px);
 	}
 
+	@media (min-width: 300px) and (max-width: 575px) {
+		.sedes {
+			grid-area: sedes;
+			text-align: center;
+			margin-left: 16px;
+		}
+	}
 }
