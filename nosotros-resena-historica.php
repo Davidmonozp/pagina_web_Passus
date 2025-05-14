@@ -60,7 +60,7 @@
 
 	.timeline ul li:nth-child(odd) div::before {
 		left: -15px;
-		border-width: 8px 16px 8px 0;
+		border-width: 13px 43px 13px 0;
 		border-color: transparent #3695eb transparent transparent;
 	}
 
@@ -70,7 +70,7 @@
 
 	.timeline ul li:nth-child(even) div::before {
 		right: -15px;
-		border-width: 8px 0 8px 16px;
+		border-width: 13px 0px 13px 48px;
 		border-color: transparent transparent transparent #3695eb;
 	}
 
@@ -111,6 +111,13 @@
 		transform: none;
 		visibility: visible;
 		opacity: 1;
+		border-radius: 15px;
+	}
+
+	.reseña {
+		border-top: 2px solid #188c41;
+		width: 16%;
+		margin: 0 auto;
 	}
 
 
@@ -245,7 +252,9 @@
 						<div class="intro_content text-center">
 							<div class="section_title_container">
 								<div class="section_title">
-									<h2>Reseña Histórica</h2>
+									<h2>Reseña Histórica
+										<hr class="reseña">
+									</h2>
 								</div>
 							</div>
 							<section class="timeline">

@@ -43,6 +43,12 @@
 /************
 1. 1840px
 ************/
+@media screen and (min-width: 1367px) and (max-width: 2048px) {
+	.passus_servicios {
+		margin-bottom: 125px;
+		margin-top: -38px;
+	}
+}
 
 @media only screen and (max-width: 1840px) {
 	.main_nav {
@@ -60,9 +66,17 @@
 	}
 }
 
+@media (min-width: 1680px) and (max-width: 1920px){
+	#para-mirar{
+		margin-top: -19vh;
+	}
+}
+
 /************
 3. 1600px
 ************/
+
+
 
 @media only screen and (max-width: 1600px) {
 	.main_nav {
@@ -205,7 +219,7 @@
 	}
 
 	.cta {
-		margin-top: -18px;
+		margin-top: 27px;
 	}
 
 	.cta_title {
@@ -371,16 +385,12 @@
 	}
 
 
-	/*.carousel-item img {*/
-	/*	height: 84vh;*/
-	/*	object-fit: cover;*/
-	/*	margin-top: 137px;*/
-	/*}*/
-	/* .carousel-item img {
-		height: 68vh;
-		object-fit: cover;
-		margin-top: 2px;
-	} */
+    .carousel-item img {
+        height: 44vh;
+        object-fit: cover;
+        margin-top: 117px !important;
+        border-radius: 20px;
+    }
 
 	.home_slider_dots {
 		top: 111vh;
@@ -427,9 +437,13 @@
 	}
 
 	p:last-of-type {
-		margin-bottom: 41px;
+        margin-bottom: 3px;
+    }
+	.porque_index {
+		font-size: 36px;
+		margin-bottom: -41px;
+		margin-top: 43px;
 	}
-
 	.icon_container_index {
 		width: 45px;
 		height: 45px;
@@ -440,7 +454,7 @@
 		width: 21px;
 		height: 21px;
 	}
-
+	
 	.carousel-item img {
 		height: 44vh;
 		object-fit: cover;
@@ -457,14 +471,19 @@
 	}
 
 	#derechos_deberes .section_title h2 {
-		margin-top: -59px;
+		margin-top: -133px;
 	}
 
 	.services {
 		padding-top: 0px;
 		margin-top: 15px;
+		margin-bottom: -3vh;
 	}
-
+	#terminos_condiciones {
+        padding-top: 58px;
+        margin-top: -153px;
+        margin-bottom: -3vh;
+    }
 	.card {
 		min-width: 132px;
 		height: 15vh;
@@ -474,9 +493,25 @@
 		margin: 0px 0 0;
 	}
 
+	.passus_servicios {
+		margin-bottom: -32px;
+		margin-top: -38vh;
+	}
+
+	.passus_servicios_index {
+		margin-top: 2vh;
+		margin-bottom: -10vh;
+	}
+
+	.passus_servicios_indexDivertido {
+		margin-top: 2vh;
+		margin-bottom: -10vh;
+	}
+
 	.footer {
 		padding: 50px 50px 33px 100px;
 	}
+
 
 }
 
@@ -522,6 +557,10 @@
 	.direct_line_num {
 		font-size: 15px;
 	}
+
+	.hr_politicas {
+		margin: 0px 0 0 381px;
+	}
 }
 
 /************
@@ -535,17 +574,20 @@
 ************/
 
 @media only screen and (max-width: 1024px) {
-
-	.carousel-item img {
-		margin-top: 140px;
-		height: 26vh;
-		object-fit: cover;
+	#para-mirar {
+		margin-top: -51vh;
 	}
 
 	.imgcarousel {
 		margin-bottom: 63px;
 		width: 100%;
-		height: 74%;
+		height: 111%;
+	}
+
+	.carousel-item img {
+		margin-top: 99px;
+		height: 20vh;
+		object-fit: cover;
 	}
 
 	.sedes {
@@ -594,6 +636,10 @@
 		object-fit: cover;
 	}
 
+	.hr_politicas {
+		margin: 0px 0 0 276px;
+	}
+
 	.imgcarousel {
 		margin-bottom: 63px;
 		width: 100%;
@@ -637,6 +683,11 @@
 	.footer_location,
 	.footer_contact {
 		padding-top: 0;
+	}
+
+	.service_col_divertido {
+		flex: 0 0 100% !important;
+		max-width: 100% !important;
 	}
 }
 
@@ -683,8 +734,9 @@
 @media only screen and (max-width: 915px) {
 	.carousel-item img {
 		margin-top: 140px;
-		height: 48vh;
+		height: 38vh 304px;
 		object-fit: cover;
+		margin-bottom: 24px;
 	}
 
 	.cta {
@@ -723,6 +775,8 @@
 	}
 }
 
+@media (max-width: 1024px) {}
+
 @media only screen and (max-width: 896px) {
 	.carousel-item img {
 		margin-top: 140px;
@@ -752,6 +806,16 @@
 	.cta_phone {
 		font-size: 13px;
 		top: -21px;
+	}
+
+	.accordion-grid-preguntas {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 40px;
+		max-width: 1200px;
+		margin: 0px auto;
+		align-items: start;
+		padding: 20px;
 	}
 
 	.footer {
@@ -837,6 +901,17 @@
 		top: -29px;
 		left: 47vh;
 	}
+
+	#para-mirar {
+		margin-top: -31vh;
+	}
+}
+
+@media (max-width: 800px) {
+	#para-mirar {
+		margin-top: -40vh;
+	}
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -912,6 +987,16 @@
 
 	.extra_content {
 		width: 100%;
+	}
+
+	.passus_politicas {
+		margin-top: 51px;
+		margin-bottom: -66px;
+	}
+
+	.hr_politicas {
+		width: 30%;
+		margin: 0px 0 0 175px;
 	}
 
 	.footer_bar_content {
@@ -1470,19 +1555,21 @@
 
 	.cta {
 		padding-top: 10px;
-		height: 96px;
+		height: 116px;
 	}
 
 	.cta_title {
 		font-size: 15px;
-		left: -124px;
-		top: 7px;
+		left: -37px;
+		top: 1px;
 	}
 
 	.cta_phone {
+		width: 172px;
 		font-size: 13px;
-		top: -77px;
-		left: 25vh;
+		top: -35px;
+		left: 15vh;
+		font-size: 2px;
 	}
 
 	.titulo_sedes {
@@ -1494,7 +1581,9 @@
 		margin: 0 -27px;
 	}
 
-
+	#para-mirar {
+		margin-top: -26vh;
+	}
 }
 
 /************
@@ -1597,5 +1686,61 @@
 			text-align: center;
 			margin-left: 16px;
 		}
+	}
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+	#derechos_deberes .section_title h2 {
+		margin-top: 19px;
+		margin-bottom: -69px;
+	}
+}
+
+@media (max-width: 470px) {
+
+	/* .divservicios_index {
+		height: 81%;
+		width: 100%;
+	} */
+	.divtamano_index {
+		height: 200px;
+	}
+}
+
+@media (max-width: 456px) and (min-width: 390px) {
+	.custom-accordion label {
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 389px) and (min-width: 375px) {
+	.custom-accordion label {
+		font-size: 14px;
+	}
+}
+
+
+/* DERECHOS Y DEBERES */
+
+@media (max-width: 1050px) {
+	.accordion-image img {
+		max-width: 30vh;
+	}
+}
+
+@media (max-width: 991px) {
+	.accordion-grid-derechos {
+		grid-template-columns: 1fr;
+	}
+
+	.accordion-grid-deberes {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 767px) {
+	.custom-accordion label {
+		height: 84px;
+		font-size: 17px;
 	}
 }

@@ -25,104 +25,35 @@ COLOR VERDE PASSUS #00A54F -->
 			<div class="home_slider_container">
 				<div class="owl-carousel owl-theme home_slider">
 
-					<!-- Slide -->
-					<div class="owl-item">
-						<div class="background_image" style="background-image:url(images/home/home_slider_4.jpeg); filter: opacity(1);"></div>
-						<div class="home_container py-2">
-							<div class="container">
-								<div class="row">
-									<div class="col">
-										<div class="home_content px-2" style="background-color: rgb(24, 113, 191);  border-radius: 20px; opacity: 0.9">
-											<div class="home_title" style="font-size: 40px; margin-left: 12px; margin-right: 12px;">Descubre y Aplica</div>
-										</div>
-									</div>
-								</div>
-							</div>
+
+					<section class="hero-banner-trabajaNosotros">
+						<div class="hero-overlay">
 						</div>
-					</div>
-
-					<!-- Slide 
-				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/home/home_slider_5.jpeg)"></div>
-					<div class="home_container py-2" style="background-color: rgba(44, 62, 80, 0.8); ">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_content">
-										<div class="home_title">Nuestros valores</div>
-										<div class="home_subtitle">Dignidad, Voluntad, Libertad, Amor e Inteligencia.</div>
-										    <div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">Leer más</a></div>
-										</div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					</section>
 				</div>
-                -->
-
-
-					<!-- Slide 
-				<div class="owl-item">
-					<div class="background_image" style="background-image:url(images/home/home_slider_6.jpeg)"></div>
-					<div class="home_container py-2" style="background-color: rgba(44, 62, 80, 0.8); ">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_content">
-										<div class="home_title">Nuestros valores</div>
-										<div class="home_subtitle">Dignidad, Voluntad, Libertad, Amor e Inteligencia.</div>
-										 <div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">Leer más</a></div>
-										</div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-            -->
-				</div>
-
-				<!-- Home Slider Dots -->
-				<!--
-			<div class="home_slider_dots">
-				<ul id="home_slider_custom_dots" class="home_slider_custom_dots d-flex flex-row align-items-center justify-content-start">
-					<li class="home_slider_custom_dot trans_200 active"></li>
-					<li class="home_slider_custom_dot trans_200"></li>
-					<li class="home_slider_custom_dot trans_200"></li>
-				</ul>
-			</div>  -->
 
 			</div>
 		</div>
 
-		<!-- Intro -->
+		<div class="why-trabaja-nosotros">
 
-
-
-		<!-- Why Choose Us -->
-
-
-		<div class="why-trabaja-nosotros" >
-			<!-- <div class="background_image" style="background-image:url(images/why.jpg)"></div> -->
 			<div class="container" id="trabaja_nosotros">
-				<div class="row">
-					<div class="col text-center" style="margin-top: 45px ; ">
+				<!-- <div class="row"> -->
+					<div class="col text-center">
 						<div class="section_title_container">
-							<div class="section_title">
+							<!-- <div class="section_title"> -->
 								<h2 class="passus_servicios">Trabaja con nosotros
 									<hr class="hr_politicas">
 								</h2>
-							</div>
+								<p class="parrafo">En Passus, nuestra prioridad es brindar atención de calidad y humanizada. Por eso, buscamos personas comprometidas que quieran crecer con nosotros y aportar a un equipo dinámico e innovador.
+						</p>
+							<!-- </div> -->
 						</div>
 					</div>
 
-					<div class="why_text_trabaja">
-						<p class="parrafo">En Passus, nuestra prioridad es brindar atención de calidad y humanizada. Por eso, buscamos personas comprometidas que quieran crecer con nosotros y aportar a un equipo dinámico e innovador.
-						</p>
-					</div>
+					<!-- <div class="why_text_trabaja"> -->
+						
+					<!-- </div> -->
 
 
 					<!-- Titulo -->
@@ -139,105 +70,10 @@ COLOR VERDE PASSUS #00A54F -->
 							</ul>
 						</div>
 					</div>
-
-					<!--      <div class="section_title_container">
-				    	<div class="section_subtitle"></div><br><br>
-					<div class="price_title"><h2>¿Porqué elegirnos?</h2></div>
-				</div> -->
-					<!-- <div class="why_text">
-						<p class="parrafo">Trabajar en Passus IPS no es solo un empleo, es una oportunidad para
-							marcar una diferencia real en la vida de las personas. Aquí te ofrecemos:
-						</p>
-					</div> -->
-
-					<!-- Why Choose Us Image -->
-					<!--		<div class="col-lg-6 pt-5">
-						<div id="carouselExampleControls" class="carousel_index carousel slide" data-ride="carousel">
-						  <div class="carousel-inner" style="margin-top:19px;">
-						    <div class="carousel-item active">
-						      <img src="images/porque_elegirnos1.jpeg" class="d-block w-100" alt="...">
-						    </div>
-						    <div class="carousel-item">
-						      <img src="images/sedes/Veraguas2.jpeg" class="d-block w-100" alt="...">
-						    </div>
-						    <div class="carousel-item">
-						      <img src="images/sedes/Chia1.jpeg" class="d-block w-100" alt="...">
-						    </div>
-						    <div class="carousel-item">
-						      <img src="images/sedes/Veraguas4.jpeg" class="d-block w-100" alt="...">
-						    </div>
-						    <div class="carousel-item">
-						      <img src="images/sedes/Veraguas5.jpeg" class="d-block w-100" alt="...">
-						    </div>
-						  </div>
-						 <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
-						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						    <span class="sr-only">Anterior</span>
-						  </button>
-						  <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
-						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-						    <span class="sr-only">Siguiente</span>
-						  </button>
-						</div>
 				</div>
-        -->
-					<!-- Why Choose Us Content -->
-					<!-- <div class="col-lg-6">
-						<div class="why_content pt-4"> -->
-					<!--			
-					    <div class="section_title_container">
-							<div class="section_subtitle"></div>
-							<div class="section_title"><h2>¿Porqué elegirnos?</h2></div>
-						</div>
-						<div class="why_text">
-							<p>En Passus estamos comprometidos a mejorar su calidad de vida, por eso prestamos servicios con altos estándares de seguridad para ti y tu familia.</p>
-						</div> 
-					   -->
-					<!-- <div class="why_list">
-								<ul> -->
-
-					<!-- Why List Item -->
-					<!-- <li class="d-flex flex-row align-items-center justify-content-start">
-										<div class="why_list_content"> -->
-					<!-- <div class="why_list_title" style="font-size:15px ;">Formación continua y oportunidades de crecimiento.</div> -->
-					<!-- <div class="why_list_text">Etiam ac erat ut enim maximus accumsan vel ac nisl</div> -->
-					<!-- </div>
-									</li> -->
-
-					<!-- Why List Item -->
-					<!-- <li class="d-flex flex-row align-items-center justify-content-start">
-										<div class="why_list_content"> -->
-					<!-- <div class="why_list_title" style="font-size: 15px ; ">Trabajo colaborativo con profesionales apasionados.</div> -->
-					<!-- <div class="why_list_text">Ac erat ut enim maximus accumsan vel ac</div> -->
-					<!-- </div>
-									</li> -->
-
-					<!-- Why List Item -->
-					<!-- <li class="d-flex flex-row align-items-center justify-content-start">
-										<div class="why_list_content"> -->
-					<!-- <div class="why_list_title" style=" font-size: 15px ; ">Entorno innovador con tecnología de punta.</div> -->
-					<!-- <div class="why_list_text">Etiam ac erat ut enim maximus accumsan vel</div> -->
-					<!-- </div>
-									</li> -->
-
-					<!-- Why List Item -->
-					<!-- <li class="d-flex flex-row align-items-center justify-content-start">
-										<div class="why_list_content"> -->
-					<!-- <div class="why_list_title" style=" font-size: 15px ;  ">Beneficios y salarios competitivos.</div> -->
-					<!-- <div class="why_list_text">Etiam ac erat ut enim maximus accumsan vel</div> -->
-				</div>
-				</li>
-				</ul>
 			</div>
 		</div>
 	</div>
-	</div>
-	</div>
-	</div>
-
-	<? //php include('includes/_linea_atencion.php');
-	?>
-
 
 	<!-- Como aplicar -->
 	<br>
@@ -257,12 +93,7 @@ COLOR VERDE PASSUS #00A54F -->
 				<p class="parrafo">Explora nuestras vacantes y aplica a través de nuestras plataformas de empleo, o consulta las ofertas disponibles al final de esta página.
 					¡Haz parte de nuestra comunidad de talentos! Tu próxima oportunidad te espera.
 				</p>
-				<!-- <p class="parrafo">En Passus IPS, nuestra prioridad es garantizar la excelencia en la
-						tención médica y el cuidado de nuestros pacientes. Para lograr nuestros objetivos,
-						estamos en la búsqueda constante de los mejores talentos, que quieran formar parte
-						de un equipo dinámico, innovador y comprometido. Si compartes nuestros visión y
-						valores, te invitamos a descubrir las oportunidades laborales que ofrecemos en estas 2 plataformas, o dirígete al final de está página y revisa las ofertas vigentes y unete a nuestra comunidad.
-					</p> -->
+
 
 				<div class="logo-oferta">
 					<a href="#ofertas-destino">
@@ -278,42 +109,7 @@ COLOR VERDE PASSUS #00A54F -->
 			</div>
 
 
-			<!-- Why Choose Us Content -->
-			<!-- <div class="col-lg-6">
-					<div class="why_content pt-4">
-						<div class="why_list">
-							<ul>
-								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div class="why_list_content">
-										<div class="why_list_title" style=" font-size: 15px ;"> 1. Revisa las Convocatorias Disponibles: Lee detalladamente
-											los requisitos y responsabilidades de cada puesto.</div>
-									</div>
-								</li>
 
-								
-								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div class="why_list_content">
-										<div class="why_list_title" style=" font-size: 15px ; "> 2. Prepara tu Documentación: Actualiza tu hoja de vida y asegúrate de tener todos los documentos necesarios.</div>
-									</div>
-								</li>
-
-								
-								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div class="why_list_content">
-										<div class="why_list_title" style=" font-size: 15px ;  "> 3. Envía tu Solicitud: Revisa el correo al que debes enviar tu HV con el asunto del cargo al que deseas aplicar.</div>
-									</div>
-								</li>
-
-								
-								<li class="d-flex flex-row align-items-center justify-content-start">
-									<div class="why_list_content">
-										<div class="why_list_title" style=" font-size: 15px; "> 4. Proceso de Selección: Nuestro equipo de recursos humanos revisará tu solicitud y se pondrá en contacto contigo para las etapas siguientes del proceso de selección.</div>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div> -->
 		</div>
 	</div>
 
@@ -329,9 +125,7 @@ COLOR VERDE PASSUS #00A54F -->
 						</div>
 					</div>
 					<br><br>
-					<!--        <div>
-                           <p style="font-size: 20px">¡Lo sentimos! En el momento no hay vacantes disponibles.</p>
-                        </div>  -->
+
 				</div>
 			</div>
 

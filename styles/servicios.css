@@ -19,7 +19,7 @@
     width: 100%;
 }
 .hero-banner-divertido {
-    background-image: url(/pagina_passus/images/img-servicios/passus_divertido.png);
+    background-image: url(/pagina_passus/images/img-servicios/passusDivertido_banner.png);
     background-size: cover;
     background-position: center 20%; /* Mueve la imagen hacia abajo */
     background-repeat: no-repeat;
@@ -81,6 +81,7 @@
     border-radius: 10px;
     object-fit: cover;
 }
+
 
 /* .faq-container {
   margin: 130px auto;
@@ -230,6 +231,7 @@
     font-weight: 300;
     margin: 2em 0;
     line-height: 1.6;
+    text-align: justify;
 }
 .faq-grid-text h2 hr  {
     border: none;
@@ -241,19 +243,22 @@
 #pilates {
     margin-bottom: 15px; 
 }
+#consulta_externa{
+    margin-bottom: 25px; 
+}
 
 /* BOTON */
 .reflected-button {
     position: absolute;
     bottom: 20px;
     left: 114px;
-    background-color: #92898918;
+    background-color: #2e2c2c79;
     color: white;
     padding: 12px 24px;
     border-radius: 6px;
     font-size: 1rem;
     cursor: pointer;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(8px);
     transition: background-color 0.3s ease, transform 0.2s ease;
     border: none;
     box-shadow: none;
@@ -321,7 +326,7 @@
         align-self: center;
         transform: none;
     }
-
+   
     .hero-overlay {
         flex-direction: column;
         align-items: center;

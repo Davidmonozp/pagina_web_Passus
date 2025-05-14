@@ -36,12 +36,15 @@ window.onload = function () {
         document.getElementById("contactanos"),
         document.getElementById("contactForm"),
         document.getElementById("cards-container"),
+        document.getElementById("hero_derechos_deberes"),
     ];
 
     // Seleccionamos todos los <p>, <h2>, y clases dentro de ambos contenedores
     contenedores.forEach(contenedor => {
         if (contenedor) {
-            const elementos = contenedor.querySelectorAll("p, h2, h3, a, h4, li, .why_list_title, .why_list_text, .cta_title, .cta_phone, .timeline, time, .prices, .price_title, .accordion, .header-top, .contact_content_title, li div, .form-check-label");
+            const elementos = contenedor.querySelectorAll(
+                "p, h1, h2, h3, h4, li, a, label, input[type='checkbox'], .custom-article, .why_list_title, .why_list_text, .cta_title, .cta_phone, .timeline, time, .prices, .price_title, .accordion, .header-top, .contact_content_title, li div"
+              );
 
             elementos.forEach(el => {
                 const original = parseInt(window.getComputedStyle(el).fontSize);

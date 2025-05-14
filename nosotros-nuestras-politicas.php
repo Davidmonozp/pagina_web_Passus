@@ -20,7 +20,7 @@
 
 		<!-- Home -->
 
-		<div class="home d-flex flex-column align-items-start justify-content-end" style="background-color: rgba(44, 62, 80, 0); ">
+		<!-- <div class="home d-flex flex-column align-items-start justify-content-end" style="background-color: rgba(44, 62, 80, 0); ">
 			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/nosotros-img/nuestras-politicas-1.png" data-speed="0.8"></div>
 			<div class="home_container">
 				<div class="container">
@@ -33,23 +33,31 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
+
+		<section class="hero-banner-nuestrasPoliticas">
+			<div class="hero-overlay">
+				<h1>Nuestras políticas
+					<hr>
+				</h1>
+			</div>
+		</section>
 
 		<!-- Services -->
 
 		<div class="services" id="nuestras_politicas">
 			<div class="container">
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col text-center">
 						<div class="section_title_container">
 							<div class="section_title">
-								<h2 class="passus_servicios">Nuestras Políticas
+								<h2 class="passus_politicas">Nuestras Políticas
 									<hr class="hr_politicas">
 								</h2>
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<div class="row justify-content-center">
 
 					<!-- Prices -->

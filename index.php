@@ -34,260 +34,30 @@ COLOR VERDE PASSUS #00A54F -->
                     <div class="owl-item">
                         <div class="background_image">
                             <img class="imgcarousel" src="images/Banner - 1.jpg">
-                        </div>
-                        <!--	
-				    <div class="background_image" style="background-image:url(images/home/home_slider_2.jpeg)""></div>
-				        <div class="home_container py-2" style="background-color: rgba(44, 62, 80, 0.8); ">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_content">
-										<div class="home_title">Nuestros valores</div>
-										<div class="home_subtitle">Dignidad, Voluntad, Libertad, Amor e Inteligencia.</div>
-										<!-- <div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">Leer más</a></div>
-										</div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> -->
+                        </div>                     
                     </div>
 
 
                     <!-- Slide -->
                     <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/Banner - 2.jpg"></div>
-                        <!--	
-	                <div class="background_image" style="background-image:url(images/home/home_slider7.png)"></div>			
-				        <div class="home_container py-2" style="background-color: rgba(44, 62, 80, 0.8); ">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_content">
-										<div class="home_title">Nuestros valores</div>
-										<div class="home_subtitle">Dignidad, Voluntad, Libertad, Amor e Inteligencia.</div>
-									<div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">Leer más</a></div>
-										</div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> -->
+                        <div class="background_image"><img class="imgcarousel" src="images/Banner - 2.jpg"></div>                       
                     </div>
 
                     <div class="owl-item">
                         <div class="background_image"><img class="imgcarousel" src="images/Banner - 3.jpg"></div>
-                        <!--	
-				    <div class="background_image" style="background-image:url(images/home/home_slider8.png)"></div>
-				        <div class="home_container py-2" style="background-color: rgba(44, 62, 80, 0.8); ">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_content">
-										<div class="home_title">Nuestros valores</div>
-										<div class="home_subtitle">Dignidad, Voluntad, Libertad, Amor e Inteligencia.</div>
-										<!-- <div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">Leer más</a></div>
-										</div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>-->
                     </div>
                     <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/Banner - 4.jpg"></div>
-                        <!--	
-				    <div class="background_image" style="background-image:url(images/home/home_slider8.png)"></div>
-				        <div class="home_container py-2" style="background-color: rgba(44, 62, 80, 0.8); ">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_content">
-										<div class="home_title">Nuestros valores</div>
-										<div class="home_subtitle">Dignidad, Voluntad, Libertad, Amor e Inteligencia.</div>
-										<!-- <div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">Leer más</a></div>
-										</div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>-->
+                        <div class="background_image"><img class="imgcarousel" src="images/Banner - 4.jpg"></div>                       
                     </div>
                     <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/Banner - 5.jpg"></div>
-                        <!--	
-				    <div class="background_image" style="background-image:url(images/home/home_slider8.png)"></div>
-				        <div class="home_container py-2" style="background-color: rgba(44, 62, 80, 0.8); ">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_content">
-										<div class="home_title">Nuestros valores</div>
-										<div class="home_subtitle">Dignidad, Voluntad, Libertad, Amor e Inteligencia.</div>
-										<!-- <div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">Leer más</a></div>
-										</div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>-->
+                        <div class="background_image"><img class="imgcarousel" src="images/Banner - 5.jpg"></div>                        
                     </div>
-
-                    <!--	<div class="owl-item">
-					<div class="background_image"><img class="imgcarousel" src="images/home/home_slider9.png" ></div>
-				
-				    <div class="background_image" style="background-image:url(images/home/home_slider9.png)"></div>
-				        <div class="home_container py-2" style="background-color: rgba(44, 62, 80, 0.8); ">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_content">
-										<div class="home_title">Nuestros valores</div>
-										<div class="home_subtitle">Dignidad, Voluntad, Libertad, Amor e Inteligencia.</div>
-										<!-- <div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">Leer más</a></div>
-										</div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>-->
+                    
 
                     <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/Banner - 6.jpg"></div>
-                        <!--
-					
-					<div class="background_image" style="background-image:url(images/home/home_slider10.png)"></div>
-					    <div class="home_container py-2" style="background-color: rgba(44, 62, 80, 0.8); ">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_content">
-										<div class="home_title">Nuestros valores</div>
-										<div class="home_subtitle">Dignidad, Voluntad, Libertad, Amor e Inteligencia.</div>
-										<!-- <div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">Leer más</a></div>
-										</div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>-->
-                    </div>
-
-                    <!-- <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/Banner - Passus Bienestar Bogotá 1.png"></div> -->
-                    <!--	
-				
-				    <div class="background_image" style="background-image:url(images/home/home_slider12.png)"></div>
-			        	<div class="home_container py-2" style="background-color: rgba(44, 62, 80, 0.8); ">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_content">
-										<div class="home_title">Nuestros valores</div>
-										<div class="home_subtitle">Dignidad, Voluntad, Libertad, Amor e Inteligencia.</div>
-										<!-- <div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">Leer más</a></div>
-										</div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>-->
-                    <!-- </div> -->
-
-                    <!-- <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/Banner . Hidroterapia 0.1.png"></div> -->
-                    <!--	
-				
-				    <div class="background_image" style="background-image:url(images/home/home_slider13.png)"></div>
-				        <div class="home_container py-2" style="background-color: rgba(44, 62, 80, 0.8); ">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_content">
-										<div class="home_title">Nuestros valores</div>
-										<div class="home_subtitle">Dignidad, Voluntad, Libertad, Amor e Inteligencia.</div>
-										<!-- <div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">Leer más</a></div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div> -->
-                    <!-- </div> -->
-
-                    <!-- <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/Banner . Hidroterapia 0.2.png"></div> -->
-                    <!--
-				    <div class="background_image" style="background-image:url(images/home/home_slider14.png)"></div>
-				        <div class="home_container py-2" style="background-color: rgba(44, 62, 80, 0.8); ">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_content">
-										<div class="home_title">Nuestros valores</div>
-										<div class="home_subtitle">Dignidad, Voluntad, Libertad, Amor e Inteligencia.</div>
-										<!-- <div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">Leer más</a></div>
-										</div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>-->
-                </div>
-
-                <!-- <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/home/home_slider15.png"></div> -->
-                <!--	
-				    <div class="background_image" style="background-image:url(images/home/home_slider15.png)"></div>
-				        <div class="home_container py-2" style="background-color: rgba(44, 62, 80, 0.8); ">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_content">
-										<div class="home_title">Nuestros valores</div>
-										<div class="home_subtitle">Dignidad, Voluntad, Libertad, Amor e Inteligencia.</div>
-										<!-- <div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">Leer más</a></div>
-										</div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>-->
-                <!-- </div> -->
-
-                <!-- <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/home/home_slider16.png"></div> -->
-                <!--	
-				    <div class="background_image" style="background-image:url(images/home/home_slider16.png)"></div>
-				        <div class="home_container py-2" style="background-color: rgba(44, 62, 80, 0.8); ">
-						<div class="container">
-							<div class="row">
-								<div class="col">
-									<div class="home_content">
-										<div class="home_title">Nuestros valores</div>
-										<div class="home_subtitle">Dignidad, Voluntad, Libertad, Amor e Inteligencia.</div>
-										<!-- <div class="home_buttons d-flex flex-row align-items-center justify-content-start">
-											<div class="button button_1 trans_200"><a href="#">Leer más</a></div>
-										</div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>-->
-                <!-- </div> -->
-
+                        <div class="background_image"><img class="imgcarousel" src="images/Banner - 6.jpg"></div>                      
+                    </div>                  
+                </div>                
             </div>
 
             <!-- Home Slider Dots -->
@@ -318,25 +88,8 @@ COLOR VERDE PASSUS #00A54F -->
 
     <div class="why">
 
-        <?php include('includes/accesibilidad.php'); ?>
+        <?php include('includes/accesibilidad.php'); ?>       
 
-        <!-- INICIO ACCESIBILIDAD -->
-
-        <!-- <div class="barra-accesibilidad-govco">
-                <button id="botoncontraste" class="icon-contraste" onclick="cambiarContexto()">
-                    <span id="titlecontraste">Contraste</span>
-                </button>
-                <button id="botondisminuir" class="icon-reducir" onclick="disminuirTamanio('disminuir')">
-                    <span id="titledisminuir">Reducir letra</span>
-                </button>
-                <button id="botonaumentar" class="icon-aumentar" onclick="aumentarTamanio('aumentar')">
-                    <span id="titleaumentar">Aumentar letra</span>
-                </button>
-            </div> -->
-
-        <!-- FIN ACCESIBILIDAD -->
-
-        <!-- <div class="background_image" style="background-image:url(images/why.jpg)"></div> -->
         <div id="para-mirar">
             <div class="container">
                 <div class="row">
@@ -345,16 +98,12 @@ COLOR VERDE PASSUS #00A54F -->
                     <div class="col text-center">
                         <div class="section_title_container">
                             <div class="section_title">
-                                <h2>¿Por qué elegirnos?
-                                        <hr class="hr_por_que">
-                                    </h2>                                
+                                <h2 class="porque_index">¿Por qué elegirnos?
+                                    <hr class="hr_por_que">
+                                </h2>
                             </div>
                         </div>
                     </div>
-                    <!--      <div class="section_title_container">
-				    	<div class="section_subtitle"></div><br><br>
-					<div class="price_title"><h2>¿Porqué elegirnos?</h2></div>
-				</div> -->
                     <div class="why_text">
                         <p class="parrafo">En Passus estamos comprometidos a mejorar su calidad de vida, por eso prestamos servicios con altos estándares de seguridad para ti y tu familia.</p>
                     </div>
@@ -479,7 +228,7 @@ COLOR VERDE PASSUS #00A54F -->
                 <div class="col text-center">
                     <div class="section_title_container">
                         <div class="section_title">
-                            <h2 class="passus_servicios">Nuestros servicios Passus IPS
+                            <h2 class="passus_servicios_index">Nuestros servicios Passus
                                 <hr class="hr">
                             </h2>
                         </div>
@@ -487,44 +236,23 @@ COLOR VERDE PASSUS #00A54F -->
                 </div>
             </div>
             <div class="row services_row justify-content-center">
-
-                <!-- Service ESTRUCUTURA ANTERIOR 
-				
-				<div class="col-xl-4 col-md-6 service_col">
-					<div class="service text-center">
-						<div class="service">
-							<div class="icon_container d-flex flex-column align-items-center justify-content-center ml-auto mr-auto">
-								<div class="icon"><img src="images/icon_rehabilitacion.png" alt="https://www.flaticon.com/authors/prosymbols"></div>
-							</div>
-							<div class="service_title">Rehabilitación integral para la discapacidad definitiva, leve, moderada o severa</div>
-							<div class="service_text">
-								<p>Programa diseñado para mejorar la calidad de vida y fomentar la autonomía de aquellos que enfrentan limitaciones físicas, mentales o sensoriales, abarca técnicas y metodologías adaptadas a las necesidades individuales, desde terapia física, terapia ocupacional, terapia de fonoaudiología y Psicología. El propósito fundamental para nuestros niños y adolescentes es promover el bienestar físico, social y emocional,  a través del equipo de profesionales y seguimiento clínico de nuestros médicos especialistas en psiquiatría infantil, neurología Pediátrico y fisiatría.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				-->
-
-
-
                 <!-- Service -->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+                <div class="col-12 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
-                            <img class="imgservicios_index" src="images/img-servicios/HDT-passus.jpg" alt="Natación infantil">
-                            <a href="servicios_passusIPS.php#hidroterapia" class="leer-mas">
+                            <img class="imgservicios_index" src="images/img-servicios/card_ips.png" alt="Passus IPS">
+                            <a href="servicios_passusIPS.php" class="leer-mas">
                                 <button>Ver más...</button>
                             </a>
                         </div>
                     </div>
                 </div>
-
                 <!-- Service -->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+                <div class="col-12 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
-                            <img class="imgservicios_index" src="images/img-servicios/Junta_Interdisciplinaria.jpg" alt="Natación infantil">
-                            <a href="natacion-infantil.html" class="leer-mas">
+                            <img class="imgservicios_index" src="images/img-servicios/card_divertido.png" alt="Passus Divertido">
+                            <a href="servicios_passus_divertido.php" class="leer-mas">
                                 <button>Ver más...</button>
                             </a>
                         </div>
@@ -533,7 +261,7 @@ COLOR VERDE PASSUS #00A54F -->
 
 
                 <!-- Service -->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+                <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/Fisiatría.jpg" alt="Natación infantil">
@@ -542,11 +270,11 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
                 <!-- Service -->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+                <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/Neuropediatría-passus.jpg" alt="Natación infantil">
@@ -555,10 +283,10 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Service -->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+                <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/Neuropsicología.jpg" alt="Natación infantil">
@@ -567,7 +295,7 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- PRUEBA DE IMAGEN -->
                 <!--	
@@ -627,9 +355,9 @@ COLOR VERDE PASSUS #00A54F -->
 
 
     <!-- Rehabilitacion Integral -->
-    <div id="programa_rehabilitacion_index">
-        <div class="container">
-            <div class="row">
+    <!-- <div id="programa_rehabilitacion_index">
+        <div class="container"> -->
+    <!-- <div class="row">
                 <div class="col">
                     <div class="section_title_container">
                         <div class="section_title">
@@ -639,12 +367,11 @@ COLOR VERDE PASSUS #00A54F -->
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row services_row justify-content-center">
+            </div> -->
+    <!-- <div class="row services_row justify-content-center"> -->
 
-                <!--Services-->
-
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+    <!--Services-->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/rehabilitacion_integral.jpg" alt="Natación infantil">
@@ -653,11 +380,11 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
-                <!-- Service -->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+    <!-- Service -->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/terapia_ocupacional.jpg" alt="Natación infantil">
@@ -666,10 +393,10 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <!--Service-->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+    <!--Service-->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/Fonoaudiología.jpg" alt="Natación infantil">
@@ -678,10 +405,10 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <!--Service-->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+    <!--Service-->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/psicologia.jpg" alt="Natación infantil">
@@ -690,10 +417,10 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <!--Service-->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+    <!--Service-->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/psiquiatria_infantil.jpg" alt="Natación infantil">
@@ -702,8 +429,8 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
-                <!--
+                </div> -->
+    <!--
 				<div class="col-xl-4 col-md-6 service_col">
 					<div class="service text-center">
 						<div class="service">
@@ -718,8 +445,8 @@ COLOR VERDE PASSUS #00A54F -->
 					</div>
 				</div>
                 -->
-                <!-- Service -->
-                <!--
+    <!-- Service -->
+    <!--
 				<div class="col-xl-4 col-md-6 service_col">
 					<div class="service text-center">
 						<div class="service">
@@ -734,30 +461,29 @@ COLOR VERDE PASSUS #00A54F -->
 					</div>
 				</div>
                 -->
-            </div>
-        </div>
+    <!-- </div>
+        </div> -->
 
 
 
-        <!-- Services Divertido -->
+    <!-- Services Divertido -->
 
-        <div class="container" id="divertido_index">
+    <!-- <div class="container" id="divertido_index">
             <div class="row">
                 <div class="col text-center">
                     <div class="section_title_container">
                         <div class="section_title">
-                            <h2 class="passus_servicios">Nuestros servicios Passus Divertido
+                            <h2 class="passus_servicios_indexDivertido">Nuestros servicios Passus Divertido
                                 <hr class="hr">
                             </h2>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row services_row justify-content-center">
+            </div> -->
+    <!-- <div class="row services_row justify-content-center"> -->
 
-                <!--Services-->
-
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+    <!--Services-->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/acuamotricidad.jpg" alt="Natación infantil">
@@ -766,10 +492,10 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <!-- Service -->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+    <!-- Service -->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/natacion_infantil.jpg" alt="Natación infantil">
@@ -778,11 +504,36 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
-                <!--Service-->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+    <!-- Services -->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
+                    <div class="service text-center divtamano_index">
+                        <div class="divservicios_index">
+                            <img class="imgservicios_index" src="images/img-servicios/acuamotricidad.jpg" alt="Natación infantil">
+                            <a href="natacion-infantil.html" class="leer-mas">
+                                <button>Ver más...</button>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+
+    <!-- Service -->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
+                    <div class="service text-center divtamano_index">
+                        <div class="divservicios_index">
+                            <img class="imgservicios_index" src="images/img-servicios/natacion_infantil.jpg" alt="Natación infantil">
+                            <a href="natacion-infantil.html" class="leer-mas">
+                                <button>Ver más...</button>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+
+
+    <!--Service-->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/natacion_jovenes_adultos.jpg" alt="Natación infantil">
@@ -791,10 +542,10 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <!--Service-->
-                <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
+    <!--Service-->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                         <div class="service text-center divtamano_index">
                             <div class="divservicios_index">
                                 <img class="imgservicios_index" src="images/img-servicios/acuafiestas.jpg" alt="Natación infantil">
@@ -805,8 +556,8 @@ COLOR VERDE PASSUS #00A54F -->
                         </div>
                     </div> -->
 
-                <!--Service-->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+    <!--Service-->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/yoga.jpg" alt="Natación infantil">
@@ -815,10 +566,10 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <!--Service-->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+    <!--Service-->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/yoga_acuatico.jpg" alt="Natación infantil">
@@ -827,10 +578,10 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <!--Service-->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+    <!--Service-->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/pilates.jpg" alt="Natación infantil">
@@ -839,9 +590,9 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
-                <!--Service-->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+                </div> -->
+    <!--Service-->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/pilates_acuatico.jpg" alt="Natación infantil">
@@ -850,9 +601,9 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
-                <!--Service-->
-                <div class="col-xl-4 col-md-6 service_col_divertido">
+                </div> -->
+    <!--Service-->
+    <!-- <div class="col-xl-4 col-md-6 service_col_divertido">
                     <div class="service text-center divtamano_index">
                         <div class="divservicios_index">
                             <img class="imgservicios_index" src="images/img-servicios/mindfulnes.jpg" alt="Natación infantil">
@@ -861,10 +612,10 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
-                <!-- Service -->
-                <!--
+    <!-- Service -->
+    <!--
 				<div class="col-xl-4 col-md-6 service_col">
 					<div class="service text-center">
 						<div class="service">
@@ -880,66 +631,66 @@ COLOR VERDE PASSUS #00A54F -->
 				</div>
                 -->
 
-            </div>
-        </div>
+    <!-- </div> -->
+    <!-- </div> -->
 
-        <div class="services" id="aliados_index">
-            <div class="container">
-                <div class="row">
-                    <div class="col text-center">
-                        <div class="section_title_container">
-                            <div class="section_title">
-                                <h2>Nuestros Aliados
-                                    <hr class="hr_aliados">
-                                </h2>
-                                <br>
-                                <p class="parrafo">En Passus, trabajamos junto a las principales EPS de Colombia para ofrecerte atención médica de calidad y accesible, garantizando tu bienestar y satisfacción en todo momento.</p>
-                            </div>
+    <div class="services" id="aliados_index">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="section_title_container">
+                        <div class="section_title">
+                            <h2>Nuestros Aliados
+                                <hr class="hr_aliados">
+                            </h2>
+                            <br>
+                            <p class="parrafo">En Passus, trabajamos junto a las principales EPS de Colombia para ofrecerte atención médica de calidad y accesible, garantizando tu bienestar y satisfacción en todo momento.</p>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- Fila de imágenes centradas con ajuste en dispositivos pequeños -->
-                <div class="row services_row justify-content-center g-1">
-                    <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
-                        <img src="images/aliados/ALIANSALUD.png" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
-                        <img src="images/aliados/ASMET_SALUD.jpg?v=1" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
-                        <img src="images/aliados/BOLIVAR.png" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
-                        <img src="images/aliados/CAFAM.png" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
-                        <img src="images/aliados/COLMEDICA.png" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
-                        <img src="images/aliados/Compensar logo.jpg" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
-                    </div>
+            <!-- Fila de imágenes centradas con ajuste en dispositivos pequeños -->
+            <div class="row services_row justify-content-center g-1">
+                <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
+                    <img src="images/aliados/ALIANSALUD.png" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
                 </div>
+                <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
+                    <img src="images/aliados/ASMET_SALUD.jpg?v=1" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
+                </div>
+                <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
+                    <img src="images/aliados/BOLIVAR.png" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
+                </div>
+                <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
+                    <img src="images/aliados/CAFAM.png" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
+                </div>
+                <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
+                    <img src="images/aliados/COLMEDICA.png" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
+                </div>
+                <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
+                    <img src="images/aliados/Compensar logo.jpg" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
+                </div>
+            </div>
 
-                <div class="row services_row2 justify-content-center g-1">
-                    <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
-                        <img src="images/aliados/fomag.png" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
-                        <img src="images/aliados/FAMISANAR.PNG" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
-                        <img src="images/aliados/NUEVA_EPS.jpg" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
-                        <img src="images/aliados/SANITAS.png" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
-                    </div>
-                    <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
-                        <img src="images/aliados/SURA.png" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
-                    </div>
+            <div class="row services_row2 justify-content-center g-1">
+                <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
+                    <img src="images/aliados/fomag.png" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
+                </div>
+                <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
+                    <img src="images/aliados/FAMISANAR.PNG" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
+                </div>
+                <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
+                    <img src="images/aliados/NUEVA_EPS.jpg" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
+                </div>
+                <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
+                    <img src="images/aliados/SANITAS.png" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
+                </div>
+                <div class="col-lg-2 col-md-4 col-4 mb-2 d-flex justify-content-center">
+                    <img src="images/aliados/SURA.png" class="w-75 shadow-1-strong rounded mb-2 logo-ajustado" />
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 

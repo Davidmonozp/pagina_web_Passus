@@ -6,6 +6,8 @@
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css?v=1.1">
 <link rel="stylesheet" type="text/css" href="styles/core.css?v=1.4">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css?v=1.1">
+<link rel="stylesheet" type="text/css" href="styles//servicios.css">
+
 <body>
 
 <div class="super_container">
@@ -16,7 +18,7 @@
 
 	<!-- Home -->
 
-	<div class="home d-flex flex-column align-items-start justify-content-end" style="background-color: rgba(44, 62, 80, 0); ">
+	<!-- <div class="home d-flex flex-column align-items-start justify-content-end" style="background-color: rgba(44, 62, 80, 0); ">
 		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/nosotros-img/quienes-somos-1.png" data-speed="0.8"></div>
 		<div class="home_container">
 			<div class="container">
@@ -29,8 +31,18 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
+	<section class="hero-banner-quienesSomos">
+            <div class="hero-overlay">
+                <h1>Quiénes somos
+                    <hr class="quienesSomos">
+                </h1>
+                <a href="nosotros-resena-historica.php">
+                    <button class="reflected-button">Reseña Histórica</button>
+                </a>
+            </div>
+        </section>
 	<!-- Intro -->
 
 	<div class="intro" id="quienes_somos">

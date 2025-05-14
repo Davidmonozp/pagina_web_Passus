@@ -6,6 +6,10 @@
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css?v=1.1">
 <link rel="stylesheet" type="text/css" href="styles/core.css?v=1.3">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css?v=1.1">
+<link rel="stylesheet" type="text/css" href="styles//servicios.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
 </head>
 
 <body>
@@ -19,7 +23,7 @@
 
 		<!-- Home -->
 
-		<div class="home d-flex flex-column align-items-start justify-content-end" style="background-color: rgba(44, 62, 80, 0); ">
+		<!-- <div class="home d-flex flex-column align-items-start justify-content-end" style="background-color: rgba(44, 62, 80, 0); ">
 			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/nosotros.jpeg" data-speed="0.8"></div>
 			<div class="home_container">
 				<div class="container">
@@ -32,7 +36,32 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
+		<section class="hero-banner-contactanos">
+
+			<div class="hero-overlay">
+				<!-- Redes Sociales -->
+				<div class="social-icons">
+					<a href="https://www.tiktok.com/@passusipscolombia" target="_blank"><i class="fab fa-tiktok"></i></a>
+					<a href="https://www.facebook.com/passsusipscolombia?_rdc=1&_rdr#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://www.instagram.com/passusipscolombia/?igsh=dm1tdWJuMHEzMGU%3D#" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="https://www.youtube.com/@passusipscolombia" target="_blank"><i class="fab fa-youtube"></i></a>
+					<a href="https://www.linkedin.com/in/passuscolombia" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+					<a href="mailto:contacto@tuempresa.com"><i class="fas fa-envelope"></i></a>
+				</div>
+				<h1>Contáctanos
+					<hr>
+				</h1>
+				
+					<a href="servicios_passusIPS.php">
+						<button class="reflected-button">Servicios Passus IPS</button>
+					</a>
+				</div>
+
+
+			</div>
+		</section>
+
 
 		<!-- Contact -->
 
@@ -140,7 +169,7 @@
 								<p>Hidroterapia</p>
 							</div>
 							<div class="card">
-							<img src="images/rehabilitacion-icono.png" alt="" class="card-img">
+								<img src="images/rehabilitacion-icono.png" alt="" class="card-img">
 								<p>Prog.Rehabilitación</p>
 							</div>
 

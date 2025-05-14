@@ -40,18 +40,18 @@
 2. Body and some general stuff
 *********************************/
 html {
-    height: 100%;
-    margin: 0;
+	height: 100%;
+	margin: 0;
 }
 
 .super_container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 main {
-    flex: 1;
+	flex: 1;
 }
 
 
@@ -66,9 +66,9 @@ main {
 
 body {
 	height: 100%;
-    margin: 0;
+	margin: 0;
 	/* font-family: 'Montserrat', sans-serif; */
-	font-family: 'Source Sans Pro', sans-serif;	
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -82,8 +82,9 @@ div {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
 .nav-item .nav-link {
-    font-weight: 600;  
+	font-weight: 600;
 }
 
 ul {
@@ -99,7 +100,7 @@ ol {
 
 p {
 	/* font-family: 'Montserrat', sans-serif; */
-	font-family: 'Source Sans Pro', sans-serif;	
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	line-height: 2.14;
 	font-weight: 500;
@@ -174,17 +175,20 @@ h2 {
 	color: #00249c;
 	/* color: #188c41; */
 }
+
 .preguntas {
-    font-size: 28px;
-    text-align: center;
+	font-size: 28px;
+	text-align: center;
 }
-.titulo_sedes{
-		margin-top: 3vh;	
+
+.titulo_sedes {
+	margin-top: 3vh;
 }
+
 .img_sedes {
-    width: 100%; 
-    height: auto;
-    display: block;
+	width: 100%;
+	height: auto;
+	display: block;
 }
 
 h3 {
@@ -209,7 +213,7 @@ h4,
 h5,
 h6 {
 	/* font-family: 'Montserrat', sans-serif; */
-	font-family: 'Source Sans Pro', sans-serif;	
+	font-family: 'Source Sans Pro', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
@@ -409,6 +413,7 @@ section {
 
 .section_title {
 	margin-top: 9px;
+	margin-bottom: -6px;
 }
 
 .passus_servicios {
@@ -424,7 +429,7 @@ section {
 }
 
 .parrafo_ser {
-	font-size: 16px;
+	font-size: 17px;
 	margin-bottom: 20px;
 }
 
@@ -435,19 +440,21 @@ section {
 
 .hr {
 	/* border-top: 2px solid #0289cc; */
-	border-top: 2px solid #188c41;	
+	border-top: 2px solid #188c41;
 	width: 35%;
 	margin: 0 auto;
 }
+
 .hr_preguntasIPS {
-    border-top: 1px solid #188c41;
-    width: 17%;
-    margin: -10px auto 21px;
+	border-top: 1px solid #188c41;
+	width: 17%;
+	margin: -10px auto 21px;
 }
+
 .hr_preguntas {
-    border-top: 1px solid #188c41;
-    width: 25%;
-    margin: -10px auto 21px;
+	border-top: 1px solid #188c41;
+	width: 25%;
+	margin: -10px auto 21px;
 }
 
 .hr_por_que {
@@ -461,16 +468,19 @@ section {
 	width: 40%;
 	margin: 0;
 }
+
 .hr_aliados {
 	border-top: 2px solid #188c41;
 	width: 17%;
 	margin: 0 auto;
 }
+
 .hr_subtitulo_preguntas {
-    border-top: 2px solid #188c41;
-    width: 36%;
-    margin: 0;
+	border-top: 2px solid #188c41;
+	width: 36%;
+	margin: 0;
 }
+
 .hr_politicas {
 	border-top: 2px solid #188c41;
 	width: 18%;
@@ -491,54 +501,57 @@ section {
 	margin-top: 0px;
 	margin-bottom: 30px;
 	padding-top: 27px;
-    padding-bottom: 27px;
-  }
-  .cards-container h4{
+	padding-bottom: 27px;
+}
+
+.cards-container h4 {
 	width: 100%;
 	text-align: center;
 	/* font-weight: bold; */
-  }
-  .cards-container p {
+}
+
+.cards-container p {
 	text-align: center;
 	font-weight: bold;
 	color: #00249c;
-  }
-  
+}
 
-  
-  .card {
+
+
+.card {
 	background-color: white;
 	border-radius: 8px;
 	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-	padding: 8px; 
+	padding: 8px;
 	box-sizing: border-box;
-	width: calc(30% - 10px); 
+	width: calc(30% - 10px);
 	min-width: 140px;
-	height: 16vh; 
+	height: 16vh;
 	transition: transform 0.2s;
-  }
-  
-  .card:hover {
+}
+
+.card:hover {
 	transform: scale(1.03);
 	background-color: #f0f8ff;
-  }
-  
-  .card p {
-	text-align: center;
-	font-size: 13px; 
-	margin: -11px 0 0;
-  }
+}
 
-  
-  .card-img {
-	width: 40px; /* imagen más pequeña */
+.card p {
+	text-align: center;
+	font-size: 13px;
+	margin: -11px 0 0;
+}
+
+
+.card-img {
+	width: 40px;
+	/* imagen más pequeña */
 	height: 40px;
 	object-fit: cover;
 	border-radius: 6px;
 	display: block;
 	margin: 0 auto 8px auto;
-  }
-  
+}
+
 
 /*********************************
 6. Intro
@@ -547,13 +560,16 @@ section {
 #carouselExampleControls {
 	margin-top: -76px;
 }
+
 .intro {
-    width: 100%;
-    background: #FFFFFF;
-    padding-top: 0px;
-    padding-bottom: 90px;
-    margin-top: -153px;
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 0px;
+	padding-bottom: 90px;
+	margin-bottom: -124px;
+	margin-top: -153px;
 }
+
 /* .intro {
 	width: 100%;
 	background: #FFFFFF;
@@ -562,8 +578,8 @@ section {
 } */
 
 .intro_content {
-    padding-top: 0px;
-    margin-top: -72px;
+	padding-top: 0px;
+	margin-top: 35px;
 }
 
 .milestones {
@@ -719,7 +735,8 @@ section {
 
 .why {
 	width: 100%;
-	background: #f1f1f1;;
+	background: #f1f1f1;
+	;
 	margin-top: 45px;
 }
 
@@ -733,25 +750,27 @@ section {
 	margin-top: 33px;
 	margin-bottom: 21px;
 }
+
 .why_text_trabaja {
-    margin-top: -145px;
-    margin-bottom: 136px;
+	margin-top: -145px;
+	margin-bottom: 136px;
 }
 
 .why_list {
-	margin-top: 37px;
+	margin-top: 67px;
 }
 
 .why_list ul li:not(:last-of-type) {
 	margin-bottom: 31px;
 }
+
 .why_list ul li {
-    transition: transform 0.3s ease;
+	transition: transform 0.3s ease;
 }
 
 .why_list ul li:hover {
-    transform: scale(1.05);
-    z-index: 1;
+	transform: scale(1.05);
+	z-index: 1;
 }
 
 .why-trabaja-nosotros {
@@ -770,13 +789,13 @@ section {
 /* Estilos contenedor de iconos index debajo de "¿Porque elegirnos?"*/
 
 .icon_container_index {
-    width: 61px;
-    height: 61px;
-    border-radius: 50%;
-    /* background: #009671; */
+	width: 61px;
+	height: 61px;
+	border-radius: 50%;
+	/* background: #009671; */
 	background: #f1f1f1;
 	/* background: #004985; */
-    justify-content: center;
+	justify-content: center;
 	border: 2px solid #a5b3b9;
 }
 
@@ -797,10 +816,10 @@ section {
 
 /* Estilos iconos img index debajo de "¿Porque elegirnos?"*/
 .icon_index img {
-    max-width: 31px;
-    /* max-width: 30px; */
-    margin-left: -4px;
-    margin-top: -6px;
+	max-width: 31px;
+	/* max-width: 30px; */
+	margin-left: -4px;
+	margin-top: -6px;
 }
 
 .why_list_content {
@@ -884,19 +903,173 @@ section {
 	margin-bottom: 20px;
 	border-radius: 20px;
 }
+
+.hero-banner-derechosDeberes {
+	background-image: url(/pagina_passus/images/nosotros-img/derechos-deberes-2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 96vh;
+	position: relative;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.hero-banner-nuestrasPoliticas {
+	background-image: url(/pagina_passus/images/nosotros-img/nuestras-politicas-1.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 130vh;
+	position: relative;
+	width: 100%;
+	margin-top: -57px;
+}
+
+.hero-banner-preguntas {
+	background-image: url(/pagina_passus/images/nosotros-img/preguntas-frecuentes-2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 96vh;
+	position: relative;
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 48px;
+}
+
+.hero-banner-quienesSomos {
+	background-image: url(/pagina_passus/images/nosotros-img/quienes-somos-1.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 96vh;
+	position: relative;
+	width: 100%;
+	margin-top: 37px;
+	margin-bottom: 170px;
+}
+
+.hero-banner-participacion {
+	background-image: url(/pagina_passus/images/nosotros-img/participacion-ciudadana-1.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 96vh;
+	position: relative;
+	width: 100%;
+	margin-top: 37px;
+	margin-bottom: 153px;
+}
+
+.hero-banner-trabajaNosotros {
+	background-image: url(/pagina_passus/images/home/home_slider_4.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 96vh;
+	position: relative;
+	width: 100%;
+	margin-top: 55px;
+	margin-bottom: 153px;
+}
+
+.hero-banner-contactanos {
+	background-image: url(/pagina_passus/images/Banner-contactanos1.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 94vh;
+	position: relative;
+	width: 100%;
+	margin-top: 39px;
+	margin-bottom: 153px;
+}
+
+hr.quienesSomos {
+	width: 165px !important;
+	margin-top: -2px !important;
+}
+
+.hero-overlay {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 20px;
+}
+
+.hero-overlay h1 {
+	color: white;
+	font-weight: bold;
+	font-size: 2.5rem;
+	text-align: center;
+	margin: 73vh 0 0 0;
+}
+
+.hero-overlay h1 hr {
+	border: none;
+	height: 2px;
+	background-color: white;
+	width: 43vh;
+	margin: 10px auto 0;
+}
+
+/* CONTACTANOS */
+.social-icons {
+	position: absolute;
+	top: 61%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.social-icons a {
+	font-size: 28px;
+	color: #ffffff;
+	background-color: #716d6d34;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	border: 1px solid #ffffff;
+}
+
+.social-icons a i {
+	line-height: 60px;
+}
+
+.social-icons a:hover {
+	background-color: #474747;
+	color: #ffffff;
+	transform: scale(1.1);
+}
+
+
+/* FIN CONTACTANOS */
+
 .services {
 	background: #FFFFFF;
 	padding-top: 16px;
 	padding-bottom: 25px;
-	padding-right: 10px;	
+	padding-right: 10px;
 }
 
 
 .services_row {
 	width: 100%;
 	margin-top: 68px;
-	/* padding-right: 88px;
-    padding-left: 88px; */
 }
 
 .service_col {
@@ -916,40 +1089,253 @@ section {
 }
 
 .divservicios {
-    position: relative;
-    display: inline-block;
+	position: relative;
+	display: inline-block;
 }
 
 .imgservicios {
-    width: 100%;
-    display: block;
-    border-radius: 8px;
+	width: 100%;
+	display: block;
+	border-radius: 8px;
 }
 
 
 /* Estilo base del botón "Leer más..." */
 .leer-mas button {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #007bff;  /* Azul sólido por defecto */
-    color: white;               /* Texto blanco */
-    border: none;
-    padding: 12px 0;
-    font-weight: 600;
-    border-radius: 0 0 20px 20px;
-    cursor: pointer;
-    overflow: hidden;  /* Para evitar que el contenido se salga del botón */
-    transition: box-shadow 2.5s ease, color 1.5s ease;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #007bff;
+	/* Azul sólido por defecto */
+	color: white;
+	/* Texto blanco */
+	border: none;
+	padding: 12px 0;
+	font-weight: 600;
+	border-radius: 0 0 20px 20px;
+	cursor: pointer;
+	overflow: hidden;
+	/* Para evitar que el contenido se salga del botón */
+	transition: box-shadow 2.5s ease, color 1.5s ease;
 }
 
 /* Hover: el color de fondo desaparece de izquierda a derecha */
 .leer-mas button:hover {
-    color: #ffffff;  
-    background: transparent; 
-    box-shadow: inset 1000px 0 0 0 #188c41, inset -1000px 0 0 0 #188c41; 
+	color: #ffffff;
+	background: transparent;
+	box-shadow: inset 1000px 0 0 0 #188c41, inset -1000px 0 0 0 #188c41;
 }
+
+
+
+
+
+.accordion-grid-derechos {
+	display: grid;
+	grid-template-columns: 640px 1fr;
+	gap: 40px;
+	max-width: 1200px;
+	margin: 50px auto;
+	align-items: start;
+	padding: 20px;
+}
+
+.accordion-grid-deberes {
+	display: grid;
+	grid-template-columns: 1fr 640px;
+	gap: 40px;
+	max-width: 1200px;
+	margin: 50px auto;
+	align-items: start;
+	padding: 20px;
+}
+
+.accordion-grid-preguntas {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+	max-width: 1200px;
+	margin: 0px auto;
+	align-items: start;
+	padding: 20px;
+}
+
+.custom-accordion {
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.custom-accordion label {
+	padding: 18px 30px 3px 21px;
+	position: relative;
+	display: block;
+	height: auto;
+	cursor: pointer;
+	color: #007bff;
+	line-height: 33px;
+	font-size: 19px;
+	background: #f8faf9;
+	box-shadow: 0px 1px 1px 0px #ccc;
+}
+
+.modo_oscuro-govco .custom-accordion label {
+	color: #dbdada;
+	background: #000000;
+	box-shadow: 0px 1px 1px 0px #ccc;
+}
+
+label[for="cad-1"],
+label[for="cad-2"],
+label[for="cad-8"],
+label[for="cad-9"],
+{
+height: 83px;
+}
+
+.custom-accordion label:hover {
+	color: #fff;
+	background: #00A54F;
+}
+
+.custom-accordion label:before {
+	content: "+";
+	font-size: 1.5em;
+	line-height: 0.5em;
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+	transition: transform 0.3s ease-in-out;
+}
+
+.custom-accordion input+label {
+	transition: all 0.3s ease-in-out;
+}
+
+.custom-accordion input:checked+label,
+.custom-accordion input:checked+label:hover {
+	margin-bottom: 1px;
+	background: #F1F1F1;
+	color: #00A54F;
+}
+
+.modo_oscuro-govco .custom-accordion input:checked+label,
+.modo_oscuro-govco .custom-accordion input:checked+label:hover {
+	margin-bottom: 1px;
+	background:  #00A54F;
+	color: #ffffff;
+}
+
+.custom-accordion input {
+	display: none;
+}
+
+.custom-accordion .custom-article {
+	background: #f4f4f4;
+	overflow: hidden;
+	height: 0px;
+	transition: all 0.3s ease-in-out;
+}
+
+.custom-accordion .custom-article p {
+	/* font-style: italic; */
+	color: #473f3f;
+	line-height: 23px;
+	font-size: 14px;
+	padding: 20px;
+	margin-bottom: -28px;
+}
+
+
+.custom-accordion input:checked~.custom-article {
+	transition: all 0.5s ease-in-out;
+	padding: 25px;
+}
+
+.custom-accordion input:checked~.custom-article.custom-small {
+	height: auto;
+	color: #363636;
+}
+
+.custom-accordion input:checked~.custom-article.custom-medium {
+	height: auto;
+	color: #363636;
+}
+
+.custom-accordion input:checked~.custom-article.custom-large {
+	height: auto;
+	color: #363636;
+}
+.modo_oscuro-govco .custom-accordion input:checked ~ .custom-article.custom-small,
+.modo_oscuro-govco .custom-accordion input:checked ~ .custom-article.custom-medium,
+.modo_oscuro-govco .custom-accordion input:checked ~ .custom-article.custom-large {
+    color: #ffffff;
+    background-color: #1a1919;
+    border-left: 4px solid #ffffff;
+}
+
+.accordion-image {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.accordion-image img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 20px;
+	/* esquinas redondeadas, opcional */
+	box-shadow: 0 9px 12px rgba(0, 0, 0, 0.2);
+	object-fit: cover;
+	margin-top: 27px;
+}
+
+.accordion-image-preguntas img {
+	max-width: 70%;
+	height: auto;
+	border-radius: 20px;
+	box-shadow: 0 9px 12px rgba(0, 0, 0, 0.2);
+	object-fit: cover;
+	margin-top: 27px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (max-width: 1199px) {
+	.accordion-image img {
+		max-width: 40vh;
+	}
+
+	.accordion-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.accordion-image {
+		order: 1;
+		/* Imagen primero */
+	}
+
+	.custom-accordion {
+		order: 2;
+		/* Acordeón después */
+	}
+
+	.accordion-grid-derechos {
+		display: grid;
+		grid-template-columns: 1fr 640px;
+		gap: 40px;
+		max-width: 1200px;
+		margin: 50px auto;
+		align-items: start;
+		padding: 20px;
+	}
+}
+
 
 
 
@@ -1033,7 +1419,7 @@ section {
 	align-items: center;
 	width: 90%;
 	max-width: 800px;
-    margin: 62px auto 82px auto;
+	margin: 62px auto 82px auto;
 }
 
 .logo-oferta img {
@@ -1178,54 +1564,58 @@ section {
 }
 
 .vacantes {
-    margin-bottom: -79px;
-    margin-top: -2px;
+	margin-bottom: -79px;
+	margin-top: -2px;
 }
 
 /* Mapa de sedes google maps */
 #location {
-    text-align: center;
-    padding: 20px;
-    margin-top: 4vh;
+	text-align: center;
+	padding: 20px;
+	margin-top: 4vh;
 }
 
 #location h5 {
-    font-size: 1.2rem;
-    margin-bottom: 15px;
+	font-size: 1.2rem;
+	margin-bottom: 15px;
 }
 
 .map-container {
-    max-width: 550px;
-    margin: 0 auto;
-    position: relative;
-    padding-bottom: 40%; /* más bajo que 56.25% */
-    height: 0;
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	max-width: 550px;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 40%;
+	/* más bajo que 56.25% */
+	height: 0;
+	overflow: hidden;
+	border-radius: 8px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .map-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
 }
+
 .contact_info ul {
-    list-style: none;
-    margin-bottom: 0px;
-    margin-top: 60px;
+	list-style: none;
+	margin-bottom: 0px;
+	margin-top: 60px;
 }
 
 .text-center {
-    text-align: center !important;
-    margin-bottom: 44px;
+	text-align: center !important;
+	margin-bottom: 44px;
 }
-#nuestras_politicas{
+
+#nuestras_politicas {
 	margin-top: -109px;
 }
+
 #participacion_ciudadana {
 	margin-top: -84px;
 }
@@ -1760,12 +2150,14 @@ section {
 	font-size: 16px;
 	margin: 0px;
 }
+
 .modo_oscuro-govco .cards-container,
 .modo_oscuro-govco .contact_content {
-    background-color: gray;
+	background-color: gray;
 }
+
 .modo_oscuro-govco .cards-container img {
-    filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
 }
 
 
@@ -1835,6 +2227,15 @@ section {
 	background-color: #595c5c;
 }
 
+.modo_oscuro-govco .timeline ul li:nth-child(odd) div::before {
+	border-color: transparent #595c5c transparent transparent;
+}
+
+.modo_oscuro-govco .timeline ul li:nth-child(even) div::before {
+	border-color: transparent transparent transparent #595c5c;
+}
+
+
 .modo_oscuro-govco .timeline ul li {
 	background: #2ff9cb;
 }
@@ -1863,6 +2264,7 @@ section {
 
 
 
+
 .modo_oscuro-govco input,
 .modo_oscuro-govco select,
 .modo_oscuro-govco textarea {
@@ -1882,13 +2284,15 @@ section {
 }
 
 .modo_oscuro-govco .card {
-    background-color: #000000; 
-    color: white; 
-    border-color: gray; 
+	background-color: #000000;
+	color: white;
+	border-color: gray;
 }
+
 .modo_oscuro-govco .card:hover {
-    background-color: #2e2e2e; 
+	background-color: #2e2e2e;
 }
+
 /* Estilos para el footer en modo oscuro */
 
 #footer.modo_oscuro-govco {
@@ -1934,5 +2338,3 @@ section {
 #para-mirar.modo_oscuro-govco a {
     color: #0ff !important;
 } */
-
-

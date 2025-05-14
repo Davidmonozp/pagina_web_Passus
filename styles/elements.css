@@ -704,6 +704,7 @@ section {
 	margin-top: 1px;
 }
 
+
 /*********************************
 6. Elements
 *********************************/
@@ -872,8 +873,10 @@ BOTON ASIGNA TUS CITAS
 /*********************************
 6.2 Elements - Accordions
 *********************************/
-.row{
-	margin-bottom: 20px;
+.row {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .accordions_and_tabs {
@@ -977,11 +980,15 @@ BOTON ASIGNA TUS CITAS
 	color: #000000;
 	line-height: 2.14;
 }
+.parrafo {
+	text-align: justify;
+}
 
 .parrafo_preguntas {
     margin-bottom: -8px !important;
 	margin-top: -28px;
 }
+
 /*********************************
 6.3 Elements - Tabs
 *********************************/
@@ -1333,16 +1340,18 @@ BOTON ASIGNA TUS CITAS
 }
 
 .imgservicios_index {
-
-	height: 100%;
 	width: 100%;
+	height: 100%;
+	object-fit: cover; /* Recorta para llenar el contenedor */
+	object-position: center top; /* Muestra más la parte de abajo */
 	border-radius: 20px;
+	display: block;
 }
 
 .divtamano_index {
 	box-shadow: 8px 5px 5px lightgrey;
 	height: 280px;
-	width: 300px;
+	width: 100%;
 	margin-bottom: 20px;
 	border-radius: 20px;
 }
@@ -1350,3 +1359,7 @@ BOTON ASIGNA TUS CITAS
 	transform: scale(1.03);
 	transition: transform 0.3s ease;
   }
+
+  .service_col_divertido {
+    margin-bottom: -29px;
+}

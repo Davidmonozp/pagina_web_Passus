@@ -6,6 +6,8 @@
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css?v=1.1">
 <link rel="stylesheet" type="text/css" href="styles/core.css?v=1.4">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css?v=1.1">
+<link rel="stylesheet" type="text/css" href="styles/servicios.css">
+
 
 <body>
 
@@ -18,7 +20,7 @@
 
 
 		<!-- Home -->
-
+		<!-- 
 		<div class="home d-flex flex-column align-items-start justify-content-end" style="background-color: rgba(44, 62, 80, 0); ">
 			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/nosotros-img/participacion-ciudadana-1.png" data-speed="0.8"></div>
 			<div class="home_container">
@@ -32,8 +34,17 @@
 					</div>
 				</div>
 			</div>
-		</div>
-
+		</div> -->
+		<section class="hero-banner-participacion">
+			<div class="hero-overlay">
+				<!-- <h1>Política de Participación ciudadana
+					<hr>
+				</h1> -->
+				<a href="trabaja-nosotros.php">
+					<button class="reflected-button">Trabaja con nosotros</button>
+				</a>
+			</div>
+		</section>
 		<!-- Services -->
 
 		<div class="services" id="participacion_ciudadana">
@@ -42,14 +53,14 @@
 					<div class="col text-center">
 						<div class="section_title_container">
 							<div class="section_title">
-								<h2 class="passus_servicios">Política de Participación ciudadana
+								<h2>Política de Participación ciudadana
 									<hr class="hr">
 								</h2>
 							</div>
 						</div>
 					</div>
-
 				</div>
+
 				<div class="row justify-content-center">
 					<div class="price_text">
 						<a href="uploads/PLAN_POLITICA_PARTICIPACION_2023.pdf" target="_blank"><span class="fa fa-external-link"></span>Política de Participación ciudadana-2023</a>

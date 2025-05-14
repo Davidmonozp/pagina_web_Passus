@@ -7,6 +7,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="styles/servicios.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 
@@ -113,7 +114,7 @@ COLOR VERDE PASSUS #00A54F -->
         <!-- REHABILITACION -->
         <div class="faq-grid-container" id="rehabilitacion">
             <div class="faq-grid-image">
-                <img src="images/img-servicios/rehabilitacion_PassusIPS.png" alt="Imagen de rehabilitacion">
+                <img id="rehabilitacion-image" src="images/img-servicios/rehabilitacion_PassusIPS.png" alt="Imagen de rehabilitacion">
             </div>
             <div class="faq-grid-text">
                 <h2>Programa de rehabilitación
@@ -126,7 +127,14 @@ COLOR VERDE PASSUS #00A54F -->
                 </p>
                 <div class="faq-accordion">
                     <div class="faq-accordion-item">
-                        <button id="faq-accordion-button-2" aria-expanded="false">
+                        <button
+                            id="faq-accordion-button-2"
+                            aria-expanded="false"
+                            data-target-image="rehabilitacion-image"
+                            data-expanded-src="images/img-servicios/terapiaFisica_PassusIPS.png"
+                            data-expanded-alt="Imagen de terapia fisica"
+                            data-initial-src="images/img-servicios/rehabilitacion_PassusIPS.png"
+                            data-initial-alt="Imagen de RH">
                             <span class="faq-accordion-title">Terapia física</span>
                             <span class="faq-icon" aria-hidden="true"></span>
                         </button>
@@ -139,7 +147,14 @@ COLOR VERDE PASSUS #00A54F -->
                 </div>
                 <div class="faq-accordion">
                     <div class="faq-accordion-item">
-                        <button id="faq-accordion-button-2" aria-expanded="false">
+                        <button
+                            id="faq-accordion-button-2"
+                            aria-expanded="false"
+                            data-target-image="rehabilitacion-image"
+                            data-expanded-src="images/img-servicios/terapiaOcupacional_PassusIPS.png"
+                            data-expanded-alt="Imagen de terapia ocupacional"
+                            data-initial-src="images/img-servicios/rehabilitacion_PassusIPS.png"
+                            data-initial-alt="Imagen de RH">
                             <span class="faq-accordion-title">Terapia ocupacional</span>
                             <span class="faq-icon" aria-hidden="true"></span>
                         </button>
@@ -156,7 +171,14 @@ COLOR VERDE PASSUS #00A54F -->
                 </div>
                 <div class="faq-accordion">
                     <div class="faq-accordion-item">
-                        <button id="faq-accordion-button-2" aria-expanded="false">
+                        <button
+                            id="faq-accordion-button-2"
+                            aria-expanded="false"
+                            data-target-image="rehabilitacion-image"
+                            data-expanded-src="images/img-servicios/psicologia_PassusIPS.png"
+                            data-expanded-alt="Imagen de psicologia"
+                            data-initial-src="images/img-servicios/rehabilitacion_PassusIPS.png"
+                            data-initial-alt="Imagen de RH">
                             <span class="faq-accordion-title">Psicología</span>
                             <span class="faq-icon" aria-hidden="true"></span>
                         </button>
@@ -173,7 +195,14 @@ COLOR VERDE PASSUS #00A54F -->
                 </div>
                 <div class="faq-accordion">
                     <div class="faq-accordion-item">
-                        <button id="faq-accordion-button-2" aria-expanded="false">
+                        <button
+                            id="faq-accordion-button-2"
+                            aria-expanded="false"
+                            data-target-image="rehabilitacion-image"
+                            data-expanded-src="images/img-servicios/fonoaudiologia_PassusIPS.png"
+                            data-expanded-alt="Imagen de fonoaudiologia"
+                            data-initial-src="images/img-servicios/rehabilitacion_PassusIPS.png"
+                            data-initial-alt="Imagen de RH">
                             <span class="faq-accordion-title">Fonoaudiología</span>
                             <span class="faq-icon" aria-hidden="true"></span>
                         </button>
@@ -201,7 +230,14 @@ COLOR VERDE PASSUS #00A54F -->
                 </p>
                 <div class="faq-accordion">
                     <div class="faq-accordion-item">
-                        <button id="faq-accordion-button-2" aria-expanded="false">
+                        <button 
+                            id="faq-accordion-button-2"
+                            aria-expanded="false"
+                            data-target-image="consultaExterna-image"
+                            data-expanded-src="images/img-servicios/neuropediatria_PassusIPS.png"
+                            data-expanded-alt="Imagen de fonoaudiologia"
+                            data-initial-src="images/img-servicios/consulta_externa.png"
+                            data-initial-alt="Imagen de consulta externa">
                             <span class="faq-accordion-title">Neuropediatría</span>
                             <span class="faq-icon" aria-hidden="true"></span>
                         </button>
@@ -214,7 +250,14 @@ COLOR VERDE PASSUS #00A54F -->
                 </div>
                 <div class="faq-accordion">
                     <div class="faq-accordion-item">
-                        <button id="faq-accordion-button-2" aria-expanded="false">
+                        <button 
+                            id="faq-accordion-button-2"
+                            aria-expanded="false"
+                            data-target-image="consultaExterna-image"
+                            data-expanded-src="images/img-servicios/psiquiatria_PassusIPS.png"
+                            data-expanded-alt="Imagen de psiquiatría infantil y adolescente"
+                            data-initial-src="images/img-servicios/consulta_externa.png"
+                            data-initial-alt="Imagen de consulta externa">
                             <span class="faq-accordion-title">Psiquiatría infantil y adolescente</span>
                             <span class="faq-icon" aria-hidden="true"></span>
                         </button>
@@ -231,7 +274,14 @@ COLOR VERDE PASSUS #00A54F -->
                 </div>
                 <div class="faq-accordion">
                     <div class="faq-accordion-item">
-                        <button id="faq-accordion-button-2" aria-expanded="false">
+                        <button 
+                            id="faq-accordion-button-2"
+                            aria-expanded="false"
+                            data-target-image="consultaExterna-image"
+                            data-expanded-src="images/img-servicios/fisiatria_PassusIPS.png"
+                            data-expanded-alt="Imagen de fisiatria"
+                            data-initial-src="images/img-servicios/consulta_externa.png"
+                            data-initial-alt="Imagen de consulta externa">
                             <span class="faq-accordion-title">Fisiatría</span>
                             <span class="faq-icon" aria-hidden="true"></span>
                         </button>
@@ -248,7 +298,7 @@ COLOR VERDE PASSUS #00A54F -->
                 </div>
             </div>
             <div class="faq-grid-image">
-                <img src="images/img-servicios/consulta_externa.png" alt="Imagen de consulta externa">
+                <img id="consultaExterna-image" src="images/img-servicios/consulta_externa.png" alt="Imagen de consulta externa">
             </div>
         </div>
         <!-- FIN CONSULTA EXTERNA -->
