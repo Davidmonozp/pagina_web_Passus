@@ -272,7 +272,7 @@
 
 						<div class="custom-accordion">
 							<h3>
-								Passus Divertido
+								Passus Bienestar
 								<hr class="hr_subtitulo">
 							</h3>
 
@@ -348,6 +348,8 @@
 	<?php include('includes/_js.php'); ?>
 	<script src="js/elements.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="js/accesibilidad.js"></script>
+
 </body>
 
 </html>

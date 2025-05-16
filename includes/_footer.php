@@ -21,7 +21,7 @@
 		<h4>Servicios</h4>
 		<ul>
 			<li><a href="servicios#servicios-ips">Passus IPS</a></li>
-			<li><a href="servicios#passus-divertido">Passus divertido</a></li><br><br>
+			<li><a href="servicios#passus-divertido">Passus Bienestar</a></li><br><br>
 			<li>
 				<p class="footer_passus">Somos una entidad especializada en salud y bienestar, enfocada en rehabilitación terapéutica integral, con un equipo altamente calificado y espacios diseñados para brindar atención de calidad. </p>
 			</li>

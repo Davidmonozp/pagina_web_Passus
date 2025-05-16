@@ -32,7 +32,7 @@ COLOR VERDE PASSUS #00A54F -->
                     <hr>
                 </h1>
                 <a href="servicios_passus_divertido.php">
-                    <button class="reflected-button">Servicios Passus Divertido</button>
+                    <button class="reflected-button">Servicios Passus Bienestar</button>
                 </a>
                 <!-- <button class="reflected-button">Passus Divertido</button> -->
             </div>
@@ -48,19 +48,7 @@ COLOR VERDE PASSUS #00A54F -->
                     Conocida como terapia hídrica, utiliza el agua para facilitar tu recuperación física y aliviar el dolor. <br>
                     En nuestras piscinas especializadas, realizamos ejercicios y terapias que aprovechan la temperatura y flotabilidad del agua para mejorar tu movilidad, reducir la inflamación y promover la relajación muscular.
                 </p>
-                <div class="faq-accordion">
-                    <!-- <div class="faq-accordion-item">
-                        <button id="faq-accordion-button-1" aria-expanded="false">
-                            <span class="faq-accordion-title">¿Qúe es?</span>
-                            <span class="faq-icon" aria-hidden="true"></span>
-                        </button>
-                        <div class="faq-accordion-content">
-                            <p>
-                                Conocido como terapia hídrica, utiliza el agua para facilitar tu recuperación física y aliviar el dolor. <br>
-                                En nuestras piscinas especializadas, realizamos ejercicios y terapias que aprovechan la temperatura y flotabilidad del agua para mejorar tu movilidad, reducir la inflamación y promover la relajación muscular.
-                            </p>
-                        </div>
-                    </div> -->
+                <div class="faq-accordion">                  
                     <div class="faq-accordion-item">
                         <button id="faq-accordion-button-2" aria-expanded="false">
                             <span class="faq-accordion-title">¿Cuál es su proposito general?</span>
@@ -117,7 +105,7 @@ COLOR VERDE PASSUS #00A54F -->
                 <img id="rehabilitacion-image" src="images/img-servicios/rehabilitacion_PassusIPS.png" alt="Imagen de rehabilitacion">
             </div>
             <div class="faq-grid-text">
-                <h2>Programa de rehabilitación
+                <h2>Programa de rehabilitación Integral
                     <hr>
                 </h2>
                 <p>

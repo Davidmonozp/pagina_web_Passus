@@ -17,7 +17,7 @@
 
 	<!-- Home -->
 
-	<div class="home d-flex flex-column align-items-start justify-content-end" style="background-color: rgba(44, 62, 80, 0); ">
+	<!-- <div class="home d-flex flex-column align-items-start justify-content-end" style="background-color: rgba(44, 62, 80, 0); ">
 		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/nosotros-img/manejo-datos-1.png" data-speed="0.8"></div>
 		<div class="home_container">
 			<div class="container">
@@ -30,7 +30,15 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
+
+	<section class="hero-banner-terminos_condiciones" id="hero_terminos_condiciones">
+			<div class="hero-overlay">
+				<h1 id="titulo_terminos_condiciones">Términos y condiciones de Servicio Web
+					<hr>
+				</h1>
+			</div>
+		</section>
 
 	<!-- Services -->
 

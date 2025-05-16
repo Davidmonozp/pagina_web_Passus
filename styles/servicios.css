@@ -9,28 +9,40 @@
     }
 }
 
+/* .hero-banner {
+    background-image: url(/pagina_passus/images/img-servicios/portada_serviciosIPS.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+} */
 .hero-banner {
     background-image: url(/pagina_passus/images/img-servicios/portada_serviciosIPS.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 96vh;
+    height: 83vh;
     position: relative;
     width: 100%;
+    margin-top: 106px;
 }
+
 .hero-banner-divertido {
     background-image: url(/pagina_passus/images/img-servicios/passusDivertido_banner.png);
     background-size: cover;
-    background-position: center 20%; /* Mueve la imagen hacia abajo */
+    background-position: center 20%;
+    /* Mueve la imagen hacia abajo */
     background-repeat: no-repeat;
-    height: 96vh;
+    height: 100vh;
     position: relative;
     width: 100%;
 }
 
 
 .hero-overlay {
-    position: relative; 
+    position: relative;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
@@ -42,13 +54,21 @@
     padding: 20px;
 }
 
+/* .hero-overlay h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 83vh 0 0 0;
+} */
 .hero-overlay h1 {
     color: white;
     font-weight: bold;
     font-size: 2.5rem;
     text-align: center;
-    margin: 73vh 0 0 0;
+    margin: 69vh 0 0 0;
 }
+
 .hero-overlay h1 hr {
     border: none;
     height: 2px;
@@ -62,8 +82,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     align-items: start;
-    padding: 15px;
-    max-width: 1200px;
+    padding: 15px 90px;
+    max-width: 100%;
     margin: -2vh auto;
 }
 
@@ -71,6 +91,7 @@
     width: 100%;
     margin-top: 10vh;
 }
+
 .faq-grid-image {
     margin-top: 12vh;
 }
@@ -193,24 +214,26 @@
         }
     }
 }
+
 .faq-accordion-content ul {
-    list-style-type: disc;          
-    list-style-position: outside;   
-    padding-left: 20px;             
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 20px;
     margin: 1em 0;
 }
 
 .faq-accordion-content ul li {
     display: list-item;
     word-break: normal;
-    font-size: 1rem;              
+    font-size: 1rem;
     line-height: 1.6;
     color: #363636;
     /* margin-bottom: 0.5em; */
 }
+
 .faq-accordion-content ul ul {
-    list-style: none;       
-    padding-left: 0;         
+    list-style: none;
+    padding-left: 0;
 }
 
 .faq-accordion-content ul ul li {
@@ -218,6 +241,7 @@
     padding-left: 10px;
     line-height: 0.1;
 }
+
 .faq-description {
     margin-top: -2px;
     padding-left: 10px;
@@ -226,6 +250,7 @@
     font-size: 14px;
     margin-bottom: 5px;
 }
+
 .faq-grid-text p {
     font-size: 15px;
     font-weight: 300;
@@ -233,18 +258,22 @@
     line-height: 1.6;
     text-align: justify;
 }
-.faq-grid-text h2 hr  {
+
+.faq-grid-text h2 hr {
     border: none;
     height: 1px;
     background-color: #00a650;
     width: 100%;
     margin-top: 0px;
 }
+
 #pilates {
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
 }
-#consulta_externa{
-    margin-bottom: 25px; 
+
+#consulta_externa {
+    /* margin-bottom: 24px; */
+    padding-bottom: 69px;
 }
 
 /* BOTON */
@@ -270,11 +299,29 @@
     transform: scale(1.05);
     border: 1px solid rgb(97, 95, 95);
 }
+
 .reflected-button:focus {
     outline: none;
     box-shadow: none;
 }
 
+/* MODO OSCURO */
+.modo_oscuro-govco .faq-accordion button {
+    background-color: #2a2a2a;
+    color: #fff;
+    border-bottom: 1px solid #444;
+}
+
+.modo_oscuro-govco .faq-accordion-content {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.modo_oscuro-govco .faq-accordion button {
+    background-color: #3a3a3a;
+    color: #ffffff;
+    border: 1px solid #444;
+}
 
 /* RESPONSIVE */
 
@@ -284,25 +331,29 @@
         height: 29vh;
         margin-top: 17vh;
     }
-    .hero-overlay {       
-        height: 100%;   
-        }
-        .hero-overlay h1 {
-            font-size: 20px;
-            margin: 14vh 0 0 0;
-        }
-        .hero-overlay h1 hr {
-            height: 2px;
-            width: 19vh;
-            margin: 0px auto 0;
-        }
-        .faq-grid-text {
-            order: 1;
-        }
-        
-        .faq-grid-image {
-            order: 2;
-        }
+
+    .hero-overlay {
+        height: 100%;
+    }
+
+    .hero-overlay h1 {
+        font-size: 20px;
+        margin: 14vh 0 0 0;
+    }
+
+    .hero-overlay h1 hr {
+        height: 2px;
+        width: 19vh;
+        margin: 0px auto 0;
+    }
+
+    .faq-grid-text {
+        order: 1;
+    }
+
+    .faq-grid-image {
+        order: 2;
+    }
 }
 
 @media (max-width: 800px) {
@@ -314,6 +365,7 @@
         margin-top: 30px;
         order: 2;
     }
+
     .faq-grid-text {
         order: 1;
     }
@@ -326,7 +378,7 @@
         align-self: center;
         transform: none;
     }
-   
+
     .hero-overlay {
         flex-direction: column;
         align-items: center;

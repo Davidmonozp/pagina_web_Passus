@@ -28,7 +28,7 @@ COLOR VERDE PASSUS #00A54F -->
 
         <section class="hero-banner-divertido">
             <div class="hero-overlay">
-                <h1>Servicios Passus Divertido
+                <h1>Servicios Passus Bienestar
                     <hr>
                 </h1>
                 <a href="servicios_passusIPS.php">

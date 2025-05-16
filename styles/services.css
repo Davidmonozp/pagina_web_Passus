@@ -39,7 +39,7 @@
 }
 body
 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -60,7 +60,7 @@ ul
 }
 p
 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 14px;
 	line-height: 2.14;
 	font-weight: 500;
@@ -130,7 +130,7 @@ h4{font-size: 24px;}
 h5{font-size: 18px;}
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -784,7 +784,7 @@ section
 .prices
 {
 	background-color: #FFFFFF;
-	padding-top: 90px;
+	padding-top: 13px;
 	padding-bottom: 79px;
 }
 .price_col:nth-last-child(n+3) {
@@ -956,12 +956,12 @@ section
 10. Footer
 *********************************/
 
-.footer
+/* .footer
 {
 	display: block;
 	position: relative;
 	background: #26292d;
-}
+} */
 .footer_content
 {
 	padding-top: 94px;

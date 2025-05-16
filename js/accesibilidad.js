@@ -37,13 +37,30 @@ window.onload = function () {
         document.getElementById("contactForm"),
         document.getElementById("cards-container"),
         document.getElementById("hero_derechos_deberes"),
+        document.querySelector(".hero-banner-nuestrasPoliticas"),
+        document.querySelector(".hero-banner-trabajaNosotros"),
+        document.getElementById("trabajaNosotros"),
+        document.querySelector(".faq-accordion"),
+        document.querySelector(".hero-banner"), 
+        document.getElementById("hidroterapia"),
+        document.getElementById("rehabilitacion"),
+        document.getElementById("consulta_externa"),
+        document.querySelector(".hero-banner-divertido"),
+        document.getElementById("acuamotricidad"),
+        document.getElementById("natacion"),
+        document.getElementById("yoga"),
+        document.getElementById("mindfulness"),
+        document.getElementById("pilates"),
+        document.querySelector(".hero-banner-preguntas"),
+        document.getElementById("preguntas_frecuentes"),
+
     ];
 
-    // Seleccionamos todos los <p>, <h2>, y clases dentro de ambos contenedores
+    
     contenedores.forEach(contenedor => {
         if (contenedor) {
             const elementos = contenedor.querySelectorAll(
-                "p, h1, h2, h3, h4, li, a, label, input[type='checkbox'], .custom-article, .why_list_title, .why_list_text, .cta_title, .cta_phone, .timeline, time, .prices, .price_title, .accordion, .header-top, .contact_content_title, li div"
+                "p, h1, h2, h3, h4, li, a, label, input[type='checkbox'], .custom-article, .why_list_title, .why_list_text, .cta_title, .cta_phone, .timeline, time, .prices, .price_title, .accordion, .header-top, .contact_content_title, li div, .faq-accordion-title"
               );
 
             elementos.forEach(el => {
@@ -121,6 +138,15 @@ function cambiarContexto() {
         document.getElementById("contactanos"),
         document.getElementById("contactForm"),
         document.getElementById("cards-container"),
+        document.getElementById("trabajaNosotros"),
+        document.getElementById("hidroterapia"),
+        document.getElementById("rehabilitacion"),
+        document.getElementById("consulta_externa"),    
+        document.getElementById("acuamotricidad"),
+        document.getElementById("natacion"),
+        document.getElementById("yoga"),
+        document.getElementById("mindfulness"),
+        document.getElementById("pilates"),
     ];
 
     contenedores.forEach(contenedor => {
@@ -137,6 +163,10 @@ function cambiarContexto() {
     document.querySelectorAll(".m").forEach(home => {
         home.classList.toggle("modo_oscuro-govco");
     });
+    document.querySelectorAll(".faq-accordion").forEach(el => {
+        el.classList.toggle("modo_oscuro-govco");
+    });
+    document.querySelector(".service_oferta")?.classList.toggle("modo_oscuro-govco");
 }
 
 

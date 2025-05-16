@@ -226,7 +226,7 @@
 
 		<!-- Home -->
 
-		<div class="home d-flex flex-column align-items-start justify-content-end" style="background-color: rgba(44, 62, 80, 0);">
+		<!-- <div class="home d-flex flex-column align-items-start justify-content-end" style="background-color: rgba(44, 62, 80, 0);">
 			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/nosotros-img/reseña-historica-1.png" data-speed="0.8"></div>
 			<div class="home_container">
 				<div class="container">
@@ -239,7 +239,15 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
+
+		<section class="hero-banner-reseña_historica" id="reseña_histórica">
+			<div class="hero-overlay">
+				<h1 id="titulo_derechos_deberes">Reseña Histórica
+					<hr>
+				</h1>
+			</div>
+		</section>
 
 		<!-- Intro -->
 
@@ -252,7 +260,7 @@
 						<div class="intro_content text-center">
 							<div class="section_title_container">
 								<div class="section_title">
-									<h2>Reseña Histórica
+									<h2>Nuestra Historia
 										<hr class="reseña">
 									</h2>
 								</div>

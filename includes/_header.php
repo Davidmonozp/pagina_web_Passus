@@ -36,7 +36,7 @@
 
 		<!-- Logo -->
 		<div class="logo">
-			<a href="hidroterapia">
+			<a href="index.php">
 				<img src="images/logo.png" class="img-fluid">
 			</a>
 		</div>
@@ -57,7 +57,7 @@
 						<a class="dropdown-item" href="nosotros-politica-manejo-datos">Política Manejo de Datos</a>
 						<a class="dropdown-item" href="nosotros-politica-agendamiento-web">Términos y condiciones Servicio Web</a>
 						<a class="dropdown-item" href="nosotros-politica-participacion-ciudadana">Política de Participación ciudadana</a>
-						<a class="dropdown-item" href="trabaja-nosotros">Trabaja con nosostros</a>
+						<a class="dropdown-item" href="trabaja-nosotros">Trabaja con nosotros</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
@@ -65,7 +65,7 @@
 					<div class="dropdown-menu" aria-labelledby="dropdown01">
 						<a class="dropdown-item" href="servicios_passusIPS">Passus IPS</a>
 						<a class="dropdown-item" href="servicios_passus_divertido
-					">Passus divertido</a>
+					">Passus Bienestar</a>
 					</div>
 				</li>
 				<li class="nav-item dropdown">
@@ -150,9 +150,15 @@
 					<a class="dropdown-item" href="nosotros-nuestras-politicas" style="font-size: 13px;">Nuestras Políticas</a>
 					<a class="dropdown-item" href="nosotros-politica-manejo-datos" style="font-size: 13px;">Política Manejo de Datos</a>
 					<a class="dropdown-item" href="nosotros-politica-participacion-ciudadana" style="font-size: 13px;">Política de Participación ciudadana</a>
+					<a class="dropdown-item" href="trabaja-nosotros" style="font-size: 13px;">Trabaja con nosotros</a>
 				</div>
 			</li>
-			<li><a href="servicios">Servicios</a></li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle px-0" href="#" id="dropdownR0-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+				<div class="dropdown-menu" aria-labelledby="dropdownR0-1" style="width: 250px; min-width: 250px;">
+					<a class="dropdown-item" href="servicios_passusIPS.php" style="font-size: 13px;">Passus IPS</a>
+					<a class="dropdown-item" href="servicios_passus_divertido.php" style="font-size: 13px;">Passus Bienestar</a>
+				</div>
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle px-0" href="#" id="dropdownR02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sedes</a>
 				<div class="dropdown-menu" aria-labelledby="dropdownR02" style="width: 320px; min-width: 320px;">

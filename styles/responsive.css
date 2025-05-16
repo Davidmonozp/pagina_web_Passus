@@ -38,15 +38,36 @@
 
 
 ******************************/
-
+@media (width: 2048px) {
+	.hero-banner-derechosDeberes {
+		height: 89vh;
+	}
+	#titulo_derechos_deberes{
+		margin-bottom: -517px;
+	}
+	#derechos_deberes {
+		margin-top: 55px;
+		margin-bottom: -130px;
+	}
+}
 
 /************
+
+
 1. 1840px
 ************/
 @media screen and (min-width: 1367px) and (max-width: 2048px) {
 	.passus_servicios {
 		margin-bottom: 125px;
 		margin-top: -38px;
+	}
+
+	.hero-banner-preguntas {
+		height: 103vh;
+	}
+
+	.hero-banner-preguntas .hero-overlay h1 {
+		margin-bottom: -56vh;
 	}
 }
 
@@ -66,8 +87,8 @@
 	}
 }
 
-@media (min-width: 1680px) and (max-width: 1920px){
-	#para-mirar{
+@media (min-width: 1680px) and (max-width: 1920px) {
+	#para-mirar {
 		margin-top: -19vh;
 	}
 }
@@ -373,10 +394,13 @@
 		margin-bottom: 108px;
 	}
 
-	.home_slider_container {
+	/* .home_slider_container {
 		width: 100%;
 		margin: 0 auto;
-		/* Centra horizontalmente */
+	} */
+	.home_slider_container {
+		width: 100%;
+		margin: -43px auto -134px;
 	}
 
 	.imgcarousel {
@@ -385,12 +409,12 @@
 	}
 
 
-    .carousel-item img {
-        height: 44vh;
-        object-fit: cover;
-        margin-top: 117px !important;
-        border-radius: 20px;
-    }
+	.carousel-item img {
+		height: 44vh;
+		object-fit: cover;
+		margin-top: 117px !important;
+		border-radius: 20px;
+	}
 
 	.home_slider_dots {
 		top: 111vh;
@@ -398,7 +422,7 @@
 	}
 
 	.why {
-		top: -54px;
+		top: -99px;
 		width: 100%;
 		margin-bottom: -145px;
 		margin-bottom: -101px;
@@ -437,13 +461,15 @@
 	}
 
 	p:last-of-type {
-        margin-bottom: 3px;
-    }
+		margin-bottom: 3px;
+	}
+
 	.porque_index {
 		font-size: 36px;
 		margin-bottom: -41px;
 		margin-top: 43px;
 	}
+
 	.icon_container_index {
 		width: 45px;
 		height: 45px;
@@ -454,7 +480,7 @@
 		width: 21px;
 		height: 21px;
 	}
-	
+
 	.carousel-item img {
 		height: 44vh;
 		object-fit: cover;
@@ -474,16 +500,23 @@
 		margin-top: -133px;
 	}
 
-	.services {
+	/* .services {
 		padding-top: 0px;
 		margin-top: 15px;
 		margin-bottom: -3vh;
+	} */
+	.services {
+		padding-top: 75px;
+		margin-top: -153px;
+		margin-bottom: -11vh;
 	}
+
 	#terminos_condiciones {
-        padding-top: 58px;
-        margin-top: -153px;
-        margin-bottom: -3vh;
-    }
+		padding-top: 58px;
+		margin-top: -153px;
+		margin-bottom: -3vh;
+	}
+
 	.card {
 		min-width: 132px;
 		height: 15vh;
@@ -529,6 +562,9 @@
 	.main_nav ul li:not(:last-child) {
 		margin-right: 29px;
 	}
+	.porque_index {
+        margin-top: -10px;
+    }
 }
 
 /************
@@ -575,7 +611,7 @@
 
 @media only screen and (max-width: 1024px) {
 	#para-mirar {
-		margin-top: -51vh;
+		margin-top: -40vh;
 	}
 
 	.imgcarousel {
@@ -620,8 +656,9 @@
 @media (min-width: 768px) and (max-width: 991px) {
 	.card-img {
 		margin: 29px auto 8px auto;
-	}
+	}	
 }
+
 
 @media only screen and (max-width: 991px) {
 
@@ -775,7 +812,17 @@
 	}
 }
 
-@media (max-width: 1024px) {}
+@media (width: 1024px) {
+	.hero-overlay h1 {
+		margin: 63vh 0 0 0;
+	}
+}
+
+@media (width: 900px) {
+	.hero-banner-derechosDeberes {
+		height: 60vh;
+	}
+}
 
 @media only screen and (max-width: 896px) {
 	.carousel-item img {
@@ -905,6 +952,7 @@
 	#para-mirar {
 		margin-top: -31vh;
 	}
+
 }
 
 @media (max-width: 800px) {
@@ -1584,6 +1632,10 @@
 	#para-mirar {
 		margin-top: -26vh;
 	}
+
+	.hero-banner-preguntas .hero-overlay h1 {
+		margin-bottom: -34vh;
+	}
 }
 
 /************
@@ -1636,6 +1688,32 @@
 		margin: 0px auto;
 		padding: 80px;
 	}
+
+	.hero-banner-trabajaNosotros .hero-overlay h1 {
+		margin-top: 32vh;
+	}
+
+	.hero-banner-trabajaNosotros {
+		background-image: url(/pagina_passus/images/home/home_slider_4.jpeg);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		height: 46vh;
+		position: relative;
+		width: 100%;
+		margin-top: 68px;
+		margin-bottom: 4px;
+	}
+
+	#trabajaNosotros {
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 40px;
+		align-items: start;
+		padding: 15px;
+		max-width: 1200px;
+		margin: -2vh auto;
+	}
 }
 
 @media (min-width: 300px) and (max-width: 575px) {
@@ -1649,6 +1727,20 @@
 		grid-area: sedes;
 		text-align: center;
 		margin-left: 107px;
+	}
+
+	.hero-banner-nuestrasPoliticas {
+		height: 78vh;
+	}
+
+	.hero-overlay-nuestrasPoliticas h1 {
+		font-size: 24px;
+		margin: 50vh 0 0 0;
+	}
+
+	.social-icons {
+		top: 72%;
+		gap: 2px;
 	}
 }
 
@@ -1718,6 +1810,14 @@
 		font-size: 14px;
 	}
 }
+
+@media (width: 360px) {
+	.hero-banner-preguntas .hero-overlay h1 {
+		margin-bottom: -29vh;
+	}
+}
+
+
 
 
 /* DERECHOS Y DEBERES */

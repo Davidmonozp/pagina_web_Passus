@@ -36,7 +36,7 @@
 		</div> -->
 
 		<section class="hero-banner-nuestrasPoliticas">
-			<div class="hero-overlay">
+			<div class="hero-overlay-nuestrasPoliticas">
 				<h1>Nuestras políticas
 					<hr>
 				</h1>
