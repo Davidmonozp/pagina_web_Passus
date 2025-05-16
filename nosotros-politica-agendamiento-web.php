@@ -6,18 +6,19 @@
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css?v=1.1">
 <link rel="stylesheet" type="text/css" href="styles/core.css?v=1.4">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css?v=1.1">
+
 <body>
 
-<div class="super_container">
-	
-	<!-- Header -->
+	<div class="super_container">
 
-	<?php include('includes/_header.php'); ?>
-	<?php include('includes/accesibilidad.php'); ?>
+		<!-- Header -->
 
-	<!-- Home -->
+		<?php include('includes/_header.php'); ?>
+		<?php include('includes/accesibilidad.php'); ?>
 
-	<!-- <div class="home d-flex flex-column align-items-start justify-content-end" style="background-color: rgba(44, 62, 80, 0); ">
+		<!-- Home -->
+
+		<!-- <div class="home d-flex flex-column align-items-start justify-content-end" style="background-color: rgba(44, 62, 80, 0); ">
 		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/nosotros-img/manejo-datos-1.png" data-speed="0.8"></div>
 		<div class="home_container">
 			<div class="container">
@@ -32,7 +33,7 @@
 		</div>
 	</div> -->
 
-	<section class="hero-banner-terminos_condiciones" id="hero_terminos_condiciones">
+		<section class="hero-banner-terminos_condiciones" id="hero_terminos_condiciones">
 			<div class="hero-overlay">
 				<h1 id="titulo_terminos_condiciones">Términos y condiciones de Servicio Web
 					<hr>
@@ -40,128 +41,171 @@
 			</div>
 		</section>
 
-	<!-- Services -->
-
-	<div class="services" id="terminos_condiciones">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="row mb-3">
-					<div class="col-md-6">
-						<img src="images/politica_manejo_datos.jpeg" class="img-fluid">
-					</div>
-					<div class="col-md-6">
-						<h2>Términos y condiciones de Servicio Web</h2>
-						<p class="texto-color pt-2 text-justify">
-							<b>PASSUS</b> en cumplimiento de lo previsto en la Ley 1581 de 2012 "Por la cual se dictan disposiciones generales para la protección de datos personales" y del Decreto 1377 de 2013, publica para su conocimiento el aviso de privacidad y las políticas de tratamiento de información que ha desarrollado.
-						</p>
-					</div>
+		<!-- Services -->
+		<div class="container my-4">
+			<div class="row mb-2">
+				<div class="col-md-5 d-flex justify-content-center align-items-center px-3">
+					<img src="images/politica_manejo_datos.jpeg" class="img-fluid img-politica-datos">
 				</div>
-				<!-- Accordions -->
-				<div class="col-md-12">
-					<div class="accordions">
-						
-						<!-- Accordion -->
-						<div class="accordion_container">
-							<div class="accordion d-flex flex-row align-items-center active"><div>NUESTRO SERVICIO WEB</div></div>
-							<div class="accordion_panel px-4">
-								<div class="col-md-12 py-4">
-									<p>El servicio de agendamiento web de Passus está diseñado para simplificar la programación de citas médicas a través de canales digitales, como nuestra oficina virtual. Nuestro objetivo es ofrecer una experiencia ágil, intuitiva y eficiente, que permita a los usuarios gestionar sus solicitudes en pocos pasos.<br>
-                                        La disponibilidad de los servicios dependerá de la agenda de cada profesional y sede, brindando a los usuarios la posibilidad de seleccionar el servicio, la sede, el día y la hora que mejor se ajusten a sus necesidades.<br>
-                                        Es responsabilidad del usuario proporcionar correctamente sus datos de contacto para recibir notificaciones y confirmaciones de las citas programadas. Dichas confirmaciones están sujetas a la validación de las autorizaciones requeridas por el asegurador, según el plan de salud y la cobertura del usuario.<br>
-                                        Si el servicio solicitado no está cubierto por el asegurador, el usuario podrá optar por la modalidad de pago particular, debiendo realizar el pago antes de la atención.<br>
-                                        El sistema enviará recordatorios automáticos de las citas programadas mediante correo electrónico, mensaje de texto o llamada telefónica, según los datos proporcionados al momento de la solicitud.<br>
-                                        En caso de no poder agendar mediante el portal, el proceso podrá realizarse de forma asistida comunicándose con nuestra central de citas al (601) 3161699.
-                                        </p>
-								</div>
-							</div>
-						</div>
-						
-						<!-- Accordion -->
-						<div class="accordion_container">
-							<div class="accordion d-flex flex-row align-items-center"><div>MODIFICACION A  LOS TÉRMINOS Y CONDICIONES </div></div>
-							<div class="accordion_panel px-4">
-								<div class="col-md-12 py-4">
-									<p>Passus podrá actualizar estos términos y condiciones en cualquier momento, con el fin de garantizar el cumplimiento de la normativa vigente. Las modificaciones serán efectivas a partir de su publicación en nuestro sitio web oficial.</p>
-									
-								</div>
-							</div>
-						</div>
-
-						<!-- Accordion -->
-						<div class="accordion_container">
-							<div class="accordion d-flex flex-row align-items-center"><div>CONFIDENCIALIDAD DE DATOS PERSONALES</div></div>
-							<div class="accordion_panel px-4">
-								<div class="col-md-12 py-4">
-									<p>Passus se compromete a proteger los datos personales de los usuarios en cumplimiento de la Ley 1581 de 2012 y demás normativas aplicables. Los datos proporcionados a través de nuestros canales serán tratados como confidenciales y utilizados exclusivamente para gestionar solicitudes de citas, procedimientos, apoyos diagnósticos y procesos administrativos relacionados.<br>
-                                        El tratamiento de datos personales incluye fines estadísticos, administrativos y educativos, de acuerdo con nuestra Política de Tratamiento de Datos, disponible en nuestra página web. Los usuarios tienen derecho a consultar, actualizar, rectificar o solicitar la eliminación de sus datos personales en cualquier momento.
-</p>
-								</div>
-							</div>
-						</div>
-
-						<!-- Accordion -->
-						<div class="accordion_container">
-							<div class="accordion d-flex flex-row align-items-center"><div>CONTENIDO INCRUSTADO DE OTROS SITIOS WEB</div></div>
-							<div class="accordion_panel px-4">
-								<div class="col-md-12 py-4">
-									<p>En este sitio web, los artículos pueden incluir contenido incrustado, como videos, imágenes, artículos, entre otros. Dicho contenido incrustado se comporta de la misma forma que si el visitante estuviera interactuando directamente con el sitio de origen.<br>Es importante tener en cuenta que estas webs pueden:</p>
-									<ul  style="margin-left:40px; color:black; list-style:outside">
-										<li>Recopilar datos sobre el usuario.</li>
-										<li>Utilizar cookies.</li>
-										<li>Implementar seguimientoadicional de terceros.</li>
-										<li>Supervisar la interección con el contenido incrustado, especialmente si el usuario tiene una cuenta activa y ésta conectado en este sitio.</li>
-									</ul>
-									<p>Se recomienda consultar las políticas de privacidad y términos de uso de dichas plataformas para comprender cómo se manejan los datos.</p>
-								
-								</div>
-							</div>
-						</div>
-
-						<!-- Accordion -->
-						<div class="accordion_container">
-							<div class="accordion d-flex flex-row align-items-center"><div>CONTACTO</div></div>
-							<div class="accordion_panel px-4 py-0">
-								<div class="col-md-12 py-4">
-									<p>Para resolver inquietudes, realizar solicitudes o ejercer derechos relacionados con sus datos personales, los usuarios pueden comunicarse a través de los siguientes canales:</p>
-									<ul style="margin-left: 40px; color:black; list-style:outside">
-										<li>Horario de atención: lunes a viernes de 7:30 a.m. a 5:30 p.m.</li>
-										<li>Correo electrónico: atencionalusuario@passusips.com</li>
-									</ul>
-									<p>El uso del portal implica la aceptación de los presentes términos y condiciones.</p>
-								</div>
-							</div>
-						</div>
-
-						<!-- Accordion 
-						<div class="accordion_container">
-							<div class="accordion d-flex flex-row align-items-center"><div>IDENTIFICACIÓN DE RESPONSABLE DEL TRATAMIENTO DE LOS DATOS PERSONALES</div></div>
-							<div class="accordion_panel px-4 py-0">
-								<div class="col-md-12 py-4">
-									<ol>
-										<li>Razón Social: <b>PASSUS</b></li>
-										<li>NIT: 900.308.007-1</li>
-										<li>Dirección: Calle 142 #16A – 52 Sede Nacional</li>
-										<li>Ciudad: Bogotá D.C.</li>
-										<li>Horario: lunes a viernes de 7:30 a.m. a 5:30 p.m.</li>
-										<li>Correo electrónico: atencionalusuario@passusips.com</li>
-									</ol>
-								</div>
-							</div>
-						</div>
--->
-					</div>
+				<div class="col-md-7 d-flex flex-column justify-content-start align-items-start px-3">
+					<h2>Términos y condiciones de Servicio Web</h2>
+					<p class="texto-color pt-2 text-justify">
+						<b>PASSUS</b> en cumplimiento de lo previsto en la Ley 1581 de 2012 "Por la cual se dictan disposiciones generales para la protección de datos personales" y del Decreto 1377 de 2013, publica para su conocimiento el aviso de privacidad y las políticas de tratamiento de información que ha desarrollado.
+					</p>
 				</div>
-
 			</div>
 		</div>
-	</div>
 
-	<!-- Footer -->
-	<?php include('includes/_footer.php'); ?>
-</div>
-<?php include('includes/_js.php'); ?>
-<script src="js/elements.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/accesibilidad.js"></script>
+		<div class="services" id="politica_datos">
+			<div class="container">
+				<div class="accordion-grid-politicaDatos">
+					<div class="custom-accordion">
+						<h3>
+							Privacidad de Datos
+							<hr class="hr_subtitulo">
+						</h3>
+
+						<div>
+							<input id="caf-1" name="custom-accordion-1" type="checkbox">
+							<label for="caf-1">Objetivo</label>
+							<div class="custom-article custom-small">
+								<p>Dar cumplimiento a la Ley 1581 de 2012 y los capítulos 25 y 26 del Decreto 1074 de 2015, Circular 002 de 2015 de la Superintendencia de Industria y Comercio, como a las demás normas que las modifiquen, adicionen o reglamenten, a presente política se desarrollará bajo la siguiente premisa: Actuar con responsabilidad al momento de recopilar la información personal y proteger su privacidad, garantizar la confidencialidad de los datos personales y asegurar la preservación de la información de los invitados, proveedores, clientes, y usuarios de <b>PASSUS</b>.</p>
+							</div>
+						</div>
+
+						<div>
+							<input id="caf-2" name="custom-accordion-2" type="checkbox">
+							<label for="caf-2">Descripción de la política y sus generalidades</label>
+							<div class="custom-article custom-medium">
+								<p><b>PASSUS</b> , quien actúa en calidad de responsable del tratamiento de sus datos personales, informa que los datos personales suministrados por usted con ocasión de su vinculación y/o del acceso a los servicios ofrecidos por cualquiera de la compañía, serán incluidos en distintas bases de datos y serán utilizados para las siguientes finalidades: i) Realizar actividades asociadas a la prestación de servicios de salud en desarrollo de las actividades y objeto social de la respectiva compañía, incluidas pero sin limitarse a las actividades corporativas, administrativas, de información, comercialización, petición, recaudo, cobranza y demás actividades relacionadas con la disposición de la infraestructura necesaria para el desarrollo del objeto social de la respectiva empresa, así como para todas las actividades que provengan de los trámites propios del Sistema de Seguridad Social en Salud y del cumplimiento de las normas que lo regulan. ii) Enviar notificaciones de cambios o mejoras en el esquema de prestación de los servicios, avisos, propaganda o publicidad sobre nuestros productos o servicios de acuerdo con la legislación aplicable, así como enviar información de revistas y noticias de nuestro sector o de temas que consideremos que pueden interesarle, como noticias, comunicaciones o publicidad de Passus IPS o sus relacionadas. iii) Crear y gestionar bases de datos (incluyendo bases de datos respecto de datos sensibles (1) para la prestación de los servicios propios de la compañía, fines de investigación y desarrollo de nuevos productos o servicios, así como para estudios de riesgo y demás cálculos actuariales, entre otras. iv) Contactar a los usuarios a través de medios telefónicos, electrónicos (SMS, chat, correo electrónico y demás medios considerados electrónicos) físicos y/o personales. Se precisa que cuando Passus IPS recolecte datos personales sensibles, el titular tiene la facultad de responder las preguntas que versen sobre este tipo de datos. Passus IPS recabará y tratará datos sensibles relacionados con el estado de salud del titular, antecedentes e historial clínico, información sobre estilo de vida y otros datos necesarios o convenientes para los fines arriba señalados. Los datos personales sensibles serán mantenidos y tratados con estricta seguridad y confidencialidad para los fines relacionados con la prestación del servicio de salud, conforme a la legislación y reglamentación aplicable. Se aclara que la historia clínica del paciente tiene reserva legal de acuerdo con lo establecido en la ley 23 de 1981, resolución 1995 de 1999 y demás que las modifiquen o complementen. Passus IPS podrá conservar sus datos personales en bases de datos ubicadas en Colombia, cumpliendo con la finalidad autorizada por el titular de datos, realizando sus mayores esfuerzos para mantener la información de manera segura, salvaguardando su integridad, veracidad y confidencialidad. Passus IPS se reserva el derecho de modificar los términos y condiciones de este aviso de privacidad, en cuyo caso la modificación se notificará a través del medio de comunicación que Passus IPS considere más adecuado para tal efecto, (pudiendo ser, por ejemplo, correo electrónico, avisos en medios de comunicación, comunicación directa, y/o un anuncio en nuestra página de Internet, etc.) 1 - Se precisa que Passus IPS recolectará datos personales sensibles o datos de menores de edad, éstos serán tratados respetando los derechos fundamentales e intereses superiores de su titular.</p>
+								<p>Los datos generales, que <b>PASSUS</b> obtiene de sus pacientes, proveedores, clientes, empleados y demás terceros, en ejercicio de la prestación de sus servicios, de forma no concreta son: <br>
+								</p>
+								<ol class="acordeon">
+									<li>Nombres y apellidos.</li>
+									<li>Lugar, fecha de nacimiento y nacionalidad.</li>
+									<li>
+										Número de identificación personal (Cédula, NIT, Pasaporte, Registro civil, Tarjeta de identidad, Salvo conducto, Cédula extranjería, Permiso especial de permanencia, permiso de protección temporal, Carnet diplomático, pasaporte).
+									</li>
+									<li>Género.</li>
+									<li>Dirección, teléfono, correo electrónico.</li>
+									<li>
+										Datos clínicos del paciente, proveedores, clientes. Incluye, pero no se limita a: antecedentes, consultas, prescripciones, diagnósticos, resultados de exámenes, etc.
+									</li>
+									<li>Contactos: familiares, amigos, responsables.</li>
+									<li>
+										Información personal, grado de instrucción, profesión, culto religioso y otros de contenido social, a través del callcenter/admisiones/recepción.
+									</li>
+									<li>Entidad responsable o aseguradora de los servicios de salud.</li>
+									<li>Empresa donde labora.</li>
+								</ol>
+							</div>
+						</div>
+
+						<div>
+							<input id="caf-3" name="custom-accordion-3" type="checkbox">
+							<label for="caf-3">Datos sensibles</label>
+							<div class="custom-article custom-large">
+								<p><b>PASSUS</b> prohíbe el tratamiento de los datos sensibles, con excepción de los casos explícitamente señalados en el artículo 6 de la Ley 1581 de 2012 expresamente señalados así:</p>
+								<ol class="acordeon">
+									<li>
+										"Informar al Titular que por tratarse de datos sensibles no está obligado a autorizar su Tratamiento."
+									</li>
+									<li>
+										"Informar al Titular de forma explícita y previa, además de los requisitos generales de la autorización para la recolección de cualquier tipo de dato personal, cuáles de los datos que serán objeto de Tratamiento son sensibles y la finalidad del Tratamiento, así como obtener su consentimiento expreso. Ninguna actividad podrá condicionarse a que el Titular suministre datos personales sensibles." (Ministerio de Comercio, Industria y Turismo, 2013).
+									</li>
+								</ol>
+							</div>
+						</div>
+
+						<div>
+							<input id="caf-4" name="custom-accordion-4" type="checkbox">
+							<label for="caf-4">Contenido incrustado de otros sitios web</label>
+							<div class="custom-article custom-large">
+								<p>
+									Los artículos de este sitio pueden incluir contenido incrustado (por ejemplo, vídeos, imágenes, artículos, etc.). El contenido incrustado de otras webs se comporta exactamente de la misma manera que si el visitante hubiera visitado la otra web.
+								</p>
+								<p>
+									Estas webs pueden recopilar datos sobre ti, utilizar cookies, incrustar un seguimiento adicional de terceros, y supervisar tu interacción con ese contenido incrustado, incluido el seguimiento de tu interacción con el contenido incrustado si tienes una cuenta y estás conectado a esa web.</p>
+								<p>
+									<b>Tiempo de conservación: </b>Si se deja un comentario, el comentario y sus metadatos se conservan indefinidamente. Esto es para que podamos reconocer y aprobar comentarios sucesivos automáticamente, en lugar de mantenerlos en una cola de moderación.
+								</p>
+								<p>
+									De los usuarios que se registran en nuestra web (si los hay), también almacenamos la información personal que proporcionan en su perfil de usuario. Todos los usuarios pueden ver, editar o eliminar su información personal en cualquier momento (excepto que no pueden cambiar su nombre de usuario). Los administradores de la web también pueden ver y editar esa información.
+								</p>
+								<p>
+									¿Qué derechos tienes sobre tus datos?: Si se cuenta con una cuenta o ha dejado comentarios en esta web, puede solicitar recibir un archivo de exportación de los datos personales se conserva, incluyendo cualquier dato que nos haya proporcionado. También puede solicitar que eliminemos cualquier dato personal que tengamos, sin embargo, esto no incluye ningún dato que estemos obligados a conservar con fines administrativos, médicos, legales o de seguridad.
+								</p>
+								<p>
+									<b>PASSUS</b> utiliza la información de sus pacientes, invitados proveedores, clientes, trabajadores, y terceros, para asegurar la prestación de servicios de salud, facturar y cobrar ante las personas naturales o jurídicas responsables del pago, diligenciamiento del Registro Individual de la Prestación de Servicios se Salud (RIPS), fines administrativos tales como auditorias, facturación, contabilidad y con el consentimiento del titular de la información podrá adelantar procesos de investigación, estadísticas, campañas de prevención y promoción y en general para utilizarla en políticas de salud pública.
+								</p>
+								<p>
+									Estos pueden ser utilizados para:
+								</p>
+								<ol class="acordeon">
+									<li>
+										Realizar actividades relacionadas con la prestación de servicios de salud en desarrollo de las actividades y objeto social de la Clínica.
+									</li>
+									<li>
+										Contactar a los pacientes, proveedores, clientes, empleados y demás usuarios a través de medios telefónicos, físicos, personales o electrónicos (como SMS, chat, correo electrónico y demás medios que así puedan considerarse).
+									</li>
+									<li>
+										Crear y gestionar bases de datos (incluyendo bases de datos en relación con los datos sensibles) para la prestación de los servicios propios de la Clínica, fines de investigación, desarrollo de servicios y/o productos, estudios de riesgo y cálculos actuariales.
+									</li>
+								</ol>
+							</div>
+						</div>
+
+						<div>
+							<input id="caf-5" name="custom-accordion-5" type="checkbox">
+							<label for="caf-5">Concienciación, educación y capacitación en gestión de riesgos</label>
+							<div class="custom-article custom-large">
+								<p>
+									<b>PASSUS</b> debe brindar a los empleados vinculados, proveedores, pacientes, invitados la educación y la formación apropiada en gestión de riesgos, seguridad de la información y continuidad del negocio, cuyos programas deberán dictarse por lo menos una vez al año y ser impartidas en el proceso de inducción de los nuevos colaboradores, proveedores, pacientes o invitados.
+								</p>
+								<p>
+									<b>PASSUS</b> recomienda a sus pacientes, proveedores, empleados, clientes, y demás usuarios que revisen la política de protección y tratamiento de datos personales con regularidad para asegurarse de que ha leído la versión más actualizada, siendo en todo caso responsabilidad del usuario su lectura.
+								</p>
+							</div>
+						</div>
+						<div>
+							<input id="caf-6" name="custom-accordion-6" type="checkbox">
+							<label for="caf-6">Identificación de responsable del tratamiento de los datos personales</label>
+							<div class="custom-article custom-large mb-5">
+								<ol>
+									<li>
+										Razón Social:<b>PASSUS</b>
+									</li>
+									<li>
+										NIT: 900.308.007-1
+									</li>
+									<li>
+										Dirección: Calle 142 #16A – 52 Sede Nacional
+									</li>
+									<li>
+										Ciudad: Bogotá D.C.
+									</li>
+									<li>
+										Horario: lunes a viernes de 7:30 a.m. a 5:30 p.m.
+									</li>
+									<li>
+										Correo electrónico: atencionalusuario@passusips.com
+									</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Footer -->
+		<?php include('includes/_footer.php'); ?>
+	</div>
+	<?php include('includes/_js.php'); ?>
+	<script src="js/elements.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/accesibilidad.js"></script>
 </body>
+
 </html>
