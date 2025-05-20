@@ -28,7 +28,7 @@ COLOR VERDE PASSUS #00A54F -->
 
         <section class="hero-banner-divertido">
             <div class="hero-overlay">
-                <h1>Servicios Passus Bienestar
+                <h1 id="titulo_passus_bienestar">Servicios Passus Bienestar
                     <hr>
                 </h1>
                 <a href="servicios_passusIPS.php">
@@ -183,7 +183,7 @@ COLOR VERDE PASSUS #00A54F -->
                             id="faq-accordion-button-yoga-acuatico"
                             aria-expanded="false"
                             data-target-image="yoga-image"
-                            data-expanded-src="images/img-servicios/yogaAcuatico_passusDivertido.png"
+                            data-expanded-src="images/img-servicios/yogaAcuatico-passusDivertido.png"
                             data-expanded-alt="Imagen de yoga acuatico"
                             data-initial-src="images/img-servicios/yoga_passusDivertido.png"
                             data-initial-alt="Imagen de yoga">
@@ -192,7 +192,10 @@ COLOR VERDE PASSUS #00A54F -->
                         </button>
                         <div class="faq-accordion-content">
                             <p>
-                                Clases de yoga diseñadas para mejorar tu bienestar físico y mental. Con un enfoque integral, nuestras sesiones están pensadas para personas de todos los niveles, desde principiantes hasta avanzados.
+                               El yoga acuático es una modalidad del yoga que se practica dentro del agua, generalmente en una piscina, y combina los principios del yoga tradicional con los beneficios del medio acuático.
+                            </p>
+                            <p>
+                                Es una práctica que adapta las posturas, ejercicios de respiración y relajación del yoga tradicional al entorno acuático, aprovechando la flotación, resistencia y suavidad del agua para facilitar o intensificar los movimientos.
                             </p>
                         </div>
                     </div>

@@ -37,12 +37,9 @@
 		</div> -->
 		<section class="hero-banner-participacion">
 			<div class="hero-overlay">
-				<!-- <h1>Política de Participación ciudadana
+				<h1 id="titulo_participacion_ciudadana">Política de Participación ciudadana
 					<hr>
-				</h1> -->
-				<a href="trabaja-nosotros.php">
-					<button class="reflected-button">Trabaja con nosotros</button>
-				</a>
+				</h1>				
 			</div>
 		</section>
 		<!-- Services -->
@@ -53,7 +50,7 @@
 					<div class="col text-center">
 						<div class="section_title_container">
 							<div class="section_title">
-								<h2>Política de Participación ciudadana
+								<h2 >Participación ciudadana
 									<hr class="hr">
 								</h2>
 							</div>

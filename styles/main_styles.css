@@ -91,6 +91,10 @@ ul {
 	list-style: none;
 	margin-bottom: 0px;
 }
+li{
+	font-size: 16px;
+	text-align: justify;
+}
 
 ol {
 	/* color: #000000; */
@@ -108,6 +112,7 @@ p {
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
 	text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+	text-align: justify;
 }
 
 p a {
@@ -469,6 +474,10 @@ section {
 	margin: 0;
 }
 
+#titulo_aliados_index {
+    margin-top: -209px;
+}
+
 .hr_aliados {
 	border-top: 2px solid #188c41;
 	width: 17%;
@@ -491,9 +500,9 @@ section {
 /* CARDS CONTACTANOS */
 
 .cards-container {
-	background: #f0f8ff;
+	/* background: #f0fff3; */
 	border-radius: 12px;
-	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+	/* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); */
 	display: flex;
 	flex-wrap: wrap;
 	gap: 15px;
@@ -504,10 +513,12 @@ section {
 	padding-bottom: 27px;
 }
 
-.cards-container h4 {
+.cards-container h3 {
 	width: 100%;
 	text-align: center;
 	/* font-weight: bold; */
+	font-size: 30px;
+	margin-top: -34px;
 }
 
 .cards-container p {
@@ -516,19 +527,22 @@ section {
 	color: #00249c;
 }
 
-
-
 .card {
+	position: relative;
 	background-color: white;
 	border-radius: 8px;
-	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+	/* box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); */
 	padding: 8px;
 	box-sizing: border-box;
-	width: calc(30% - 10px);
-	min-width: 140px;
-	height: 16vh;
+	width: 200px;
+	height: 250px;
 	transition: transform 0.2s;
+	text-align: center;
+	overflow: hidden;
 }
+
+
+
 
 .card:hover {
 	transform: scale(1.03);
@@ -553,6 +567,44 @@ section {
 }
 
 
+
+/* Overlay ocupa toda la tarjeta */
+.contact-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(1, 107, 126, 0.699); /* fondo muy transparente */
+	backdrop-filter: blur(8px); /* desenfoque tipo vidrio */
+	-webkit-backdrop-filter: blur(8px); /* soporte para Safari */
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transform: scale(0.95);
+	transition: opacity 1s ease, transform 0.5s ease;
+	border-radius: 8px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	pointer-events: none;
+	border: 1px solid rgba(255, 255, 255, 0.2); 
+	padding-left: 34px;
+    padding-right: 34px;
+}
+.card:hover .contact-overlay {
+	opacity: 1;
+	transform: scale(1);
+	pointer-events: auto; /* habilita clics cuando se muestra */
+}
+.contact-overlay span {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+
 /*********************************
 6. Intro
 *********************************/
@@ -566,7 +618,7 @@ section {
 	background: #FFFFFF;
 	padding-top: 0px;
 	padding-bottom: 90px;
-	margin-bottom: -124px;
+	margin-bottom: -87px;
 	margin-top: -153px;
 }
 
@@ -793,10 +845,13 @@ section {
 	height: 61px;
 	border-radius: 50%;
 	/* background: #009671; */
-	background: #f1f1f1;
-	/* background: #004985; */
+	/* background: #f1f1f1; */
+	background: #1d7cca;
 	justify-content: center;
-	border: 2px solid #a5b3b9;
+	/* border: 2px solid #a5b3b9; */
+}
+.icon_index img {
+    filter: brightness(0) invert(1);
 }
 
 .icon {
@@ -816,10 +871,10 @@ section {
 
 /* Estilos iconos img index debajo de "¿Porque elegirnos?"*/
 .icon_index img {
-	max-width: 31px;
-	/* max-width: 30px; */
-	margin-left: -4px;
-	margin-top: -6px;
+    max-width: 26px;
+    /* max-width: 30px; */
+    margin-left: -3px;
+    margin-top: -2px;
 }
 
 .why_list_content {
@@ -905,14 +960,17 @@ section {
 }
 
 .hero-banner-derechosDeberes {
-	background-image: url(/pagina_passus/images/nosotros-img/derechos-deberes-2.png);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 102vh;
-	position: relative;
-	width: 100%;
-	margin-top: 143px;
+    background-image: url(/pagina_passus/images/nosotros-img/derechos-deberes-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 77vh;
+    position: relative;
+    width: 100%;
+    margin-top: 143px;
+}
+#titulo_derechos_deberes {
+	margin-top: 380px;
 }
 
 .hero-banner-nuestrasPoliticas {
@@ -931,7 +989,7 @@ section {
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 124vh;
+	height: 107vh;
 	position: relative;
 	width: 100%;
 	margin-top: -39px;
@@ -939,7 +997,7 @@ section {
 }
 
 .hero-banner-preguntas .hero-overlay h1 {
-	margin-bottom: -42vh;
+	margin-bottom: -53vh;
 }
 
 .hero-banner-quienesSomos {
@@ -953,19 +1011,26 @@ section {
 	margin-top: 37px;
 	margin-bottom: 153px;
 }
+
 #titulo_quienes_somos {
-    margin-top: 478px;
+	margin-top: 470px;
 }
+
 .hero-banner-reseña_historica {
-    background-image: url(/pagina_passus/images/banner_reseña.png);
-    background-size: cover;
-    background-position: 0px -229px;
-    background-repeat: no-repeat;
-    height: 102vh;
-    position: relative;
-    width: 100%;
-    margin-top: 143px;
+	background-image: url(/pagina_passus/images/banner_reseña.png);
+	background-size: cover;
+	background-position: 0px -229px;
+	background-repeat: no-repeat;
+	height: 102vh;
+	position: relative;
+	width: 100%;
+	margin-top: 143px;
 }
+
+#titulo_reseña {
+	220px
+}
+
 .hero-banner-politica_datos {
 	background-image: url(/pagina_passus/images/banner_politica_datos.png);
 	background-size: cover;
@@ -977,9 +1042,11 @@ section {
 	margin-top: -39px;
 	margin-bottom: 48px;
 }
+
 #titulo_politica_datos {
-    margin-top: 556px;
+	margin-top: 556px;
 }
+
 .hero-banner-terminos_condiciones {
 	background-image: url(/pagina_passus/images/banner_terminos_condiciones.png);
 	background-size: cover;
@@ -991,29 +1058,35 @@ section {
 	margin-top: -39px;
 	margin-bottom: 48px;
 }
-#titulo_terminos_condiciones{
+
+#titulo_terminos_condiciones {
 	margin-top: 557px;
 }
+
 .acordeon {
-    margin-top: 25px;
-    margin-left: 47px;
+	margin-top: 25px;
+	margin-left: 47px;
 	font-size: 16px;
 }
 
 .hero-banner-participacion {
-	background-image: url(/pagina_passus/images/nosotros-img/participacion-ciudadana-1.png);
+	background-image: url(/pagina_passus/images/banner_participacion.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 96vh;
+	height: 85vh;
 	position: relative;
 	width: 100%;
-	margin-top: 37px;
+	margin-top: 94px;
 	margin-bottom: 153px;
 }
 
+#titulo_participacion_ciudadana {
+	margin-top: 415px;
+}
+
 .hero-banner-trabajaNosotros {
-	background-image: url(/pagina_passus/images/home/home_slider_4.jpeg);
+	background-image: url(/pagina_passus/images/banner_trabaja_nosotros.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1036,6 +1109,132 @@ section {
 	margin-bottom: 153px;
 }
 
+/* BANNER SEDES */
+.hero-banner-RHB_surOccidente {
+	background-image: url(/pagina_passus/images/sedes/rhb-Suroccidente-2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 94vh;
+	position: relative;
+	width: 100%;
+	margin-top: 39px;
+	margin-bottom: 153px;
+}
+
+#titulo_RHB_surOccidente {
+	margin-top: 475px;
+	font-size: 40px;
+}
+
+.hero-banner-HD_surOccidente {
+	background-image: url(/pagina_passus/images/sedes/rhb-Suroccidente-2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 94vh;
+	position: relative;
+	width: 100%;
+	margin-top: 39px;
+	margin-bottom: 153px;
+}
+
+#titulo_HD_surOccidente {
+	margin-top: 475px;
+	font-size: 40px;
+}
+
+.hero-banner-HD_bogota_norte {
+	background-image: url(/pagina_passus/images/sedes/norte-2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 94vh;
+	position: relative;
+	width: 100%;
+	margin-top: 39px;
+	margin-bottom: 153px;
+}
+
+#titulo_HD_bogota_norte {
+	margin-top: 475px;
+	font-size: 40px;
+}
+
+.hero-banner-bogota_centro {
+	/* background-image: url(/pagina_passus/images/sedes/Veraguas2.jpeg); */
+	background-image: url(../images/sedes/Veraguas2.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 94vh;
+	position: relative;
+	width: 100%;
+	margin-top: 39px;
+	margin-bottom: 153px;
+}
+
+#titulo_bogota_centro {
+	margin-top: 475px;
+	font-size: 40px;
+}
+
+.hero-banner-chia {
+	/* background-image: url(/pagina_passus/images/sedes/chia-1.png); */
+	background-image: url(../images/sedes/chia-1.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 94vh;
+	position: relative;
+	width: 100%;
+	margin-top: 39px;
+	margin-bottom: 153px;
+}
+
+#titulo_sede_chia {
+	margin-top: 475px;
+	font-size: 40px;
+}
+
+.hero-banner-florencia {
+	/* background-image: url(/pagina_passus/images/sedes/florencia-1.png); */
+	background-image: url(../images/sedes/Florencia7.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 94vh;
+	position: relative;
+	width: 100%;
+	margin-top: 39px;
+	margin-bottom: 153px;
+}
+
+#titulo_sede_florencia {
+	margin-top: 475px;
+	font-size: 40px;
+}
+
+.hero-banner-ibague {
+	/* background-image: url(/pagina_passus/images/sedes/florencia-1.png); */
+	background-image: url(../images/nosotros.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 94vh;
+	position: relative;
+	width: 100%;
+	margin-top: 39px;
+	margin-bottom: 153px;
+}
+
+#titulo_sede_ibague {
+	margin-top: 475px;
+	font-size: 40px;
+}
+
+/* FIN BANNER SEDES */
+
 hr.quienesSomos {
 	width: 165px !important;
 	margin-top: -2px !important;
@@ -1057,9 +1256,9 @@ hr.quienesSomos {
 .hero-overlay h1 {
 	color: white;
 	font-weight: bold;
-	font-size: 2.5rem;
+	font-size: 45px;
 	text-align: center;
-	margin: 35vh 0 0 0;
+	margin: 38vh 0 0 0;
 }
 
 
@@ -1112,7 +1311,7 @@ hr.quienesSomos {
 
 .services {
 	background: #FFFFFF;
-	padding-top: 16px;
+	padding-top: 34px;
 	padding-bottom: 130px;
 	padding-right: 10px;
 }
@@ -1210,7 +1409,7 @@ hr.quienesSomos {
 }
 
 #preguntas_frecuentes {
-    margin-bottom: -163px;
+	margin-bottom: -163px;
 }
 
 .custom-accordion {
@@ -1297,6 +1496,7 @@ height: 83px;
 	padding: 20px;
 	margin-bottom: -28px;
 	margin-top: -23px;
+	text-align: justify;
 }
 
 
@@ -1364,6 +1564,10 @@ height: 83px;
 	margin-right: auto;
 }
 
+#derechos_deberes {
+	margin-top: 55px;
+	margin-bottom: -130px;
+}
 @media (max-width: 1199px) {
 	.accordion-image img {
 		max-width: 40vh;
@@ -1427,21 +1631,25 @@ height: 83px;
 .hero-overlay-nuestrasPoliticas h1 {
 	color: white;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 45px;
 	text-align: center;
 	margin: 97vh 0 0 0;
 }
+
 #politica_datos {
     padding-top: 10px;
     margin-top: 20px;
+    margin-bottom: -127px;
 }
+
 .img-politica-datos {
 	width: 100%;
 	height: auto;
-  }
-  .texto-color {
+}
+
+.texto-color {
 	font-size: 18px;
-  }
+}
 
 .hero-overlay-trabajaNosotros h1 {
 	color: white;
@@ -1595,7 +1803,7 @@ height: 83px;
 		will-change: opacity, max-height;
 
 		p {
-			font-size: 15px;
+			font-size: 16px;
 			font-weight: 300;
 			margin: 2em 0;
 			line-height: 1.6;
@@ -1640,7 +1848,7 @@ height: 83px;
 }
 
 .faq-grid-text p {
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 300;
 	margin: 2em 0;
 	line-height: 1.6;
@@ -1663,6 +1871,7 @@ height: 83px;
 	padding: 15px;
 	border-radius: 15px;
 	margin-top: -9px;
+	margin-bottom: -40px;
 }
 
 .services_oferta {
@@ -1679,8 +1888,9 @@ height: 83px;
 }
 
 .services_row2 {
-	width: 100%;
-	margin-top: 0px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: -103px;
 }
 
 
@@ -1723,12 +1933,14 @@ height: 83px;
 }
 
 .services_text_oferta a {
+	display: inline-block;
 	color: #2b7ac5;
+	transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .services_text_oferta a:hover {
 	color: #00a650;
-
+	transform: scale(1.1);
 }
 
 .logo-ajustado {
@@ -1835,6 +2047,9 @@ height: 83px;
 /* Enlaces dentro del acordeón */
 .modo_oscuro-govco .faq-accordion-content a {
 	color: #90caf9;
+}
+.modo_oscuro-govco .contact_form_container {    
+    background: #808080;
 }
 
 
@@ -1965,11 +2180,13 @@ height: 83px;
 
 #nuestras_politicas {
 	margin-top: -109px;
+	margin-bottom: -177px;
 }
 
 #participacion_ciudadana {
-	margin-top: -153px;
-	padding-top: 40px;
+    margin-top: -153px;
+    padding-top: 40px;
+    margin-bottom: -97px;
 }
 
 /* Fin mapa sedes google maps */
@@ -2073,8 +2290,9 @@ height: 83px;
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
 	background-size: 100% 100%;
-	/*Ajusta el tamaño del icono a su contenedor*/
+	margin-top: 108px;
 }
+
 
 .carousel-control-prev span.sr-only,
 .carousel-control-next span.sr-only {

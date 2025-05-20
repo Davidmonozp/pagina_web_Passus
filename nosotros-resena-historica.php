@@ -243,7 +243,7 @@
 
 		<section class="hero-banner-reseña_historica" id="reseña_histórica">
 			<div class="hero-overlay">
-				<h1 id="titulo_derechos_deberes">Reseña Histórica
+				<h1 id="titulo_reseña">Reseña Histórica
 					<hr>
 				</h1>
 			</div>

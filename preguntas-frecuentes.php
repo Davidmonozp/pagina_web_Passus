@@ -161,10 +161,10 @@
 											<p>Si estas interesado en adquirir citas particulares de hidroterapia, rehabilitación integral o especialidades médicas comunícate al siguiente número:
 												- línea (601)7450118. <br>- Horarios de atención: lunes a viernes: 7:30 am a 5:30 pm.</p><br>
 										</li>
-										<li>
+										<!-- <li>
 											<p><b>CLASES DE NATACIÓN Y MATRONATACIÓN: comunicate vía WhatsApp 3209621527</b>.<br>
-												- Horarios de atención: lunes a viernes: 3:00 pm a 7:00 pm.</p>
-										</li>
+												- Horarios de atención: lunes a viernes: 3:00 pm a 7:30 pm.</p>
+										</li> -->
 									</ul>
 								</div>
 							</div>
@@ -176,7 +176,7 @@
 									<p><b>Recuerda que tu mejoría depende de tu asistencia, constancia y disciplina.</b></p>
 									<ol>
 										<p>Por este motivo no es posible realizar cancelaciones ni reprogramaciones de citas, ya que buscamos fomentar la adherencia al tratamiento ordenado. La cancelación de citas puede afectar negativamente su progreso y la efectividad de su recuperación. Su participación activa y consistente en el tratamiento es esencial para lograr los mejores resultados posibles. PASSUS IPS tiene un modelo de reprogramación de citas solo por incapacidad médica.<br><br>
-											Si no asistió o no puede asistir por este motivo, debe enviar incapacidad médica al correo de <b>atenciónalusuario@passusips.com</b> esta
+											Si no asistió o no puede asistir por este motivo, debe enviar incapacidad médica al correo de <b>atencionalusuario@passusips.com</b> esta
 											debe ser consecuente con los días que falló o no asistirá a sus citas ya programadas. Recuerde que cuenta con un número de sesiones que debe de tomar dentro de la vigencia asignada. Si todavía cuenta con vigencia en PASSUS y envía incapacidad dentro del tiempo asignado se le realizará la reprogramación.
 										</p>
 									</ol>
@@ -208,9 +208,9 @@
 								<div class="custom-article custom-large">
 									<p style="text-align: justify">Dado que la historia clínica es un documento legal y confidencial que contiene información esencial sobre su salud y tratamiento médico, le solicitamos amablemente realizar su solicitud de envío de historia clínica o informe final a través del correo electrónico de atenciónalusuario@passusips.com. Tener en cuenta lo siguiente: <br><br>
 
-										<p><b> Acceso a la información contenida en la historia clínica. </b> </p><br>
-										De acuerdo con la ley, podrán acceder a la historia clínica:
-									</p>
+									<p><b> Acceso a la información contenida en la historia clínica. </b> </p><br>
+									<p> De acuerdo con la ley, podrán acceder a la historia clínica:
+									</p> <br>
 									<ol>
 										<li>El usuario.</li>
 										<li>El equipo de salud.</li>
@@ -290,11 +290,11 @@
 								<input id="cad-02" name="custom-accordion-1" type="checkbox">
 								<label for="cad-02">¿Cómo puedo acceder o comprar este servicio?</label>
 								<div class="custom-article custom-medium">
-									<p class="parrafo_preguntas">Para adquirir el programa de natación, se puede realizar de 2 maneras:</p>
+									<p class="parrafo_preguntas">Para adquirir el programa de natación, se puede realizar de 2 formas:</p>
 
 									<ol>
-										<li> <b>PRESENCIAL:</b> en las instalaciones de nuestra sede de Cedritos, allí en la confitería nuestro personal entregara toda la información correspondiente, podrá realizar el pago, inscripción y agendamiento de las sesiones, donde ofrecemos agenda entre semana y un pool de profesionales - instructores de natación para su elección.</li>
-										<li><b>VIRTUAL: </b>desde nuestro chat de WhatsApp podrá recibir información y asesoría sobre el programa por parte de nuestro personal, con la posibilidad de realizar pago en línea (consignación a nuestra cuenta bancaria) y generar virtualmente la inscripción y agendamiento de las sesiones de clase.</li>
+										<li> <b>PRESENCIAL:</b> En las instalaciones de nuestra sede de Cedritos, allí en la confitería nuestro personal entregará toda la información correspondiente, podrá realizar el pago, inscripción y agendamiento de las sesiones, donde ofrecemos agenda entre semana y un pool de profesionales - instructores de natación para su elección.</li>
+										<li><b>VIRTUAL: </b>Desde nuestro chat de WhatsApp podrá recibir información y asesoría sobre el programa por parte de nuestro personal, con la posibilidad de realizar pago en línea (consignación a nuestra cuenta bancaria) y generar virtualmente la inscripción y agendamiento de las sesiones de clase.</li>
 									</ol>
 
 								</div>

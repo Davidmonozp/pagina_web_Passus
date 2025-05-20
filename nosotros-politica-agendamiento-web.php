@@ -45,7 +45,7 @@
 		<div class="container my-4">
 			<div class="row mb-2">
 				<div class="col-md-5 d-flex justify-content-center align-items-center px-3">
-					<img src="images/politica_manejo_datos.jpeg" class="img-fluid img-politica-datos">
+					<img src="images/terminos_condiciones.png" class="img-fluid img-politica-datos">
 				</div>
 				<div class="col-md-7 d-flex flex-column justify-content-start align-items-start px-3">
 					<h2>Términos y condiciones de Servicio Web</h2>

@@ -7,7 +7,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="styles/servicios.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
 
@@ -48,10 +48,10 @@ COLOR VERDE PASSUS #00A54F -->
                     Conocida como terapia hídrica, utiliza el agua para facilitar tu recuperación física y aliviar el dolor. <br>
                     En nuestras piscinas especializadas, realizamos ejercicios y terapias que aprovechan la temperatura y flotabilidad del agua para mejorar tu movilidad, reducir la inflamación y promover la relajación muscular.
                 </p>
-                <div class="faq-accordion">                  
+                <div class="faq-accordion">
                     <div class="faq-accordion-item">
                         <button id="faq-accordion-button-2" aria-expanded="false">
-                            <span class="faq-accordion-title">¿Cuál es su proposito general?</span>
+                            <span class="faq-accordion-title">¿Cuál es su propósito general?</span>
                             <span class="faq-icon" aria-hidden="true"></span>
                         </button>
                         <div class="faq-accordion-content">
@@ -105,7 +105,7 @@ COLOR VERDE PASSUS #00A54F -->
                 <img id="rehabilitacion-image" src="images/img-servicios/rehabilitacion_PassusIPS.png" alt="Imagen de rehabilitacion">
             </div>
             <div class="faq-grid-text">
-                <h2>Programa de rehabilitación Integral
+                <h2>Programa de Rehabilitación Integral
                     <hr>
                 </h2>
                 <p>
@@ -218,7 +218,7 @@ COLOR VERDE PASSUS #00A54F -->
                 </p>
                 <div class="faq-accordion">
                     <div class="faq-accordion-item">
-                        <button 
+                        <button
                             id="faq-accordion-button-2"
                             aria-expanded="false"
                             data-target-image="consultaExterna-image"
@@ -231,14 +231,20 @@ COLOR VERDE PASSUS #00A54F -->
                         </button>
                         <div class="faq-accordion-content">
                             <p>
-                                La neuropediatría es la rama de la medicina que estudia y trata los problemas del sistema nervioso en niños y adolescentes. <br>Esto incluye trastornos del cerebro, la médula espinal, los nervios y los músculos. El objetivo principal es detectar y tratar condiciones neurológicas desde edades tempranas para favorecer un desarrollo adecuado.
+                                Ofrecemos un servicio especializado en el diagnóstico y tratamiento de trastornos neurológicos en niños, desde recién nacidos hasta adolescentes.
+                            </p>
+                            <p>
+                                Nuestros neuropediatras están capacitados para manejar una amplia gama de condiciones, incluyendo trastornos del desarrollo, epilepsia, trastornos del aprendizaje y trastornos del movimiento.
+                            </p>
+                            <p>
+                                Con un enfoque específico en las necesidades neurológicas únicas de los niños, en Passus nos comprometemos a brindar atención integral y personalizada para promover su salud y bienestar.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="faq-accordion">
                     <div class="faq-accordion-item">
-                        <button 
+                        <button
                             id="faq-accordion-button-2"
                             aria-expanded="false"
                             data-target-image="consultaExterna-image"
@@ -262,7 +268,7 @@ COLOR VERDE PASSUS #00A54F -->
                 </div>
                 <div class="faq-accordion">
                     <div class="faq-accordion-item">
-                        <button 
+                        <button
                             id="faq-accordion-button-2"
                             aria-expanded="false"
                             data-target-image="consultaExterna-image"

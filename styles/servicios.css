@@ -66,7 +66,11 @@
     font-weight: bold;
     font-size: 2.5rem;
     text-align: center;
-    margin: 69vh 0 0 0;
+    margin: 68vh 0 0 0;
+}
+
+#titulo_passus_bienestar{
+    margin: 83vh 0 0 0;
 }
 
 .hero-overlay h1 hr {
@@ -207,7 +211,7 @@
         will-change: opacity, max-height;
 
         p {
-            font-size: 15px;
+            font-size: 16px;
             font-weight: 300;
             margin: 2em 0;
             line-height: 1.6;
@@ -252,7 +256,7 @@
 }
 
 .faq-grid-text p {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
     margin: 2em 0;
     line-height: 1.6;
@@ -370,6 +374,20 @@
         order: 1;
     }
 }
+@media (width: 1024px) {	
+	.hero-banner {       
+        height: 46vh;        
+    }
+	.hero-overlay h1 {		
+		margin: 33vh 0 0 0;
+	}
+    .hero-banner-divertido {     
+        height: 46vh;        
+    }
+    #titulo_passus_bienestar {
+        margin: 33vh 0 0 0;
+    }
+}
 
 @media (max-width: 1050px) {
     .reflected-button {
@@ -384,5 +402,14 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+}
+@media screen and (min-width: 1400px) and (max-width: 2400px) {
+
+	.hero-overlay h1 {		
+		font-size: 65px;		
+	}
+    .hero-banner {      
+        height: 89vh;       
     }
 }

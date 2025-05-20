@@ -42,9 +42,11 @@
 	.hero-banner-derechosDeberes {
 		height: 89vh;
 	}
-	#titulo_derechos_deberes{
+
+	#titulo_derechos_deberes {
 		margin-bottom: -517px;
 	}
+
 	#derechos_deberes {
 		margin-top: 55px;
 		margin-bottom: -130px;
@@ -56,6 +58,51 @@
 
 1. 1840px
 ************/
+@media screen and (min-width: 1400px) and (max-width: 2400px) {
+	#titulo_derechos_deberes {
+		font-size: 65px;
+		margin-top: 480px;
+	}
+
+	#titulo_quienes_somos {
+		margin-top: 731px;
+		font-size: 65px;
+	}
+
+	.hero-overlay-nuestrasPoliticas h1 {
+		margin-top: 841px;
+		font-size: 65px;
+	}
+
+	#titulo_politica_datos {
+		margin-top: 796px;
+		font-size: 65px;
+	}
+
+	#titulo_participacion_ciudadana {
+		margin-top: 635px;
+		font-size: 65px;
+	}
+
+	#titulo_terminos_condiciones {
+		margin-top: 778px;
+		font-size: 65px;
+	}
+
+	.hero-banner-trabajaNosotros .hero-overlay h1 {
+		margin-top: 76vh;
+		font-size: 65px;
+	}
+
+	.hero-banner-participacion {
+		height: 90vh;
+	}
+
+	.hero-overlay h1 {
+		font-size: 65px;
+	}
+}
+
 @media screen and (min-width: 1367px) and (max-width: 2048px) {
 	.passus_servicios {
 		margin-bottom: 125px;
@@ -282,7 +329,7 @@
 @media (min-width: 1440px) and (max-width: 2300px) {
 	.card {
 		min-width: 132px;
-		height: 12vh;
+		height: auto;
 	}
 
 	.why {
@@ -312,7 +359,7 @@
 
 	.card {
 		min-width: 132px;
-		height: 12vh;
+		height: auto;
 	}
 }
 
@@ -474,6 +521,7 @@
 		width: 45px;
 		height: 45px;
 		border-radius: 50%;
+		/* background: rgb(13, 153, 235); */
 	}
 
 	.icon_index {
@@ -505,11 +553,11 @@
 		margin-top: 15px;
 		margin-bottom: -3vh;
 	} */
-	.services {
-		padding-top: 75px;
-		margin-top: -153px;
-		margin-bottom: -11vh;
+	#services_index {
+		padding-top: 0px;
+		margin-top: 0 margin-bottom: -11vh;
 	}
+
 
 	#terminos_condiciones {
 		padding-top: 58px;
@@ -519,7 +567,7 @@
 
 	.card {
 		min-width: 132px;
-		height: 15vh;
+		height: auto;
 	}
 
 	.card p {
@@ -532,7 +580,7 @@
 	}
 
 	.passus_servicios_index {
-		margin-top: 2vh;
+		margin-top: 6vh;
 		margin-bottom: -10vh;
 	}
 
@@ -562,9 +610,10 @@
 	.main_nav ul li:not(:last-child) {
 		margin-right: 29px;
 	}
+
 	.porque_index {
-        margin-top: -10px;
-    }
+		margin-top: -10px;
+	}
 }
 
 /************
@@ -609,9 +658,9 @@
 10. 1024px
 ************/
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (width: 1024px) {
 	#para-mirar {
-		margin-top: -40vh;
+		margin-top: -4vh;
 	}
 
 	.imgcarousel {
@@ -629,6 +678,14 @@
 	.sedes {
 		grid-area: sedes;
 		text-align: start;
+	}
+
+	.passus_servicios_index {
+		margin-bottom: -5vh;
+	}
+
+	#titulo_aliados_index {
+		margin-top: -185px;
 	}
 
 	/* .sedes ul {
@@ -656,7 +713,23 @@
 @media (min-width: 768px) and (max-width: 991px) {
 	.card-img {
 		margin: 29px auto 8px auto;
-	}	
+	}
+
+	#titulo_HD_surOccidente {
+		margin-top: 765px;
+	}
+
+	.hero-banner-HD_surOccidente {
+		height: 52vh;
+	}
+
+	#titulo_HD_surOccidente {
+		margin-top: 390px;
+	}
+
+	#para-mirar {
+		margin-top: -2vh;
+	}
 }
 
 
@@ -680,7 +753,7 @@
 	.imgcarousel {
 		margin-bottom: 63px;
 		width: 100%;
-		height: 74%;
+		height: 100%;
 	}
 
 	.home_slider_dots {
@@ -771,7 +844,7 @@
 @media only screen and (max-width: 915px) {
 	.carousel-item img {
 		margin-top: 140px;
-		height: 38vh 304px;
+		height: 38vh;
 		object-fit: cover;
 		margin-bottom: 24px;
 	}
@@ -816,11 +889,102 @@
 	.hero-overlay h1 {
 		margin: 63vh 0 0 0;
 	}
+
+	.hero-banner-HD_surOccidente {
+		height: 45vh;
+	}
+
+	.hero-banner-quienesSomos {
+		height: 45vh;
+	}
+
+	.hero-banner-reseña_historica {
+		height: 44vh;
+	}
+
+	.hero-banner-derechosDeberes {
+		height: 47vh;
+	}
+
+	#titulo_derechos_deberes {
+		margin: 13vh 0 0 0;
+	}
+
+	.hero-banner-nuestrasPoliticas {
+		height: 59vh;
+	}
+
+	.hero-overlay-nuestrasPoliticas h1 {
+		margin: 44vh 0 0 0;
+	}
+
+	.hero-banner-politica_datos {
+		height: 51vh;
+	}
+
+	.hero-banner-terminos_condiciones {
+		height: 52vh;
+	}
+
+	.hero-banner-participacion {
+		height: 41vh;
+	}
+
+	.hero-banner-trabajaNosotros {
+		height: 46vh;
+	}
+
+	.hero-banner-trabajaNosotros .hero-overlay h1 {
+		margin-top: 36vh;
+	}
+
+	/* .hero-banner {		
+		height: 46vh;		
+	}
+	.hero-overlay h1 {		
+		margin: 33vh 0 0 0;
+	} */
 }
 
 @media (width: 900px) {
 	.hero-banner-derechosDeberes {
 		height: 60vh;
+	}
+
+	#para-mirar {
+		margin-top: -9vh;
+	}
+
+	.divertido_index {
+		margin-top: 50px;
+	}
+
+	.divservicios_index_divertido {
+		margin-top: 144px;
+	}
+
+	.cta_title {
+		margin-left: 20px;
+	}
+
+	.passus_servicios_index {
+		margin-bottom: -8vh;
+	}
+
+	.imgservicios_index {
+		height: 300px;
+		/* o la altura que estés usando */
+		width: 100%;
+		object-fit: cover;
+		object-position: center top;
+		/* <-- Esto sube el enfoque hacia arriba */
+	}
+
+	.divtamano_index {
+		min-height: 450px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 }
 
@@ -935,6 +1099,7 @@
 		padding-top: 0px;
 		padding-bottom: 0px;
 		height: 112px;
+		margin-top: -98px;
 	}
 
 	.cta_title {
@@ -950,7 +1115,16 @@
 	}
 
 	#para-mirar {
-		margin-top: -31vh;
+		margin-top: -2vh;
+	}
+
+	#titulo_aliados_index {
+		margin-top: -58px;
+	}
+
+	.passus_servicios_index {
+		margin-top: 6vh;
+		margin-bottom: -7vh;
 	}
 
 }
@@ -964,7 +1138,7 @@
 
 @media only screen and (max-width: 768px) {
 	.why {
-		top: -193px;
+		top: -174px;
 		height: 99vh;
 		background: white;
 	}
@@ -1588,7 +1762,7 @@
 	.owl-carousel .owl-item img {
 		display: block;
 		width: 100%;
-		margin-top: 67px;
+		margin-top: 115px;
 		height: 26vh;
 	}
 
@@ -1602,6 +1776,7 @@
 	}
 
 	.cta {
+		margin-top: 159px;
 		padding-top: 10px;
 		height: 116px;
 	}
@@ -1624,17 +1799,32 @@
 		margin-top: 0vh;
 	}
 
+	#titulo_aliados_index {
+		margin-top: -99px;
+	}
+
 	.accordion {
 		width: 118%;
 		margin: 0 -27px;
 	}
 
 	#para-mirar {
-		margin-top: -26vh;
+		margin-top: 21vh;
 	}
 
 	.hero-banner-preguntas .hero-overlay h1 {
 		margin-bottom: -34vh;
+	}
+
+	#services_index {
+		padding-top: 6px;
+		margin-top: -1px;
+		margin-bottom: -11vh;
+	}
+
+	.service_col_divertido {
+		margin-top: 10px;
+		margin-bottom: -18px;
 	}
 }
 

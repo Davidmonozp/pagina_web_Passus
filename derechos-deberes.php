@@ -33,7 +33,6 @@
 				</div>
 			</div>
 		</div> -->
-
 		<section class="hero-banner-derechosDeberes" id="hero_derechos_deberes">
 			<div class="hero-overlay">
 				<h1 id="titulo_derechos_deberes">Derechos y Deberes de los Pacientes
@@ -41,6 +40,7 @@
 				</h1>
 			</div>
 		</section>
+
 
 
 

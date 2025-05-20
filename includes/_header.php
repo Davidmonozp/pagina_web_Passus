@@ -140,7 +140,7 @@
 	</div>
 	<nav class="menu_nav">
 		<ul>
-			<li><a href="index">Inicio</a></li>
+			<li class="nav-item dropdown"><a class="nav-link dropdown-toggle px-0" href="#" id="dropdownR00" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="index">Inicio</a></li>
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle px-0" href="#" id="dropdownR01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conócenos</a>
 				<div class="dropdown-menu" aria-labelledby="dropdownR01" style="width: 250px; min-width: 250px;">
@@ -177,8 +177,8 @@
                       		<a class="dropdown-item" href="derechos-deberes" style="font-size: 13px;">Derechos y Deberes</a>
 			        </div>
 				</li> -->
-			<li><a href="preguntas-frecuentes">Preguntas</a></li>
-			<li><a href="contactanos">F-PQRS</a></li>
+			<li class="nav-item dropdown"><a class="nav-link dropdown-toggle px-0" href="#" id="dropdownR02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="preguntas-frecuentes">Preguntas</a></li>
+			<li class="nav-item dropdown"><a  class="nav-item dropdown"><a class="nav-link dropdown-toggle px-0" href="#" id="dropdownR02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="preguntas-frecuentes" href="contactanos">F-PQRS</a></li>
 		</ul>
 	</nav>
 	<div class="social menu_social">

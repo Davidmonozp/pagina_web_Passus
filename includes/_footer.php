@@ -81,7 +81,7 @@
 </div>
 
 <div class="copy" id="copy">
-	<p>&copy; 2019 - <script>
+	<p id="copy_footer">&copy; 2019 - <script>
 			document.write(new Date().getFullYear());
 		</script> Todos los derechos reservados |
 		<a href="https://passusips.com/passus/index.php" class="link-passus" target="_blank">Passus Soft</a> |

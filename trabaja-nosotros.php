@@ -110,13 +110,13 @@
 
 					<div class="col-xl-4 col-md-6 services_col_oferta">
 						<div class="services_oferta text-center">
-							<div class="services_title_oferta">Psicólogos Asistenciales</div>
+							<div class="services_title_oferta">Fisioterapeuta</div>
 							<div class="services_text_oferta">
-								<p>Descripción del puesto: Estamos en la búsqueda de un Psicólogo Asistencial para unirse a nuestro equipo en PASSUS IPS . El candidato ideal será una persona empática, comprometida y con una pasión por la salud mental, capaz de brindar atención y apoyo psicológico a pacientes en un entorno clínico.</p>
+								<!-- <p>Descripción del puesto: Estamos en la búsqueda de un Psicólogo Asistencial para unirse a nuestro equipo en PASSUS IPS . El candidato ideal será una persona empática, comprometida y con una pasión por la salud mental, capaz de brindar atención y apoyo psicológico a pacientes en un entorno clínico.</p> -->
 								<!--<li>$16.000 por hora</li>-->
 								<li>Tipo de puesto: Tiempo completo</li>
 								<li>Lugar: Bogota</li>
-								<li><a href="https://co.indeed.com/cmp/Passus-Ips-Taller-Psicomotriz/jobs?jk=0e5780ca0c12a26d&start=0" target="_blank">Aplica aqui</a></li>
+								<li><a href="https://co.indeed.com/jobs?q=passus&l=&ts=1745243548232&from=searchOnHP&rq=1&rsIdx=0&newcount=1&fromage=last&vjk=93b3434b130d9559" target="_blank">Aplica aqui</a></li>
 							</div>
 						</div>
 					</div>
@@ -125,71 +125,58 @@
 
 					<div class="col-xl-4 col-md-6 services_col_oferta">
 						<div class="services_oferta text-center">
-							<div class="services_title_oferta">Auxiliar de admisiones</div>
+							<div class="services_title_oferta">Educador especial - IPS</div>
 							<div class="services_text_oferta">
-								<p>El profesional será responsable de la admisión de pacientes, proporcionando información clara sobre los servicios de la IPS y gestionando las funciones de caja. Además, deberá verificar autorizaciones médicas, elaborar informes estadísticos del flujo de pacientes y administrar la asignación de citas y procedimientos. </p>
-								<!--<li>Salarios: $1.450.000 - $1.675.000 por mes</li>-->
 								<li>Tipo de puesto: Tiempo completo</li>
 								<li>Lugar: Bogotá</li>
-								<li><a href="https://co.indeed.com/cmp/Passus-Ips-Taller-Psicomotriz/jobs?jk=317e33fda06642f8&start=0" target="_blank">Aplica aqui</a></li>
+								<li><a href="https://co.indeed.com/jobs?q=passus&l=&ts=1745243548232&from=searchOnHP&rq=1&rsIdx=0&newcount=1&fromage=last&vjk=1ad427cfb9ad079d" target="_blank">Aplica aqui</a></li>
 							</div>
 						</div>
 					</div>
 
 					<div class="col-xl-4 col-md-6 services_col_oferta">
 						<div class="services_oferta text-center">
-							<div class="services_title_oferta">Salvavidas</div>
-							<div class="services_text_oferta">
-								<p>Tener certificado de 600 Horas en cruz roja o de competencia laboral por sena o titulo en salvamento acuático.
-								</p>
+							<div class="services_title_oferta">Profesional de Talento Humano</div>
+							<div class="services_text_oferta">								
 								<!--<li>Salarios: $1.800.000 - $2.300.000 por mes</li>-->
 								<li>Tipo de puesto: Tiempo completo</li>
-								<li>Horario: Rotativo de lunes a viernes de 06:30 Am a 03:30 Pm, 45 Horas semanales</li>
 								<li>Lugar: Bogotá</li>
-								<li><a href="https://co.indeed.com/cmp/Passus-Ips-Taller-Psicomotriz/jobs?jk=1e664a64587b8325&start=0" target="_blank">Aplica aqui</a></li>
+								<li><a href="https://co.indeed.com/rc/clk?jk=679f8f4a44e5b2a8&bb=HyyVISExnPTUk5fWqcyPPcR_or3tcDSLPf2YePl4FfwdA8Ch2NIcQC8wWnt49Q0q-swiRV4P0UlPeNDkBefAEcLPl1VuG9WPZMhkZI5erdDmPmt0_em6gV7URLIEUeqmP1ZtMOSUl7E%3D&xkcb=SoDD67M3y0yc75SwCR0JbzkdCdPP&fccid=45e7b9c5e1f462da&cmp=Passus-Ips-Taller-Psicomotriz&ti=Analista+de+talento+humano&vjs=3" target="_blank">Aplica aqui</a></li>
 							</div>
 						</div>
 					</div>
 
 					<div class="col-xl-4 col-md-6 services_col_oferta">
 						<div class="services_oferta text-center">
-							<div class="services_title_oferta">Administración en salud</div>
-							<div class="services_text_oferta">
-								<p>Responsabilidades principales: <br>
-
-									- Atención al usuario y liderazgo intermedio frente a equipos operativos en salud. <br>
-
-									- Capacidad para realizar admisiones y caja <br>
-
-									- Atención de situaciones cotidianas de la sede asignada <br>
-
-									- Atención programada del usuario
-
-									- Alinear diferentes unidades y para conseguir el objetivo concreto de la organización <br>
-
-									- Experiencia para la habilitación en salud/pamec/admisiones y caja en salud. <br>
-								</p>
+							<div class="services_title_oferta">Auxiliar de apoyo</div>
+							<div class="services_text_oferta">							
 								<!--<li>Salarios: $1.800.000 - $2.300.000 por mes</li>-->
 								<li>Tipo de puesto: Tiempo completo</li>
-								<li>Horario: Rotativo de lunes a viernes de 06:30 Am a 03:30 Pm, 45 Horas semanales</li>
 								<li>Lugar: Bogotá</li>
-								<li><a href="https://co.indeed.com/cmp/Passus-Ips-Taller-Psicomotriz/jobs?jk=367e946a0747d0e2&start=0" target="_blank">Aplica aqui</a></li>
+								<li><a href="https://co.indeed.com/rc/clk?jk=223db05f76e86d7b&bb=HyyVISExnPTUk5fWqcyPPQzHvz1bJTMaAltS1w7yxWpVWdGIs3tqwCEDiOjl-c7a_Dg8Zj3t02Ul7BT8ayW7-xYCKoH1TIlXxz8flwU3bG5nnvbxeMIxrS01sPmDZq5F3hkd04AXVp0%3D&xkcb=SoB367M3y0yc75SwCR0IbzkdCdPP&fccid=45e7b9c5e1f462da&cmp=Passus-Ips-Taller-Psicomotriz&ti=Auxiliar+de+apoyo&vjs=3" target="_blank">Aplica aqui</a></li>
 							</div>
 						</div>
 					</div>
 
 					<div class="col-xl-4 col-md-6 services_col_oferta">
 						<div class="services_oferta text-center">
-							<div class="services_title_oferta">Docente natación</div>
-							<div class="services_text_oferta">
-								<p>Jornada tarde de lunes a viernes, experiencia mínima de 6 meses en natación y matronatación, ofrecemos contrato por prestación de servicios en el lugar de Bogotá norte. <br>
-									Los horarios y demás condiciones se revisan en la entrevista.
-								</p>
+							<div class="services_title_oferta">Fonoaudiólogo(a) – IPS</div>
+							<div class="services_text_oferta">								
 								<!--<li>Salarios: $20.000 por hora</li>-->
 								<li>Tipo de puesto: Tiempo completo</li>
-								<li>Horario:Jornada tarde de lunes a viernes</li>
 								<li>Lugar: Bogotá</li>
-								<li><a href="https://co.indeed.com/cmp/Passus-Ips-Taller-Psicomotriz/jobs?jk=75464f5031c1f9d0&start=0" target="_blank">Aplica aqui</a></li>
+								<li><a href="https://co.indeed.com/rc/clk?jk=af05e373495c0858&bb=HyyVISExnPTUk5fWqcyPPbsD7Rr2kmD35iz-X5G_LhaFkc_ykWIG3HuoQYKsgXb26xogn4RW_ZwQ4jKZrlmeEK66_WB49WBSX9pi7zqimchdCX-uUXMbMofVsyOsw0Ikfm631UaWRPU%3D&xkcb=SoD567M3y0yc75SwCR0PbzkdCdPP&fccid=45e7b9c5e1f462da&cmp=Passus-Ips-Taller-Psicomotriz&ti=Fonoaudiologo&vjs=3" target="_blank">Aplica aqui</a></li>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-md-6 services_col_oferta">
+						<div class="services_oferta text-center">
+							<div class="services_title_oferta">Auxiliar contable</div>
+							<div class="services_text_oferta">								
+								<!--<li>Salarios: $20.000 por hora</li>-->
+								<li>Tipo de puesto: Tiempo completo</li>
+								<li>Lugar: Bogotá</li>
+								<li><a href="https://co.indeed.com/rc/clk?jk=8b3642df551f3f6c&bb=HyyVISExnPTUk5fWqcyPPZkwBixC-1xXVTuSINPum59WrseKXcVw_Cmg4fvCCuUuKUF6f2hga3H_0zku4VFFAZWCpz4u691ywYQHbLD2QJ8mdk_EM22kDUUvQEYJ1cWeik1Pj3BpzJQ%3D&xkcb=SoDQ67M3y0yc75SwCR0NbzkdCdPP&fccid=45e7b9c5e1f462da&cmp=Passus-Ips-Taller-Psicomotriz&ti=Auxiliar+contable&vjs=3" target="_blank">Aplica aqui</a></li>
 							</div>
 						</div>
 					</div>
