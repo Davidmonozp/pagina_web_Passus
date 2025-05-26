@@ -83,15 +83,16 @@ div {
 	box-sizing: border-box;
 }
 
-.nav-item .nav-link {
+/* .nav-item .nav-link {
 	font-weight: 600;
-}
+} */
 
 ul {
 	list-style: none;
 	margin-bottom: 0px;
 }
-li{
+
+li {
 	font-size: 16px;
 	text-align: justify;
 }
@@ -176,7 +177,7 @@ h1 {
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 37px;
 	color: #00249c;
 	/* color: #188c41; */
 }
@@ -236,6 +237,7 @@ h6::selection .h2 {
 	margin-left: 350px !important;
 }
 
+
 .form-control {
 	color: #db5246;
 }
@@ -288,13 +290,13 @@ section {
 	transition: all 300ms ease;
 }
 
-.trans_400 {
+/* .trans_400 {
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
 	-ms-transition: all 400ms ease;
 	-o-transition: all 400ms ease;
 	transition: all 400ms ease;
-}
+} */
 
 .trans_500 {
 	-webkit-transition: all 500ms ease;
@@ -417,6 +419,7 @@ section {
 }
 
 .section_title {
+	text-align: center;
 	margin-top: 9px;
 	margin-bottom: -6px;
 }
@@ -464,7 +467,7 @@ section {
 
 .hr_por_que {
 	border-top: 2px solid #188c41;
-	width: 25%;
+	width: 19%;
 	margin: 0 auto;
 }
 
@@ -474,8 +477,11 @@ section {
 	margin: 0;
 }
 
+/* #titulo_aliados_index {
+    margin-top: -79px;
+} */
 #titulo_aliados_index {
-    margin-top: -209px;
+	margin-top: 14px;
 }
 
 .hr_aliados {
@@ -496,6 +502,12 @@ section {
 	margin: 0px 0 0 466px;
 }
 
+.contenedor_testimonial {
+    padding-top: 16px;
+    margin-top: 0px;
+}
+
+
 
 /* CARDS CONTACTANOS */
 
@@ -504,7 +516,7 @@ section {
 	border-radius: 12px;
 	/* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); */
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	gap: 15px;
 	justify-content: center;
 	margin-top: 0px;
@@ -575,9 +587,12 @@ section {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(1, 107, 126, 0.699); /* fondo muy transparente */
-	backdrop-filter: blur(8px); /* desenfoque tipo vidrio */
-	-webkit-backdrop-filter: blur(8px); /* soporte para Safari */
+	background: rgba(1, 107, 126, 0.699);
+	/* fondo muy transparente */
+	backdrop-filter: blur(8px);
+	/* desenfoque tipo vidrio */
+	-webkit-backdrop-filter: blur(8px);
+	/* soporte para Safari */
 	color: white;
 	text-align: center;
 	display: flex;
@@ -590,15 +605,18 @@ section {
 	font-size: 18px;
 	letter-spacing: 2px;
 	pointer-events: none;
-	border: 1px solid rgba(255, 255, 255, 0.2); 
+	border: 1px solid rgba(255, 255, 255, 0.2);
 	padding-left: 34px;
-    padding-right: 34px;
+	padding-right: 34px;
 }
+
 .card:hover .contact-overlay {
 	opacity: 1;
 	transform: scale(1);
-	pointer-events: auto; /* habilita clics cuando se muestra */
+	pointer-events: auto;
+	/* habilita clics cuando se muestra */
 }
+
 .contact-overlay span {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
@@ -850,8 +868,9 @@ section {
 	justify-content: center;
 	/* border: 2px solid #a5b3b9; */
 }
+
 .icon_index img {
-    filter: brightness(0) invert(1);
+	filter: brightness(0) invert(1);
 }
 
 .icon {
@@ -871,10 +890,10 @@ section {
 
 /* Estilos iconos img index debajo de "¿Porque elegirnos?"*/
 .icon_index img {
-    max-width: 26px;
-    /* max-width: 30px; */
-    margin-left: -3px;
-    margin-top: -2px;
+	max-width: 26px;
+	/* max-width: 30px; */
+	margin-left: -3px;
+	margin-top: -2px;
 }
 
 .why_list_content {
@@ -911,10 +930,11 @@ section {
 
 .cta {
 	width: 100%;
-	background: #009772;
-	/*background: #00A54F;*/
-	padding-top: 49px;
-	padding-bottom: 46px;
+	background: #125195;
+	/* background: #00A54F; */
+	padding-top: 13px;
+	padding-bottom: 0px;
+	height: auto;
 }
 
 .cta_title {
@@ -960,15 +980,16 @@ section {
 }
 
 .hero-banner-derechosDeberes {
-    background-image: url(/pagina_passus/images/nosotros-img/derechos-deberes-2.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 77vh;
-    position: relative;
-    width: 100%;
-    margin-top: 143px;
+	background-image: url(/pagina_passus/images/nosotros-img/derechos-deberes-2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 77vh;
+	position: relative;
+	width: 100%;
+	margin-top: 143px;
 }
+
 #titulo_derechos_deberes {
 	margin-top: 380px;
 }
@@ -1316,6 +1337,13 @@ hr.quienesSomos {
 	padding-right: 10px;
 }
 
+#services_index {
+	margin-top: -56px;
+}
+
+#services_index {
+	margin-top: -56px;
+}
 
 .services_row {
 	width: 100%;
@@ -1565,9 +1593,11 @@ height: 83px;
 }
 
 #derechos_deberes {
-	margin-top: 55px;
-	margin-bottom: -130px;
+    margin-top: 0px;
+    margin-bottom: -130px;
+    padding-top: 61px;
 }
+
 @media (max-width: 1199px) {
 	.accordion-image img {
 		max-width: 40vh;
@@ -1637,9 +1667,9 @@ height: 83px;
 }
 
 #politica_datos {
-    padding-top: 10px;
-    margin-top: 20px;
-    margin-bottom: -127px;
+	padding-top: 10px;
+	margin-top: 20px;
+	margin-bottom: -127px;
 }
 
 .img-politica-datos {
@@ -1888,9 +1918,9 @@ height: 83px;
 }
 
 .services_row2 {
-    width: 100%;
-    margin-top: 0px;
-    margin-bottom: -103px;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: -103px;
 }
 
 
@@ -2048,8 +2078,9 @@ height: 83px;
 .modo_oscuro-govco .faq-accordion-content a {
 	color: #90caf9;
 }
-.modo_oscuro-govco .contact_form_container {    
-    background: #808080;
+
+.modo_oscuro-govco .contact_form_container {
+	background: #808080;
 }
 
 
@@ -2184,9 +2215,9 @@ height: 83px;
 }
 
 #participacion_ciudadana {
-    margin-top: -153px;
-    padding-top: 40px;
-    margin-bottom: -97px;
+	margin-top: -153px;
+	padding-top: 40px;
+	margin-bottom: -97px;
 }
 
 /* Fin mapa sedes google maps */
@@ -2863,6 +2894,10 @@ height: 83px;
 	background-color: #2e2e2e;
 }
 
+.modo_oscuro-govco .barra-accesibilidad-govco i {
+  color: #004985;
+}
+
 /* Estilos para el footer en modo oscuro */
 
 #footer.modo_oscuro-govco {
@@ -2883,10 +2918,13 @@ height: 83px;
 }
 
 #copy.modo_oscuro-govco {
-	background-color: white;
-	color: #f1f1f1;
+	background-color: rgb(214, 213, 213);
+	color: #020202;
 }
 
+.modo_oscuro-govco .copy p {
+    color: #000000; /* Blanco o cualquier otro color de contraste alto */
+}
 
 
 

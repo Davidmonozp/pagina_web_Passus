@@ -29,12 +29,12 @@
 		<!-- Contact -->
 		<div class="intro" id="sede_chia">
 			<div class="container">
-				<div class="row py-1">
 					<!-- Titulo -->
-					<div class="">
+				<div class="">
 						<h2 class="titulo_sedes">Nuestros servicios Rehabilitación integral- Chía</h2>
 						<p class="parrafo_ser">Contamos con los más altos estándares de calidad y con un gran equipo de profesionales al servicio de nuestros clientes.</p>
 					</div>
+				<div class="row py-1">					
 					<!-- Intro Image -->
 					<div class="col-md-5">
 						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -104,7 +104,7 @@
 							<div class="custom-accordion">
 								<div>
 									<input id="cac-2" name="custom-accordion-1" type="checkbox">
-									<label for="cac-2">Telemedicina</label>
+									<label for="cac-2">Consulta médica especializada</label>
 									<div class="custom-article custom-small">
 										<ol>
 											<li>Medicina física y rehabilitación (Fisiatria).</li>

@@ -7,7 +7,8 @@
 		<ul>
 			<li><a href="index">Inicio</a></li>
 			<li><a href="nosotros-quienes-somos">Conócenos</a></li>
-			<li><a href="servicios">Servicios</a></li>
+			<li><a href="servicios_passusIPS">Passus IPS</a></li>
+			<li><a href="servicios_passus_divertido">Passus Bienestar</a></li>
 			<li><a href="derechos-deberes">Derechos y deberes</a></li>
 			<li><a href="preguntas-frecuentes">Preguntas frecuentes</a></li>
 			<li><a href="trabaja-nosotros">Trabaja con nosotros</a></li>
@@ -20,8 +21,8 @@
 	<div class="servicios">
 		<h4>Servicios</h4>
 		<ul>
-			<li><a href="servicios#servicios-ips">Passus IPS</a></li>
-			<li><a href="servicios#passus-divertido">Passus Bienestar</a></li><br><br>
+			<li><a href="servicios_passusIPS">Passus IPS</a></li>
+			<li><a href="servicios_passus_divertido">Passus Bienestar</a></li><br><br>
 			<li>
 				<p class="footer_passus">Somos una entidad especializada en salud y bienestar, enfocada en rehabilitación terapéutica integral, con un equipo altamente calificado y espacios diseñados para brindar atención de calidad. </p>
 			</li>
@@ -84,7 +85,7 @@
 	<p id="copy_footer">&copy; 2019 - <script>
 			document.write(new Date().getFullYear());
 		</script> Todos los derechos reservados |
-		<a href="https://passusips.com/passus/index.php" class="link-passus" target="_blank">Passus Soft</a> |
+		<!-- <a href="https://passusips.com/passus/index.php" class="link-passus" target="_blank">Passus Soft</a> | -->
 		<a href="https://passusips.com/estados-financieros" class="link-estados-financieros">Estados Financieros</a>
 		<a href="../../pagina_passus/images/videos/Usuario ya activo.mp4" class="link-estados-financieros" target="_blank">usuario</a>
 	</p>

@@ -113,7 +113,7 @@
 							<div class="custom-accordion">
 								<div>
 									<input id="cac-3" name="custom-accordion-1" type="checkbox">
-									<label for="cac-3">Telemedicina</label>
+									<label for="cac-3">Consulta médica especializada</label>
 									<div class="custom-article custom-small">
 										<ol>
 											<li>Neuropediatría.</li>

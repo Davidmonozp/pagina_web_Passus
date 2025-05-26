@@ -1,0 +1,315 @@
+.calificacion {
+    background: #3693eb;
+}
+
+.rating {
+    margin: auto;
+}
+
+.rating__layout {
+    display: flex;
+    flex-wrap: wrap;
+    /* para responsividad */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.rating__text,
+.rating__stars {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 1em;
+    text-align: center;
+    margin-top: 11px;
+}
+
+.rating__stars {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 0px;
+    /* separa las estrellas horizontalmente */
+}
+
+/* .rating__display {
+    font-size: 1em;
+    font-weight: 500;
+    min-height: 1.25em;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+} */
+.rating__display {
+    text-align: center;
+    font-size: 1rem;
+    color: #444;
+    margin-top: 0.5em;
+    min-height: 1.5em;
+    transition: opacity 0.3s;
+}
+
+.rating__star {
+    display: block;
+    overflow: visible;
+    pointer-events: none;
+    width: 2em;
+    height: 2em;
+}
+
+.rating__star-ring,
+.rating__star-fill,
+.rating__star-line,
+.rating__star-stroke {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.rating__star-ring,
+.rating__star-fill,
+.rating__star-line {
+    stroke: var(--yellow);
+}
+
+.rating__star-fill {
+    fill: var(--yellow);
+    transform: scale(0);
+    transition: fill var(--trans-dur) var(--bezier), transform var(--trans-dur) var(--bezier);
+}
+
+.rating__star-line {
+    stroke-dasharray: 12 13;
+    stroke-dashoffset: -13;
+}
+
+.rating__star-stroke {
+    stroke: hsl(40, 10%, 80%);
+    transition: stroke var(--trans-dur);
+}
+
+.rating__label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.125em;
+    margin: 0 8px;
+    /* separación entre estrellas */
+}
+
+.rating__input {
+    position: absolute;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.rating__input:hover~[data-rating]:not([hidden]) {
+    display: none;
+}
+
+.rating__input-1:hover~[data-rating="1"][hidden],
+.rating__input-2:hover~[data-rating="2"][hidden],
+.rating__input-3:hover~[data-rating="3"][hidden],
+.rating__input-4:hover~[data-rating="4"][hidden],
+.rating__input-5:hover~[data-rating="5"][hidden],
+.rating__input:checked:hover~[data-rating]:not([hidden]) {
+    display: block;
+}
+
+/* Efecto hover sobre estrellas */
+.rating__input-1:hover~.rating__label:nth-of-type(1) .rating__star-stroke,
+.rating__input-2:hover~.rating__label:nth-of-type(-n+2) .rating__star-stroke,
+.rating__input-3:hover~.rating__label:nth-of-type(-n+3) .rating__star-stroke,
+.rating__input-4:hover~.rating__label:nth-of-type(-n+4) .rating__star-stroke,
+.rating__input-5:hover~.rating__label:nth-of-type(-n+5) .rating__star-stroke {
+    stroke: var(--yellow);
+    transform: scale(1);
+}
+
+/* Ring animado al seleccionar */
+.rating__input-1:checked~.rating__label:nth-of-type(1) .rating__star-ring,
+.rating__input-2:checked~.rating__label:nth-of-type(-n+2) .rating__star-ring,
+.rating__input-3:checked~.rating__label:nth-of-type(-n+3) .rating__star-ring,
+.rating__input-4:checked~.rating__label:nth-of-type(-n+4) .rating__star-ring,
+.rating__input-5:checked~.rating__label:nth-of-type(-n+5) .rating__star-ring {
+    animation-name: starRing;
+}
+
+/* Stroke animado al seleccionar */
+.rating__input-1:checked~.rating__label:nth-of-type(1) .rating__star-stroke,
+.rating__input-2:checked~.rating__label:nth-of-type(-n+2) .rating__star-stroke,
+.rating__input-3:checked~.rating__label:nth-of-type(-n+3) .rating__star-stroke,
+.rating__input-4:checked~.rating__label:nth-of-type(-n+4) .rating__star-stroke,
+.rating__input-5:checked~.rating__label:nth-of-type(-n+5) .rating__star-stroke {
+    animation-name: starStroke;
+}
+
+/* Line animado */
+.rating__input-1:checked~.rating__label:nth-of-type(1) .rating__star-line,
+.rating__input-2:checked~.rating__label:nth-of-type(-n+2) .rating__star-line,
+.rating__input-3:checked~.rating__label:nth-of-type(-n+3) .rating__star-line,
+.rating__input-4:checked~.rating__label:nth-of-type(-n+4) .rating__star-line,
+.rating__input-5:checked~.rating__label:nth-of-type(-n+5) .rating__star-line {
+    animation-name: starLine;
+}
+
+/* Fill animado */
+.rating__input-1:checked~.rating__label:nth-of-type(1) .rating__star-fill,
+.rating__input-2:checked~.rating__label:nth-of-type(-n+2) .rating__star-fill,
+.rating__input-3:checked~.rating__label:nth-of-type(-n+3) .rating__star-fill,
+.rating__input-4:checked~.rating__label:nth-of-type(-n+4) .rating__star-fill,
+.rating__input-5:checked~.rating__label:nth-of-type(-n+5) .rating__star-fill {
+    animation-name: starFill;
+}
+
+.rating__input-1:not(:checked):hover~.rating__label:nth-of-type(1) .rating__star-fill,
+.rating__input-2:not(:checked):hover~.rating__label:nth-of-type(2) .rating__star-fill,
+.rating__input-3:not(:checked):hover~.rating__label:nth-of-type(3) .rating__star-fill,
+.rating__input-4:not(:checked):hover~.rating__label:nth-of-type(4) .rating__star-fill,
+.rating__input-5:not(:checked):hover~.rating__label:nth-of-type(5) .rating__star-fill {
+    fill: var(--yellow-t);
+}
+
+.rating__sr {
+    clip: rect(1px, 1px, 1px, 1px);
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+}
+
+.thanks-message {
+    margin-top: -14px;
+    margin-bottom: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+
+.calificar_pagina {
+    color: white;
+}
+
+.rating__caption {
+    opacity: 0;
+    visibility: hidden;
+    height: 1em;
+    transition: opacity 0.3s ease;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.rating__label:hover .rating__caption {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Responsive: columnas se apilan en móviles */
+@media (max-width: 600px) {
+    .rating__layout {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .rating__text,
+    .rating__stars {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 1em;
+        text-align: center;
+    }
+}
+
+/* Dark Theme */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: hsl(40, 10%, 10%);
+        --fg: hsl(40, 10%, 90%);
+    }
+
+    .rating__star-stroke {
+        stroke: hsl(40, 10%, 30%);
+    }
+}
+
+/* Animations */
+@keyframes starRing {
+
+    from,
+    20% {
+        animation-timing-function: ease-in;
+        opacity: 1;
+        r: 8px;
+        stroke-width: 16px;
+        transform: scale(0);
+    }
+
+    35% {
+        animation-timing-function: ease-out;
+        opacity: 0.5;
+        r: 8px;
+        stroke-width: 16px;
+        transform: scale(1);
+    }
+
+    50%,
+    to {
+        opacity: 0;
+        r: 16px;
+        stroke-width: 0;
+        transform: scale(1);
+    }
+}
+
+@keyframes starFill {
+
+    from,
+    40% {
+        animation-timing-function: ease-out;
+        transform: scale(0);
+    }
+
+    60% {
+        animation-timing-function: ease-in-out;
+        transform: scale(1.2);
+    }
+
+    80% {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes starStroke {
+    from {
+        transform: scale(1);
+    }
+
+    20%,
+    to {
+        transform: scale(0);
+    }
+}
+
+@keyframes starLine {
+
+    from,
+    40% {
+        animation-timing-function: ease-out;
+        stroke-dasharray: 1 23;
+        stroke-dashoffset: 1;
+    }
+
+    60%,
+    to {
+        stroke-dasharray: 12 13;
+        stroke-dashoffset: -13;
+    }
+}

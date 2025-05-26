@@ -105,7 +105,7 @@
 
 									<div>
 										<input id="cac-2" name="custom-accordion-1" type="checkbox">
-										<label for="cac-2">Consultas especializadas</label>
+										<label for="cac-2">Consulta médica especializada</label>
 										<div class="custom-article custom-medium">
 											<ol>
 												<li>Medicina física y rehabilitación (Fisiatría).</li>

@@ -83,7 +83,7 @@ $(document).ready(function()
 		var menuClose = $('.menu_close_container');
 
 		hamb.on('click', function()
-		{
+		{    
 			menu.toggleClass('active');
 			menuOverlay.toggleClass('active');
 		});

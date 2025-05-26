@@ -69,7 +69,7 @@
     margin: 68vh 0 0 0;
 }
 
-#titulo_passus_bienestar{
+#titulo_passus_bienestar {
     margin: 83vh 0 0 0;
 }
 
@@ -351,12 +351,25 @@
         margin: 0px auto 0;
     }
 
+    .faq-grid-container {
+        padding: 15px 13px;
+    }
+
     .faq-grid-text {
         order: 1;
     }
 
     .faq-grid-image {
         order: 2;
+    }
+
+    #titulo_passus_bienestar {
+        margin: 22vh 0 0 0;
+    }
+
+    .hero-banner-divertido {
+        margin-top: 113px;
+        height: 29vh;
     }
 }
 
@@ -374,16 +387,20 @@
         order: 1;
     }
 }
-@media (width: 1024px) {	
-	.hero-banner {       
-        height: 46vh;        
+
+@media (width: 1024px) {
+    .hero-banner {
+        height: 46vh;
     }
-	.hero-overlay h1 {		
-		margin: 33vh 0 0 0;
-	}
-    .hero-banner-divertido {     
-        height: 46vh;        
+
+    .hero-overlay h1 {
+        margin: 33vh 0 0 0;
     }
+
+    .hero-banner-divertido {
+        height: 46vh;
+    }
+
     #titulo_passus_bienestar {
         margin: 33vh 0 0 0;
     }
@@ -391,10 +408,7 @@
 
 @media (max-width: 1050px) {
     .reflected-button {
-        position: static;
-        margin-top: 20px;
-        align-self: center;
-        transform: none;
+        display: none;
     }
 
     .hero-overlay {
@@ -404,12 +418,14 @@
         text-align: center;
     }
 }
+
 @media screen and (min-width: 1400px) and (max-width: 2400px) {
 
-	.hero-overlay h1 {		
-		font-size: 65px;		
-	}
-    .hero-banner {      
-        height: 89vh;       
+    .hero-overlay h1 {
+        font-size: 65px;
+    }
+
+    .hero-banner {
+        height: 89vh;
     }
 }

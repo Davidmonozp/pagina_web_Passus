@@ -187,7 +187,7 @@
 								<label for="cad-6">¿Por qué se genera cobro de multa?</label>
 								<div class="custom-article custom-large">
 									<ol>
-										<p>Como institución prestadora de servicios de salud, nos acogemos a la ley 1438 de 2011, la cual establece MULTA POR INASISTENCIAS INJUSTIFICADAS a las sesiones de hidroterapia, esta multa se está aplicando desde el mes de marzo del 2023. Recuerde que la ausencia no justificada a las sesiones del programa de rehabilitación conlleva a la disminución de las sesiones programadas y para Hidroterapia generará multa por cada día de ausencia el valor de la multa es de $30.000.
+										<p>Como institución prestadora de servicios de salud, nos acogemos a la ley 1438 de 2011, la cual establece MULTA POR INASISTENCIAS INJUSTIFICADAS a las sesiones de hidroterapia, esta multa se está aplicando desde el mes de marzo del 2023. Recuerde que la ausencia no justificada a las sesiones del programa de rehabilitación conlleva a la disminución de las sesiones programadas y para Hidroterapia generará multa por cada día de ausencia.
 										</p>
 									</ol>
 								</div>
@@ -331,9 +331,9 @@
 									</div>
 								</div>
 							</div>
-							<div class="accordion-image-preguntas">
+							<!-- <div class="accordion-image-preguntas">
 								<img src="images/preguntas.png" alt="Imagen de acuamotricidad">
-							</div>
+							</div> -->
 						</div>
 					</div>
 

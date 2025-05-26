@@ -8,6 +8,9 @@
 <link rel="stylesheet" type="text/css" href="styles/responsive.css?v=1.1">
 <link rel="stylesheet" type="text/css" href="styles//servicios.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- Agrega esto en el <head> de tu HTML -->
+
+
 
 
 </head>
@@ -49,7 +52,8 @@
 					<a href="https://www.linkedin.com/in/passuscolombia" target="_blank"><i class="fab fa-linkedin-in"></i></a>
 					<a href="mailto:contacto@tuempresa.com"><i class="fas fa-envelope"></i></a>
 				</div>
-				<h1>Contáctanos
+				
+				<h1 id="titulo_contactanos">Contáctanos
 					<hr>
 				</h1>
 
@@ -68,7 +72,6 @@
 	<div class="contact" id="contactanos">
 		<div class="container">
 			<div class="row">
-
 				<!-- Contact Form -->
 				<!-- <div class="col-lg-6"> -->
 				<div class="col-lg-6">
@@ -139,156 +142,56 @@
 					</div>
 				</div>
 
-				<!-- Contact Content -->
-				<!-- <div class="col-lg-5 offset-lg-1 contact_col"> -->
-				<div class="col-lg-5 offset-lg-1 contact_col">
-					<!-- <div class="contact_content">
-							<div class="contact_content_title">
-								<h5>Puedes comunicarte con nosotros a través de los siguientes canales</h5>
-							</div>
-							<div class="contact_content_text">
-								<p></p>
-							</div>
-							<div class="direct_line d-flex flex-row align-items-center justify-content-start">
-								<div class="direct_line_title text-center">Call center</div>
-								<div class="direct_line_num text-center"> (601) 316 16 99</div>
-							</div>						
-						</div> -->
+				<!-- BOTONES REDES -->
+				<div class="col-lg-6 d-flex align-items-start justify-content-center">
+					<div class="contenedor-redes-sociales">
+						<h3>Comunícate con nosotros</h3>
+						<a class="whatsapp" href="https://wa.me/573209621527" target="_blank">
+							<span class="circulo"><i class="fab fa-whatsapp"></i></span>
+							<span class="titulo">WhatsApp</span>
+							<span class="titulo-hover">Escribir</span>
+						</a>
+						<a class="call">
+							<span class="circulo"><i class="fas fa-phone"></i></span>
+							<span class="titulo">Llamar</span>
+							<span class="titulo-hover">(601) 316 16 99</span>
+						</a>
+						<h3>Síguenos</h3>
+						<a class="facebook" href="https://www.facebook.com/passsusipscolombia?_rdc=1&_rdr#" target="_blank">
+							<span class="circulo"><i class="fab fa-facebook-f"></i></span>
+							<span class="titulo">Facebook</span>
+							<span class="titulo-hover">Seguir</span>
+						</a>
+						<a class="instagram" href="https://www.instagram.com/tu_usuario" target="_blank">
+							<span class="circulo"><i class="fab fa-instagram"></i></span>
+							<span class="titulo">Instagram</span>
+							<span class="titulo-hover">Seguir</span>
+						</a>
+
+						<a class="youtube" href="https://www.youtube.com/tu_canal" target="_blank">
+							<span class="circulo"><i class="fab fa-youtube"></i></span>
+							<span class="titulo">YouTube</span>
+							<span class="titulo-hover">Suscribirse</span>
+						</a>
 
 
+						<a class="twitter" href="https://x.com/passus_ips" target="_blank">
+							<span class="circulo"><i class="fab fa-x-twitter"></i></span>
+							<span class="titulo">X</span>
+							<span class="titulo-hover">Seguir</span>
+						</a>
 
-					<div class="cards-container" id="cards-container">
-						<h3>Nuestros servicios Passus IPS<hr class="hr"></h3>
-						<div class="direct_line d-flex flex-row align-items-center justify-content-start">
-							<div class="direct_line_title text-center">Call center</div>
-							<div class="direct_line_num text-center"> (601) 316 16 99</div>
-						</div>
-
-						<div class="card">
-							<img src="images/hidroterapia-icono.png" alt="" class="card-img">
-							<p>Hidroterapia</p>
-							<div class="contact-overlay">
-								<span>¡Llámanos al 601 3161699!</span>
-							</div>
-						</div>
-						<div class="card">
-							<img src="images/rehabilitacion-icono.png" alt="" class="card-img">
-							<p>Rehabilitación</p>
-							<div class="contact-overlay">
-								<span>¡Llámanos al 601 3161699!</span>
-							</div>
-						</div>
-
-						<div class="card">
-							<img src="images/neuropsicologia-icono.png" alt="" class="card-img">
-							<p>Neuropediatría</p>
-							<div class="contact-overlay">
-								<span>¡Llámanos al 601 3161699!</span>
-							</div>
-						</div>
-						<!-- <div class="card">
-								<a href="https://wa.me/573214662896?text=%C2%A1Hola!%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20el%20servicio%20de%20Yoga.%20%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n,%20por%20favor%3F" target="_blank">
-									<img src="images/neuropediatria-icono.png" alt="" class="card-img">
-									<p>Neuropediatría</p>
-								</a>
-							</div> -->
-
-						<!-- <div class="card">
-								<a href="https://wa.me/573214662896?text=%C2%A1Hola!%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20el%20servicio%20de%20Yoga.%20%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n,%20por%20favor%3F" target="_blank">
-									<img src="images/terapia-ocupacional-icono.png" alt="" class="card-img">
-									<p>Terap. Ocupacional</p>
-								</a>
-							</div> -->
-						<!-- <div class="card">
-								<a href="https://wa.me/573214662896?text=%C2%A1Hola!%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20el%20servicio%20de%20Yoga.%20%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n,%20por%20favor%3F" target="_blank">
-									<img src="images/fonoaudiologia-icono.png" alt="" class="card-img">
-									<p>Fonoaudiología</p>
-								</a>
-							</div> -->
-						<div class="card">
-							<img src="images/psicologia-icono.png" alt="" class="card-img">
-							<p>Psiquiatría</p>
-							<div class="contact-overlay">
-								<span>¡Llámanos al 601 3161699!</span>
-							</div>
-						</div>
-						<div class="card">
-							<img src="images/fisiatria-icono.png" alt="" class="card-img">
-							<p>Fisiatría</p>
-							<div class="contact-overlay">
-								<span>¡Llámanos al 601 3161699!</span>
-							</div>
-						</div>
-					</div>
-
-					<div class="cards-container">
-						<h3>Nuestros servicios Passus Bienestar <hr class="hr"></h3>
-						<div class="card">
-							<a href="https://wa.me/573209621527?text=%C2%A1Hola!%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20el%20servicio%20de%20Yoga.%20%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n,%20por%20favor%3F" target="_blank">
-								<img src="images/yoga-icono.png" alt="" class="card-img">
-								<p>Yoga</p>
-								<div class="contact-overlay">
-									<span>¡Solicita tu servicio!</span>
-								</div>
-							</a>
-						</div>
-						<div class="card">
-							<a href="https://wa.me/573209621527?text=%C2%A1Hola!%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20el%20servicio%20de%20Natación.%20%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n,%20por%20favor%3F" target="_blank">
-								<img src="images/natacion-icono.png" alt="" class="card-img">
-								<p>Natación</p>
-								<div class="contact-overlay">
-									<span>¡Solicita tu servicio!</span>
-								</div>
-							</a>
-						</div>
-						<div class="card">
-							<a href="https://wa.me/573209621527?text=%C2%A1Hola!%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20el%20servicio%20de%20Pilates.%20%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n,%20por%20favor%3F" target="_blank">
-								<img src="images/pilates-icono.png" alt="" class="card-img">
-								<p>Pilates</p>
-								<div class="contact-overlay">
-									<span>¡Solicita tu servicio!</span>
-								</div>
-							</a>
-						</div>
-						<div class="card">
-							<a href="https://wa.me/573209621527?text=%C2%A1Hola!%20%F0%9F%91%8B%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20el%20servicio%20de%20Mindfulness.%20%C2%BFPodr%C3%ADas%20darme%20m%C3%A1s%20informaci%C3%B3n,%20por%20favor%3F" target="_blank">
-								<img src="images/mindfulness-icono.png" alt="" class="card-img">
-								<p>Mindfulness</p>
-								<div class="contact-overlay">
-									<span>¡Solicita tu servicio!</span>
-								</div>
-							</a>
-						</div>
-					</div>
-					<!-- </div> -->
-
-
-
-
-				</div>
-				<div class="row google_map_row">
-					<div class="col">
-
-						<!-- Contact Map -->
-
-						<div class="contact_map">
-
-							<!-- Google Map -->
-
-							<!-- <div class="map">
-							<div id="google_map" class="google_map">
-								<div class="map_container">
-									<div id="map"></div>
-								</div>
-							</div>
-						</div> -->
-
-						</div>
-
+						<a class="linkedin" href="https://www.linkedin.com/in/passuscolombia" target="_blank">
+							<span class="circulo"><i class="fab fa-linkedin-in"></i></span>
+							<span class="titulo">LinkedIn</span>
+							<span class="titulo-hover">Seguir</span>
+						</a>
 					</div>
 				</div>
+				<!-- FIN BORONES REDES -->
 			</div>
 		</div>
+
 
 		<!-- Footer -->
 

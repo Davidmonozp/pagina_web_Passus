@@ -53,14 +53,16 @@ window.onload = function () {
         document.getElementById("pilates"),
         document.querySelector(".hero-banner-preguntas"),
         document.getElementById("preguntas_frecuentes"),
-
+        document.querySelector(".sectiontitle"),
+        document.getElementById("projectFacts"),
+        document.getElementById("testimonial-slider"),
     ];
 
     
     contenedores.forEach(contenedor => {
         if (contenedor) {
             const elementos = contenedor.querySelectorAll(
-                "p, h1, h2, h3, h4, li, a, label, input[type='checkbox'], .custom-article, .why_list_title, .why_list_text, .cta_title, .cta_phone, .timeline, time, .prices, .price_title, .accordion, .header-top, .contact_content_title, li div, .faq-accordion-title"
+                "p, h1, h2, h3, h4, li, a, label, input[type='checkbox'], .custom-article, .why_list_title, .why_list_text, .cta_title, .cta_phone, .timeline, time, .prices, .price_title, .accordion, .header-top, .contact_content_title, li div, .faq-accordion-title, i.fa, .post"
               );
 
             elementos.forEach(el => {
@@ -147,6 +149,9 @@ function cambiarContexto() {
         document.getElementById("yoga"),
         document.getElementById("mindfulness"),
         document.getElementById("pilates"),
+        document.querySelector(".sectiontitle"),
+        document.getElementById("projectFacts"),
+        document.getElementById("testimonial-slider"),
     ];
 
     contenedores.forEach(contenedor => {
@@ -167,6 +172,9 @@ function cambiarContexto() {
         el.classList.toggle("modo_oscuro-govco");
     });
     document.querySelector(".service_oferta")?.classList.toggle("modo_oscuro-govco");
+    document.querySelector(".contenedor_testimonial")?.classList.toggle("modo_oscuro-govco");
+    document.querySelector(".super_container")?.classList.toggle("modo_oscuro-govco");
+    document.querySelector(".icon-contraste")?.classList.toggle("modo_oscuro-govco");
 }
 
 

@@ -1,5 +1,11 @@
 <!-- Header -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+<link rel="stylesheet" type="text/css" href="styles/header_top.css">
+
+
+
+
+
 
 <header class="header trans_400">
 
@@ -16,23 +22,59 @@
 					</li>
 					<li class="item">
 						<i class="fab fa-whatsapp mr-0 icon-box"></i>
-						<strong>WhatsApp Clases de Natación:</strong>
+						<strong>Clases de Natación:</strong>
 						<a href="tel:320 962 15 27">
 							<span>320 962 15 27</span>
 						</a>
 					</li>
+					<!-- <li class="nav-item pl-1">
+						<a class="nav-link" href="#"><i class="fa fa-phone fa-fw mr-1"></i>CallCenter</a>
+					</li>
+					<li class="nav-item pl-1">
+						<a class="nav-link" href="#"><i class="fa-brands fa-whatsapp mr-1"></i>Clases Natación</a>
+					</li> -->
+					<li class="item">
+						<a href="https://www.facebook.com/passuscolombia/?locale=es_LA" target="_blank">
+							<i class="fab fa-facebook-f mr-0 icon-box"></i>
+						</a>
+					</li>
+					<li class="item">
+						<a href="https://www.instagram.com/passusipscolombia/?igsh=dm1tdWJuMHEzMGU%3D#" target="_blank">
+							<i class="fab fa-instagram mr-0 icon-box"></i>
+						</a>
+					</li>
+
+					<li class="item">
+						<a href="https://www.youtube.com/@passuscolombia1519" target="_blank">
+							<i class="fab fa-youtube mr-0 icon-box"></i>
+						</a>
+					</li>
+
+					<li class="item">
+						<a href="https://www.tiktok.com/@passusipscolombia" target="_blank">
+							<i class="fab fa-tiktok mr-0 icon-box"></i>
+						</a>
+					</li>
+
+					<li class="item">
+						<a href="https://www.linkedin.com/in/passuscolombia/" target="_blank">
+							<i class="fab fa-linkedin-in mr-0 icon-box"></i>
+						</a>
+					</li>
+
 					<!-- <li class="item">
-                        	  <i class="fas fa-phone-alt mr-0 icon-box"></i>
-                              <strong>Chatbot:</strong>
-                              <a href="tel:314 418 90 34">
-                              	<span>314 418 90 34</span>
-                              </a>
-                        </li> -->
+						<i class="fas fa-phone-alt mr-0 icon-box"></i>
+						<strong>Chatbot:</strong>
+						<a href="tel:314 418 90 34">
+							<span>314 418 90 34</span>
+						</a>
+					</li> -->
 				</ul>
 			</div>
 		</div>
 	</div>
-	<div class="header_content d-flex flex-row align-items-center jusity-content-start trans_400">
+
+	<div class="header_content d-flex flex-row align-items-center justify-content-start trans_400">
 
 		<!-- Logo -->
 		<div class="logo">
@@ -61,8 +103,8 @@
 					</div>
 				</li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
-					<div class="dropdown-menu" aria-labelledby="dropdown01">
+					<a class="nav-link dropdown-toggle" href="#" id="dropdown-01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+					<div class="dropdown-menu" aria-labelledby="dropdown-01">
 						<a class="dropdown-item" href="servicios_passusIPS">Passus IPS</a>
 						<a class="dropdown-item" href="servicios_passus_divertido
 					">Passus Bienestar</a>
@@ -71,13 +113,13 @@
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sedes</a>
 					<div class="dropdown-menu" aria-labelledby="dropdown02">
-						<a class="dropdown-item" href="sede-bogota-americas-1">Rehabilitación integral - Bogotá Sur Occidente</a>
-						<a class="dropdown-item" href="sede-bogota-americas-2">Hidroterapia - Bogotá Sur Occidente</a>
-						<a class="dropdown-item" href="sede-bogota-cedritos">Hidroterapia - Bogotá Norte</a>
-						<a class="dropdown-item" href="sede-bogota-veraguas">Hidroterapia y Rehabilitacion Integral - Centro Bogotá</a>
-						<a class="dropdown-item" href="sede-chia">Rehabilitación integral - Chía</a>
-						<a class="dropdown-item" href="sede-florencia">Hidroterapia y Rehabilitacion Integral - Florencia</a>
-						<a class="dropdown-item" href="sede-ibague">Hidroterapia y Rehabilitacion Integral - Ibagué</a>
+						<a class="dropdown-item" href="sede-bogota-americas-1">Bogotá Sur Occidente - Rehabilitación integral</a>
+						<a class="dropdown-item" href="sede-bogota-americas-2">Bogotá Sur Occidente - Hidroterapia</a>
+						<a class="dropdown-item" href="sede-bogota-cedritos">Bogotá Norte - Hidroterapia</a>
+						<a class="dropdown-item" href="sede-bogota-veraguas">Bogotá Centro - Hidroterapia</a>
+						<a class="dropdown-item" href="sede-chia">Chía - Rehabilitación integral</a>
+						<a class="dropdown-item" href="sede-florencia">Florencia - Hidroterapia y Rehabilitacion Integral</a>
+						<a class="dropdown-item" href="sede-ibague">Ibagué - Hidroterapia y Rehabilitacion Integral</a>
 					</div>
 				</li>
 				<!--		    <li class="nav-item dropdown">
@@ -103,7 +145,7 @@
 
 		<div style="margin-left:20px;">
 			<a class="nav-link" href="https://oficinavirtual.passusips.com/inicio" target="_blank">
-				<button class="botonA"><b style="height: 40px; font-size: 12px;">¡Asigna tus citas!</b></button>
+				<button class="botonA"><b>¡Agendate aquí!</b></button>
 			</a>
 		</div>
 		<div class="header_extra d-flex flex-row align-items-center justify-content-end ml-auto">
@@ -111,7 +153,7 @@
 			<!-- <div class="button button_1 header_button"><a href="#">Agendar Cita</a></div> -->
 			<!-- Header Social -->
 
-			<div class="social header_social">
+			<!-- <div class="social header_social">
 				<ul class="d-flex flex-row align-items-center justify-content-start">
 					<li title="Facebook"><a href="https://www.facebook.com/passusipscolombia/" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
 					<li title="Instagram"><a href="https://www.instagram.com/passusipscolombia/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
@@ -120,7 +162,7 @@
 					<li title="Linkedin"><a href="https://www.linkedin.com/in/passuscolombia/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
 
 				</ul>
-			</div>
+			</div> -->
 
 			<!-- Hamburger -->
 			<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
@@ -140,7 +182,7 @@
 	</div>
 	<nav class="menu_nav">
 		<ul>
-			<li class="nav-item dropdown"><a class="nav-link dropdown-toggle px-0" href="#" id="dropdownR00" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="index">Inicio</a></li>
+			<li><a href="index">Inicio</a></li>
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle px-0" href="#" id="dropdownR01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conócenos</a>
 				<div class="dropdown-menu" aria-labelledby="dropdownR01" style="width: 250px; min-width: 250px;">
@@ -149,16 +191,19 @@
 					<a class="dropdown-item" href="nosotros-resena-historica" style="font-size: 13px;">Reseña Histórica</a>
 					<a class="dropdown-item" href="nosotros-nuestras-politicas" style="font-size: 13px;">Nuestras Políticas</a>
 					<a class="dropdown-item" href="nosotros-politica-manejo-datos" style="font-size: 13px;">Política Manejo de Datos</a>
-					<a class="dropdown-item" href="nosotros-politica-participacion-ciudadana" style="font-size: 13px;">Política de Participación ciudadana</a>
+					<a class="dropdown-item" href="nosotros-politica-agendamiento-web" style="font-size: 12px;">Términos y condiciones Servicio Web</a>
+					<a class="dropdown-item" href="nosotros-politica-participacion-ciudadana" style="font-size: 12px;">Política de Participación ciudadana</a>
 					<a class="dropdown-item" href="trabaja-nosotros" style="font-size: 13px;">Trabaja con nosotros</a>
 				</div>
 			</li>
 			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle px-0" href="#" id="dropdownR0-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
-				<div class="dropdown-menu" aria-labelledby="dropdownR0-1" style="width: 250px; min-width: 250px;">
-					<a class="dropdown-item" href="servicios_passusIPS.php" style="font-size: 13px;">Passus IPS</a>
-					<a class="dropdown-item" href="servicios_passus_divertido.php" style="font-size: 13px;">Passus Bienestar</a>
+				<a class="nav-link dropdown-toggle  px-0" href="#" id="dropdown-01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+				<div class="dropdown-menu" aria-labelledby="dropdown-01" style="width: 320px; min-width: 320px;">
+					<a class="dropdown-item" href="servicios_passusIPS" style="font-size: 12px;">Passus IPS</a>
+					<a class="dropdown-item" href="servicios_passus_divertido" style="font-size: 12px;">Passus Bienestar</a>
 				</div>
+			</li>
+
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle px-0" href="#" id="dropdownR02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sedes</a>
 				<div class="dropdown-menu" aria-labelledby="dropdownR02" style="width: 320px; min-width: 320px;">
@@ -177,8 +222,8 @@
                       		<a class="dropdown-item" href="derechos-deberes" style="font-size: 13px;">Derechos y Deberes</a>
 			        </div>
 				</li> -->
-			<li class="nav-item dropdown"><a class="nav-link dropdown-toggle px-0" href="#" id="dropdownR02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="preguntas-frecuentes">Preguntas</a></li>
-			<li class="nav-item dropdown"><a  class="nav-item dropdown"><a class="nav-link dropdown-toggle px-0" href="#" id="dropdownR02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="preguntas-frecuentes" href="contactanos">F-PQRS</a></li>
+			<li><a href="preguntas-frecuentes">Preguntas</a></li>
+			<li><a href="contactanos">F-PQRS</a></li>
 		</ul>
 	</nav>
 	<div class="social menu_social">

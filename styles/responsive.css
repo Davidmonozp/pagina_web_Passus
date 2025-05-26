@@ -135,9 +135,40 @@
 }
 
 @media (min-width: 1680px) and (max-width: 1920px) {
-	#para-mirar {
-		margin-top: -19vh;
+	.divtamano_index {
+		height: 380px;
 	}
+
+	#para-mirar {
+		margin-top: -1px;
+		padding-top: 20px;
+		margin-bottom: -20px;
+	}
+
+	#services_index {
+		margin-top: -6px;
+		margin-bottom: -171px;
+	}
+
+	.container {
+		max-width: 1582px;
+	}
+
+	.carousel-item img {
+		height: 41vh;
+		margin-top: 112px;
+		border-radius: 21px;
+	}
+
+	.why_content {
+		margin-top: -64px;
+	}
+
+	.background_image {
+		top: 188px;
+	}
+
+
 }
 
 /************
@@ -148,7 +179,7 @@
 
 @media only screen and (max-width: 1600px) {
 	.main_nav {
-		margin-left: 54px;
+		margin-left: 181px;
 	}
 
 	.carousel-item img {
@@ -171,7 +202,7 @@
 	}
 
 	.background_image {
-		height: 59%;
+		height: 70%;
 	}
 
 	.why {
@@ -181,12 +212,12 @@
 	}
 
 	.carousel-item img {
-		height: 32vh;
+		height: 41vh;
 		margin-top: 112px;
 	}
 
 	.why_content {
-		margin-top: -34px;
+		margin-top: -64px;
 	}
 
 
@@ -194,7 +225,6 @@
 		width: 50px;
 		height: 50px;
 		border-radius: 50%;
-		background: #f1f1f1;
 		/* background: #3695EB; */
 	}
 
@@ -215,7 +245,7 @@
 	}
 
 	.why_list ul li:not(:last-of-type) {
-		margin-bottom: 8px;
+		margin-bottom: 27px;
 	}
 
 	.titulo_sedes {
@@ -227,6 +257,37 @@
 		/* max-width: 30px; */
 		margin-left: 0px;
 		margin-top: -2px;
+	}
+
+	.hero-banner-derechosDeberes {
+		margin-top: 116px;
+	}
+
+	#titulo_derechos_deberes {
+		margin-top: 555px;
+	}
+
+	.hero-banner-nuestrasPoliticas {
+		height: 118vh;
+	}
+
+	#titulo_RHB_surOccidente,
+	#titulo_HD_surOccidente,
+	#titulo_HD_bogota_norte,
+	#titulo_bogota_centro,
+	#titulo_sede_chia,
+	#titulo_sede_florencia,
+	#titulo_sede_ibague {
+		margin-top: 721px;
+		font-size: 65px;
+	}
+
+	#titulo_contactanos {
+		margin-top: 720px;
+	}
+
+	.hero-banner-preguntas .hero-overlay h1 {
+		margin-bottom: -53vh;
 	}
 
 	.footer {
@@ -374,6 +435,18 @@
 		object-fit: cover;
 		margin-top: 181px;
 	}
+
+	.logo {
+		display: block !important;
+		/* Asegura que el logo siempre se muestre */
+	}
+
+	.logo img {
+		max-width: 150px;
+		/* Ajusta según necesidad para pantallas pequeñas */
+		height: auto;
+	}
+
 }
 
 /************
@@ -432,7 +505,7 @@
 	}
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (width: 1366px) {
 
 	.home {
 		width: 100%;
@@ -452,37 +525,33 @@
 
 	.imgcarousel {
 		/* width: 80%; */
-		height: 136%;
+		height: 141%;
 	}
 
 
 	.carousel-item img {
-		height: 44vh;
+		height: 28vh;
 		object-fit: cover;
-		margin-top: 117px !important;
+		margin-top: 91px;
 		border-radius: 20px;
 	}
 
 	.home_slider_dots {
-		top: 111vh;
+		top: 101vh;
 		left: calc((100vw - 690px) / 2);
 	}
 
 	.why {
-		top: -99px;
-		width: 100%;
-		margin-bottom: -145px;
-		margin-bottom: -101px;
-		background: white;
+		top: 14px;
+		margin-bottom: -66px;
+	}
+
+	.why_list {
+		margin-top: 41px;
 	}
 
 	.cta {
 		width: 100%;
-		background: #009772;
-		/* background: #00A54F; */
-		padding-top: 19px;
-		padding-bottom: 46px;
-		height: 94px;
 	}
 
 	.cta_title {
@@ -512,9 +581,10 @@
 	}
 
 	.porque_index {
-		font-size: 36px;
-		margin-bottom: -41px;
-		margin-top: 43px;
+		font-size: 37px;
+		margin-bottom: -15px;
+		margin-top: -25px;
+		padding-top: 43px;
 	}
 
 	.icon_container_index {
@@ -555,45 +625,46 @@
 	} */
 	#services_index {
 		padding-top: 0px;
-		margin-top: 0 margin-bottom: -11vh;
+		margin-top: -102px;
+		margin-bottom: -146px;
+
+
+		#terminos_condiciones {
+			padding-top: 58px;
+			margin-top: -153px;
+			margin-bottom: -3vh;
+		}
+
+		.card {
+			min-width: 132px;
+			height: auto;
+		}
+
+		.card p {
+			margin: 0px 0 0;
+		}
+
+		.passus_servicios {
+			margin-bottom: -32px;
+			margin-top: -38vh;
+		}
+
+		.passus_servicios_index {
+			margin-top: 6vh;
+			margin-bottom: -5vh;
+		}
+
+		.passus_servicios_indexDivertido {
+			margin-top: 2vh;
+			margin-bottom: -10vh;
+		}
+
+		.footer {
+			padding: 50px 50px 33px 100px;
+		}
+
+
 	}
-
-
-	#terminos_condiciones {
-		padding-top: 58px;
-		margin-top: -153px;
-		margin-bottom: -3vh;
-	}
-
-	.card {
-		min-width: 132px;
-		height: auto;
-	}
-
-	.card p {
-		margin: 0px 0 0;
-	}
-
-	.passus_servicios {
-		margin-bottom: -32px;
-		margin-top: -38vh;
-	}
-
-	.passus_servicios_index {
-		margin-top: 6vh;
-		margin-bottom: -10vh;
-	}
-
-	.passus_servicios_indexDivertido {
-		margin-top: 2vh;
-		margin-bottom: -10vh;
-	}
-
-	.footer {
-		padding: 50px 50px 33px 100px;
-	}
-
-
 }
 
 /************
@@ -612,8 +683,95 @@
 	}
 
 	.porque_index {
-		margin-top: -10px;
+		padding-top: 10px;
+		margin-top: -11px;
 	}
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+	.background_image {
+		height: 63%;
+	}
+
+	#services_index {
+		margin-top: -56px;
+		margin-bottom: -165px;
+	}
+
+	.porque_index {
+		margin-top: 19px;
+	}
+
+	.imgcarousel {
+		margin-top: -113px;
+	}
+
+	.carousel-item img {
+		margin-top: 89px;
+		height: 43vh;
+		border-radius: 20px;
+	}
+
+	.home_slider_dots {
+		bottom: 57px;
+	}
+
+	.why_list {
+		margin-top: 58px;
+	}
+
+	.why_list ul li:not(:last-of-type) {
+		margin-bottom: 7px;
+	}
+
+	.icon_container_index {
+		width: 54px;
+		height: 54px;
+		border-radius: 50%;
+		background: #1d7cca;
+		justify-content: center;
+	}
+
+	.icon_index img {
+		margin-left: 3px;
+		margin-top: 2px;
+	}
+
+	#titulo_quienes_somos {
+		margin-top: 624px;
+	}
+
+	#titulo_reseña {
+		margin-top: 373px;
+	}
+
+	#titulo_politica_datos {
+		margin-top: 685px;
+	}
+
+	#titulo_terminos_condiciones {
+		margin-top: 691px;
+	}
+
+	#titulo_participacion_ciudadana {
+		margin-top: 561px;
+	}
+
+	.hero-banner-trabajaNosotros .hero-overlay h1 {
+		margin-top: 75vh;
+	}
+
+	#titulo_RHB_surOccidente,
+	#titulo_HD_surOccidente,
+	#titulo_bogota_centro,
+	#titulo_HD_bogota_norte,
+	#titulo_sede_chia,
+	#titulo_sede_florencia,
+	#titulo_sede_ibague {
+		margin-top: 628px;
+	}
+
+
 }
 
 /************
@@ -625,14 +783,14 @@
 		display: none;
 	}
 
-	.home_slider_dots {
+	/* .home_slider_dots {
 		left: calc((100vw - 930px) / 2);
-	}
+	} */
 
 	.imgcarousel {
 		margin-bottom: 63px;
 		width: 100%;
-		height: 73%;
+		height: 100%;
 	}
 
 	.direct_line_title {
@@ -696,18 +854,63 @@
 /************
 11. 991px
 ************/
-/* @media (min-width: 992px) and (max-width: 1999px) {
-	.card {
-
-		min-width: 132px;
-		height: 16vh;
+@media (min-width: 992px) and (max-width: 1279px) {
+	.background_image {
+		top: 168px;
+		height: 62%;
 	}
-} */
+
+	#services_index {
+		margin-top: -38px;
+	}
+
+	#services_index {
+		margin-bottom: -161px;
+	}
+
+	.carousel-item img {
+		margin-top: 92px;
+		height: 38vh;
+		border-radius: 20px;
+	}
+
+	.why_list ul li:not(:last-of-type) {
+		margin-bottom: 7px;
+	}
+
+	.icon_container_index {
+		width: 48px;
+		height: 48px;
+	}
+
+	.icon_index img {
+		margin-left: 3px;
+		margin-top: 1px;
+	}
+
+	.why {
+		margin-top: 16px;
+		background: white;
+		margin-bottom: -40px;
+	}
+
+	.why_list {
+		margin-top: 47px;
+	}
+}
 
 @media (min-width: 415px) and (max-width: 991px) {
 	.card {
 		width: calc(38% - 10px);
 	}
+
+	.home_slider_dots {
+		position: absolute;
+		bottom: 70px;
+		left: calc((100vw - 1140px) / 2);
+		z-index: 1;
+	}
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -728,12 +931,66 @@
 	}
 
 	#para-mirar {
-		margin-top: -2vh;
+		margin-top: 3vh;
+	}
+
+	.header_content {
+		width: 100%;
+		height: 90px;
+		padding-left: 203px;
+		padding-right: 130px;
+	}
+
+	#services_index .service_col_divertido {
+		flex: 0 0 100% !important;
+		max-width: 100% !important;
+	}
+
+	#services_index .divservicios_index {
+		height: 350px;
+		box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+		/* Asegúrate de tener el box-shadow aquí */
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border-radius: 20px;
+	}
+
+	#services_index .service {
+		height: 100%;
+	}
+
+	#services_index .divtamano_index {
+		height: 88%;
+	}
+
+	.background_image {
+		top: 142px;
+		width: 100%;
+		height: 57%;
+	}
+
+	.imgcarousel {
+		margin-top: -34px;
+		margin-bottom: 63px;
+		width: 100%;
+		height: 100%;
+	}
+
+	.icon_index img {
+		max-width: 32px;
+		margin-left: -1px;
+		margin-top: -2px;
+	}
+
+	.carousel-item img {
+		border-radius: 20px;
 	}
 }
 
 
-@media only screen and (max-width: 991px) {
+@media only screen and (width: 991px) {
 
 	.main_nav,
 	.header_social {
@@ -741,7 +998,7 @@
 	}
 
 	.carousel-item img {
-		margin-top: 140px;
+		margin-top: 97px;
 		height: 37vh;
 		object-fit: cover;
 	}
@@ -799,6 +1056,16 @@
 		flex: 0 0 100% !important;
 		max-width: 100% !important;
 	}
+
+	#para-mirar {
+		padding-top: 12px;
+		margin-top: 0px;
+		margin-bottom: -20px;
+	}
+
+	.why_list ul li:not(:last-of-type) {
+		margin-bottom: 12px;
+	}
 }
 
 @media only screen and (max-width: 967px) {
@@ -822,8 +1089,6 @@
 
 	.cta {
 		width: 100%;
-		background: #009772;
-		/* background: #00A54F; */
 		padding-top: 19px;
 		padding-bottom: 13px;
 		height: 130px;
@@ -851,10 +1116,6 @@
 
 	.cta {
 		width: 100%;
-		background: #009772;
-		/* background: #00A54F; */
-		padding-top: 19px;
-		padding-bottom: 13px;
 		height: 130px;
 	}
 
@@ -995,16 +1256,14 @@
 		object-fit: cover;
 	}
 
-	.imgcarousel {
+	/* .imgcarousel {
 		margin-bottom: 63px;
 		width: 100%;
 		height: 74%;
-	}
+	} */
 
 	.cta {
 		width: 100%;
-		background: #009772;
-		/* background: #00A54F; */
 		padding-top: 19px;
 		padding-bottom: 13px;
 		height: 140px;
@@ -1046,6 +1305,19 @@
 /************
 13. 880px
 ************/
+@media (min-width: 768px) and (max-width: 834px) {
+	.imgcarousel {
+		margin-top: -38px;
+		margin-bottom: 63px;
+		width: 100%;
+		height: 100%;
+	}
+
+	#services_index {
+		margin-top: -67px;
+		margin-bottom: 1vh;
+	}
+}
 
 @media only screen and (max-width: 880px) {
 	.carousel-item img {
@@ -1054,26 +1326,12 @@
 		object-fit: cover;
 	}
 
-	.imgcarousel {
-		margin-bottom: 63px;
-		width: 100%;
-		height: 92%;
-	}
-
-	.why {
-		top: -193px;
-		height: 90vh;
-		background: white;
-	}
-
 	.carousel-item img {
 		margin-bottom: 28px;
 	}
 
 	.cta {
 		width: 100%;
-		background: #009772;
-		/* background: #00A54F; */
 		padding-top: 19px;
 		padding-bottom: 13px;
 		height: 140px;
@@ -1099,7 +1357,7 @@
 		padding-top: 0px;
 		padding-bottom: 0px;
 		height: 112px;
-		margin-top: -98px;
+		margin-top: 187px;
 	}
 
 	.cta_title {
@@ -1115,33 +1373,68 @@
 	}
 
 	#para-mirar {
-		margin-top: -2vh;
+		margin-top: 5vh;
 	}
 
 	#titulo_aliados_index {
-		margin-top: -58px;
+		margin-top: -16px;
 	}
 
-	.passus_servicios_index {
+	/* .passus_servicios_index {
 		margin-top: 6vh;
 		margin-bottom: -7vh;
+	} */
+
+	.why {
+		top: -15px;
+	}
+
+	.porque_index {
+		margin-top: 48px;
+		margin-bottom: -34px;
 	}
 
 }
 
+/* 
 @media (max-width: 800px) {
 	#para-mirar {
 		margin-top: -40vh;
 	}
 
+} */
+
+@media (width: 800px) {
+	.why {
+		top: -15px;
+		height: 90vh;
+		background: white;
+	}
+
+	#para-mirar {
+		margin-top: 0vh;
+	}
+
+	.cta {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		height: 112px;
+		margin-top: -5px;
+	}
+
+	#titulo_aliados_index {
+		margin-top: -14px;
+	}
+
+	.carousel-item img {
+		height: 332px;
+		margin-bottom: 28px;
+		border-radius: 20px;
+	}
 }
 
 @media only screen and (max-width: 768px) {
-	.why {
-		top: -174px;
-		height: 99vh;
-		background: white;
-	}
+
 
 	.carousel-item img {
 		margin-top: 140px;
@@ -1152,7 +1445,8 @@
 	.cta {
 		padding-top: 0px;
 		padding-bottom: 0px;
-		height: 112px;
+		margin-top: -335px;
+		height: -5px;
 	}
 
 	.cta_title {
@@ -1165,6 +1459,10 @@
 		font-size: 13px;
 		top: -29px;
 		left: 53vh;
+	}
+
+	.passus_servicios_index {
+		margin-bottom: -53px;
 	}
 }
 
@@ -1229,8 +1527,6 @@
 
 	.cta {
 		width: 100%;
-		background: #009772;
-		/* background: #00A54F; */
 		padding-top: 19px;
 		padding-bottom: 13px;
 		height: 140px;
@@ -1277,8 +1573,6 @@
 
 	.cta {
 		width: 100%;
-		background: #009772;
-		/* background: #00A54F; */
 		padding-top: 19px;
 		padding-bottom: 13px;
 		height: 140px;
@@ -1534,13 +1828,10 @@
 
 	.copy p {
 		font-size: 10px;
-		color: #636363;
 	}
 
 	.cta {
 		width: 100%;
-		background: #009772;
-		/* background: #00A54F; */
 		padding-top: 19px;
 		padding-bottom: 13px;
 		height: 140px;
@@ -1586,8 +1877,6 @@
 
 	.cta {
 		width: 100%;
-		background: #009772;
-		/* background: #00A54F; */
 		padding-top: 19px;
 		padding-bottom: 13px;
 		height: 140px;
@@ -1619,8 +1908,6 @@
 
 	.cta {
 		width: 100%;
-		background: #009772;
-		/* background: #00A54F; */
 		padding-top: 19px;
 		padding-bottom: 13px;
 		height: 140px;
@@ -1666,8 +1953,6 @@
 
 	.cta {
 		width: 100%;
-		background: #009772;
-		/* background: #00A54F; */
 		padding-top: 19px;
 		padding-bottom: 13px;
 		height: 140px;
@@ -1708,8 +1993,6 @@
 
 	.cta {
 		width: 100%;
-		background: #009772;
-		/* background: #00A54F; */
 		padding-top: 19px;
 		padding-bottom: 13px;
 		height: 140px;
@@ -1748,6 +2031,7 @@
 
 @media (min-width: 375px) and (max-width: 475px) {
 
+
 	.home {
 		margin-top: 60px;
 		height: calc(42vh - 60px);
@@ -1762,8 +2046,8 @@
 	.owl-carousel .owl-item img {
 		display: block;
 		width: 100%;
-		margin-top: 115px;
-		height: 26vh;
+		margin-top: 48px;
+		height: 27vh;
 	}
 
 
@@ -1800,7 +2084,7 @@
 	}
 
 	#titulo_aliados_index {
-		margin-top: -99px;
+		margin-top: -21px;
 	}
 
 	.accordion {
@@ -1808,8 +2092,16 @@
 		margin: 0 -27px;
 	}
 
+	.custom-accordion {
+		order: 1;
+	}
+
+	.accordion-image {
+		order: 2;
+	}
+
 	#para-mirar {
-		margin-top: 21vh;
+		margin-top: 4vh;
 	}
 
 	.hero-banner-preguntas .hero-overlay h1 {
@@ -1818,13 +2110,49 @@
 
 	#services_index {
 		padding-top: 6px;
-		margin-top: -1px;
+		margin-top: -26px;
 		margin-bottom: -11vh;
 	}
 
 	.service_col_divertido {
 		margin-top: 10px;
-		margin-bottom: -18px;
+		margin-bottom: -76px;
+	}
+
+	.nav-link {
+		display: block;
+		padding: .5rem 0rem;
+	}
+
+	.why {
+		margin-top: 0px;
+	}
+
+	.why_content {
+		padding-bottom: 16px;
+	}
+
+	.icon_container_index {
+		width: 41px;
+		height: 41px;
+	}
+
+	.icon_index img {
+		max-width: 20px;
+		margin-left: 6px;
+		margin-top: 2px;
+	}
+
+	.why_list ul li:not(:last-of-type) {
+		margin-bottom: 9px;
+	}
+
+	.hr_por_que {
+		width: 72%;
+	}
+
+	.accordion-grid-derechos {
+		margin: -55px auto;
 	}
 }
 
@@ -2004,6 +2332,32 @@
 @media (width: 360px) {
 	.hero-banner-preguntas .hero-overlay h1 {
 		margin-bottom: -29vh;
+	}
+
+	#para-mirar {
+		margin-top: 10vh;
+	}
+
+	#aliados_index {
+		padding-top: 198px;
+	}
+
+	.cta {
+		margin-top: 163px;
+	}
+
+	.cta_title {
+		margin-left: -46px;
+		margin-top: -6px;
+	}
+
+	.cta_phone {
+		top: 15px;
+		margin-left: -122px;
+	}
+
+	.owl-carousel .owl-item img {
+		margin-top: 118px;
 	}
 }
 

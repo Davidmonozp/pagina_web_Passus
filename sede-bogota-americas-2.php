@@ -32,13 +32,12 @@
 		<!-- Contact -->
 		<div class="intro" id="sede_hidroterapia_sur">
 			<div class="container">
-				<div class="row py-3">
-
 					<!-- Titulo -->
 					<div class="">
 						<h2 class="titulo_sedes">Nuestros servicios Hidroterapia en Bogotá - Sur Occidente</h2>
 						<p class="parrafo_ser">Contamos con los más altos estándares de calidad y con un gran equipo de profesionales al servicio de nuestros clientes.</p>
 					</div>
+				<div class="row py-3">				
 
 					<!-- Intro Image -->
 					<div class="col-md-5">
