@@ -38,27 +38,36 @@ COLOR VERDE PASSUS #00A54F -->
                     <!-- Slide -->
                     <div class="owl-item">
                         <div class="background_image">
-                            <img class="imgcarousel" src="images/Banner-1.jpg">
+                            <img class="imgcarousel" src="images/banners/Banner-1.png">
                         </div>
                     </div>
 
                     <!-- Slide -->
                     <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/Banner-2.jpg"></div>
+                        <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-2.png"></div>
                     </div>
 
                     <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/Banner-3.jpg"></div>
+                        <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-3.png"></div>
                     </div>
                     <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/Banner-4.jpg"></div>
+                        <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-4.png"></div>
                     </div>
                     <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/Banner-5.jpg"></div>
+                        <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-5.png"></div>
                     </div>
 
                     <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/Banner-6.jpg"></div>
+                        <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-6.png"></div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-7.png"></div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-8.png"></div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-2.jpg"></div>
                     </div>
                 </div>
             </div>
@@ -73,11 +82,11 @@ COLOR VERDE PASSUS #00A54F -->
                     <li class="home_slider_custom_dot trans_200"></li>
                     <li class="home_slider_custom_dot trans_200"></li>
                     <li class="home_slider_custom_dot trans_200"></li>
+                    <li class="home_slider_custom_dot trans_200"></li>
+                    <li class="home_slider_custom_dot trans_200"></li>
+                    <li class="home_slider_custom_dot trans_200"></li>
                     <!-- <li class="home_slider_custom_dot trans_200"></li>
-                        <li class="home_slider_custom_dot trans_200"></li>
-                        <li class="home_slider_custom_dot trans_200"></li>
-                        <li class="home_slider_custom_dot trans_200"></li>
-                        <li class="home_slider_custom_dot trans_200"></li> -->
+                    <li class="home_slider_custom_dot trans_200"></li> -->
 
                 </ul>
             </div>
@@ -156,9 +165,6 @@ COLOR VERDE PASSUS #00A54F -->
                     </div>
                     <div class="row">
                         <!-- Titulo -->
-
-
-
                         <!-- Why Choose Us Image -->
                         <div class="col-lg-6 pt-5">
                             <div id="carouselExampleControls" class="carousel_index carousel slide" data-ride="carousel">
@@ -168,9 +174,6 @@ COLOR VERDE PASSUS #00A54F -->
                                     </div>
                                     <div class="carousel-item">
                                         <img src="images/altamente-calificado.png" class="d-block w-100" alt="...">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="images/dolor-cronico.png" class="d-block w-100" alt="...">
                                     </div>
                                     <div class="carousel-item">
                                         <img src="images/sedes_colombia.png" class="d-block w-100" alt="...">
@@ -338,12 +341,13 @@ COLOR VERDE PASSUS #00A54F -->
 
 
     </div>
-<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 
-<?php include('includes/_js.php'); ?>
-<script src="js/elements.js"></script>
-<script src="js/about.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/accesibilidad.js"></script>
+    <?php include('includes/_js.php'); ?>
+    <script src="js/elements.js"></script>
+    <script src="js/about.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/accesibilidad.js"></script>
 </body>
+
 </html>

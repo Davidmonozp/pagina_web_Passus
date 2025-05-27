@@ -263,7 +263,9 @@
 								<div class="custom-article custom-large">
 									<ol>
 										<p>
-											<img src="images/certificadoDiscapacidad1.png" style="width: 100%">
+											<a href="images/certificadoDiscapacidad1.png" target="_blank">
+												<img src="images/certificadoDiscapacidad1.png" style="width: 100%;">
+											</a>
 										</p>
 									</ol>
 								</div>

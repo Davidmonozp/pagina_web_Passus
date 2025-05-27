@@ -50,7 +50,7 @@
 					<a href="https://www.instagram.com/passusipscolombia/?igsh=dm1tdWJuMHEzMGU%3D#" target="_blank"><i class="fab fa-instagram"></i></a>
 					<a href="https://www.youtube.com/@passusipscolombia" target="_blank"><i class="fab fa-youtube"></i></a>
 					<a href="https://www.linkedin.com/in/passuscolombia" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-					<a href="mailto:contacto@tuempresa.com"><i class="fas fa-envelope"></i></a>
+					<!-- <a href="mailto:contacto@tuempresa.com"><i class="fas fa-envelope"></i></a> -->
 				</div>
 				
 				<h1 id="titulo_contactanos">Contáctanos
@@ -188,7 +188,7 @@
 						</a>
 					</div>
 				</div>
-				<!-- FIN BORONES REDES -->
+				<!-- FIN BOTONES REDES -->
 			</div>
 		</div>
 

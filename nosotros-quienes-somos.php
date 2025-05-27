@@ -51,11 +51,11 @@
 						<div class="intro_content">
 							<div class="section_title_container">
 								<div class="section_title mt-0">
-									<h2>Passus IPS</h2>
+									<h2>Passus IPS</h2><br>
 								</div>
 							</div>
 							<div class="text-justify">
-								<p>Somos una entidad especializada en la prestación de servicios de salud y bienestar, con un enfoque en rehabilitación terapéutica integral. Contamos con un equipo de profesionales altamente calificados y espacios diseñados para brindar una atención de calidad. Te invitamos a conocer nuestras sedes y experimentar un servicio que promueve tu bienestar y recuperación.</p>
+								<p>Somos una entidad especializada en la prestación de servicios de salud y bienestar, con un enfoque en rehabilitación terapéutica integral. Contamos con un equipo de profesionales altamente calificados y espacios diseñados para brindar una atención de calidad. Te invitamos a conocer nuestras sedes y experimentar un servicio que promueve tu bienestar y recuperación.</p> <br><br>
 							</div>
 
 							<!-- Milestones -->
@@ -64,7 +64,7 @@
 									<div class="section_title"><img src="images/mision.png" class="img-fluid"></div>
 								</div>
 								<div class="col-md-8 text-justify">
-									<p>PASSUS innova con ética y seguridad, para que tu experiencia con nosotros sea satisfactoria, amable y mejores tu calidad de vida de forma segura, a través de nuestros expertos en medicina, terapéutica y bienestar.</p>
+									<p>PASSUS innova con ética y seguridad, para que tu experiencia con nosotros sea satisfactoria, amable y mejores tu calidad de vida de forma segura, a través de nuestros expertos en medicina, terapéutica y bienestar.</p> <br>
 								</div>
 							</div>
 							<div class="row">
@@ -86,15 +86,15 @@
 								<div class="carousel-item active">
 									<img src="images/quienes_somos/manos_passus.jpeg" class="d-block w-100" alt="...">
 								</div>
-								<div class="carousel-item">
+								<!-- <div class="carousel-item">
 									<img src="images/quienes_somos/quienes_somos_1.jpeg" class="d-block w-100" alt="...">
-								</div>
-								<div class="carousel-item">
+								</div> -->
+								<!-- <div class="carousel-item">
 									<img src="images/quienes_somos/quienes_somos_2.jpeg" class="d-block w-100" alt="...">
-								</div>
-								<div class="carousel-item">
+								</div> -->
+								<!-- <div class="carousel-item">
 									<img src="images/quienes_somos/quienes_somos_3.jpeg" class="d-block w-100" alt="...">
-								</div>
+								</div> -->
 							</div>
 							<button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
 								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -109,8 +109,6 @@
 				</div>
 			</div>
 		</div>
-
-		<?php include('includes/_linea_atencion.php'); ?>
 
 		<?php include('includes/_footer.php'); ?>
 	</div>

@@ -64,7 +64,7 @@
 
 			<li><a href="https://www.linkedin.com/in/passuscolombia/"><i class="fab fa-linkedin"></i></a></li> <!-- Icono de LinkedIn -->
 		</ul>
-		<img src="images/Logo-SuperSaludNuevo.png" class="img-super-salud">
+		<img src="images/logo_supersalud.png" class="img-super-salud">
 
 	</div>
 
@@ -86,8 +86,7 @@
 			document.write(new Date().getFullYear());
 		</script> Todos los derechos reservados |
 		<!-- <a href="https://passusips.com/passus/index.php" class="link-passus" target="_blank">Passus Soft</a> | -->
-		<a href="https://passusips.com/estados-financieros" class="link-estados-financieros">Estados Financieros</a>
-		<a href="../../pagina_passus/images/videos/Usuario ya activo.mp4" class="link-estados-financieros" target="_blank">usuario</a>
+		<a href="estados-financieros" class="link-estados-financieros">Estados Financieros</a>	
 	</p>
 
 </div>

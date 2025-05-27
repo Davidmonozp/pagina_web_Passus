@@ -16,31 +16,30 @@
         <div class="projectFactsWrap ">
             <div class="item wow fadeInUpBig animated animated" data-number="12" style="visibility: visible;">
                 <i class="fas fa-wheelchair"></i>
-                <p id="number1" class="number">12 </p>
+                <p id="number1" class="number"></p>
                 <!-- <p id="number1" class="number" data-end="12">12</p> -->
                 <span></span>
                 <p>Rehabilitación </p>
             </div>
-            <div class="item wow fadeInUpBig animated animated" data-number="55" style="visibility: visible;">
+            <div class="item wow fadeInUpBig animated animated" data-number="52567" style="visibility: visible;">
                 <i class="fas fa-tint"></i>
-                <p id="number2" class="number">55</p>
-
+                <p id="number2" class="number"></p>
                 <span></span>
                 <p>Hidroterapia</p>
             </div>
             <div class="item wow fadeInUpBig animated animated" data-number="359" style="visibility: visible;">
                 <i class="fas fa-stethoscope"></i>
-                <p id="number3" class="number">359</p>
+                <p id="number3" class="number"></p>
 
                 <span></span>
-                <p>Consultas</p>
+                <p>Consultas Especializadas</p>
             </div>
             <div class="item wow fadeInUpBig animated animated" data-number="246" style="visibility: visible;">
-                <i class="fa-solid fa-person-swimming"></i>
-                <p id="number4" class="number">246</p>
+                <i class="fa-solid fa-users"></i>
+                <p id="number4" class="number"></p>
 
                 <span></span>
-                <p>Natación</p>
+                <p>Pacientes atendidos</p>
             </div>
         </div>
     </div>

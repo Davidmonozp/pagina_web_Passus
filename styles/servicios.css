@@ -341,8 +341,8 @@
     }
 
     .hero-overlay h1 {
-        font-size: 20px;
-        margin: 14vh 0 0 0;
+        font-size: 30px;
+        margin: 21vh 0 0 0;
     }
 
     .hero-overlay h1 hr {
@@ -363,8 +363,9 @@
         order: 2;
     }
 
-    #titulo_passus_bienestar {
-        margin: 22vh 0 0 0;
+       #titulo_passus_bienestar {
+        margin-top: 135px;
+        font-size: 29px;
     }
 
     .hero-banner-divertido {

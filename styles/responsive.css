@@ -139,6 +139,10 @@
 		height: 380px;
 	}
 
+	#titulo_estados_financieros {
+		margin-top: 782px;
+	}
+
 	#para-mirar {
 		margin-top: -1px;
 		padding-top: 20px;
@@ -597,6 +601,13 @@
 	.icon_index {
 		width: 21px;
 		height: 21px;
+	}
+
+	.icon_index img {
+		max-width: 26px;
+		/* max-width: 30px; */
+		margin-left: -2px;
+		margin-top: -5px;
 	}
 
 	.carousel-item img {
@@ -1229,7 +1240,29 @@
 	}
 
 	.passus_servicios_index {
-		margin-bottom: -8vh;
+		margin-bottom: -4vh;
+	}
+
+	.home_slider_dots {
+		left: calc((147vw - 1140px) / 2);
+	}
+
+	.porque_index {
+		margin-top: 105px;
+		padding-top: 26px;
+	}
+
+	.carousel-item img {
+		margin-top: 91px;
+		height: 29vh;
+	}
+
+	.why_list ul li:not(:last-of-type) {
+		margin-bottom: 13px;
+	}
+
+	.calificacion {
+		margin-top: -73px;
 	}
 
 	.imgservicios_index {
@@ -1242,7 +1275,7 @@
 	}
 
 	.divtamano_index {
-		min-height: 450px;
+		min-height: 351px;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -1602,16 +1635,13 @@
 /************
 17. 575px
 ************/
+@media (max-width: 476px) and (min-width: 575px) {
+	.imgcarousel {
+		height: 69%;
+	}
+}
 
 @media only screen and (max-width: 575px) {
-
-
-
-	.imgcarousel {
-		margin-top: -126px;
-		width: 100%;
-		height: 39%;
-	}
 
 	.carousel-item img {
 		margin-top: 140px;
@@ -2046,8 +2076,8 @@
 	.owl-carousel .owl-item img {
 		display: block;
 		width: 100%;
-		margin-top: 48px;
-		height: 27vh;
+		margin-top: -55px;
+		height: 32vh;
 	}
 
 
@@ -2056,7 +2086,7 @@
 		height: 24vh;
 		object-fit: cover;
 		margin-bottom: 19px;
-		margin-top: 7vh;
+		margin-top: 12vh;
 	}
 
 	.cta {
@@ -2087,6 +2117,157 @@
 		margin-top: -21px;
 	}
 
+	#titulo_quienes_somos {
+		font-size: 34px;
+		margin-top: 214px;
+	}
+
+	#titulo_derechos_deberes {
+		margin-top: 174px;
+		font-size: 34px;
+	}
+
+	#titulo_politica_datos {
+		margin-top: 284px;
+		font-size: 34px;
+	}
+
+	#titulo_terminos_condiciones {
+		margin-top: 165px;
+		font-size: 32px;
+	}
+
+	#titulo_participacion_ciudadana {
+		font-size: 28px;
+		margin-top: 207px;
+	}
+
+	#titulo_reseña {
+		font-size: 34px;
+		margin: 2vh 0 0 0;
+	}
+
+	#titulo_RHB_surOccidente {
+		margin-top: 152px;
+		font-size: 31px;
+	}
+
+	#titulo_HD_surOccidente {
+		margin-top: 152px;
+		font-size: 31px;
+	}
+
+	#titulo_HD_bogota_norte {
+		margin-top: 225px;
+		font-size: 31px;
+	}
+
+	#titulo_bogota_centro {
+		margin-top: 219px;
+		font-size: 31px;
+	}
+
+	#titulo_sede_florencia {
+		margin-top: 230px;
+		font-size: 31px;
+	}
+
+	#titulo_sede_ibague {
+		margin-top: 234px;
+		font-size: 31px;
+	}
+
+	#titulo_sede_chia {
+		margin-top: 238px;
+		font-size: 31px;
+	}
+
+	#titulo_contactanos {
+		font-size: 31px;
+		margin: 32vh 0 0 0;
+	}
+
+	.contact {
+		padding-top: 0px;
+		margin-top: -232px;
+	}
+
+	.contact_form_title {
+		width: 311px;
+		height: 68px;
+	}
+
+	.header-top {
+		padding-left: 15px;
+	}
+
+	.hero-overlay h1 hr {
+		display: none;
+
+	}
+
+	.hero-overlay h1 {
+		font-size: 34px;
+		margin: 2vh 0 0 0;
+	}
+
+	.hero-banner-quienesSomos {
+		height: 43vh;
+	}
+
+	.hero-banner-derechosDeberes {
+		height: 43vh;
+	}
+
+	.hero-banner-reseña_historica {
+		background-position: -102px -92px;
+		height: 60vh;
+		margin-top: 124px;
+	}
+
+	.hero-banner-politica_datos {
+		height: 58vh;
+	}
+
+	.hero-banner-terminos_condiciones {
+		height: 38vh;
+		margin-top: 112px;
+	}
+
+	.hero-banner-participacion {
+		height: 43vh;
+	}
+
+	.hero-banner-RHB_surOccidente {
+		background-position: 0;
+		height: 38vh;
+		margin-top: 112px;
+	}
+
+	.hero-banner-HD_surOccidente {
+		background-position: 0;
+		height: 38vh;
+		margin-top: 112px;
+	}
+
+	.hero-banner-HD_bogota_norte,
+	.hero-banner-bogota_centro,
+	.hero-banner-florencia,
+	.hero-banner-ibague,
+	.hero-banner-chia {
+		height: 43vh;
+	}
+
+	.hero-banner-preguntas {
+		height: 33vh;
+		margin-top: 112px;
+	}
+
+	.hero-banner-contactanos {
+		height: 43vh;
+		margin-top: 106px;
+	}
+
 	.accordion {
 		width: 118%;
 		margin: 0 -27px;
@@ -2105,7 +2286,8 @@
 	}
 
 	.hero-banner-preguntas .hero-overlay h1 {
-		margin-bottom: -34vh;
+		margin-bottom: -22vh;
+		font-size: 31px;
 	}
 
 	#services_index {
@@ -2252,12 +2434,12 @@
 	}
 
 	.hero-overlay-nuestrasPoliticas h1 {
-		font-size: 24px;
-		margin: 50vh 0 0 0;
+		font-size: 34px;
+		margin: 51vh 0 0 0;
 	}
 
 	.social-icons {
-		top: 72%;
+		top: 52%;
 		gap: 2px;
 	}
 }
@@ -2275,7 +2457,7 @@
 	.sedes {
 		grid-area: sedes;
 		text-align: center;
-		margin-left: 22px;
+		margin-left: 53px;
 	}
 }
 
@@ -2303,6 +2485,32 @@
 	#derechos_deberes .section_title h2 {
 		margin-top: 19px;
 		margin-bottom: -69px;
+	}
+}
+
+@media (max-width: 360px) {
+	.logo img {
+		max-width: 148px;
+		margin-right: -15px;
+	}
+
+	.botonA {
+		width: 117px;
+		height: 42px;
+	}
+
+	.carousel-item img {
+		margin-top: 60px;
+	}
+
+	.icon_container_index {
+		height: 45px;
+	}
+
+	.icon_index img {
+		max-width: 26px;
+		margin-left: 3px;
+		margin-top: 3px;
 	}
 }
 
@@ -2386,5 +2594,11 @@
 	.custom-accordion label {
 		height: 84px;
 		font-size: 17px;
+	}
+
+	.background_image {
+		top: 136px;
+		height: 100%;
+
 	}
 }

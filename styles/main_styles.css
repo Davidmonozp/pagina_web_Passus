@@ -1107,7 +1107,7 @@ section {
 }
 
 .hero-banner-trabajaNosotros {
-	background-image: url(/pagina_passus/images/banner_trabaja_nosotros.png);
+	background-image: url(/pagina_passus/images/banner_trabaja_nosotros-.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1129,6 +1129,22 @@ section {
 	margin-top: 39px;
 	margin-bottom: 153px;
 }
+.hero-banner-estadosFinancieros {
+	background-image: url(/pagina_passus/images/nosotros.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 85vh;
+	position: relative;
+	width: 100%;
+	margin-top: 94px;
+	margin-bottom: 153px;
+}
+
+#titulo_estados_financieros {
+	margin-top: 415px;
+}
+
 
 /* BANNER SEDES */
 .hero-banner-RHB_surOccidente {
@@ -2410,7 +2426,7 @@ height: 83px;
 
 /* --- Botón Contraste --- */
 .icon-contraste {
-	width: 30px;
+	width: 30px !important;
 	height: 30px;
 	background-color: #3366cc;
 	border: none;
@@ -2901,7 +2917,7 @@ height: 83px;
 /* Estilos para el footer en modo oscuro */
 
 #footer.modo_oscuro-govco {
-	background-color: #1a1a1a;
+	    background: linear-gradient(to top, #2a2a2a, #1a1a1a, #111, #000);
 	color: #f1f1f1;
 }
 

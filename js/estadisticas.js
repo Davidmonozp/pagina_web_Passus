@@ -49,10 +49,10 @@ $.fn.jQuerySimpleCounter = function (options) {
 };
 
 // Llamadas al contador para cada estadística con loop infinito y pausa de 5 segundos (5000 ms)
-$("#number1").jQuerySimpleCounter({ end: 12, duration: 4000, loop: true, pauseTime: 5000 });
-$("#number2").jQuerySimpleCounter({ end: 55, duration: 4000, loop: true, pauseTime: 5000 });
-$("#number3").jQuerySimpleCounter({ end: 359, duration: 4000, loop: true, pauseTime: 5000 });
-$("#number4").jQuerySimpleCounter({ end: 246, duration: 4000, loop: true, pauseTime: 5000 });
+$("#number1").jQuerySimpleCounter({ end: 10325, duration: 4000, loop: true, pauseTime: 5000 });
+$("#number2").jQuerySimpleCounter({ end: 52567, duration: 4000, loop: true, pauseTime: 5000 });
+$("#number3").jQuerySimpleCounter({ end: 16463, duration: 4000, loop: true, pauseTime: 5000 });
+$("#number4").jQuerySimpleCounter({ end: 80118, duration: 4000, loop: true, pauseTime: 5000 });
 
 // Efecto hover para mostrar ventana del autor
 $(".about-me-img").hover(
