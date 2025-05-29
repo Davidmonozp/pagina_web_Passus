@@ -173,6 +173,41 @@
 	}
 
 
+	.btn-solicitar-banner1 {
+		bottom: 240px;
+	}
+
+	.btn-solicitar-prueba {
+		bottom: 240px;
+	}
+
+	.btn-solicitar-banner3 {
+		bottom: 126px;
+		left: 1236px;
+	}
+
+	.btn-solicitar-banner4 {
+		bottom: 97px;
+		left: 98px;
+	}
+
+	.btn-solicitar-banner6 {
+		bottom: 135px;
+		left: 82px;
+	}
+
+	.hero-overlay-nuestrasPoliticas h1 {
+		margin-top: 980px;
+	}
+
+	.hero-banner-nuestrasPoliticas {
+		height: 116vh;
+
+	}
+
+	.hero-banner-reseña_historica {
+		height: 98vh;
+	}
 }
 
 /************
@@ -305,6 +340,30 @@
 		background-color: #e8e8e8;
 		padding: 47px 269px 47px 269px;
 	}
+
+	.btn-solicitar-banner1 {
+		bottom: 240px;
+	}
+
+	.btn-solicitar-prueba {
+		bottom: 240px;
+	}
+
+	.btn-solicitar-banner3 {
+		bottom: 126px;
+		left: 1350px;
+	}
+
+
+	.btn-solicitar-banner4 {
+		bottom: 97px;
+		left: 98px;
+	}
+
+	.btn-solicitar-banner6 {
+		bottom: 135px;
+		left: 82px;
+	}
 }
 
 
@@ -321,7 +380,7 @@
 	}
 
 	.background_image {
-		height: 59%;
+		height: 70%;
 	}
 
 	.why {
@@ -463,6 +522,11 @@
 		height: 81vh;
 	}
 
+	.home_slider_dots {
+		bottom: 67px;
+		left: calc((174vw - 1209px) / 2);
+	}
+
 	.why_list {
 		margin-top: 57px;
 	}
@@ -504,6 +568,25 @@
 		margin-top: 1px;
 	}
 
+	.btn-solicitar-banner1 {
+		bottom: 150px;
+	}
+
+	.btn-solicitar-banner3 {
+		bottom: 101px;
+		left: 1060px;
+	}
+
+	.btn-solicitar-banner4 {
+		bottom: 81px;
+		left: 70px;
+	}
+
+	.btn-solicitar-banner6 {
+		bottom: 116px;
+		left: 49px;
+	}
+
 	.footer {
 		padding: 50px 0 50px 127px;
 	}
@@ -542,7 +625,7 @@
 
 	.home_slider_dots {
 		top: 101vh;
-		left: calc((100vw - 690px) / 2);
+		left: calc((134vw - 690px) / 2);
 	}
 
 	.why {
@@ -617,6 +700,13 @@
 		border-radius: 20px;
 	}
 
+	.carousel-item-quienes img {
+		height: 77vh;
+		object-fit: cover;
+		margin-top: 91px;
+		border-radius: 20px;
+	}
+
 	.custom-carousel-inner {
 		margin-top: -138px;
 	}
@@ -682,7 +772,7 @@
 7. 1280px
 ************/
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (width: 1280px) {
 	.carousel-item img {
 		margin-top: 20px;
 		height: 47vh;
@@ -696,6 +786,29 @@
 	.porque_index {
 		padding-top: 10px;
 		margin-top: -11px;
+	}
+
+	.home_slider_dots {
+		left: calc((181vw - 1140px) / 2);
+	}
+
+	.btn-solicitar-banner1 {
+		bottom: 196px;
+	}
+
+	.btn-solicitar-banner3 {
+		bottom: 154px;
+		left: 908px;
+	}
+
+	.btn-solicitar-banner4 {
+		bottom: 123px;
+		left: 57px;
+	}
+
+	.btn-solicitar-banner6 {
+		bottom: 153px;
+		left: 50px;
 	}
 }
 
@@ -937,8 +1050,58 @@
 		height: 52vh;
 	}
 
+	.hero-banner-derechosDeberes {
+		height: 51vh;
+	}
+
+	.hero-banner-quienesSomos {
+		height: 59vh;
+	}
+
+	.hero-banner-reseña_historica {
+		background-position: -49px -149px;
+		height: 59vh;
+		margin-top: 143px;
+	}
+
+	#titulo_reseña {
+		margin: 10vh 0 0 0;
+	}
+
+	.hero-banner-nuestrasPoliticas {
+		height: 77vh;
+	}
+
+	.hero-overlay-nuestrasPoliticas h1 {
+		margin: 57vh 0 0 0;
+	}
+
+	.hero-banner-politica_datos {
+		height: 68vh;
+	}
+
+	.hero-banner-terminos_condiciones {
+		height: 60vh;
+	}
+
+	.hero-banner-participacion {
+		height: 55vh;
+	}
+
+	.hero-banner-trabajaNosotros {
+		height: 48vh;
+	}
+
+	#titulo_terminos_condiciones {
+		margin-top: 431px;
+	}
+
 	#titulo_HD_surOccidente {
 		margin-top: 390px;
+	}
+
+	.hero-banner-trabajaNosotros .hero-overlay h1 {
+		margin-top: 35vh;
 	}
 
 	#para-mirar {
@@ -998,6 +1161,53 @@
 	.carousel-item img {
 		border-radius: 20px;
 	}
+
+	.btn-solicitar-banner {
+		bottom: 64px;
+		left: 67px;
+	}
+
+	.contactanos-redes {
+		margin-left: -113px;
+	}
+
+	.porque_index {
+		margin-top: -54px;
+		padding-top: 33px;
+	}
+
+	.footer {
+		padding-left: 142px;
+	}
+
+	.btn-solicitar-banner1 {
+		bottom: 58px;
+		left: 80px;
+		font-size: 27px;
+	}
+
+	.btn-solicitar-banner1 i {
+		font-size: 32px;
+	}
+
+	.btn-solicitar-banner3 {
+		display: none;
+	}
+
+	.btn-solicitar-banner4,
+	.btn-solicitar-banner6 {
+		height: 56px;
+		bottom: 44px;
+		left: 71px;
+		padding: 7px 16px;
+		font-size: 30px;
+	}
+
+	.btn-solicitar-banner4 i,
+	.btn-solicitar-banner6 i {
+		font-size: 32px;
+	}
+
 }
 
 
@@ -1406,7 +1616,7 @@
 	}
 
 	#para-mirar {
-		margin-top: 5vh;
+		margin-top: -47px;
 	}
 
 	#titulo_aliados_index {
@@ -2282,7 +2492,8 @@
 	}
 
 	#para-mirar {
-		margin-top: 4vh;
+		padding-top: 10px;
+		margin-top: 0vh;
 	}
 
 	.hero-banner-preguntas .hero-overlay h1 {
@@ -2335,6 +2546,80 @@
 
 	.accordion-grid-derechos {
 		margin: -55px auto;
+	}
+
+	.btn-solicitar-banner {
+		bottom: 297px;
+		left: 138px;
+		padding: 7px 4px;
+		font-size: 12px;
+		backdrop-filter: blur(4px);
+	}
+
+	.btn-solicitar-banner i {
+		font-size: 12px;
+	}
+
+	.carousel-control-prev-icon,
+	.carousel-control-next-icon {
+		background-size: 100% 100%;
+		margin-top: 55px;
+	}
+
+	.btn-solicitar-banner1 {
+		bottom: 307px;
+		left: 102px;
+		padding: 12px 24px;
+		font-size: 17px;
+	}
+
+	.btn-solicitar-banner1 i {
+		font-size: 20px;
+		margin-right: 0px;
+		padding: 10px;
+		width: 27px;
+		height: 27px;
+	}
+
+	.btn-solicitar-banner6 i {
+		font-size: 20px;
+		margin-right: -2px;
+		padding: 10px;
+		width: 26px;
+	}
+
+	.btn-solicitar-banner6 {
+		font-size: 17px;
+		height: 43px;
+		position: absolute;
+		bottom: 300px;
+		left: 116px;
+		padding: 1px 11px;
+	}
+
+	.btn-solicitar-banner3 {
+		display: none;
+	}
+
+	.btn-solicitar-banner4 {
+		height: 37px;
+		bottom: 300px;
+		left: 141px;
+		padding: 0px 8px;
+		font-size: 17px;
+	}
+
+	.btn-solicitar-banner4 i {
+		font-size: 20px;
+		margin-right: 9px;
+		padding: 10px;
+		width: 20px;
+		height: 39px;
+	}
+
+	.calificacion {
+		margin-top: -20px;
+		background: #3693eb;
 	}
 }
 
@@ -2543,11 +2828,12 @@
 	}
 
 	#para-mirar {
-		margin-top: 10vh;
+		margin-top: 5vh;
+		margin-bottom: -78px;
 	}
 
-	#aliados_index {
-		padding-top: 198px;
+	#titulo_aliados_index {
+		margin-top: -26px;
 	}
 
 	.cta {
@@ -2565,8 +2851,42 @@
 	}
 
 	.owl-carousel .owl-item img {
-		margin-top: 118px;
+		margin-top: -57px;
 	}
+
+	#services_index {
+		margin-top: -95px;
+	}
+
+	.why_list ul li:not(:last-of-type) {
+		margin-bottom: 13px;
+	}
+
+	.carousel-control-prev-icon,
+	.carousel-control-next-icon {
+		background-size: 100% 100%;
+		margin-top: 40px;
+	}
+
+	.porque_index {
+		padding-top: 21px;
+		margin-top: -37px;
+	}
+
+	.sedes {
+		margin-left: 37px;
+	}
+
+	.btn-solicitar-banner {
+		font-size: 12px;
+		bottom: 302px;
+		left: 116px;
+	}
+
+	.btn-solicitar-banner i {
+		font-size: 12px;
+	}
+
 }
 
 

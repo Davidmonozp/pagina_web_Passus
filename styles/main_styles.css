@@ -347,6 +347,146 @@ section {
 	/* background-position: center center; */
 }
 
+.btn-solicitar-banner1 {
+	background: #12438f;
+	position: absolute;
+	bottom: 5px;
+	left: 80px;
+	padding: 12px 24px;
+	backdrop-filter: blur(2px);
+	color: #fff;
+	text-decoration: none;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 40px;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+	/* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+}
+
+/* Hover effect */
+.btn-solicitar-banner1:hover {
+	color: #fff;
+	backdrop-filter: blur(4px);
+	transform: translateY(-4px);
+	border: 0.2px solid #ffffff;
+}
+
+.btn-solicitar-banner1 i {
+	font-size: 39px;
+	margin-right: 8px;
+	/* background-color: transparent;  */
+	color: #ffffff;
+	border-radius: 50%;
+	/* border: 0.2px solid #ffffff; */
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-solicitar-banner3 {
+	height: 71px;
+	position: absolute;
+	bottom: -52px;
+	left: 943px;
+	padding: 7px 24px;
+	backdrop-filter: blur(8px);
+	background: #12438f;
+	/* border: 0.2px solid #ffffff; */
+	color: #fff;
+	text-decoration: none;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 40px;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect */
+.btn-solicitar-banner3:hover {
+	color: #fff;
+	background: #00a54f;
+	backdrop-filter: blur(4px);
+	transform: translateY(-4px);
+	/* border: 0.2px solid #ffffff; */
+}
+
+.btn-solicitar-banner3 i {
+	font-size: 39px;
+	margin-right: 8px;
+	/* background-color: transparent;  */
+	color: #ffffff;
+	border-radius: 50%;
+	/* border: 0.2px solid #ffffff; */
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-solicitar-banner4 {
+	background: #12438f;
+	height: 71px;
+	position: absolute;
+	bottom: -78px;
+	left: 32px;
+	padding: 7px 24px;
+	backdrop-filter: blur(2px);
+	color: #fff;
+	text-decoration: none;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 40px;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-solicitar-banner6 {
+	background: #12438f;
+	height: 71px;
+	position: absolute;
+	bottom: -42px;
+	left: 32px;
+	padding: 7px 24px;
+	backdrop-filter: blur(2px);
+	color: #fff;
+	text-decoration: none;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 40px;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect */
+.btn-solicitar-banner4:hover,
+.btn-solicitar-banner6:hover {
+	color: #fff;
+	backdrop-filter: blur(4px);
+	transform: translateY(-4px);
+	border: 0.2px solid #ffffff;
+}
+
+.btn-solicitar-banner4 i,
+.btn-solicitar-banner6 i {
+	font-size: 39px;
+	margin-right: 8px;
+	/* background-color: transparent;  */
+	color: #ffffff;
+	border-radius: 50%;
+	/* border: 0.2px solid #ffffff; */
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
 /* .background_image {
     position: absolute;
     top: 153px;
@@ -503,8 +643,8 @@ section {
 }
 
 .contenedor_testimonial {
-    padding-top: 16px;
-    margin-top: 0px;
+	padding-top: 16px;
+	margin-top: 0px;
 }
 
 
@@ -980,14 +1120,14 @@ section {
 }
 
 .hero-banner-derechosDeberes {
-	background-image: url(/pagina_passus/images/nosotros-img/derechos-deberes-2.png);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 77vh;
-	position: relative;
-	width: 100%;
-	margin-top: 143px;
+    background-image: url(../images/banner_terminos_condiciones.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 81vh;
+    position: relative;
+    width: 100%;
+    margin-top: 116px;
 }
 
 #titulo_derechos_deberes {
@@ -995,7 +1135,7 @@ section {
 }
 
 .hero-banner-nuestrasPoliticas {
-	background-image: url(/pagina_passus/images/nosotros-img/nuestras-politicas-1.png);
+	background-image: url(../images/nosotros-img/nuestras-politicas-1.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1006,7 +1146,7 @@ section {
 }
 
 .hero-banner-preguntas {
-	background-image: url(/pagina_passus/images/nosotros-img/preguntas-frecuentes-2.png);
+	background-image: url(../images/nosotros-img/preguntas-frecuentes-2.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1022,7 +1162,7 @@ section {
 }
 
 .hero-banner-quienesSomos {
-	background-image: url(/pagina_passus/images/nosotros-img/quienes-somos-1.png);
+	background-image: url(../images/nosotros-img/quienes-somos-1.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1038,22 +1178,18 @@ section {
 }
 
 .hero-banner-reseña_historica {
-	background-image: url(/pagina_passus/images/banner_reseña.png);
+	background-image: url(../images/banner_reseña.png);
 	background-size: cover;
 	background-position: 0px -229px;
 	background-repeat: no-repeat;
-	height: 102vh;
+	height: 107vh;
 	position: relative;
 	width: 100%;
-	margin-top: 143px;
-}
-
-#titulo_reseña {
-	220px
+	margin-top: 116px;
 }
 
 .hero-banner-politica_datos {
-	background-image: url(/pagina_passus/images/banner_politica_datos.png);
+	background-image: url(../images/banner_politica_datos.png);
 	background-size: cover;
 	background-position: center 78px;
 	background-repeat: no-repeat;
@@ -1069,7 +1205,8 @@ section {
 }
 
 .hero-banner-terminos_condiciones {
-	background-image: url(/pagina_passus/images/banner_terminos_condiciones.png);
+	/* background-image: url(/pagina_passus/images/banner_terminos_condiciones.png); */
+	background-image: url(../images/banner_terminos_condiciones.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1091,7 +1228,7 @@ section {
 }
 
 .hero-banner-participacion {
-	background-image: url(/pagina_passus/images/banner_participacion.png);
+	background-image: url(../images/banner_participacion.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1107,7 +1244,7 @@ section {
 }
 
 .hero-banner-trabajaNosotros {
-	background-image: url(/pagina_passus/images/banner_trabaja_nosotros-.png);
+	background-image: url(../images/banner_trabaja_nosotros-.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1119,7 +1256,7 @@ section {
 }
 
 .hero-banner-contactanos {
-	background-image: url(/pagina_passus/images/Banner-contactanos1.png);
+	background-image: url(../images/Banner-contactanos1.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1129,8 +1266,9 @@ section {
 	margin-top: 39px;
 	margin-bottom: 153px;
 }
+
 .hero-banner-estadosFinancieros {
-	background-image: url(/pagina_passus/images/nosotros.jpeg);
+	background-image: url(../images/nosotros.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1148,7 +1286,7 @@ section {
 
 /* BANNER SEDES */
 .hero-banner-RHB_surOccidente {
-	background-image: url(/pagina_passus/images/sedes/rhb-Suroccidente-2.png);
+	background-image: url(../images/sedes/rhb-Suroccidente-2.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1165,7 +1303,7 @@ section {
 }
 
 .hero-banner-HD_surOccidente {
-	background-image: url(/pagina_passus/images/sedes/rhb-Suroccidente-2.png);
+	background-image: url(../images/sedes/rhb-Suroccidente-2.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1182,7 +1320,7 @@ section {
 }
 
 .hero-banner-HD_bogota_norte {
-	background-image: url(/pagina_passus/images/sedes/norte-2.png);
+	background-image: url(../images/sedes/norte-2.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1609,9 +1747,9 @@ height: 83px;
 }
 
 #derechos_deberes {
-    margin-top: 0px;
-    margin-bottom: -130px;
-    padding-top: 61px;
+	margin-top: 0px;
+	margin-bottom: -130px;
+	padding-top: 61px;
 }
 
 @media (max-width: 1199px) {
@@ -2911,13 +3049,13 @@ height: 83px;
 }
 
 .modo_oscuro-govco .barra-accesibilidad-govco i {
-  color: #004985;
+	color: #004985;
 }
 
 /* Estilos para el footer en modo oscuro */
 
 #footer.modo_oscuro-govco {
-	    background: linear-gradient(to top, #2a2a2a, #1a1a1a, #111, #000);
+	background: linear-gradient(to top, #2a2a2a, #1a1a1a, #111, #000);
 	color: #f1f1f1;
 }
 
@@ -2939,7 +3077,8 @@ height: 83px;
 }
 
 .modo_oscuro-govco .copy p {
-    color: #000000; /* Blanco o cualquier otro color de contraste alto */
+	color: #000000;
+	/* Blanco o cualquier otro color de contraste alto */
 }
 
 

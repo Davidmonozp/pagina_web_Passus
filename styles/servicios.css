@@ -328,7 +328,11 @@
 }
 
 /* RESPONSIVE */
-
+@media (width: 360px) {
+    .faq-grid-container {
+        padding: 14px 59px;
+    }
+}
 
 @media (min-width: 375px) and (max-width: 575px) {
     .hero-banner {
@@ -363,7 +367,7 @@
         order: 2;
     }
 
-       #titulo_passus_bienestar {
+    #titulo_passus_bienestar {
         margin-top: 135px;
         font-size: 29px;
     }
@@ -371,6 +375,24 @@
     .hero-banner-divertido {
         margin-top: 113px;
         height: 29vh;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+    .hero-overlay h1 {
+        margin: 32vh 0 0 0;
+    }
+
+    .hero-banner {
+        height: 40vh;
+    }
+
+    #titulo_passus_bienestar {
+        margin: 37vh 0 0 0;
+    }
+
+    .hero-banner-divertido {
+        height: 47vh;
     }
 }
 

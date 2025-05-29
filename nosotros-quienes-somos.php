@@ -83,8 +83,8 @@
 					<div class="col-lg-5 pt-5 mt-5">
 						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
-								<div class="carousel-item active">
-									<img src="images/quienes_somos/manos_passus.jpeg" class="d-block w-100" alt="...">
+								<div class="carousel-item-quienes active">
+									<img src="images/quienes_somos/circulo_excelencia1.png" class="d-block w-100" alt="...">
 								</div>
 								<!-- <div class="carousel-item">
 									<img src="images/quienes_somos/quienes_somos_1.jpeg" class="d-block w-100" alt="...">

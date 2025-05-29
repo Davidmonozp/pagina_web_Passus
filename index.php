@@ -39,35 +39,43 @@ COLOR VERDE PASSUS #00A54F -->
                     <div class="owl-item">
                         <div class="background_image">
                             <img class="imgcarousel" src="images/banners/Banner-1.png">
+                            <a href="https://oficinavirtual.passusips.com/inicio" target="_blank" class="btn-solicitar-banner1">
+                                <i class="fa-solid fa-calendar-days"></i>Solicitar cita
+                            </a>
+                        </div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="background_image position-relative">
+                            <img class="imgcarousel" src="images/banners/Banner-2.png" alt="Banner 2">
                         </div>
                     </div>
 
-                    <!-- Slide -->
                     <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-2.png"></div>
+                        <div class="background_image">
+                            <img class="imgcarousel" src="images/banners/Banner-3.png">
+                            <a href="https://wa.me/573209621527" target="_blank" class="btn-solicitar-banner3">
+                                <i class="fa-brands fa-whatsapp"></i>Agéndate aquí
+                            </a>
+                        </div>
                     </div>
-
                     <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-3.png"></div>
-                    </div>
-                    <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-4.png"></div>
+                        <div class="background_image">
+                            <img class="imgcarousel" src="images/banners/Banner-4.png">
+                            <a href="https://oficinavirtual.passusips.com/inicio" target="_blank" class="btn-solicitar-banner4">
+                                <i class="fa-solid fa-calendar-days"></i>Solicitar cita
+                            </a>
+                        </div>
                     </div>
                     <div class="owl-item">
                         <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-5.png"></div>
                     </div>
-
                     <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-6.png"></div>
-                    </div>
-                    <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-7.png"></div>
-                    </div>
-                    <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-8.png"></div>
-                    </div>
-                    <div class="owl-item">
-                        <div class="background_image"><img class="imgcarousel" src="images/banners/Banner-2.jpg"></div>
+                        <div class="background_image">
+                            <img class="imgcarousel" src="images/banners/Banner-6.png">
+                            <a href="https://oficinavirtual.passusips.com/inicio" target="_blank" class="btn-solicitar-banner6">
+                                <i class="fa-solid fa-calendar-days"></i>Solicitar cita
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -82,9 +90,10 @@ COLOR VERDE PASSUS #00A54F -->
                     <li class="home_slider_custom_dot trans_200"></li>
                     <li class="home_slider_custom_dot trans_200"></li>
                     <li class="home_slider_custom_dot trans_200"></li>
-                    <li class="home_slider_custom_dot trans_200"></li>
-                    <li class="home_slider_custom_dot trans_200"></li>
-                    <li class="home_slider_custom_dot trans_200"></li>
+                    <!-- <li class="home_slider_custom_dot trans_200"></li> -->
+                    <!-- <li class="home_slider_custom_dot trans_200"></li> -->
+                    <!-- <li class="home_slider_custom_dot trans_200"></li> -->
+                    <!-- <li class="home_slider_custom_dot trans_200"></li> -->
                     <!-- <li class="home_slider_custom_dot trans_200"></li>
                     <li class="home_slider_custom_dot trans_200"></li> -->
 

@@ -697,7 +697,7 @@
   align-items: center;
   justify-content: center;
   /* background-color: #0094d9; */
-  background-color: #0b4661;  
+  background-color: #0b4661;
   margin-left: 5px;
 }
 
@@ -707,7 +707,7 @@
 .lista-redes li .fas {
   font-size: 18px;
   color: #fff;
-  margin-left: -2px;
+  margin-left: 1px;
 }
 
 /* Colores específicos */
@@ -728,7 +728,7 @@
   width: 0;
   overflow: hidden;
   /* background-color: #0094d9; */
-  background-color: #0b4661;  
+  background-color: #0b4661;
   color: #ffffff;
   border-radius: 40px 5px 35px 0px;
   transition: width 0.3s ease;
@@ -750,4 +750,19 @@
   margin: 0;
   font-weight: bold;
   margin-left: 17px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .lista-redes li {
+    width: 60px;
+    height: 60px;
+  }
+
+  .lista-redes li .fa,
+  .lista-redes li .fa-solid,
+  .lista-redes li .fas {
+    font-size: 25px;
+    color: #fff;
+    margin-left: 1px;
+  }
 }
