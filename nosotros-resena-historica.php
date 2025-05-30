@@ -59,7 +59,7 @@
 	}
 
 	.timeline ul li:nth-child(odd) div::before {
-		left: -15px;
+		left: -28px;
 		border-width: 13px 43px 13px 0;
 		border-color: transparent #3695eb transparent transparent;
 	}
@@ -69,7 +69,7 @@
 	}
 
 	.timeline ul li:nth-child(even) div::before {
-		right: -15px;
+		right: -28px;
 		border-width: 13px 0px 13px 48px;
 		border-color: transparent transparent transparent #3695eb;
 	}
@@ -222,6 +222,7 @@
 
 		<?php include('includes/_header.php'); ?>
 		<?php include('includes/accesibilidad.php'); ?>
+		<?php include('includes/_boton_whatsapp.php'); ?>
 
 
 		<!-- Home -->
@@ -321,7 +322,7 @@
 									</li>
 									<li>
 										<div class="linea_tiempo">
-											<time>2024</time>PASSUS hace Apertura de Servicios de Rehabilitación Integral en Sede Centro - Bogotá. Fortalecimiento de habilidades y competencias del talento humano y automatizació con IA de procesos.
+											<time>2024</time>PASSUS hace Apertura de Servicios de Rehabilitación Integral en Sede Centro - Bogotá. Fortalecimiento de habilidades y competencias del talento humano y automatización con IA de procesos.
 										</div>
 									</li>
 									<li>

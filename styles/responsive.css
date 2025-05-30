@@ -195,19 +195,6 @@
 		bottom: 135px;
 		left: 82px;
 	}
-
-	.hero-overlay-nuestrasPoliticas h1 {
-		margin-top: 980px;
-	}
-
-	.hero-banner-nuestrasPoliticas {
-		height: 116vh;
-
-	}
-
-	.hero-banner-reseña_historica {
-		height: 98vh;
-	}
 }
 
 /************
@@ -1179,8 +1166,7 @@
 	.footer {
 		padding-left: 142px;
 	}
-
-	.btn-solicitar-banner1 {
+		.btn-solicitar-banner1 {
 		bottom: 58px;
 		left: 80px;
 		font-size: 27px;
@@ -1207,6 +1193,7 @@
 	.btn-solicitar-banner6 i {
 		font-size: 32px;
 	}
+
 
 }
 
@@ -2492,9 +2479,9 @@
 	}
 
 	#para-mirar {
-		padding-top: 10px;
-		margin-top: 0vh;
-	}
+        padding-top: 10px;
+        margin-top: 0vh;
+    }
 
 	.hero-banner-preguntas .hero-overlay h1 {
 		margin-bottom: -22vh;
@@ -2616,7 +2603,6 @@
 		width: 20px;
 		height: 39px;
 	}
-
 	.calificacion {
 		margin-top: -20px;
 		background: #3693eb;

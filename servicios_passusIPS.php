@@ -25,6 +25,7 @@ COLOR VERDE PASSUS #00A54F -->
 
         <?php include('includes/_header.php'); ?>
         <?php include('includes/accesibilidad.php'); ?>
+        <?php include('includes/_boton_whatsapp.php'); ?>
 
         <section class="hero-banner">
             <div class="hero-overlay">

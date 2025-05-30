@@ -36,6 +36,34 @@ COLOR VERDE PASSUS #00A54F -->
                 <div class="owl-carousel owl-theme home_slider">
 
                     <!-- Slide -->
+                     <div class="owl-item">
+                        <div class="background_image">
+                            <img class="imgcarousel" src="images/banners/Banners_1.jpg">
+                        </div>
+                    </div>
+                      <div class="owl-item">
+                        <div class="background_image">
+                            <img class="imgcarousel" src="images/banners/Banners_2.jpg">
+                        </div>
+                    </div>
+                      <div class="owl-item">
+                        <div class="background_image">
+                            <img class="imgcarousel" src="images/banners/Banners_3.jpg">
+                        </div>
+                    </div>
+                      <div class="owl-item">
+                        <div class="background_image">
+                            <img class="imgcarousel" src="images/banners/Banners_4.jpg">
+                        </div>
+                    </div>
+                      <div class="owl-item">
+                        <div class="background_image">
+                            <img class="imgcarousel" src="images/banners/Banners_5.jpg">
+                        </div>
+                    </div>
+                    
+                    
+                    
                     <div class="owl-item">
                         <div class="background_image">
                             <img class="imgcarousel" src="images/banners/Banner-1.png">
@@ -58,6 +86,7 @@ COLOR VERDE PASSUS #00A54F -->
                             </a>
                         </div>
                     </div>
+
                     <div class="owl-item">
                         <div class="background_image">
                             <img class="imgcarousel" src="images/banners/Banner-4.png">
@@ -90,12 +119,14 @@ COLOR VERDE PASSUS #00A54F -->
                     <li class="home_slider_custom_dot trans_200"></li>
                     <li class="home_slider_custom_dot trans_200"></li>
                     <li class="home_slider_custom_dot trans_200"></li>
-                    <!-- <li class="home_slider_custom_dot trans_200"></li> -->
-                    <!-- <li class="home_slider_custom_dot trans_200"></li> -->
-                    <!-- <li class="home_slider_custom_dot trans_200"></li> -->
-                    <!-- <li class="home_slider_custom_dot trans_200"></li> -->
-                    <!-- <li class="home_slider_custom_dot trans_200"></li>
-                    <li class="home_slider_custom_dot trans_200"></li> -->
+                    
+                    
+                     <li class="home_slider_custom_dot trans_200"></li> 
+                     <li class="home_slider_custom_dot trans_200"></li> 
+                     <li class="home_slider_custom_dot trans_200"></li> 
+                     <li class="home_slider_custom_dot trans_200"></li> 
+                     <li class="home_slider_custom_dot trans_200"></li>
+                    <!--<li class="home_slider_custom_dot trans_200"></li> -->
 
                 </ul>
             </div>

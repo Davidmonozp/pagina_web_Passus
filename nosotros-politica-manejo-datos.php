@@ -15,6 +15,8 @@
 
 		<?php include('includes/_header.php'); ?>
 		<?php include('includes/accesibilidad.php'); ?>
+		<?php include('includes/_boton_whatsapp.php'); ?>
+
 
 
 		<section class="hero-banner-politica_datos" id="hero_politica_datos">

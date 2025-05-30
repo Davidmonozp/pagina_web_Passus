@@ -19,7 +19,7 @@
     width: 100%;
 } */
 .hero-banner {
-    background-image: url(/pagina_passus/images/img-servicios/portada_serviciosIPS.png);
+    background-image: url(/images/img-servicios/portada_serviciosIPS.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@
 }
 
 .hero-banner-divertido {
-    background-image: url(/pagina_passus/images/img-servicios/passusDivertido_banner.png);
+    background-image: url(/images/img-servicios/passusDivertido_banner.png);
     background-size: cover;
     background-position: center 20%;
     /* Mueve la imagen hacia abajo */
@@ -336,7 +336,7 @@
 
 @media (min-width: 375px) and (max-width: 575px) {
     .hero-banner {
-        height: 29vh;
+        height: 37vh;
         margin-top: 17vh;
     }
 
@@ -374,7 +374,7 @@
 
     .hero-banner-divertido {
         margin-top: 113px;
-        height: 29vh;
+        height: 37vh;
     }
 }
 

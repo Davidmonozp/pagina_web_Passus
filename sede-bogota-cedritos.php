@@ -16,6 +16,7 @@
 
 		<?php include('includes/_header.php'); ?>
 		<?php include('includes/accesibilidad.php'); ?>
+		<?php include('includes/_boton_whatsapp.php'); ?>
 
 		<!-- Home -->
 		<section class="hero-banner-HD_bogota_norte" id="HD_bogota_norte">

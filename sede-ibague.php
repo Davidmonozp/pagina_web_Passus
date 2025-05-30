@@ -16,7 +16,8 @@
 
 		<?php include('includes/_header.php'); ?>
 		<?php include('includes/accesibilidad.php'); ?>
-
+        <?php include('includes/_boton_whatsapp.php'); ?>
+        
 		<!-- Home -->
 		<section class="hero-banner-ibague" id="sede_ibague">
 			<div class="hero-overlay">

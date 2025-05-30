@@ -1120,14 +1120,15 @@ section {
 }
 
 .hero-banner-derechosDeberes {
-    background-image: url(../images/banner_terminos_condiciones.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 81vh;
-    position: relative;
-    width: 100%;
-    margin-top: 116px;
+	/* background-image: url(/pagina_passus/images/banner_terminos_condiciones.png); */
+	background-image: url(/images/banner_terminos_condiciones.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 81vh;
+	position: relative;
+	width: 100%;
+	margin-top: 116px;
 }
 
 #titulo_derechos_deberes {
@@ -1135,7 +1136,7 @@ section {
 }
 
 .hero-banner-nuestrasPoliticas {
-	background-image: url(../images/nosotros-img/nuestras-politicas-1.png);
+	background-image: url(/images/nosotros-img/nuestras-politicas-1.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1162,7 +1163,7 @@ section {
 }
 
 .hero-banner-quienesSomos {
-	background-image: url(../images/nosotros-img/quienes-somos-1.png);
+	background-image: url(/images/nosotros-img/quienes-somos-1.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1178,18 +1179,19 @@ section {
 }
 
 .hero-banner-reseña_historica {
-	background-image: url(../images/banner_reseña.png);
-	background-size: cover;
-	background-position: 0px -229px;
-	background-repeat: no-repeat;
-	height: 107vh;
-	position: relative;
-	width: 100%;
-	margin-top: 116px;
+    background-image: url(/images/banner_reseña.png);
+    background-size: cover;
+    background-position: 0px -229px;
+    background-repeat: no-repeat;
+    height: 107vh;
+    position: relative;
+    width: 100%;
+    margin-top: 116px;
 }
 
+
 .hero-banner-politica_datos {
-	background-image: url(../images/banner_politica_datos.png);
+	background-image: url(/images/banner_politica_datos.png);
 	background-size: cover;
 	background-position: center 78px;
 	background-repeat: no-repeat;
@@ -1205,8 +1207,7 @@ section {
 }
 
 .hero-banner-terminos_condiciones {
-	/* background-image: url(/pagina_passus/images/banner_terminos_condiciones.png); */
-	background-image: url(../images/banner_terminos_condiciones.png);
+	background-image: url(/images/banner_terminos_condiciones.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1228,7 +1229,7 @@ section {
 }
 
 .hero-banner-participacion {
-	background-image: url(../images/banner_participacion.png);
+	background-image: url(/images/banner_participacion.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1244,7 +1245,7 @@ section {
 }
 
 .hero-banner-trabajaNosotros {
-	background-image: url(../images/banner_trabaja_nosotros-.png);
+	background-image: url(/images/banner_trabaja_nosotros-.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1286,7 +1287,7 @@ section {
 
 /* BANNER SEDES */
 .hero-banner-RHB_surOccidente {
-	background-image: url(../images/sedes/rhb-Suroccidente-2.png);
+	background-image: url(/images/sedes/rhb-Suroccidente-2.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1303,7 +1304,7 @@ section {
 }
 
 .hero-banner-HD_surOccidente {
-	background-image: url(../images/sedes/rhb-Suroccidente-2.png);
+	background-image: url(/images/sedes/rhb-Suroccidente-2.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1320,7 +1321,7 @@ section {
 }
 
 .hero-banner-HD_bogota_norte {
-	background-image: url(../images/sedes/norte-2.png);
+	background-image: url(/images/sedes/norte-2.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
