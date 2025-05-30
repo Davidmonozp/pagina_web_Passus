@@ -4,6 +4,7 @@
 <link rel="stylesheet" type="text/css" href="styles/services.css?v=1.1">
 <link rel="stylesheet" type="text/css" href="styles/services_responsive.css?v=1.1">
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css?v=1.1">
+<link rel="stylesheet" type="text/css" href="styles/contact.css?v=1.1">
 <link rel="stylesheet" type="text/css" href="styles/core.css?v=1.4">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css?v=1.1">
 <link rel="stylesheet" type="text/css" href="styles/servicios.css">
@@ -41,32 +42,24 @@
 			<div class="hero-overlay">
 				<h1 id="titulo_participacion_ciudadana">Política de Participación ciudadana
 					<hr>
-				</h1>				
+				</h1>
 			</div>
 		</section>
-		<!-- Services -->
 
-		<div class="services" id="participacion_ciudadana">
-			<div class="container">
-				<div class="row">
-					<div class="col text-center">
-						<div class="section_title_container">
-							<div class="section_title">
-								<h2 >Participación ciudadana
-									<hr class="hr">
-								</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="row justify-content-center">
-					<div class="price_text">
-						<a href="uploads/PLAN_POLITICA_PARTICIPACION_2023.pdf" target="_blank"><span class="fa fa-external-link"></span>Política de Participación ciudadana-2023</a>
-					</div>
-				</div>
+		<div class="section_title">
+			<div class="contenedor-politica-participacion">
+				<a class="finance" href="uploads/PLAN_POLITICA_PARTICIPACION_2023.pdf" target="_blank">
+					<span class="circulo"><i class="fa-solid fa-coins"></i></span>
+					<span class="titulo">Política de Participación ciudadana-2023</span>
+					<span class="titulo-hover">Ver</span>
+				</a>
 			</div>
 		</div>
+
+
+
+		<!-- Services -->
+
 
 		<!-- Footer -->
 		<?php include('includes/_footer.php'); ?>

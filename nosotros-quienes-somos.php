@@ -82,29 +82,9 @@
 
 					<!-- Intro Image -->
 					<div class="col-lg-5 pt-5 mt-5">
-						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-							<div class="carousel-inner">
-								<div class="carousel-item-quienes active">
-									<img src="images/quienes_somos/circulo_excelencia1.png" class="d-block w-100" alt="...">
-								</div>
-								<!-- <div class="carousel-item">
-									<img src="images/quienes_somos/quienes_somos_1.jpeg" class="d-block w-100" alt="...">
-								</div> -->
-								<!-- <div class="carousel-item">
-									<img src="images/quienes_somos/quienes_somos_2.jpeg" class="d-block w-100" alt="...">
-								</div> -->
-								<!-- <div class="carousel-item">
-									<img src="images/quienes_somos/quienes_somos_3.jpeg" class="d-block w-100" alt="...">
-								</div> -->
-							</div>
-							<button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
-								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-								<span class="sr-only">Anterior</span>
-							</button>
-							<button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
-								<span class="carousel-control-next-icon" aria-hidden="true"></span>
-								<span class="sr-only">Siguiente</span>
-							</button>
+						<div class="carousel-item-quienes active">
+							<h2 class="nuestros-pilares">Nuestros pilares y valores</h2>
+							<img src="images/quienes_somos/circulo_excelencia.png" class="d-block w-100 img-quienes-somos" alt="...">
 						</div>
 					</div>
 				</div>

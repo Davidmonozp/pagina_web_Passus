@@ -1240,6 +1240,100 @@ section {
 .contenedor-estados-financieros .finance span.titulo {
 	color: #25D366;
 }
+
+
+/* BOTON PARTICIPACION CIUDADANA */
+.contenedor-politica-participacion {
+	margin: -151px 0;
+	padding: 20px;
+	text-align: center;
+}
+
+.contenedor-politica-participacion a {
+    position: relative;
+    display: inline-block;
+    height: 66px;
+    width: 400px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 50px;
+    background: #fff;
+    margin: 10px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.contenedor-politica-participacion a:hover span.circulo {
+	left: 100%;
+	margin-left: -40px;
+	background: #fff;
+}
+
+.contenedor-politica-participacion a:hover span.titulo {
+	opacity: 0;
+}
+
+.contenedor-politica-participacion a:hover span.titulo-hover {
+	opacity: 1;
+	color: #fff;
+}
+
+.contenedor-politica-participacion a span.titulo-hover {
+	opacity: 0;
+}
+
+.contenedor-politica-participacion a span.circulo {
+    display: block;
+    color: #fff;
+    position: absolute;
+    top: 19px;
+    left: 10px;
+    height: 31px;
+    width: 31px;
+    line-height: 30px;
+    text-align: center;
+    transition: all 0.5s;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.contenedor-politica-participacion a span.titulo,
+.contenedor-politica-participacion a span.titulo-hover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 20px;
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: 500;
+	transition: 0.5s;
+}
+
+.contenedor-politica-participacion a span.titulo {
+	right: 20px;
+}
+
+.contenedor-politica-participacion a span.titulo-hover {
+	left: 50px;
+}
+/* Colores de los botones */
+.contenedor-redes-sociales .finance {
+	border: 2px solid #25D366;
+}
+
+.contenedor-politica-participacion .finance:hover,
+.contenedor-politica-participacion .finance span.circulo {
+	background: #25D366;
+}
+
+.contenedor-politica-participacion .finance:hover span.circulo,
+.contenedor-politica-participacion .finance span.titulo {
+	color: #25D366;
+}
 /*********************************
 7. Newsletter
 *********************************/

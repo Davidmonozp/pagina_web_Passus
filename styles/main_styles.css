@@ -1304,7 +1304,7 @@ section {
 }
 
 .hero-banner-HD_surOccidente {
-	background-image: url(/images/sedes/rhb-Suroccidente-2.png);
+	background-image: url(../images/sedes/sur-occidente-hidro.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -3081,7 +3081,16 @@ height: 83px;
 	color: #000000;
 	/* Blanco o cualquier otro color de contraste alto */
 }
+.img-quienes-somos {
+	transform: scale(0.8); /* Aumenta el tamaño al 120% */
+    transition: transform 0.3s ease;
 
+}
+.nuestros-pilares {
+    margin-top: -59px;
+    margin-left: 107px;
+    margin-bottom: -19px;
+}
 
 
 /* 
