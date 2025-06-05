@@ -4,7 +4,7 @@
 
 
 
-
+<?php include('includes/_boton_whatsapp.php'); ?>
 
 
 <header class="header trans_400">

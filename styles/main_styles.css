@@ -338,7 +338,7 @@ section {
 
 .background_image {
 	position: absolute;
-	top: 230px;
+	top: 256px;
 	left: 0;
 	width: 100%;
 	height: 48%;
@@ -385,11 +385,49 @@ section {
 	align-items: center;
 	justify-content: center;
 }
+.btn-solicitar-banner2 {
+	background: #12438f;
+	position: absolute;
+	bottom: -50px;
+	left: 80px;
+	padding: 12px 24px;
+	backdrop-filter: blur(2px);
+	color: #fff;
+	text-decoration: none;
+	border-radius: 6px;
+	font-weight: bold;
+	font-size: 40px;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+	/* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+}
+
+/* Hover effect */
+.btn-solicitar-banner2:hover {
+	color: #fff;
+	backdrop-filter: blur(4px);
+	transform: translateY(-4px);
+	border: 0.2px solid #ffffff;
+}
+
+.btn-solicitar-banner2 i {
+	font-size: 39px;
+	margin-right: 8px;
+	/* background-color: transparent;  */
+	color: #ffffff;
+	border-radius: 50%;
+	/* border: 0.2px solid #ffffff; */
+	padding: 10px;
+	width: 40px;
+	height: 40px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
 
 .btn-solicitar-banner3 {
 	height: 71px;
 	position: absolute;
-	bottom: -52px;
+	bottom: -42px;
 	left: 943px;
 	padding: 7px 24px;
 	backdrop-filter: blur(8px);
@@ -432,7 +470,7 @@ section {
 	background: #12438f;
 	height: 71px;
 	position: absolute;
-	bottom: -78px;
+	bottom: -63px;
 	left: 32px;
 	padding: 7px 24px;
 	backdrop-filter: blur(2px);
@@ -1120,15 +1158,14 @@ section {
 }
 
 .hero-banner-derechosDeberes {
-	/* background-image: url(/pagina_passus/images/banner_terminos_condiciones.png); */
-	background-image: url(/images/banner_terminos_condiciones.png);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 81vh;
-	position: relative;
-	width: 100%;
-	margin-top: 116px;
+    background-image: url(../images/banner_terminos_condiciones.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 81vh;
+    position: relative;
+    width: 100%;
+    margin-top: 116px;
 }
 
 #titulo_derechos_deberes {
@@ -1136,7 +1173,7 @@ section {
 }
 
 .hero-banner-nuestrasPoliticas {
-	background-image: url(/images/nosotros-img/nuestras-politicas-1.png);
+	background-image: url(../images/nosotros-img/nuestras-politicas-1.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1163,7 +1200,7 @@ section {
 }
 
 .hero-banner-quienesSomos {
-	background-image: url(/images/nosotros-img/quienes-somos-1.png);
+	background-image: url(../images/nosotros-img/quienes-somos-1.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1179,19 +1216,18 @@ section {
 }
 
 .hero-banner-reseña_historica {
-    background-image: url(/images/banner_reseña.png);
-    background-size: cover;
-    background-position: 0px -229px;
-    background-repeat: no-repeat;
-    height: 107vh;
-    position: relative;
-    width: 100%;
-    margin-top: 116px;
+	background-image: url(../images/banner_reseña.png);
+	background-size: cover;
+	background-position: 0px -229px;
+	background-repeat: no-repeat;
+	height: 107vh;
+	position: relative;
+	width: 100%;
+	margin-top: 116px;
 }
 
-
 .hero-banner-politica_datos {
-	background-image: url(/images/banner_politica_datos.png);
+	background-image: url(../images/banner_politica_datos.png);
 	background-size: cover;
 	background-position: center 78px;
 	background-repeat: no-repeat;
@@ -1207,7 +1243,8 @@ section {
 }
 
 .hero-banner-terminos_condiciones {
-	background-image: url(/images/banner_terminos_condiciones.png);
+	/* background-image: url(/pagina_passus/images/banner_terminos_condiciones.png); */
+	background-image: url(../images/banner_terminos_condiciones.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1229,7 +1266,7 @@ section {
 }
 
 .hero-banner-participacion {
-	background-image: url(/images/banner_participacion.png);
+	background-image: url(../images/banner_participacion.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1245,7 +1282,7 @@ section {
 }
 
 .hero-banner-trabajaNosotros {
-	background-image: url(/images/banner_trabaja_nosotros-.png);
+	background-image: url(../images/banner_trabaja_nosotros-.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1287,7 +1324,7 @@ section {
 
 /* BANNER SEDES */
 .hero-banner-RHB_surOccidente {
-	background-image: url(/images/sedes/rhb-Suroccidente-2.png);
+	background-image: url(../images/sedes/rhb-Suroccidente-2.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1321,7 +1358,7 @@ section {
 }
 
 .hero-banner-HD_bogota_norte {
-	background-image: url(/images/sedes/norte-2.png);
+	background-image: url(../images/sedes/norte-2.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1339,7 +1376,7 @@ section {
 
 .hero-banner-bogota_centro {
 	/* background-image: url(/pagina_passus/images/sedes/Veraguas2.jpeg); */
-	background-image: url(../images/sedes/Veraguas2.jpeg);
+	background-image: url(../images/sedes/sede_centro.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -2543,8 +2580,8 @@ height: 83px;
 }
 
 .barra-accesibilidad-govco {
-	height: 146px;
-	width: 48px;
+	height: 111px;
+	width: 34px;
 	position: fixed;
 	right: 0;
 	top: 35%;
@@ -2565,8 +2602,8 @@ height: 83px;
 
 /* --- Botón Contraste --- */
 .icon-contraste {
-	width: 30px !important;
-	height: 30px;
+	width: 25px !important;
+	height: 25px;
 	background-color: #3366cc;
 	border: none;
 	display: flex;
@@ -2578,8 +2615,8 @@ height: 83px;
 	border-radius: 50%;
 	/* Hacerlo circular */
 	transition: background-color 0.3s ease;
-	margin-left: 9px;
-	margin-top: 10px;
+	margin-left: 4px;
+	margin-top: -1px;
 }
 
 .icon-contraste:hover {
@@ -2590,7 +2627,7 @@ height: 83px;
 /* Ícono visible siempre */
 .icon-contraste i {
 	color: #fff;
-	font-size: 18px;
+	font-size: 15px;
 	pointer-events: none;
 }
 
@@ -2598,7 +2635,7 @@ height: 83px;
 .icon-contraste span {
 	position: absolute;
 	left: auto;
-	right: 48px;
+	right: 37px;
 	top: 0;
 	background: #3366CC;
 	color: #fff;
@@ -2615,6 +2652,7 @@ height: 83px;
 	opacity: 0;
 	transition: opacity 0.3s ease;
 	white-space: nowrap;
+	pointer-events: none;
 }
 
 /* Tooltip texto específico para contraste */
@@ -2625,10 +2663,10 @@ height: 83px;
 	color: #fff;
 	font-family: WorkSans-Medium !important;
 	font-size: 13px;
-	margin-top: -4px;
+	margin-top: 4px;
 	opacity: 0;
 	width: 92px;
-	height: 40px;
+	height: 23px;
 	border-radius: 10px 0 0 10px;
 	padding: 8px;
 }
@@ -2643,69 +2681,12 @@ height: 83px;
 	outline-offset: 2px;
 }
 
-/* .barra-accesibilidad-govco .icon-contraste {
-	background: #004884;
-	width: 48px;
-	height: 40px;
-	border: none;
-	outline: none;
-	text-decoration: none;
-}
-
-.barra-accesibilidad-govco .icon-contraste::after {
-	background: #fff;
-	content: "\e803";
-	font-family: "govco-font";
-	height: 24px;
-	width: 24px;
-	color: #004884;
-	padding: 4px;
-	border-radius: 5px;
-	position: relative;
-}
-
-.barra-accesibilidad-govco #titlecontraste {
-	text-align: left;
-	position: absolute;
-	background: #3366CC;
-	color: #fff;
-	font-family: WorkSans-Medium !important;
-	font-size: 14px;
-	margin-top: -8px;
-	opacity: 0;
-	width: 172px;
-	height: 40px;
-	border-radius: 10px 0 0 10px;
-	padding: 10px;
-}
-
-.barra-accesibilidad-govco button:hover #titlecontraste,
-.icon-contraste:focus #titlecontraste {
-	opacity: 1;
-	visibility: visible;
-	margin-left: -135px;
-	outline: 2px solid #004985;
-	outline-offset: 2px;
-}
-
-.icon-contraste:hover::after,
-.icon-contraste:focus::after {
-	background: #fff;
-	content: "\e803";
-	font-family: "govco-font";
-	height: 24px;
-	width: 24px;
-	color: #3366CC;
-	padding: 4px;
-	border-radius: 5px;
-	position: relative;
-} */
 
 /* --- Botón Reducir --- */
 /* Estilos del botón disminuir */
 .icon-reducir {
-	width: 30px;
-	height: 30px;
+	width: 25px;
+	height: 25px;
 	background-color: #3366cc;
 	border: none;
 	display: flex;
@@ -2717,7 +2698,7 @@ height: 83px;
 	border-radius: 50%;
 	/* Hacerlo circular */
 	transition: background-color 0.3s ease;
-	margin-left: 9px;
+	margin-left: 4px;
 	margin-top: 10px;
 }
 
@@ -2729,7 +2710,7 @@ height: 83px;
 /* Ícono visible siempre */
 .icon-reducir i {
 	color: #fff;
-	font-size: 18px;
+	font-size: 15px;
 	pointer-events: none;
 }
 
@@ -2737,7 +2718,7 @@ height: 83px;
 .icon-reducir span {
 	position: absolute;
 	left: auto;
-	right: 48px;
+	right: 37px;
 	top: 0;
 	background: #3366CC;
 	color: #fff;
@@ -2754,6 +2735,7 @@ height: 83px;
 	opacity: 0;
 	transition: opacity 0.3s ease;
 	white-space: nowrap;
+	pointer-events: none;
 }
 
 /* Quitar outline cuando el botón está en focus */
@@ -2763,18 +2745,18 @@ height: 83px;
 
 /* Tooltip texto específico */
 .barra-accesibilidad-govco #titledisminuir {
-	text-align: left;
-	position: absolute;
-	background: #3366CC;
-	color: #fff;
-	font-family: WorkSans-Medium !important;
-	font-size: 13px;
-	margin-top: -4px;
-	opacity: 0;
-	width: 92px;
-	height: 40px;
-	border-radius: 10px 0 0 10px;
-	padding: 8px;
+    text-align: left;
+    position: absolute;
+    background: #3366CC;
+    color: #fff;
+    font-family: WorkSans-Medium !important;
+    font-size: 13px;
+    margin-top: 4px;
+    opacity: 0;
+    width: 92px;
+    height: 23px;
+    border-radius: 10px 0 0 10px;
+    padding: 8px;
 }
 
 .barra-accesibilidad-govco button:hover #titledisminuir,
@@ -2791,8 +2773,8 @@ height: 83px;
 
 /* Estilos del botón */
 .icon-aumentar {
-	width: 30px;
-	height: 30px;
+	width: 25px;
+	height: 25px;
 	background-color: #3366cc;
 	border: none;
 	display: flex;
@@ -2804,7 +2786,7 @@ height: 83px;
 	border-radius: 50%;
 	/* Hacerlo circular */
 	transition: background-color 0.3s ease;
-	margin-left: 9px;
+	margin-left: 4px;
 	margin-top: 10px;
 }
 
@@ -2816,7 +2798,7 @@ height: 83px;
 /* Ícono visible siempre */
 .icon-aumentar i {
 	color: #fff;
-	font-size: 18px;
+	font-size: 15px;
 	pointer-events: none;
 }
 
@@ -2824,7 +2806,7 @@ height: 83px;
 .icon-aumentar span {
 	position: absolute;
 	left: auto;
-	right: 48px;
+	right: 37px;
 	top: 0;
 	background: #3366CC;
 	color: #fff;
@@ -2841,6 +2823,7 @@ height: 83px;
 	opacity: 0;
 	transition: opacity 0.3s ease;
 	white-space: nowrap;
+	pointer-events: none;
 }
 
 /* Quitar outline cuando el botón está en focus */
@@ -2856,10 +2839,10 @@ height: 83px;
 	color: #fff;
 	font-family: WorkSans-Medium !important;
 	font-size: 13px;
-	margin-top: -4px;
+	margin-top: 4px;
 	opacity: 0;
 	width: 92px;
-	height: 40px;
+	height: 23px;
 	border-radius: 10px 0 0 10px;
 	padding: 8px;
 
@@ -2893,6 +2876,10 @@ height: 83px;
 	width: 100%;
 	background-color: #000;
 	color: #fff;
+}
+.header-top.modo_oscuro-govco {
+	background-color: #000000 !important;
+	color: white !important;
 }
 
 .modo_oscuro-govco .titulo-barra-accesibilidad {
@@ -3091,6 +3078,7 @@ height: 83px;
     margin-left: 107px;
     margin-bottom: -19px;
 }
+
 
 
 /* 

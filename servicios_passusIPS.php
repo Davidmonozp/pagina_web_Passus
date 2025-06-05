@@ -95,7 +95,7 @@ COLOR VERDE PASSUS #00A54F -->
                 </div>
             </div>
             <div class="faq-grid-image">
-                <img src="images/img-servicios/hidroterapia_PassusIPS.jpg" alt="Imagen de hidroterapia">
+                <img src="images/img-servicios/hidroterapia_PassusIPS.jpg" alt="Imagen de hidroterapia" class="img-hidroterapia">
             </div>
         </div>
         <!-- FIN HIDROTERAPIA -->
