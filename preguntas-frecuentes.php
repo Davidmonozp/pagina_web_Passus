@@ -124,23 +124,35 @@
 								<input id="cad-3" name="custom-accordion-1" type="checkbox">
 								<label for="cad-3">¿Qué debo tener en cuenta para asistir a Hidroterapia?</label>
 								<div class="custom-article custom-large">
-									<p><b>Pacientes Compensar</b></p><br>
+									<p class="parrafo-preguntas"><b>Pacientes de primera vez - Hidroterapia</b></p><br>
 									<ol>
-										<li>Recuerda que tu EPS, autoriza un paquete el cual está conformado por la primera cita que es de valoración por fisiatría (presencial), direcciones cedritos calle 142 No 16 A 30 y Américas Calle 6 No 71 a 31.</li>
-										<li>Doce (12) sesiones en agua y un control final por fisiatría (virtual). Debes agendar las sesiones en su orden.</li>
-										<li>Debes tomar mínimo 6 sesiones a la semana para obtener los resultados deseados. Cada sesión de hidroterapia es de 30 minutos, por tal motivo debes agendar tres consecutivas.</li>
+										<li>
+											<b>Cita de valoración inicial:</b>
+											<ul class="lista-preguntas">
+												<li>Debe agendar una cita de valoración con fisioterapia por telemedicina (virtual), asegurándose de que quede asignada en la misma sede en la que desea realizar las sesiones de hidroterapia.</li>
+											</ul>
+										</li> <br>
+										<li>
+											<b>Agendamiento de hidroterapia:</b>
+											<ul class="lista-preguntas">
+												<li>Una vez realizada la valoración y si es apto, debe agendar el paquete completo de hidroterapias en la misma sede.</li>
+												<li>El paquete debe programarse con una frecuencia mínima de 4 a 6 sesiones por semana para lograr los resultados esperados.</li>
+												<li>El numero mínimo de sesiones debe ser de 6 sesiones hasta 30 sesiones al mes. </li>
+												<li>Cada sesión tiene una duración de 30 minutos, por lo cual se deben agendar tres sesiones consecutivas por día.</li>
+												<li>Parar lograr resultado terapéutico esperado lo ideal es que agenda sus sesiones durante 30 días consecutivos. </li>
+											</ul>
+										</li>
 									</ol>
-									<p><b>Pacientes de primera vez otras EPS</b></p><br>
-									<ol>
-										<li>Colmedica, Aliansalud, Sura, Nueva Eps, Famisanar, Cafam, debes agendar tu cita de valoración con fisioterapia (Virtual) que esta asignada en la sede que deseas tomar las sesiones.</li>
-										<li>Posteriormente agenda las sesiones de en agua y siempre la última sesión es el control el cual debe ser agendado de una vez, siendo este en modalidad virtual.</li>
-										<li>Si en la valoración te indican que NO eres apto, debes cancelar las sesiones agendadas de hidroterapia.</li>
-										<li>Debes tomar mínimo 4- 6 sesiones a la semana para obtener los resultados deseados. Cada sesión de hidroterapia es de 30 minutos, por tal motivo debes agendar tres consecutivas y agendar la última cita, la cual es virtual y es el control.</li>
-										<li>Si indican que requiere más hidroterapias debes solicitar al médico tratante nueva autorización y agendar las citas nuevamente, NO se requiere cita de valoración, sino hasta después de 6 meses que no hayas tenido hidroterapia, si tu nueva orden es dada antes de 6 meses, agendas tus citas de hidroterapia. Tu última cita es de control y es virtual.</li>
-										<li>El paciente DEBE AGENDAR, sus citas en una solo sede.</li>
-										<li>Paciente Nuevo, si requiere valoracion inicial y control final</li>
-										<li>Paciente Recurrente, no requiere valoración inicial, pero si control final</li>
-									</ol>
+									<p><b>Condiciones especiales:</b></p><br>
+									<ul class="lista-preguntas">
+										<li>Si en la valoración se determina que NO es apto, debe cancelar las sesiones agendadas de hidroterapia.</li>
+										<li>Si PASSUS indica que requiere más sesiones, deberá solicitar al médico tratante una nueva autorización y agendar nuevamente el paquete de hidroterapias.</li>
+										<li>No es necesario repetir la valoración inicial, salvo que hayan pasado más de 6 meses desde la última sesión.</li>
+									</ul> <br>
+									<p><b>Importante</b></p><br>
+									<ul class="lista-preguntas">
+										<li>Todas las citas deben agendarse en una sola sede.</li>
+									</ul>
 								</div>
 
 							</div>
@@ -149,24 +161,57 @@
 								<input id="cad-4" name="custom-accordion-1" type="checkbox">
 								<label for="cad-4">¿Cómo agendar mis citas?</label>
 								<div class="custom-article custom-large">
-									<p><b>PACIENTES CON AUTORIZACIÓN DE EPS.</b></p>
-									<ul>
+									<p class="parrafo-preguntas"><b>Medios para agendar tus citas</b></p><br>
+									<p>PASSUS dispone de diferentes canales para que puedas programar tus citas de manera rápida y sencilla:</p><br>
+									<ol>
 										<li>
-											<p>Pasus Ips Taller Psicomotriz SAS tiene habilitados los canales de contacto para asignarte citas cuando tienes autorización de la EPS. Puedes contactarnos al Callcenter (601) 3161699.<br>
-												- Horarios de atención: lunes a viernes: 7:30 am a 5:30 pm, sábados: 8:00 am a 1:00 pm.</p><br>
-										</li>
-										<!-- <li>CHAT BOT 314 4189034</li> -->
+											<b>Asignación en línea - Oficina Virtual</b><br>
+											<ul class="lista-preguntas">
+												<li>
+													Ingresa a la página web de PASSUS y en la opción “Agéndate Aquí” accede a la Oficina Virtual, para programar tus citas de: <br>
+													<ul class="lista-preguntas">
+														<li><b>Hidroterapia</b></li>
+														<li><b>Ingreso a programas de rehabilitación</b></li>
+														<li><b>Consultas especializadas ( Fisiatría, Neurología, Psiquiatría)</b></li>
+														<li><b>Clases de natación</b></li>
+													</ul>
+												</li><br>
+												<li>
+													También puedes acceder directamente a través del siguiente enlace:
+													<a href="https://oficinavirtual.passusips.com/login" target="_blank">Agéndate Aquí</a>
+												</li><br>
+												<li>
+													<i>✨ Próximamente podrás reservar otros servicios desde este mismo canal.</i>
+												</li>
+											</ul>
+										</li> <br>
 										<li>
-											<p><b>USUARIOS PARTICULARES</b></p>
-
-											<p>Si estas interesado en adquirir citas particulares de hidroterapia, rehabilitación integral o especialidades médicas comunícate al siguiente número:
-												- línea (601)7450118. <br>- Horarios de atención: lunes a viernes: 7:30 am a 5:30 pm.</p><br>
-										</li>
-										<!-- <li>
-											<p><b>CLASES DE NATACIÓN Y MATRONATACIÓN: comunicate vía WhatsApp 3209621527</b>.<br>
-												- Horarios de atención: lunes a viernes: 3:00 pm a 7:30 pm.</p>
-										</li> -->
-									</ul>
+											<b>Call Center</b>
+											<ul class="lista-preguntas">
+												<li>Si prefieres, puedes solicitar tus citas comunicándote al <b>(601) 3161699.</b></li>
+												<li>
+													<b>Horarios de atención:</b>
+													<ul class="lista-preguntas">
+														<li>Lunes a viernes: <b>7:30 a.m. a 5:30 p.m.</b></li>
+														<li>Sábados: <b>8:00 a.m. a 1:00 p.m.</b></li>
+													</ul>
+												</li>
+											</ul>
+										</li><br>
+										<li>
+											<b>Usuarios particulares</b><br>
+											<p>Para adquirir <b>citas particulares</b> o recibir mayor información, puede:</p><br>
+											<ul class="lista-preguntas">
+												<li>Llamar a la línea <b>(601) 7450118</b></li>
+												<li>Escribirnos por <b>WhatsApp </b>al <b>320 962 1527</b></li>
+												<li>Gestionarlo directamente en la <b>Oficina Virtual Link: </b><a href="https://oficinavirtual.passusips.com/login" target="_blank">https://oficinavirtual.passusips.com/login </a></li>
+											</ul>
+										</li><br>
+										<p><b>Horarios de atención:</b></p><br>
+										<ul class="lista-preguntas">
+											<li>Lunes a viernes: <b>8:00 a.m. a 5:00 p.m.</b></li>
+										</ul>
+									</ol>
 								</div>
 							</div>
 
@@ -174,13 +219,25 @@
 								<input id="cad-5" name="custom-accordion-1" type="checkbox">
 								<label for="cad-5">¿Cómo cancelo o reprogramo una cita?</label>
 								<div class="custom-article custom-large">
-									<p><b>Recuerda que tu mejoría depende de tu asistencia, constancia y disciplina.</b></p>
-									<ol>
-										<p>Por este motivo no es posible realizar cancelaciones ni reprogramaciones de citas, ya que buscamos fomentar la adherencia al tratamiento ordenado. La cancelación de citas puede afectar negativamente su progreso y la efectividad de su recuperación. Su participación activa y consistente en el tratamiento es esencial para lograr los mejores resultados posibles. PASSUS IPS tiene un modelo de reprogramación de citas solo por incapacidad médica.<br><br>
-											Si no asistió o no puede asistir por este motivo, debe enviar incapacidad médica al correo de <b>atencionalusuario@passusips.com</b> esta
-											debe ser consecuente con los días que falló o no asistirá a sus citas ya programadas. Recuerde que cuenta con un número de sesiones que debe de tomar dentro de la vigencia asignada. Si todavía cuenta con vigencia en PASSUS y envía incapacidad dentro del tiempo asignado se le realizará la reprogramación.
-										</p>
-									</ol>
+									<p class="parrafo-preguntas"><b>Política de cancelación y reprogramación de citas</b></p><br>
+									<p>Recuerde que su <b>mejoría depende de su asistencia, constancia y disciplina.</b></p>
+									<p>Por este motivo, <b>no es posible realizar cancelaciones ni reprogramaciones de citas de manera habitual,</b> ya que buscamos fomentar la adherencia al tratamiento ordenado. La cancelación de citas puede afectar negativamente su progreso y la efectividad de su recuperación.</p>
+									<p>PASSUS IPS únicamente permite la <b>reprogramación de citas por incapacidad médica.</b></p><br>
+									<ul class="lista-preguntas">
+										<li>Si <b>no asistió </b>o<b> no podrá asistir</b> por este motivo, debe registrar su solicitud a través de:</li><br>
+										<ul class="lista-preguntas">
+											<li>
+												<b>la pagina web → Opción Contáctanos → Solicitudes → Reprogramación de citas,</b> o Accediendo directamente al siguiente enlace: <a href="https://fpqrs.passus.cloud/solicitudes" target="_blank">https://fpqrs.passus.cloud/solicitudes. </a>
+											</li>
+										</ul><br>
+										<li>La información registrada debe corresponder a los días en los que <b>falló o no asistirá</b> a las citas previamente programadas.</li><br>
+										<li>
+											Recuerde que cuenta con un <b> número de sesiones dentro de una vigencia asignada.</b><br><br>
+											<ul class="lista-preguntas">
+												<li>Si todavía se encuentra dentro de esa vigencia y envía la <b> incapacidad médica dentro del tiempo establecido</b>, se realizará la reprogramación de las citas pendientes.</li>
+											</ul>
+										</li>
+									</ul>
 								</div>
 							</div>
 							<div>
@@ -205,57 +262,25 @@
 							</div>
 							<div>
 								<input id="cad-8" name="custom-accordion-1" type="checkbox">
-								<label for="cad-8">¿Cuál es el procedimiento para solicitar la historia clínica o el informe final de hidroterapia?</label>
+								<label for="cad-8">¿Cómo puedo solicitar mi historia clínica o el informe final ?</label>
 								<div class="custom-article custom-large">
-									<p style="text-align: justify">Dado que la historia clínica es un documento legal y confidencial que contiene información esencial sobre su salud y tratamiento médico, le solicitamos amablemente realizar su solicitud de envío de historia clínica o informe final a través del correo electrónico de atenciónalusuario@passusips.com. Tener en cuenta lo siguiente: <br><br>
-
-									<p><b> Acceso a la información contenida en la historia clínica. </b> </p><br>
-									<p> De acuerdo con la ley, podrán acceder a la historia clínica:
-									</p> <br>
-									<ol>
+									<p style="text-align: justify">La <b>historia clínica</b> es un documento legal y confidencial que contiene información esencial sobre su salud y tratamiento médico.
+									</p>
+									<p>
+										Para solicitar el <b>envío de la historia clínica o el informe final, resultados de programa de rehabilitación</b>, por favor realice el trámite a través de los siguientes canales:
+									</p><br>
+									<ul class="lista-preguntas">
+										<li>Ingrese a la <b>página web → Opción Contáctanos → Solicitudes → Envío de historias clínicas</b> o Accediendo directamente al siguiente enlace: <a href="https://fpqrs.passus.cloud/solicitudes" target="_blank">https://fpqrs.passus.cloud/solicitudes </a></li>
+									</ul><br>
+									<p>Tener en cuenta que el <b>acceso a la información contenida en la historia clínica.</b></p>
+									<p>De acuerdo con la ley, podrán acceder a la <b>historia clínica</b> únicamente las siguientes personas o entidades:</p><br>
+									<ol class="lista-ordenada-preguntas">
 										<li>El usuario.</li>
 										<li>El equipo de salud.</li>
-										<li>Las autoridades juduciales y de salud, en los casos establecidos por la ley.</li>
-										<li>Las demás personas determinadas por la ley.</li> <br>
-										<em>El acceso a la historia clínica será exclusivamente para los fines legales establecidos, asegurando en todo caso el cumplimiento de la reserva legal.</em>
-									</ol>
-									<p><b>1. Solicitud de historia clínica por el paciente.</b> </p><br>
-
-									<ol style="list-style-type: disc">
-										<li>Fotocopia de la cédula de ciudadanía.</li>
-										<li>Formato de solicitud de la historia clínica.<a href="uploads/GPS-FT-10 Formato de Solicitud de Historia Clinica por el paciente..pdf" target="_blank">&nbsp&nbsp<i class="fa-solid fa-up-right-from-square"></i>&nbsp&nbsp<u>Formato de Solicitud de Historia Clínica por el paciente</u></a></li>
-									</ol>
-
-
-									<p><b> 2. Autorización de historia clínica a un tercero.</b></p><br>
-
-									<ol style="list-style-type: disc">
-
-										<li>Copia de la cédula de ciudadanía del paciente y de las personas autorizadas.</li>
-										<li>Soporte que acredite el parentesco (registro civil si es hijo o padre, registro de matrimonio si es cónyugue, registro civil si es hermano)</li>
-										<li>Formato de solicitud. <a href="uploads/GPS-FT-15 Formato de Solicitud de Historia Clinica por tercero..pdf" target="_blank">&nbsp&nbsp<i class="fa-solid fa-up-right-from-square"></i>&nbsp&nbsp<u>Formato de Solicitud de Historia Clínica por tercero</u></a></li>
-									</ol>
-
-
-									<p><b>3. Si el paciente es menor de edad </b></p><br>
-									<ol style="list-style-type: disc">
-
-										<li>Tarjeta de indentidad si tiene más de 7 años, o registro civil de nacimiento si es menor de 7 años.</li>
-										<li>Registro civil de nacimiento que establesca el parentesco o documento que acredite al representante legal del menor.</li>
-										<li>Cédula de ciudadanía de los padres </li>
-										<li>Formato de solicitud de la historia clínica. <a class="text-decoration: underline" href="uploads/GPS-FT-15 Formato de Solicitud de Historia Clinica por tercero..pdf" target="_blank">&nbsp&nbsp<i class="fa-solid fa-up-right-from-square"></i>&nbsp&nbsp<u>Formato de Solicitud de Historia Clínica por tercero</u></a></li> <br>
-										<p> En caso de que el tercero no sea familiar, debe presentar autorización expresa o poder donde se manifiesta la voluntad del paciente y/o usuario, otorgando acceso a la historia clínica.</p>
-									</ol>
-
-									<p class="parrafo_preguntas"><b>4. Autorización de historia clínica de un paciente en estado de incapacidad o declarado interdicto</b></p><br>
-
-									<ol style="list-style-type: disc">
-										<li>Certificado médico que evidencia el estado de salud físico o mental del paciente.</li>
-										<li>Registro civil de nacimiento que evidencia el parentesco, o registro civil de matrimonio, o declaración que acredite el vínculo como compañero(a) permanente o documento que acredite el representante legal del menor.</li>
-										<li>Cédula de ciudadanía del paciente y de los padres, hijos o cónyugues. En caso de ser menor de edad, tarjeta de identidad (si tiene más de 7 años) o registro civil de nacimiento (si tiene menos de 7 años).</li>
-										<li>En caso de interdicción, sentencia de interdicción y copia de cédula del curador.</li>
-										<li>Formato de solicitud de la historia clínica. <a href="uploads/GPS-FT-15 Formato de Solicitud de Historia Clinica por tercero..pdf" target="_blank">&nbsp&nbsp<i class="fa-solid fa-up-right-from-square"></i>&nbsp&nbsp<u>Formato de Solicitud de Historia Clínica por tercero</u></a></li>
-									</ol>
+										<li>Las autoridades judiciales y de salud, en los casos establecidos por la ley.</li>
+										<li>Las demás personas determinadas por la ley.</li>
+									</ol><br>
+									<p>El acceso a la historia clínica se concede <b>exclusivamente para los fines legales establecidos</b>garantizando en todo momento la <b>confidencialidad y la reserva legal</b> de la información.</p>
 								</div>
 							</div>
 							<div>

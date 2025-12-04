@@ -46,8 +46,11 @@ COLOR VERDE PASSUS #00A54F -->
                     <hr>
                 </h2>
                 <p>
-                    Conocida como terapia hídrica, utiliza el agua para facilitar tu recuperación física y aliviar el dolor. <br>
-                    En nuestras piscinas especializadas, realizamos ejercicios y terapias que aprovechan la temperatura y flotabilidad del agua para mejorar tu movilidad, reducir la inflamación y promover la relajación muscular.
+                    También conocida como terapia hídrica, es una técnica que utiliza las propiedades del agua para apoyar la recuperación física y aliviar el dolor.<br>
+                    En nuestras piscinas especializadas, realizamos ejercicios y terapias que aprovechan la temperatura y la flotabilidad del agua para mejorar la movilidad, reducir la inflamación y favorecer la relajación muscular.<br>
+
+                    Además, contribuye a fortalecer la resistencia cardiovascular, ideal si deseas mejorar tu estado físico.
+                    Si estás en embarazo, la hidroterapia te ayudará a aliviar la tensión en la espalda, la pelvis Y músculos de las piernas, brindándote bienestar durante esta etapa.
                 </p>
                 <div class="faq-accordion">
                     <div class="faq-accordion-item">
@@ -95,7 +98,7 @@ COLOR VERDE PASSUS #00A54F -->
                 </div>
             </div>
             <div class="faq-grid-image">
-                <img src="images/img-servicios/hidroterapia_PassusIPS.jpg" alt="Imagen de hidroterapia" class="img-hidroterapia">
+                <img src="images/img-servicios/hidroterapia_PassusIPS.jpg" alt="Imagen de hidroterapia">
             </div>
         </div>
         <!-- FIN HIDROTERAPIA -->
@@ -114,6 +117,65 @@ COLOR VERDE PASSUS #00A54F -->
 
                     Ofrecemos circuitos terapéuticos grupales que articulan fisioterapia, terapia ocupacional, fonoaudiología y psicología, con un equipo especializado en psiquiatría infantil, neurología pediátrica y fisiatría.
                 </p>
+                <div class="faq-accordion">
+                    <div class="faq-accordion-item">
+                        <button
+                            id="faq-accordion-button-2"
+                            aria-expanded="false"
+                            data-target-image="rehabilitacion-image"
+                            data-expanded-src="images/img-servicios/RHB-juvenil.jpg"
+                            data-expanded-alt="Imagen de terapia fisica"
+                            data-initial-src="images/img-servicios/rehabilitacion_PassusIPS.png"
+                            data-initial-alt="Imagen de RH">
+                            <span class="faq-accordion-title">Rehabilitación Integral infantil/juvenil</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-accordion-content">
+                            <p>
+                                Cuidamos tu bienestar en cada etapa de la vida.
+                            <ul>
+                                <li>Autismo</li>
+                                <li>Parálisis Cerebral</li>
+                                <li>Síndrome de Down</li>
+                                <li>Síndrome de West</li>
+                                <li>Hiperactividad Severa</li>
+                                <li>Trastorno por déficit de atención</li>
+                                <li>Trastorno por déficit de atención con hiperactividad</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-accordion">
+                    <div class="faq-accordion-item">
+                        <button
+                            id="faq-accordion-button-2"
+                            aria-expanded="false"
+                            data-target-image="rehabilitacion-image"
+                            data-expanded-src="images/img-servicios/RHB-adulto-mayor.jpg"
+                            data-expanded-alt="Imagen de terapia fisica"
+                            data-initial-src="images/img-servicios/rehabilitacion_PassusIPS.png"
+                            data-initial-alt="Imagen de RH">
+                            <span class="faq-accordion-title">Rehabilitación Integral para Adultos</span>
+                            <span class="faq-icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="faq-accordion-content">
+                            <p>
+                                Cuidamos tu bienestar en cada etapa de la vida. <br><br>
+                                Con el paso del tiempo, algunas habilidades pueden verse afectadas.
+                                En PASSUS, te acompañamos con un enfoque integral que promueve la autonomía, mejora la funcionalidad y fortalece la calidad de vida. <br>
+                                Apoyamos tanto a las personas como a sus cuidadores, con atención profesional, cercana y humana. <br><br>
+                                Nuestro programa está orientado a personas adultas que presentan:
+                            <ul>
+                                <li>Recuperación post trauma craneoencefálico leve a moderado</li>
+                                <li>Recuperación post ICTUS CEREBRAL leve a moderado</li>
+                                <li>Recuperación post cirugía craneana con compromiso neurológico leve a moderado</li>
+                                <li>Compromiso cognitivo/comportamental leve a moderado (pródromos de demencia senil o demencia en estadios iniciales).</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <div class="faq-accordion">
                     <div class="faq-accordion-item">
                         <button

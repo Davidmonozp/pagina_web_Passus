@@ -55,7 +55,7 @@ window.onload = function () {
         document.getElementById("preguntas_frecuentes"),
         document.querySelector(".sectiontitle"),
         document.getElementById("projectFacts"),
-        document.getElementById("testimonial-slider")        
+        document.getElementById("testimonial-slider"),
     ];
 
     
@@ -175,6 +175,8 @@ function cambiarContexto() {
     document.querySelector(".contenedor_testimonial")?.classList.toggle("modo_oscuro-govco");
     document.querySelector(".super_container")?.classList.toggle("modo_oscuro-govco");
     document.querySelector(".icon-contraste")?.classList.toggle("modo_oscuro-govco");
+    document.querySelector(".parrafo")?.classList.toggle("modo_oscuro-govco");
+    document.querySelector(".horarios")?.classList.toggle("modo_oscuro-govco");
     document.querySelector(".header-top")?.classList.toggle("modo_oscuro-govco");
 }
 

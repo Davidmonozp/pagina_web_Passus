@@ -3,14 +3,14 @@
 <link rel="stylesheet" type="text/css" href="styles/header_top.css">
 
 
-
 <?php include('includes/_boton_whatsapp.php'); ?>
+
 
 
 <header class="header trans_400">
 
 	<div class="header-top">
-		<div class="container clearfix p-0" id="header-top">
+		<div class="container clearfix p-10" id="header-top">
 			<div class="top-left">
 				<ul class="contact-links p-0 m-0">
 					<li class="item" style="color:white">
@@ -98,7 +98,8 @@
 						<a class="dropdown-item" href="nosotros-nuestras-politicas">Nuestras Políticas</a>
 						<a class="dropdown-item" href="nosotros-politica-manejo-datos">Política Manejo de Datos</a>
 						<a class="dropdown-item" href="nosotros-politica-agendamiento-web">Términos y condiciones Servicio Web</a>
-						<a class="dropdown-item" href="nosotros-politica-participacion-ciudadana">Política de Participación ciudadana</a>
+						<!-- <a class="dropdown-item" href="nosotros-politica-participacion-ciudadana">Política de Participación ciudadana</a> -->
+						<a class="dropdown-item" href="asociacion-usuarios">Asociación de usuarios</a>
 						<a class="dropdown-item" href="trabaja-nosotros">Trabaja con nosotros</a>
 					</div>
 				</li>
@@ -130,6 +131,9 @@
 					</li> -->
 				<li class="nav-item">
 					<a class="nav-link" href="preguntas-frecuentes">Preguntas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="usuarios">Usuarios</a>
 				</li>
 				<!-- <li class="nav-item">
 						<a class="nav-link pago-en-linea" href="pagos-en-linea-solicitar.php" target="_blank">Pagos en línea</a>
@@ -192,7 +196,8 @@
 					<a class="dropdown-item" href="nosotros-nuestras-politicas" style="font-size: 13px;">Nuestras Políticas</a>
 					<a class="dropdown-item" href="nosotros-politica-manejo-datos" style="font-size: 13px;">Política Manejo de Datos</a>
 					<a class="dropdown-item" href="nosotros-politica-agendamiento-web" style="font-size: 12px;">Términos y condiciones Servicio Web</a>
-					<a class="dropdown-item" href="nosotros-politica-participacion-ciudadana" style="font-size: 12px;">Política de Participación ciudadana</a>
+					<!-- <a class="dropdown-item" href="nosotros-politica-participacion-ciudadana" style="font-size: 12px;">Política de Participación ciudadana</a> -->
+					<a class="dropdown-item" href="asociacion-usuarios" style="font-size: 12px;">Asociación de usuarios</a>
 					<a class="dropdown-item" href="trabaja-nosotros" style="font-size: 13px;">Trabaja con nosotros</a>
 				</div>
 			</li>
@@ -223,7 +228,8 @@
 			        </div>
 				</li> -->
 			<li><a href="preguntas-frecuentes">Preguntas</a></li>
-			<li><a href="contactanos">F-PQRS</a></li>
+			<li><a href="usuarios">Usuarios</a></li>
+			<li><a href="contactanos">Contáctanos</a></li>
 		</ul>
 	</nav>
 	<div class="social menu_social">

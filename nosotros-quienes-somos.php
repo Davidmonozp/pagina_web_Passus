@@ -65,7 +65,8 @@
 									<div class="section_title"><img src="images/mision.png" class="img-fluid"></div>
 								</div>
 								<div class="col-md-8 text-justify">
-									<p>PASSUS innova con ética y seguridad, para que tu experiencia con nosotros sea satisfactoria, amable y mejores tu calidad de vida de forma segura, a través de nuestros expertos en medicina, terapéutica y bienestar.</p> <br>
+									<p>Centrados en el cuidado de las personas y en la transformación de sus vidas, brindamos atención con excelencia humana, hospitalidad e innovación, para ofrecer experiencias satisfactorias y reconfortantes en un entorno seguro.</p> <br>
+									<!-- <p>PASSUS innova con ética y seguridad, para que tu experiencia con nosotros sea satisfactoria, amable y mejores tu calidad de vida de forma segura, a través de nuestros expertos en medicina, terapéutica y bienestar.</p> <br> -->
 								</div>
 							</div>
 							<div class="row">
@@ -73,7 +74,8 @@
 									<div class="section_title"><img src="images/vision.png" class="img-fluid"></div>
 								</div>
 								<div class="col-md-8 text-justify">
-									<p>PASSUS, para el 2030, incrementará su reconocimiento por la excelencia e innovación ética en la prestación de servicios de bienestar y de rehabilitación médico - terapéutica, promoviendo en nuestro talento humano y proveedores, acciones seguras y humanizadas. También, iremos ampliando nuestra presencia a nivel nacional e internacional.</p>
+									<p>Ser un referente global en servicios de rehabilitación y bienestar holístico, impulsando el equilibrio, la plenitud, el confort y el desarrollo de quienes confían en nosotros, con logros sostenibles y un impacto positivo en los individuos y la comunidad.</p>
+									<!-- <p>PASSUS, para el 2030, incrementará su reconocimiento por la excelencia e innovación ética en la prestación de servicios de bienestar y de rehabilitación médico - terapéutica, promoviendo en nuestro talento humano y proveedores, acciones seguras y humanizadas. También, iremos ampliando nuestra presencia a nivel nacional e internacional.</p> -->
 								</div>
 							</div>
 
@@ -82,9 +84,29 @@
 
 					<!-- Intro Image -->
 					<div class="col-lg-5 pt-5 mt-5">
-						<div class="carousel-item-quienes active">
-							<h2 class="nuestros-pilares">Nuestros pilares y valores</h2>
-							<img src="images/quienes_somos/circulo_excelencia.png" class="d-block w-100 img-quienes-somos" alt="...">
+						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item-quienes active">
+									<img src="images/quienes_somos/circulo_excelencia1.png" class="d-block w-100" alt="...">
+								</div>
+								<!-- <div class="carousel-item">
+									<img src="images/quienes_somos/quienes_somos_1.jpeg" class="d-block w-100" alt="...">
+								</div> -->
+								<!-- <div class="carousel-item">
+									<img src="images/quienes_somos/quienes_somos_2.jpeg" class="d-block w-100" alt="...">
+								</div> -->
+								<!-- <div class="carousel-item">
+									<img src="images/quienes_somos/quienes_somos_3.jpeg" class="d-block w-100" alt="...">
+								</div> -->
+							</div>
+							<button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Anterior</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Siguiente</span>
+							</button>
 						</div>
 					</div>
 				</div>

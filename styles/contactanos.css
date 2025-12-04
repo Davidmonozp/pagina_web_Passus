@@ -1,0 +1,401 @@
+.header-pqrs {
+  padding: 0px 50px;
+  text-align: center;
+}
+
+.header-pqrs p {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(39, 39, 39);
+}
+
+.cards-pqrs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.card-felicitacion,
+.card-solicitud,
+.card-pqr {
+  width: 285px;
+  height: 414px;
+  background-color: #0087cd;
+  margin: 50px 0;
+  border-radius: 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 14px;
+  padding-bottom: 20px;
+  gap: 15px;
+  border: 1px solid rgb(4, 104, 197);
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.2),
+    inset 0 0 10px rgba(255, 255, 255, 0.1);
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.3s ease;
+}
+
+.card-consulta {
+  width: 285px;
+  height: 414px;
+  background-color: #00933f;
+  margin: 50px 0;
+  border-radius: 37px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 14px;
+  padding-bottom: 20px;
+  gap: 15px;
+  border: 1px solid rgb(1, 126, 74);
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.2),
+    inset 0 0 10px rgba(255, 255, 255, 0.1);
+  transition:
+    transform 0.4s ease,
+    box-shadow 0.3s ease;
+}
+
+.card-felicitacion:hover,
+.card-solicitud:hover,
+.card-pqr:hover,
+.card-consulta:hover {
+  transform: translateY(-7px);
+  box-shadow:
+    0 8px 16px rgba(0, 0, 0, 0.3),
+    inset 0 0 15px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.card-felicitacion img,
+.card-pqr img {
+  width: 187px;
+  font-size: 70px;
+  color: white;
+  background-color: transparent;
+  margin-top: -96px;
+}
+
+.card-consulta img {
+  width: 187px;
+  font-size: 70px;
+  color: white;
+  background-color: transparent;
+  margin-top: -40px;
+}
+
+.card-solicitud img {
+  width: 187px;
+  font-size: 70px;
+  color: white;
+  background-color: transparent;
+}
+
+
+.card-felicitacion img {
+  width: 187px;
+  font-size: 70px;
+  color: white;
+  background-color: transparent;
+  margin-top: -91px;
+}
+
+.titulo-card {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.card-felicitacion,
+.card-pqr,
+.card-consulta,
+p {
+  font-size: 20px;
+  line-height: normal;
+  color: white;
+  text-align: center;
+}
+
+.hr_subtitulo {
+  border-top: 1px solid #188c41;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.card-solicitud ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  width: 100%;
+  text-align: left;
+  align-self: flex-start;
+}
+
+.card-solicitud li {
+  position: relative;
+  padding-left: 1.2em;
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.4;
+  color: white;
+}
+
+.card-solicitud li::before {
+  content: "▫️";
+  position: absolute;
+  left: 0;
+  color: white;
+  font-size: 0.9em;
+  top: 0;
+}
+
+.card-consulta p {
+  margin-top: -15px;
+  /* margin-bottom: 39px; */
+}
+
+.contenido {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 0 83px 0 83px;
+}
+
+.horarios {
+  flex: 1;
+  min-width: 300px;
+}
+
+.horarios p {
+  color: #000000;
+  text-align: right;
+  /* margin-right: 50px; */
+}
+
+
+
+
+.parrafo-frase {
+  color: #00933f;
+  font-size: 25px;
+  margin-bottom: 57px !important;
+  font-style: italic;
+}
+
+
+
+
+
+/* BOTONES CONTACTANOS */
+.contenedor-redes-sociales {
+  margin: 20px 0;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  min-width: 250px;
+}
+
+.contenedor-redes-sociales a {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  width: 220px;
+  /* Más ancho */
+  line-height: 50px;
+  padding: 0 20px;
+  color: #fff;
+  /* border-radius: 50px; */
+  background: #fff;
+  margin: 10px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.contenedor-redes-sociales a:hover span.circulo {
+  left: 100%;
+  margin-left: -40px;
+  background: #fff;
+}
+
+.contenedor-redes-sociales a:hover span.titulo {
+  opacity: 0;
+}
+
+.contenedor-redes-sociales a:hover span.titulo-hover {
+  opacity: 1;
+  color: #fff;
+}
+
+.contenedor-redes-sociales a span.titulo-hover {
+  opacity: 0;
+}
+
+.contenedor-redes-sociales a span.circulo {
+  display: block;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  transition: all 0.5s;
+  border-radius: 50%;
+  font-size: 16px;
+}
+
+.contenedor-redes-sociales a span.titulo,
+.contenedor-redes-sociales a span.titulo-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 20px;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.contenedor-redes-sociales a span.titulo {
+  right: 20px;
+}
+
+.contenedor-redes-sociales a span.titulo-hover {
+  left: 50px;
+}
+
+/* Colores de los botones */
+.contenedor-redes-sociales .whatsapp {
+  border: 2px solid #25D366;
+}
+
+.contenedor-redes-sociales .whatsapp:hover,
+.contenedor-redes-sociales .whatsapp span.circulo {
+  background: #25D366;
+}
+
+.contenedor-redes-sociales .whatsapp:hover span.circulo,
+.contenedor-redes-sociales .whatsapp span.titulo {
+  color: #25D366;
+}
+
+.contenedor-redes-sociales .call {
+  border: 2px solid #1e7d32;
+  /* verde oscuro */
+  color: #1e7d32;
+}
+
+.contenedor-redes-sociales .call:hover,
+.contenedor-redes-sociales .call span.circulo {
+  background: #1e7d32;
+  color: #fff;
+}
+
+.contenedor-redes-sociales .call:hover span.circulo,
+.contenedor-redes-sociales .call span.titulo {
+  color: #1e7d32;
+}
+
+.contenedor-redes-sociales .facebook {
+  border: 2px solid #3b5998;
+}
+
+.contenedor-redes-sociales .facebook:hover,
+.contenedor-redes-sociales .facebook span.circulo {
+  background: #3b5998;
+}
+
+.contenedor-redes-sociales .facebook:hover span.circulo,
+.contenedor-redes-sociales .facebook span.titulo {
+  color: #3b5998;
+}
+
+.contenedor-redes-sociales .twitter {
+  border: 2px solid #000000;
+  /* borde negro */
+  color: #000000;
+}
+
+.contenedor-redes-sociales .twitter:hover,
+.contenedor-redes-sociales .twitter span.circulo {
+  background: #000000;
+  /* fondo negro al hover */
+  color: #fff;
+  /* icono blanco */
+}
+
+.contenedor-redes-sociales .twitter:hover span.circulo,
+.contenedor-redes-sociales .twitter span.titulo {
+  color: #000000;
+  /* texto negro */
+}
+
+.contenedor-redes-sociales .linkedin {
+  border: 2px solid #0077b5;
+}
+
+.contenedor-redes-sociales .linkedin:hover,
+.contenedor-redes-sociales .linkedin span.circulo {
+  background: #0077b5;
+}
+
+.contenedor-redes-sociales .linkedin:hover span.circulo,
+.contenedor-redes-sociales .linkedin span.titulo {
+  color: #0077b5;
+}
+
+.contenedor-redes-sociales .instagram {
+  border: 2px solid #E1306C;
+  /* Color rosa característico de Instagram */
+}
+
+.contenedor-redes-sociales .instagram:hover,
+.contenedor-redes-sociales .instagram span.circulo {
+  background: #E1306C;
+}
+
+.contenedor-redes-sociales .instagram:hover span.circulo,
+.contenedor-redes-sociales .instagram span.titulo {
+  color: #E1306C;
+}
+
+.contenedor-redes-sociales .youtube {
+  border: 2px solid #FF0000;
+  /* Color rojo característico de YouTube */
+}
+
+.contenedor-redes-sociales .youtube:hover,
+.contenedor-redes-sociales .youtube span.circulo {
+  background: #FF0000;
+}
+
+.contenedor-redes-sociales .youtube:hover span.circulo,
+.contenedor-redes-sociales .youtube span.titulo {
+  color: #FF0000;
+}
+
+
+.contenedor-redes-sociales h3:nth-of-type(2) {
+  margin-top: 40px;
+}
+
+
+/* FIN BOTONES CONTACTANOS */

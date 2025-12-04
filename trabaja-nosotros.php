@@ -111,13 +111,13 @@
 
 					<div class="col-xl-4 col-md-6 services_col_oferta">
 						<div class="services_oferta text-center">
-							<div class="services_title_oferta">Fisioterapeuta</div>
+							<div class="services_title_oferta">AUXILIARES DE ADMISIONES Y CAJA</div>
 							<div class="services_text_oferta">
 								<!-- <p>Descripción del puesto: Estamos en la búsqueda de un Psicólogo Asistencial para unirse a nuestro equipo en PASSUS IPS . El candidato ideal será una persona empática, comprometida y con una pasión por la salud mental, capaz de brindar atención y apoyo psicológico a pacientes en un entorno clínico.</p> -->
 								<!--<li>$16.000 por hora</li>-->
 								<li>Tipo de puesto: Tiempo completo</li>
 								<li>Lugar: Bogota</li>
-								<li><a href="https://co.indeed.com/jobs?q=passus&l=&ts=1745243548232&from=searchOnHP&rq=1&rsIdx=0&newcount=1&fromage=last&vjk=93b3434b130d9559" target="_blank">Aplica aqui</a></li>
+								<li><a href="https://co.indeed.com/cmp/Passus-Ips-Taller-Psicomotriz/jobs?jk=269feb9ffe09ccb3&start=0" target="_blank">Aplica aqui</a></li>
 							</div>
 						</div>
 					</div>
@@ -126,11 +126,11 @@
 
 					<div class="col-xl-4 col-md-6 services_col_oferta">
 						<div class="services_oferta text-center">
-							<div class="services_title_oferta">Educador especial - IPS</div>
+							<div class="services_title_oferta">PROFESIONAL COMPRAS, LOGISTICA, PROVEEDORES Y SUMINISTROS</div>
 							<div class="services_text_oferta">
 								<li>Tipo de puesto: Tiempo completo</li>
 								<li>Lugar: Bogotá</li>
-								<li><a href="https://co.indeed.com/jobs?q=passus&l=&ts=1745243548232&from=searchOnHP&rq=1&rsIdx=0&newcount=1&fromage=last&vjk=1ad427cfb9ad079d" target="_blank">Aplica aqui</a></li>
+								<li><a href="https://co.indeed.com/cmp/Passus-Ips-Taller-Psicomotriz/jobs?jk=11b42a26451929e3&start=0" target="_blank">Aplica aqui</a></li>
 							</div>
 						</div>
 					</div>

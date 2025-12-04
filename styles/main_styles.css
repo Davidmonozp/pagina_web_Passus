@@ -385,6 +385,7 @@ section {
 	align-items: center;
 	justify-content: center;
 }
+
 .btn-solicitar-banner2 {
 	background: #12438f;
 	position: absolute;
@@ -401,7 +402,6 @@ section {
 	/* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
 }
 
-/* Hover effect */
 .btn-solicitar-banner2:hover {
 	color: #fff;
 	backdrop-filter: blur(4px);
@@ -613,6 +613,20 @@ section {
 .parrafo {
 	font-size: 18px;
 }
+
+.custom-article .parrafo-preguntas {
+	font-size: 19px !important;
+}
+
+.lista-preguntas {
+	list-style-type: disc;
+	padding-left: 29px;
+}
+
+.lista-ordenada-preguntas {
+	margin-left: 50px;
+}
+
 
 .parrafo_ser {
 	font-size: 17px;
@@ -1158,14 +1172,14 @@ section {
 }
 
 .hero-banner-derechosDeberes {
-    background-image: url(../images/banner_terminos_condiciones.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 81vh;
-    position: relative;
-    width: 100%;
-    margin-top: 116px;
+	background-image: url(../images/banner_terminos_condiciones.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 81vh;
+	position: relative;
+	width: 100%;
+	margin-top: 116px;
 }
 
 #titulo_derechos_deberes {
@@ -1293,6 +1307,18 @@ section {
 	margin-bottom: 4px;
 }
 
+.hero-banner-usuarios {
+	background-image: url(../images/banner-usuarios.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 96vh;
+	position: relative;
+	width: 100%;
+	margin-top: 55px;
+	margin-bottom: 4px;
+}
+
 .hero-banner-contactanos {
 	background-image: url(../images/Banner-contactanos1.png);
 	background-size: cover;
@@ -1376,7 +1402,7 @@ section {
 
 .hero-banner-bogota_centro {
 	/* background-image: url(/pagina_passus/images/sedes/Veraguas2.jpeg); */
-	background-image: url(../images/sedes/sede_centro.png);
+	background-image: url(../images/sedes/Veraguas2.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1451,19 +1477,6 @@ section {
 hr.quienesSomos {
 	width: 165px !important;
 	margin-top: -2px !important;
-}
-
-.hero-overlay {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	padding: 20px;
 }
 
 .hero-overlay h1 {
@@ -1659,9 +1672,8 @@ hr.quienesSomos {
 label[for="cad-1"],
 label[for="cad-2"],
 label[for="cad-8"],
-label[for="cad-9"],
-{
-height: 83px;
+label[for="cad-9"] {
+	height: 83px;
 }
 
 .custom-accordion label:hover {
@@ -1858,6 +1870,36 @@ height: 83px;
 	margin: 97vh 0 0 0;
 }
 
+.hero-overlay-usuarios {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0 0 0 / 12%);
+	;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 20px;
+}
+
+.hero-overlay-usuarios h1 {
+	color: white;
+	font-weight: bold;
+	font-size: 45px;
+	text-align: center;
+	margin: 97vh 0 0 0;
+}
+
+.hero-overlay-usuarios h1 hr {
+	border: none;
+	height: 2px;
+	background-color: white;
+	width: 32vh;
+	margin: 0px auto 0;
+}
+
 #politica_datos {
 	padding-top: 10px;
 	margin-top: 20px;
@@ -1885,6 +1927,18 @@ height: 83px;
 	margin-top: 72vh;
 }
 
+.hero-overlay-usuarios h1 {
+	color: white;
+	font-weight: bold;
+	font-size: 45px;
+	text-align: center;
+	margin: 73vh 0 0 0;
+}
+
+.hero-banner-usuarios .hero-overlay h1 {
+	margin-top: 72vh;
+}
+
 .faq-grid-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -1893,6 +1947,17 @@ height: 83px;
 	padding: 15px;
 	max-width: 1200px;
 	margin: -2vh auto;
+}
+
+#usuarios {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+	align-items: start;
+	padding: 15px;
+	max-width: 90%;
+	margin: -2vh auto;
+	margin-bottom: 37px;
 }
 
 #trabajaNosotros {
@@ -2580,8 +2645,8 @@ height: 83px;
 }
 
 .barra-accesibilidad-govco {
-	height: 111px;
-	width: 34px;
+	height: 146px;
+	width: 48px;
 	position: fixed;
 	right: 0;
 	top: 35%;
@@ -2602,8 +2667,8 @@ height: 83px;
 
 /* --- Botón Contraste --- */
 .icon-contraste {
-	width: 25px !important;
-	height: 25px;
+	width: 30px !important;
+	height: 30px;
 	background-color: #3366cc;
 	border: none;
 	display: flex;
@@ -2615,8 +2680,8 @@ height: 83px;
 	border-radius: 50%;
 	/* Hacerlo circular */
 	transition: background-color 0.3s ease;
-	margin-left: 4px;
-	margin-top: -1px;
+	margin-left: 9px;
+	margin-top: 10px;
 }
 
 .icon-contraste:hover {
@@ -2627,7 +2692,7 @@ height: 83px;
 /* Ícono visible siempre */
 .icon-contraste i {
 	color: #fff;
-	font-size: 15px;
+	font-size: 18px;
 	pointer-events: none;
 }
 
@@ -2635,7 +2700,7 @@ height: 83px;
 .icon-contraste span {
 	position: absolute;
 	left: auto;
-	right: 37px;
+	right: 48px;
 	top: 0;
 	background: #3366CC;
 	color: #fff;
@@ -2652,7 +2717,6 @@ height: 83px;
 	opacity: 0;
 	transition: opacity 0.3s ease;
 	white-space: nowrap;
-	pointer-events: none;
 }
 
 /* Tooltip texto específico para contraste */
@@ -2663,10 +2727,10 @@ height: 83px;
 	color: #fff;
 	font-family: WorkSans-Medium !important;
 	font-size: 13px;
-	margin-top: 4px;
+	margin-top: -4px;
 	opacity: 0;
 	width: 92px;
-	height: 23px;
+	height: 40px;
 	border-radius: 10px 0 0 10px;
 	padding: 8px;
 }
@@ -2681,12 +2745,69 @@ height: 83px;
 	outline-offset: 2px;
 }
 
+/* .barra-accesibilidad-govco .icon-contraste {
+	background: #004884;
+	width: 48px;
+	height: 40px;
+	border: none;
+	outline: none;
+	text-decoration: none;
+}
+
+.barra-accesibilidad-govco .icon-contraste::after {
+	background: #fff;
+	content: "\e803";
+	font-family: "govco-font";
+	height: 24px;
+	width: 24px;
+	color: #004884;
+	padding: 4px;
+	border-radius: 5px;
+	position: relative;
+}
+
+.barra-accesibilidad-govco #titlecontraste {
+	text-align: left;
+	position: absolute;
+	background: #3366CC;
+	color: #fff;
+	font-family: WorkSans-Medium !important;
+	font-size: 14px;
+	margin-top: -8px;
+	opacity: 0;
+	width: 172px;
+	height: 40px;
+	border-radius: 10px 0 0 10px;
+	padding: 10px;
+}
+
+.barra-accesibilidad-govco button:hover #titlecontraste,
+.icon-contraste:focus #titlecontraste {
+	opacity: 1;
+	visibility: visible;
+	margin-left: -135px;
+	outline: 2px solid #004985;
+	outline-offset: 2px;
+}
+
+.icon-contraste:hover::after,
+.icon-contraste:focus::after {
+	background: #fff;
+	content: "\e803";
+	font-family: "govco-font";
+	height: 24px;
+	width: 24px;
+	color: #3366CC;
+	padding: 4px;
+	border-radius: 5px;
+	position: relative;
+} */
 
 /* --- Botón Reducir --- */
 /* Estilos del botón disminuir */
 .icon-reducir {
-	width: 25px;
-	height: 25px;
+	width: 30px;
+	height: 30px;
 	background-color: #3366cc;
 	border: none;
 	display: flex;
@@ -2698,7 +2819,7 @@ height: 83px;
 	border-radius: 50%;
 	/* Hacerlo circular */
 	transition: background-color 0.3s ease;
-	margin-left: 4px;
+	margin-left: 9px;
 	margin-top: 10px;
 }
 
@@ -2710,7 +2831,7 @@ height: 83px;
 /* Ícono visible siempre */
 .icon-reducir i {
 	color: #fff;
-	font-size: 15px;
+	font-size: 18px;
 	pointer-events: none;
 }
 
@@ -2718,7 +2839,7 @@ height: 83px;
 .icon-reducir span {
 	position: absolute;
 	left: auto;
-	right: 37px;
+	right: 48px;
 	top: 0;
 	background: #3366CC;
 	color: #fff;
@@ -2735,7 +2856,6 @@ height: 83px;
 	opacity: 0;
 	transition: opacity 0.3s ease;
 	white-space: nowrap;
-	pointer-events: none;
 }
 
 /* Quitar outline cuando el botón está en focus */
@@ -2745,18 +2865,18 @@ height: 83px;
 
 /* Tooltip texto específico */
 .barra-accesibilidad-govco #titledisminuir {
-    text-align: left;
-    position: absolute;
-    background: #3366CC;
-    color: #fff;
-    font-family: WorkSans-Medium !important;
-    font-size: 13px;
-    margin-top: 4px;
-    opacity: 0;
-    width: 92px;
-    height: 23px;
-    border-radius: 10px 0 0 10px;
-    padding: 8px;
+	text-align: left;
+	position: absolute;
+	background: #3366CC;
+	color: #fff;
+	font-family: WorkSans-Medium !important;
+	font-size: 13px;
+	margin-top: -4px;
+	opacity: 0;
+	width: 92px;
+	height: 40px;
+	border-radius: 10px 0 0 10px;
+	padding: 8px;
 }
 
 .barra-accesibilidad-govco button:hover #titledisminuir,
@@ -2773,8 +2893,8 @@ height: 83px;
 
 /* Estilos del botón */
 .icon-aumentar {
-	width: 25px;
-	height: 25px;
+	width: 30px;
+	height: 30px;
 	background-color: #3366cc;
 	border: none;
 	display: flex;
@@ -2786,7 +2906,7 @@ height: 83px;
 	border-radius: 50%;
 	/* Hacerlo circular */
 	transition: background-color 0.3s ease;
-	margin-left: 4px;
+	margin-left: 9px;
 	margin-top: 10px;
 }
 
@@ -2798,7 +2918,7 @@ height: 83px;
 /* Ícono visible siempre */
 .icon-aumentar i {
 	color: #fff;
-	font-size: 15px;
+	font-size: 18px;
 	pointer-events: none;
 }
 
@@ -2806,7 +2926,7 @@ height: 83px;
 .icon-aumentar span {
 	position: absolute;
 	left: auto;
-	right: 37px;
+	right: 48px;
 	top: 0;
 	background: #3366CC;
 	color: #fff;
@@ -2823,7 +2943,6 @@ height: 83px;
 	opacity: 0;
 	transition: opacity 0.3s ease;
 	white-space: nowrap;
-	pointer-events: none;
 }
 
 /* Quitar outline cuando el botón está en focus */
@@ -2839,10 +2958,10 @@ height: 83px;
 	color: #fff;
 	font-family: WorkSans-Medium !important;
 	font-size: 13px;
-	margin-top: 4px;
+	margin-top: -4px;
 	opacity: 0;
 	width: 92px;
-	height: 23px;
+	height: 40px;
 	border-radius: 10px 0 0 10px;
 	padding: 8px;
 
@@ -2876,10 +2995,6 @@ height: 83px;
 	width: 100%;
 	background-color: #000;
 	color: #fff;
-}
-.header-top.modo_oscuro-govco {
-	background-color: #000000 !important;
-	color: white !important;
 }
 
 .modo_oscuro-govco .titulo-barra-accesibilidad {
@@ -2952,6 +3067,8 @@ height: 83px;
 .modo_oscuro-govco li,
 .modo_oscuro-govco .why_list_title,
 .modo_oscuro-govco .price_title,
+.modo_oscuro-govco .parrafo,
+.modo_oscuro-govco .horarios p,
 .modo_oscuro-govco .contact_content_title {
 	color: white;
 	/* Cambiar el color del texto en modo oscuro */
@@ -3067,16 +3184,6 @@ height: 83px;
 .modo_oscuro-govco .copy p {
 	color: #000000;
 	/* Blanco o cualquier otro color de contraste alto */
-}
-.img-quienes-somos {
-	transform: scale(0.8); /* Aumenta el tamaño al 120% */
-    transition: transform 0.3s ease;
-
-}
-.nuestros-pilares {
-    margin-top: -59px;
-    margin-left: 107px;
-    margin-bottom: -19px;
 }
 
 
