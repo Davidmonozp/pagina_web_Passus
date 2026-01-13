@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="styles/core.css?v=1.4">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css?v=1.1">
 <link rel="stylesheet" type="text/css" href="styles/servicios.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css?v=1.8">
 
 
 <body>
